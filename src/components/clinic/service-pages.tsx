@@ -133,26 +133,30 @@ function Hero({
   ui: ServicesUI
 }) {
   return (
-    <section className="relative overflow-hidden border-b border-gold/15">
-      <div className="absolute inset-0" aria-hidden>
-        <img src={image} alt="" className="h-full w-full object-cover" loading="eager" />
-        <div className="absolute inset-0 bg-gradient-to-b from-navy/90 via-navy/85 to-background" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(212,175,55,0.14),transparent_55%)]" />
-      </div>
-      <div className="relative mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
+    <section className="relative overflow-hidden border-b border-gold/15 bg-gradient-to-b from-navy/60 to-background">
+      <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(212,175,55,0.14),transparent_55%)]" />
+      <div className="relative mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-16 lg:px-8">
         <Breadcrumb items={breadcrumb} ui={ui} />
-        <p className="mt-8 text-xs font-bold tracking-[0.3em] text-gold" dir="ltr">
-          {eyebrow}
-        </p>
-        <h1 className="mt-3 max-w-3xl text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl">
-          <span className="text-gold-grad">{title}</span>
-        </h1>
-        <p className="mt-2 text-xs font-semibold tracking-widest text-foreground/60" dir="ltr">
-          {en}
-        </p>
-        <p className="mt-4 max-w-3xl text-sm font-medium leading-relaxed text-foreground/85 sm:text-base">
-          {tagline}
-        </p>
+        <div className="mt-8 grid items-center gap-8 lg:grid-cols-2 lg:gap-12">
+          <div>
+            <p className="text-xs font-bold tracking-[0.3em] text-gold" dir="ltr">
+              {eyebrow}
+            </p>
+            <h1 className="mt-3 text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl">
+              <span className="text-gold-grad">{title}</span>
+            </h1>
+            <p className="mt-2 text-xs font-semibold tracking-widest text-foreground/60" dir="ltr">
+              {en}
+            </p>
+            <p className="mt-4 text-sm font-medium leading-relaxed text-foreground/85 sm:text-base">
+              {tagline}
+            </p>
+          </div>
+          {/* Full, clear photo — no overlay, no blur, never cropped (16:9 source) */}
+          <div className="overflow-hidden rounded-3xl border border-gold/25 shadow-xl">
+            <img src={image} alt={`${title} — Orec Clinic`} className="aspect-video h-auto w-full object-contain bg-navy-2" loading="eager" />
+          </div>
+        </div>
       </div>
     </section>
   )
