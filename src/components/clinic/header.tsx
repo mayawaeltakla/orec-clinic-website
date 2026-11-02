@@ -128,7 +128,7 @@ export function Header() {
           <a
             href={`tel:${CLINIC.phoneRaw}`}
             dir="ltr"
-            className="hidden h-10 items-center gap-2 rounded-full border border-gold/30 bg-secondary/60 px-4 text-sm font-bold text-foreground transition-colors hover:bg-accent hover:text-gold-2 xl:inline-flex"
+            className="hidden h-10 items-center gap-2 whitespace-nowrap rounded-full border border-gold/30 bg-secondary/60 px-4 text-sm font-bold text-foreground transition-colors hover:bg-accent hover:text-gold-2 xl:inline-flex"
             aria-label={`${dict.contact.phone}: ${CLINIC.phoneDisplay}`}
           >
             <Phone className="h-4 w-4 text-gold" aria-hidden />

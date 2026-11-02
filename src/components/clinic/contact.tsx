@@ -103,7 +103,7 @@ export function Contact() {
           </p>
         </div>
 
-        <div className="mt-10 grid gap-6 lg:grid-cols-5">
+        <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-5">
           {/* Contact info */}
           <div className="space-y-4 lg:col-span-2">
             <h3 className="text-lg font-extrabold text-gold-2">{c.infoTitle}</h3>
@@ -184,7 +184,7 @@ export function Contact() {
               noValidate={false}
             >
               <h3 className="text-lg font-extrabold text-gold-2">{c.formTitle}</h3>
-              <div className="mt-6 grid gap-5 sm:grid-cols-2">
+              <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2">
                 <div>
                   <label htmlFor="cf-name" className="mb-1.5 block text-sm font-semibold text-foreground/90">
                     {c.form.name} <span className="text-gold">*</span>
