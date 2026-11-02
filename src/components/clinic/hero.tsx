@@ -153,7 +153,8 @@ export function Hero() {
                 role="group"
                 aria-roledescription="carousel"
               >
-                {/* Crossfading slides — each photo fills the frame edge-to-edge (cover, no bars) */}
+                {/* Crossfading slides — each photo fills the frame edge-to-edge (cover, no bars).
+                    Nothing overlays the photos: no gradient, no controls on top. */}
                 {SLIDES.map(({ src, w, h, alt }, i) => (
                   <div
                     key={src}
@@ -173,62 +174,62 @@ export function Hero() {
                     />
                   </div>
                 ))}
-
-                {/* Bottom gradient + control bar */}
-                <div aria-hidden className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/55 to-transparent" />
-                <div className="absolute inset-x-0 bottom-14 flex items-center justify-center">
-                  <div className="flex items-center gap-2 rounded-full border border-gold/25 bg-navy/70 px-2.5 py-1.5 shadow-xl backdrop-blur-md">
-                    <button
-                      type="button"
-                      onClick={() => go(-1)}
-                      aria-label={dict.hero.prevSlide}
-                      className="flex h-7 w-7 items-center justify-center rounded-full text-foreground/80 transition-colors hover:bg-gold hover:text-navy"
-                    >
-                      <PrevIcon className="h-4 w-4" aria-hidden />
-                    </button>
-
-                    <div className="flex items-center gap-1.5" role="tablist" aria-label="Slides">
-                      {SLIDES.map(({ src, alt }, i) => (
-                        <button
-                          key={src}
-                          type="button"
-                          role="tab"
-                          aria-selected={i === slide}
-                          aria-label={alt}
-                          onClick={() => setSlide(i)}
-                          className={`h-2 rounded-full transition-all duration-300 ${
-                            i === slide ? 'w-6 bg-gold' : 'w-2 bg-white/40 hover:bg-white/70'
-                          }`}
-                        />
-                      ))}
-                    </div>
-
-                    <button
-                      type="button"
-                      onClick={() => go(1)}
-                      aria-label={dict.hero.nextSlide}
-                      className="flex h-7 w-7 items-center justify-center rounded-full text-foreground/80 transition-colors hover:bg-gold hover:text-navy"
-                    >
-                      <NextIcon className="h-4 w-4" aria-hidden />
-                    </button>
-                  </div>
-                </div>
               </figure>
-            </div>
 
-            {/* Floating location badge */}
-            <div className="floaty absolute -bottom-4 start-5 flex items-center gap-3 rounded-2xl border border-gold/35 bg-card/90 px-4 py-2.5 shadow-xl backdrop-blur sm:start-6">
-              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gold/30 bg-gold/15 text-gold">
-                <MapPin className="h-5 w-5" aria-hidden />
-              </span>
-              <span className="flex flex-col leading-tight">
-                <span className="text-xs font-bold tracking-[0.18em] text-gold-2" dir="ltr">
-                  {dict.hero.location}
-                </span>
-                <span className="mt-0.5 text-[11px] font-medium text-muted-foreground">
-                  {dict.hero.badges[0]}
-                </span>
-              </span>
+              {/* Slider controls + location badge — BELOW the photos, never covering them.
+                  flex-wrap: the badge wraps to its own line on narrow screens. */}
+              <div className="mt-5 flex flex-wrap items-center justify-center gap-3">
+                <div className="flex items-center gap-2 rounded-full border border-gold/25 bg-navy/70 px-2.5 py-1.5 shadow-xl backdrop-blur-md">
+                  <button
+                    type="button"
+                    onClick={() => go(-1)}
+                    aria-label={dict.hero.prevSlide}
+                    className="flex h-7 w-7 items-center justify-center rounded-full text-foreground/80 transition-colors hover:bg-gold hover:text-navy"
+                  >
+                    <PrevIcon className="h-4 w-4" aria-hidden />
+                  </button>
+
+                  <div className="flex items-center gap-1.5" role="tablist" aria-label="Slides">
+                    {SLIDES.map(({ src, alt }, i) => (
+                      <button
+                        key={src}
+                        type="button"
+                        role="tab"
+                        aria-selected={i === slide}
+                        aria-label={alt}
+                        onClick={() => setSlide(i)}
+                        className={`h-2 rounded-full transition-all duration-300 ${
+                          i === slide ? 'w-6 bg-gold' : 'w-2 bg-white/40 hover:bg-white/70'
+                        }`}
+                      />
+                    ))}
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={() => go(1)}
+                    aria-label={dict.hero.nextSlide}
+                    className="flex h-7 w-7 items-center justify-center rounded-full text-foreground/80 transition-colors hover:bg-gold hover:text-navy"
+                  >
+                    <NextIcon className="h-4 w-4" aria-hidden />
+                  </button>
+                </div>
+
+                {/* Location badge — now static below the photos (was floating on top of them) */}
+                <div className="flex items-center gap-3 rounded-2xl border border-gold/35 bg-card/90 px-4 py-2.5 shadow-xl backdrop-blur">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gold/30 bg-gold/15 text-gold">
+                    <MapPin className="h-5 w-5" aria-hidden />
+                  </span>
+                  <span className="flex flex-col leading-tight">
+                    <span className="text-xs font-bold tracking-[0.18em] text-gold-2" dir="ltr">
+                      {dict.hero.location}
+                    </span>
+                    <span className="mt-0.5 text-[11px] font-medium text-muted-foreground">
+                      {dict.hero.badges[0]}
+                    </span>
+                  </span>
+                </div>
+              </div>
             </div>
 
             {/* Floating ring ornament */}

@@ -11,10 +11,12 @@ import {
 import { Globe, Check, ChevronDown } from 'lucide-react'
 
 export function LanguageSwitcher({ compact = false }: { compact?: boolean }) {
-  const { lang, setLang } = useLanguage()
+  const { lang, setLang, dir } = useLanguage()
 
   return (
-    <DropdownMenu>
+    /* dir is required so Radix positions the menu correctly in RTL (otherwise it
+       aligns as LTR and part of the menu drifts off-screen toward the edge) */
+    <DropdownMenu dir={dir}>
       <DropdownMenuTrigger
         aria-label={`${lang.dict.nav.menuOpen} — ${lang.label}`}
         className="inline-flex h-10 items-center gap-2 rounded-full border border-gold/30 bg-secondary/60 px-3 text-sm font-medium text-foreground/90 transition-colors hover:border-gold/60 hover:bg-accent"
@@ -26,6 +28,8 @@ export function LanguageSwitcher({ compact = false }: { compact?: boolean }) {
       </DropdownMenuTrigger>
       <DropdownMenuContent
         align="end"
+        sideOffset={8}
+        collisionPadding={12}
         className="max-h-96 w-56 overflow-y-auto border-gold/25 bg-popover/95 backdrop-blur"
       >
         {LANGUAGES.map((l) => (
