@@ -46,9 +46,9 @@ export function Services() {
                 className="absolute -top-20 end-[-20%] h-48 w-48 rounded-full bg-gold/10 blur-3xl transition-opacity group-hover:opacity-100"
               />
 
-              {/* Service photo header — clinic-provided photo fills the card top */}
+              {/* Service photo header — full 16:9 photo, logo never cropped */}
               {img && (
-                <div className="relative h-44 overflow-hidden border-b border-gold/15 sm:h-52">
+                <div className="relative aspect-video overflow-hidden border-b border-gold/15">
                   <img
                     src={img.src}
                     alt={`${cat.title} — Orec Clinic`}
