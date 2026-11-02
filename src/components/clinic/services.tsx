@@ -3,6 +3,11 @@
 import { useLanguage } from './language-context'
 import { Sparkle, ChevronLeft, ChevronRight } from 'lucide-react'
 
+/** Real photos for each main service — added as the clinic provides them (dental done) */
+const SERVICE_IMAGES: Record<string, { src: string; w: number; h: number }> = {
+  dental: { src: '/services/dental.jpg', w: 1000, h: 563 },
+}
+
 export function Services() {
   const { dict, dir } = useLanguage()
   const Chevron = dir === 'rtl' ? ChevronLeft : ChevronRight
@@ -25,17 +30,35 @@ export function Services() {
 
         {/* Category cards */}
         <div className="mt-12 grid gap-6 md:grid-cols-2">
-          {dict.services.categories.map((cat) => (
+          {dict.services.categories.map((cat) => {
+            const img = SERVICE_IMAGES[cat.id]
+            return (
             <article
               key={cat.id}
-              className="lift group relative overflow-hidden rounded-3xl border border-gold/20 bg-card/80 p-6 sm:p-8"
+              className="lift group relative overflow-hidden rounded-3xl border border-gold/20 bg-card/80"
             >
               {/* corner glow */}
               <div
                 aria-hidden
                 className="absolute -top-20 end-[-20%] h-48 w-48 rounded-full bg-gold/10 blur-3xl transition-opacity group-hover:opacity-100"
               />
-              <div className="relative">
+
+              {/* Service photo header — clinic-provided photo fills the card top */}
+              {img && (
+                <div className="relative h-44 overflow-hidden border-b border-gold/15 sm:h-52">
+                  <img
+                    src={img.src}
+                    alt={`${cat.title} — Orec Clinic`}
+                    width={img.w}
+                    height={img.h}
+                    loading="lazy"
+                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent" />
+                </div>
+              )}
+
+              <div className="relative p-6 sm:p-8">
                 <div className="flex items-start justify-between gap-4">
                   <div>
                     <span className="text-xs font-bold tracking-widest text-gold/70" dir="ltr">
@@ -93,7 +116,8 @@ export function Services() {
                 </a>
               </div>
             </article>
-          ))}
+            )
+          })}
         </div>
       </div>
     </section>
