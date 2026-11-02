@@ -74,14 +74,22 @@ export function About() {
                 <blockquote className="mt-4 text-sm leading-loose text-foreground/90">
                   {a.founder.quote}
                 </blockquote>
-                <div className="mt-5 border-t border-gold/20 pt-4">
-                  <p className="text-base font-extrabold text-gold-grad" dir="auto">
-                    {a.founder.name}
-                  </p>
-                  <p className="mt-0.5 text-xs font-medium text-muted-foreground" dir="ltr">
-                    {a.founder.nameEn}
-                  </p>
-                  <p className="mt-1 text-sm font-semibold text-foreground/85">{a.founder.role}</p>
+                <div className="mt-5 flex items-center gap-4 border-t border-gold/20 pt-4">
+                  <img
+                    src="/founder-dr-alzuhaili.jpg"
+                    alt={a.founder.name}
+                    className="h-20 w-20 shrink-0 rounded-2xl border border-gold/40 object-cover sm:h-24 sm:w-24"
+                    loading="lazy"
+                  />
+                  <div className="min-w-0">
+                    <p className="text-base font-extrabold text-gold-grad" dir="auto">
+                      {a.founder.name}
+                    </p>
+                    <p className="mt-0.5 text-xs font-medium text-muted-foreground" dir="ltr">
+                      {a.founder.nameEn}
+                    </p>
+                    <p className="mt-1 text-sm font-semibold text-foreground/85">{a.founder.role}</p>
+                  </div>
                 </div>
               </figure>
 
