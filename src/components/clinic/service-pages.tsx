@@ -241,6 +241,14 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
         key={slug}
         className="lift group relative flex flex-col overflow-hidden rounded-3xl border border-gold/20 bg-card/80 p-6"
       >
+        {def.image && (
+          <img
+            src={def.image}
+            alt={sub.title}
+            className="-mx-6 -mt-6 mb-6 aspect-video w-[calc(100%+3rem)] object-cover"
+            loading="lazy"
+          />
+        )}
         <div
           aria-hidden
           className="absolute -top-16 end-[-15%] h-36 w-36 rounded-full bg-gold/10 blur-3xl"
@@ -274,7 +282,7 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
   return (
     <div>
       <Hero
-        image={dept.image}
+        image={def.image ?? dept.image}
         eyebrow={`${dept.num} · ${dept.code}`}
         title={content.title}
         en={dept.en}
