@@ -102,11 +102,11 @@
           "blocks": [
             {
               "title": "Comprehensive Treatment",
-              "text": "Treating all previous dental issues (cavities, gum inflammation) before starting any cosmetic steps."
+              "text": "Treating all previous dental issues (cavities, gum inflammation)."
             },
             {
               "title": "Enamel Preparation",
-              "text": "A very minimal microscopic grinding to create space for the porcelain veneers."
+              "text": "A very minimal microscopic grinding to create space for the veneers."
             },
             {
               "title": "Veneer Placement",
@@ -156,7 +156,7 @@
     },
     "restorative-dentistry": {
       "title": "Restorative Dentistry",
-      "tagline": "Restorative Dentistry in Turkey | The health of your teeth is the foundation of your smile's beauty",
+      "tagline": "The health of your teeth is the foundation of your smile's beauty",
       "intro": "Before considering any cosmetic procedure, your teeth must be healthy and strong. The Restorative Dentistry department at Orec Clinic is your destination to eliminate pain, cavities, and functional problems using the latest non-invasive techniques with the highest standards of comfort and safety.",
       "sections": [
         {

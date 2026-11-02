@@ -102,11 +102,11 @@
           "blocks": [
             {
               "title": "Kapsamlı tedavi",
-              "text": "Estetik adıma geçmeden önce tüm önceki diş sorunlarının (çürüme, diş eti iltihapları) tedavi edilmesi."
+              "text": "Tüm önceki diş sorunlarının (çürüme, diş eti iltihapları) tedavi edilmesi."
             },
             {
               "title": "Diş minesinin inceltilmesi (Hazırlık)",
-              "text": "Seramik kaplamalar için yer açmak için çok hafif mikroskopik bir aşındırma işlemi."
+              "text": "Kaplamalar için yer açmak için çok hafif mikroskopik bir aşındırma işlemi."
             },
             {
               "title": "Seramik kaplamaların takılması",
@@ -156,7 +156,7 @@
     },
     "restorative-dentistry": {
       "title": "Diş Tedavisi ve Restorasyonu",
-      "tagline": "Türkiye'de diş tedavisi ve restorasyonu | Diş sağlığınız, gülüşüzünüzün temelidir",
+      "tagline": "Diş sağlığınız, gülüşüzünüzün temelidir",
       "intro": "Herhangi bir estetik prosedür düşünmeden önce dişlerinizin sağlıklı ve güçlü olması gerekir. Orec Kliniği'ndeki Diş Tedavisi ve Restorasyonu bölümü, en son rahatsız edici olmayan teknolojiler ve en yüksek konfor ve güvenlik standartları ile ağrıları, çürükleri ve fonksiyonel sorunları ortadan kaldırma noktasında hedefinizdir.",
       "sections": [
         {

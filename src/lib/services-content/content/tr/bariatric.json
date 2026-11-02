@@ -44,7 +44,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Ameliyat Öncesi ve Sonrası Prosedürler",
+          "heading": "Prosedürler, Riskler ve Güvenlik Protokolü",
           "blocks": [
             {
               "title": "Ameliyat Öncesi",
@@ -161,7 +161,7 @@
           "icon": "⚠️",
           "heading": "Yan Etkiler ve Nasıl Önlenir",
           "paragraphs": [
-            "Balon takıldıktan sonraki ilk üç gün boyunca, midenin balonu sindirmeye çalışması nedeniyle vücudun savunma tepkisi olan bulantı, kusma veya mide krampları olması çok normaldir."
+            "Riskler ve bunlarla başa çıkma: Balon takıldıktan sonraki ilk üç gün boyunca, midenin balonu sindirmeye çalışması nedeniyle vücudun savunma tepkisi olan bulantı, kusma veya mide krampları olması çok normaldir."
           ],
           "blocks": [
             {

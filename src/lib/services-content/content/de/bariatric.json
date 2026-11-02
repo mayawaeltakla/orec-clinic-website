@@ -44,7 +44,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Abläufe und das postoperative Protokoll",
+          "heading": "Abläufe, Risiken und Sicherheitsprotokoll",
           "blocks": [
             {
               "title": "Vor der Operation",
@@ -161,7 +161,7 @@
           "icon": "⚠️",
           "heading": "Nebenwirkungen und wie man sie vermeidet",
           "paragraphs": [
-            "In den ersten drei Tagen nach der Ballonimplantation ist es völlig normal, dass der Körper eine Abwehrreaktion zeigt, die sich in Übelkeit, Erbrechen oder Magenkrämpfen äußert, da der Magen versucht, den Ballon zu verdauen."
+            "Risiken und der Umgang damit: In den ersten drei Tagen nach der Ballonimplantation ist es völlig normal, dass der Körper eine Abwehrreaktion zeigt, die sich in Übelkeit, Erbrechen oder Magenkrämpfen äußert, da der Magen versucht, den Ballon zu verdauen."
           ],
           "blocks": [
             {

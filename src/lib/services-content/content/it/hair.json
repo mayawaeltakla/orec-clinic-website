@@ -52,7 +52,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Procedure mediche e percorso di recupero nel dettaglio",
+          "heading": "Procedure mediche, rischi e percorso di recupero nel dettaglio",
           "blocks": [
             {
               "title": "Procedure pre-operatorie (pianificazione digitale)",
@@ -139,7 +139,7 @@
           "icon": "⏱️",
           "heading": "Recupero e comparsa dei risultati",
           "paragraphs": [
-            "Nei siti di impianto compaiono puntini rossi molto piccoli che scompaiono completamente entro 5-7 giorni; anche i peli della barba attraversano una fase di caduta temporanea, per poi riprendere una crescita e una densità effettiva complete a partire dal quinto mese, permettendo al paziente di radersi il mento con il rasoio o la macchinetta in modo molto naturale dopo 6 mesi dall'intervento."
+            "Recupero: Nei siti di impianto compaiono puntini rossi molto piccoli che scompaiono completamente entro 5-7 giorni; anche i peli della barba attraversano una fase di caduta temporanea, per poi riprendere una crescita e una densità effettiva complete a partire dal quinto mese, permettendo al paziente di radersi il mento con il rasoio o la macchinetta in modo molto naturale dopo 6 mesi dall'intervento."
           ]
         }
       ]
@@ -175,7 +175,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Procedure e convalescenza",
+          "heading": "Procedure, rischi e periodo di convalescenza",
           "blocks": [
             {
               "title": "L'intervento",

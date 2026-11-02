@@ -52,7 +52,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Medizinische Verfahren und Genesungsreise im Detail",
+          "heading": "Medizinische Verfahren, Risiken und Genesungsreise im Detail",
           "blocks": [
             {
               "title": "Vor dem Eingriff (digitale Planung)",
@@ -139,7 +139,7 @@
           "icon": "⏱️",
           "heading": "Genesung und Ergebnis",
           "paragraphs": [
-            "Sehr kleine rote Punkte erscheinen an den Implantationsstellen und verschwinden vollständig innerhalb von 5 bis 7 Tagen. Das Barthaar durchläuft ebenfalls eine Phase des temporären Verlusts und beginnt dann ab dem fünften Monat wieder zu wachsen und seine volle tatsächliche Dichte zu erreichen, sodass der Patient nach 6 Monaten die Möglichkeit hat, seinen Bart mit einem Rasiermesser oder einer Maschine sehr natürlich zu rasieren."
+            "Genesung: Sehr kleine rote Punkte erscheinen an den Implantationsstellen und verschwinden vollständig innerhalb von 5 bis 7 Tagen. Das Barthaar durchläuft ebenfalls eine Phase des temporären Verlusts und beginnt dann ab dem fünften Monat wieder zu wachsen und seine volle tatsächliche Dichte zu erreichen, sodass der Patient nach 6 Monaten die Möglichkeit hat, seinen Bart mit einem Rasiermesser oder einer Maschine sehr natürlich zu rasieren."
           ]
         }
       ]
@@ -175,7 +175,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Der Eingriff und die Nachsorge",
+          "heading": "Abläufe, Risiken und Genesungszeit",
           "blocks": [
             {
               "title": "Der Eingriff",

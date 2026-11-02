@@ -52,7 +52,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Procedury medyczne i droga do rekonwalescencji w szczegółach",
+          "heading": "Procedury medyczne, ryzyka i droga do rekonwalescencji szczegółowo",
           "blocks": [
             {
               "title": "Przygotowanie do zabiegu (planowanie cyfrowe)",
@@ -139,7 +139,7 @@
           "icon": "⏱️",
           "heading": "Rekonwalescencja i pojawianie się efektów",
           "paragraphs": [
-            "W miejscach wszczepienia pojawiają się bardzo drobne czerwone punkciki, które całkowicie znikają w ciągu 5–7 dni. Włosy brody przechodzą również fazę przejściowego wypadania, a następnie od piątego miesiąca zaczynają realnie rosnąć i zagęszczać się. Po 6 miesiącach od zabiegu pacjent może już bardzo naturalnie golić brodę brzytwą lub maszynką."
+            "Rekonwalescencja: W miejscach wszczepienia pojawiają się bardzo drobne czerwone punkciki, które całkowicie znikają w ciągu 5–7 dni. Włosy brody przechodzą również fazę przejściowego wypadania, a następnie od piątego miesiąca zaczynają realnie rosnąć i zagęszczać się. Po 6 miesiącach od zabiegu pacjent może już bardzo naturalnie golić brodę brzytwą lub maszynką."
           ]
         }
       ]
@@ -175,7 +175,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Przebieg zabiegu i rekonwalescencja",
+          "heading": "Procedury, ryzyka i okres rekonwalescencji",
           "blocks": [
             {
               "title": "Zabieg",

@@ -44,7 +44,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Procédures et protocole post-opératoire",
+          "heading": "Procédures, risques et protocole de sécurité",
           "blocks": [
             {
               "title": "Avant la procédure",
@@ -161,7 +161,7 @@
           "icon": "⚠️",
           "heading": "Effets secondaires et comment les éviter",
           "paragraphs": [
-            "Durant les trois premiers jours suivant la pose du ballon, il est tout à fait normal que le corps réagisse avec une défense se manifestant par des nausées, des vomissements ou des crampes d'estomac suite à la tentative de l'estomac de digérer le ballon."
+            "Risques et comment les gérer : Durant les trois premiers jours suivant la pose du ballon, il est tout à fait normal que le corps réagisse avec une défense se manifestant par des nausées, des vomissements ou des crampes d'estomac suite à la tentative de l'estomac de digérer le ballon."
           ],
           "blocks": [
             {

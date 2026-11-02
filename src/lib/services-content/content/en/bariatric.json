@@ -44,7 +44,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Procedures and Post-Operative Protocol",
+          "heading": "Procedures, Risks, and Safety Protocol",
           "blocks": [
             {
               "title": "Before the Procedure",
@@ -161,7 +161,7 @@
           "icon": "⚠️",
           "heading": "Side Effects and How to Avoid Them",
           "paragraphs": [
-            "In the first three days after balloon placement, it is very normal for the body to have a defensive reaction manifested as nausea, vomiting, or stomach cramps as the stomach tries to digest the balloon."
+            "Risks and how to deal with them: In the first three days after balloon placement, it is very normal for the body to have a defensive reaction manifested as nausea, vomiting, or stomach cramps as the stomach tries to digest the balloon."
           ],
           "blocks": [
             {

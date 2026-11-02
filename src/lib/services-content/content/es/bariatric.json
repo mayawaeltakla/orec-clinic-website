@@ -44,7 +44,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Procedimientos y protocolo postoperatorio",
+          "heading": "Procedimientos, riesgos y protocolo de seguridad",
           "blocks": [
             {
               "title": "Antes de la cirugía",
@@ -161,7 +161,7 @@
           "icon": "⚠️",
           "heading": "Efectos secundarios y cómo evitarlos",
           "paragraphs": [
-            "En los primeros tres días después de la colocación del balón, es completamente normal que el cuerpo reaccione defensivamente con náuseas, vómitos o calambres estomacales debido a que el estómago intenta digerir el balón."
+            "Riesgos y cómo manejarlos: En los primeros tres días después de la colocación del balón, es completamente normal que el cuerpo reaccione defensivamente con náuseas, vómitos o calambres estomacales debido a que el estómago intenta digerir el balón."
           ],
           "blocks": [
             {

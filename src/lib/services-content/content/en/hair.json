@@ -52,7 +52,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Medical Procedures and Recovery Journey in Detail",
+          "heading": "Medical Procedures, Risks, and Recovery Journey in Detail",
           "blocks": [
             {
               "title": "Pre-Procedure Steps (Digital Planning)",
@@ -139,7 +139,7 @@
           "icon": "⏱️",
           "heading": "Recovery and Results Appearance",
           "paragraphs": [
-            "Very small red dots appear at the transplantation sites and completely disappear within 5 to 7 days. The beard hair also goes through a temporary shedding phase and then resumes full actual growth and density starting from the fifth month, allowing the patient to shave his chin with a razor or clipper in a very natural way after 6 months from the procedure."
+            "Recovery: Very small red dots appear at the transplantation sites and completely disappear within 5 to 7 days. The beard hair also goes through a temporary shedding phase and then resumes full actual growth and density starting from the fifth month, allowing the patient to shave his chin with a razor or clipper in a very natural way after 6 months from the procedure."
           ]
         }
       ]
@@ -175,7 +175,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Procedure and recovery",
+          "heading": "Procedures, Risks, and Recovery Period",
           "blocks": [
             {
               "title": "The procedure",

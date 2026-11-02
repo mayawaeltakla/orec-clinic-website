@@ -52,7 +52,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Procedimientos médicos y el proceso de recuperación en detalle",
+          "heading": "Procedimientos médicos, riesgos y recorrido de recuperación en detalle",
           "blocks": [
             {
               "title": "Procedimientos antes de la cirugía (planificación digital)",
@@ -139,7 +139,7 @@
           "icon": "⏱️",
           "heading": "Recuperación y aparición de resultados",
           "paragraphs": [
-            "Aparecen pequeñas puntas rojas en el área de implante que desaparecen completamente en 5 a 7 días. El vello de la barba también pasa por una fase de caída temporal antes de volver a crecer y alcanzar la densidad real completa a partir del quinto mes. El paciente puede afeitarse la barbilla con maquinilla o cortapelos de forma muy natural después de 6 meses del procedimiento."
+            "Recuperación: Aparecen pequeñas puntas rojas en el área de implante que desaparecen completamente en 5 a 7 días. El vello de la barba también pasa por una fase de caída temporal antes de volver a crecer y alcanzar la densidad real completa a partir del quinto mes. El paciente puede afeitarse la barbilla con maquinilla o cortapelos de forma muy natural después de 6 meses del procedimiento."
           ]
         }
       ]
@@ -175,7 +175,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Procedimientos y convalecencia",
+          "heading": "Procedimientos, riesgos y periodo de recuperación",
           "blocks": [
             {
               "title": "El procedimiento",

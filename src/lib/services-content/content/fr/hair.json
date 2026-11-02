@@ -52,7 +52,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Procédures médicales et parcours de récupération détaillé",
+          "heading": "Procédures médicales, risques et parcours de récupération en détail",
           "blocks": [
             {
               "title": "Procédures pré-opératoires (planification numérique)",
@@ -139,7 +139,7 @@
           "icon": "⏱️",
           "heading": "Récupération et apparition des résultats",
           "paragraphs": [
-            "De très petites points rouges apparaissent au niveau des points de greffe et disparaissent complètement en 5 à 7 jours. Les cheveux de la barbe passent également par une phase de perte temporaire puis repoussent avec une densité réelle complète à partir du cinquième mois, permettant au patient de raser sa mâchoire avec un rasoir électrique ou une machine de manière très naturelle après 6 mois de l'opération."
+            "Récupération : De très petites points rouges apparaissent au niveau des points de greffe et disparaissent complètement en 5 à 7 jours. Les cheveux de la barbe passent également par une phase de perte temporaire puis repoussent avec une densité réelle complète à partir du cinquième mois, permettant au patient de raser sa mâchoire avec un rasoir électrique ou une machine de manière très naturelle après 6 mois de l'opération."
           ]
         }
       ]
@@ -175,7 +175,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Procédures et convalescence",
+          "heading": "Procédures, risques et période de convalescence",
           "blocks": [
             {
               "title": "L'opération",

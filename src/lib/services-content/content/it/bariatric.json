@@ -44,7 +44,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Procedure e protocollo post-operatorio",
+          "heading": "Procedure, rischi e protocollo di sicurezza",
           "blocks": [
             {
               "title": "Prima dell'intervento",
@@ -161,7 +161,7 @@
           "icon": "⚠️",
           "heading": "Effetti collaterali e come evitarli",
           "paragraphs": [
-            "Nei primi tre giorni dopo il posizionamento del palloncino, è del tutto normale che il corpo manifesti una reazione difensiva sotto forma di nausea, vomito o crampi allo stomaco, a causa del tentativo dello stomaco di digerire il palloncino."
+            "Rischi e come gestirli: Nei primi tre giorni dopo il posizionamento del palloncino, è del tutto normale che il corpo manifesti una reazione difensiva sotto forma di nausea, vomito o crampi allo stomaco, a causa del tentativo dello stomaco di digerire il palloncino."
           ],
           "blocks": [
             {

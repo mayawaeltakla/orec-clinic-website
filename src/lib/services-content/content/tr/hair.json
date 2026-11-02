@@ -52,7 +52,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Tıbbi Prosedürler ve Detaylı İyileşme Süreci",
+          "heading": "Tıbbi Prosedürler, Riskler ve İyileşme Sürecinin Ayrıntıları",
           "blocks": [
             {
               "title": "Operasyon Öncesi Prosedürler (Dijital Planlama)",
@@ -139,7 +139,7 @@
           "icon": "⏱️",
           "heading": "İyileşme ve Sonuçların Görünmesi",
           "paragraphs": [
-            "Ekim yerlerinde çok küçük kırmızı noktalar görülür, bunlar 5 ila 7 gün içinde tamamen kaybolur. Sakal saçı da geçici dökülme aşamasından geçer ve ardından beşinci aydan itibaren tam gerçek yoğunlukla büyümeye başlar. Hasta, operasyondan 6 ay sonra bıyığını tamamen doğal bir şekilde makine veya traşla traş edebilir."
+            "İyileşme: Ekim yerlerinde çok küçük kırmızı noktalar görülür, bunlar 5 ila 7 gün içinde tamamen kaybolur. Sakal saçı da geçici dökülme aşamasından geçer ve ardından beşinci aydan itibaren tam gerçek yoğunlukla büyümeye başlar. Hasta, operasyondan 6 ay sonra bıyığını tamamen doğal bir şekilde makine veya traşla traş edebilir."
           ]
         }
       ]
@@ -175,7 +175,7 @@
         },
         {
           "icon": "🏥",
-          "heading": "Prosedür ve İyileşme Süreci",
+          "heading": "Prosedürler, Riskler ve Nekahet Dönemi",
           "blocks": [
             {
               "title": "Operasyon",
