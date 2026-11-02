@@ -82,7 +82,7 @@ export const DEPARTMENTS: DepartmentDef[] = [
       { slug: 'thigh-lift', en: 'Thighplasty / Thigh Lift', icon: '🦵', image: '/services/AestheticSurgery/thigh-lift.webp', group: 'body' },
       { slug: 'bbl', en: 'Buttock Aesthetics / BBL', icon: '🍑', image: '/services/AestheticSurgery/ButtockAesthetics.jpg', group: 'intimate' },
       { slug: 'vaginal-rejuvenation', en: 'Vaginal Rejuvenation / Labiaplasty', icon: '🌸', image: '/services/AestheticSurgery/VaginalRejuvenationLabiaplasty.jpg', group: 'intimate' },
-      { slug: 'vaginal-fat-filler', en: 'Vaginal Fat & Filler Injection', icon: '💉', image: '/services/AestheticSurgery/VaginalFat&FillerInjection.jpg', group: 'intimate' },
+      { slug: 'vaginal-fat-filler', en: 'Vaginal Fat & Filler Injection', icon: '💉', image: '/services/AestheticSurgery/VaginalFatFillerInjection.jpg', group: 'intimate' },
       { slug: 'vaginoplasty', en: 'Vaginoplasty', icon: '🩺', image: '/services/AestheticSurgery/Vaginoplasty.jpg', group: 'intimate' },
       { slug: 'penile-aesthetics', en: 'Penile Aesthetics', icon: '♂️', image: '/services/AestheticSurgery/PenileAesthetics.jpg', group: 'intimate' },
       { slug: 'penile-lengthening', en: 'Penile Lengthening', icon: '📏', image: '/services/AestheticSurgery/PenileLengthening.jpg', group: 'intimate' },
