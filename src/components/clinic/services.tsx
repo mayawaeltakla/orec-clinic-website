@@ -85,7 +85,7 @@ export function Services() {
                 )}
 
                 <a
-                  href={cat.id === 'dental' ? '#dental' : '#contact'}
+                  href={cat.id === 'dental' ? '/services#dental' : '/contact'}
                   className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-gold-2 transition-colors hover:text-gold"
                 >
                   {cat.id === 'dental' ? dict.dental.title : dict.services.viewAll}

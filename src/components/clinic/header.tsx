@@ -22,11 +22,11 @@ export function Header() {
   }, [])
 
   const links = [
-    { href: '#top', label: dict.nav.home },
-    { href: '#services', label: dict.nav.services },
-    { href: '#about', label: dict.nav.about },
-    { href: '#why', label: dict.nav.why },
-    { href: '#contact', label: dict.nav.contact },
+    { href: '/', label: dict.nav.home },
+    { href: '/services', label: dict.nav.services },
+    { href: '/about', label: dict.nav.about },
+    { href: '/why', label: dict.nav.why },
+    { href: '/contact', label: dict.nav.contact },
   ]
 
   const cosmeticGroups = dict.services.categories.find((c) => c.id === 'cosmetic')?.groups ?? []
@@ -39,7 +39,7 @@ export function Header() {
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6 lg:h-20 lg:px-8">
         {/* Brand — official Orec Clinic logo */}
-        <a href="#top" className="flex items-center" aria-label="Orec Clinic">
+        <a href="/" className="flex items-center" aria-label="Orec Clinic">
           <img
             src="/orec-logo.png"
             alt="Orec Clinic — عيادة أوريك"
@@ -52,7 +52,7 @@ export function Header() {
         {/* Desktop nav */}
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Main">
           {links.map((l) =>
-            l.href === '#services' ? (
+            l.href === '/services' ? (
               <div
                 key={l.href}
                 className="relative"
@@ -85,7 +85,7 @@ export function Header() {
                     {dict.services.categories.map((c) => (
                       <a
                         key={c.id}
-                        href="#services"
+                        href="/services"
                         className="rounded-xl p-3 transition-colors hover:bg-accent"
                       >
                         <span className="flex items-center gap-2 text-sm font-bold text-gold-2">
@@ -101,7 +101,7 @@ export function Header() {
                     ))}
                     <div className="col-span-2 mt-1 border-t border-gold/15 pt-2">
                       <a
-                        href="#dental"
+                        href="/services#dental"
                         className="block rounded-xl bg-secondary/60 p-3 text-center text-sm font-semibold text-gold-2 transition-colors hover:bg-accent"
                       >
                         {dict.nav.servicesIndex} →
@@ -146,7 +146,7 @@ export function Header() {
           <ThemeToggle />
           <LanguageSwitcher />
           <a
-            href="#contact"
+            href="/contact"
             className="btn-gold hidden h-10 items-center rounded-full px-5 text-sm font-bold lg:inline-flex"
           >
             {dict.nav.book}
@@ -203,7 +203,7 @@ export function Header() {
               {CLINIC.email}
             </a>
             <a
-              href="#contact"
+              href="/contact"
               onClick={() => setMobileOpen(false)}
               className="btn-gold mt-1 inline-flex items-center justify-center rounded-xl px-4 py-3 text-sm font-bold"
             >

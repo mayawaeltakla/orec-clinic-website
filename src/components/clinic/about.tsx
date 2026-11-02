@@ -89,7 +89,7 @@ export function About() {
                 <ShieldBadge />
                 <p className="mt-3 text-sm font-semibold leading-relaxed text-foreground/85">{a.license}</p>
                 <a
-                  href="#contact"
+                  href="/contact"
                   className="btn-gold mt-5 inline-flex h-11 items-center rounded-full px-7 text-sm font-bold"
                 >
                   {a.cta}

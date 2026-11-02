@@ -10,11 +10,11 @@ export function Footer() {
   const f = dict.footer
 
   const quickLinks = [
-    { href: '#top', label: dict.nav.home },
-    { href: '#services', label: dict.nav.services },
-    { href: '#about', label: dict.nav.about },
-    { href: '#why', label: dict.nav.why },
-    { href: '#contact', label: dict.nav.contact },
+    { href: '/', label: dict.nav.home },
+    { href: '/services', label: dict.nav.services },
+    { href: '/about', label: dict.nav.about },
+    { href: '/why', label: dict.nav.why },
+    { href: '/contact', label: dict.nav.contact },
   ]
 
   const socials = SOCIALS
@@ -25,7 +25,7 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand — official Orec Clinic logo */}
           <div>
-            <a href="#top" className="inline-flex items-center" aria-label="Orec Clinic">
+            <a href="/" className="inline-flex items-center" aria-label="Orec Clinic">
                   <img
                 src="/orec-logo.png"
                 alt="Orec Clinic — عيادة أوريك"
@@ -83,7 +83,7 @@ export function Footer() {
               {dict.services.categories.map((c) => (
                 <li key={c.id}>
                   <a
-                    href="#services"
+                    href="/services"
                     className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-gold-2"
                   >
                     <span className="h-1 w-1 rounded-full bg-gold/60" aria-hidden />
