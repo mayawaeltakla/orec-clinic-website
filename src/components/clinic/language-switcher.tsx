@@ -10,6 +10,24 @@ import {
 } from '@/components/ui/dropdown-menu'
 import { Globe, Check, ChevronDown } from 'lucide-react'
 
+/* Language names shown in the dropdown, written in the CURRENT interface language. */
+const LANGUAGE_NAMES: Record<string, Record<string, string>> = {
+  ar: { ar: 'العربية', en: 'الإنجليزية', es: 'الإسبانية', tr: 'التركية', fr: 'الفرنسية', de: 'الألمانية', it: 'الإيطالية', ru: 'الروسية', pl: 'البولندية', deCH: 'الألمانية السويسرية' },
+  en: { ar: 'Arabic', en: 'English', es: 'Spanish', tr: 'Turkish', fr: 'French', de: 'German', it: 'Italian', ru: 'Russian', pl: 'Polish', deCH: 'Swiss German' },
+  es: { ar: 'Árabe', en: 'Inglés', es: 'Español', tr: 'Turco', fr: 'Francés', de: 'Alemán', it: 'Italiano', ru: 'Ruso', pl: 'Polaco', deCH: 'Alemán suizo' },
+  tr: { ar: 'Arapça', en: 'İngilizce', es: 'İspanyolca', tr: 'Türkçe', fr: 'Fransızca', de: 'Almanca', it: 'İtalyanca', ru: 'Rusça', pl: 'Lehçe', deCH: 'İsviçre Almancası' },
+  fr: { ar: 'Arabe', en: 'Anglais', es: 'Espagnol', tr: 'Turc', fr: 'Français', de: 'Allemand', it: 'Italien', ru: 'Russe', pl: 'Polonais', deCH: 'Suisse allemand' },
+  de: { ar: 'Arabisch', en: 'Englisch', es: 'Spanisch', tr: 'Türkisch', fr: 'Französisch', de: 'Deutsch', it: 'Italienisch', ru: 'Russisch', pl: 'Polnisch', deCH: 'Schweizerdeutsch' },
+  it: { ar: 'Arabo', en: 'Inglese', es: 'Spagnolo', tr: 'Turco', fr: 'Francese', de: 'Tedesco', it: 'Italiano', ru: 'Russo', pl: 'Polacco', deCH: 'Svizzero tedesco' },
+  ru: { ar: 'Арабский', en: 'Английский', es: 'Испанский', tr: 'Турецкий', fr: 'Французский', de: 'Немецкий', it: 'Итальянский', ru: 'Русский', pl: 'Польский', deCH: 'Швейцарский немецкий' },
+  pl: { ar: 'Arabski', en: 'Angielski', es: 'Hiszpański', tr: 'Turecki', fr: 'Francuski', de: 'Niemiecki', it: 'Włoski', ru: 'Rosyjski', pl: 'Polski', deCH: 'Szwajcarski niemiecki' },
+  deCH: { ar: 'Arabisch', en: 'Änglisch', es: 'Spanisch', tr: 'Türkisch', fr: 'Französisch', de: 'Hochdütsch', it: 'Italiänisch', ru: 'Russisch', pl: 'Polnisch', deCH: 'Schwiizerdütsch' },
+}
+
+function nameIn(current: string, target: string, fallback: string) {
+  return LANGUAGE_NAMES[current]?.[target] ?? fallback
+}
+
 export function LanguageSwitcher({ compact = false }: { compact?: boolean }) {
   const { lang, setLang, dir } = useLanguage()
 
@@ -23,7 +41,7 @@ export function LanguageSwitcher({ compact = false }: { compact?: boolean }) {
       >
         <Globe className="h-4 w-4 text-gold" aria-hidden />
         <span aria-hidden>{lang.flag}</span>
-        {!compact && <span className="hidden sm:inline">{lang.label}</span>}
+        {!compact && <span className="hidden sm:inline">{nameIn(lang.code, lang.code, lang.label)}</span>}
         <ChevronDown className="h-3.5 w-3.5 text-muted-foreground" aria-hidden />
       </DropdownMenuTrigger>
       <DropdownMenuContent
@@ -41,7 +59,7 @@ export function LanguageSwitcher({ compact = false }: { compact?: boolean }) {
             }`}
           >
             <span aria-hidden className="text-lg">{l.flag}</span>
-            <span className="flex-1">{l.label}</span>
+            <span className="flex-1">{nameIn(lang.code, l.code, l.label)}</span>
             {l.code === lang.code && <Check className="h-4 w-4 text-gold" aria-hidden />}
           </DropdownMenuItem>
         ))}
