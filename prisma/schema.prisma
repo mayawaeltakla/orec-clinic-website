@@ -1,0 +1,21 @@
+// Prisma schema for Orec Clinic website
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// Contact requests submitted from the website form
+model ContactMessage {
+  id        String   @id @default(cuid())
+  name      String
+  phone     String
+  service   String?
+  message   String?
+  lang      String   @default("ar")
+  createdAt DateTime @default(now())
+}
