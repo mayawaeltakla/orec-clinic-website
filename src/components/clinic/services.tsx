@@ -6,6 +6,7 @@ import { Sparkle, ChevronLeft, ChevronRight } from 'lucide-react'
 /** Real photos for each main service — added as the clinic provides them (dental done) */
 const SERVICE_IMAGES: Record<string, { src: string; w: number; h: number }> = {
   dental: { src: '/services/dental.jpg', w: 1000, h: 563 },
+  cosmetic: { src: '/services/cosmetic.jpg', w: 1000, h: 563 },
 }
 
 export function Services() {
