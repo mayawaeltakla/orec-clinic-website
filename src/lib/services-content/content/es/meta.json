@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "breadcrumbHome": "Inicio",
+    "breadcrumbServices": "Servicios",
+    "subServicesTitle": "Servicios de esta sección",
+    "exploreService": "Descubrir el servicio",
+    "relatedTitle": "Otros servicios en la misma sección",
+    "backToServices": "Volver a todos los servicios",
+    "backToDepartment": "Volver al departamento",
+    "ctaTitle": "Comienza tu viaje con Clínica Orec",
+    "ctaText": "Nuestro equipo consultor siempre está disponible para escucharte y responder a todas tus preguntas con toda la amabilidad. ¡Contáctanos hoy y da el primer paso hacia una sonrisa saludable y una belleza que te devuelva la pasión por la vida!",
+    "ctaButton": "Reservar una consulta gratuita",
+    "notFoundTitle": "Página no encontrada",
+    "notFoundText": "Lo sentimos, la sección o servicio solicitado no está disponible. Visita la página de Servicios para explorar todas nuestras secciones médicas."
+  }
+}

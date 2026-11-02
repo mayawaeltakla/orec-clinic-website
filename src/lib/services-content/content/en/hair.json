@@ -1,0 +1,206 @@
+{
+  "title": "Hair Transplantation",
+  "tagline": "The ultimate and permanent solution for hair loss and baldness with the latest digital transplantation techniques in Turkey — lifelong permanent results",
+  "intro": [
+    "At Orec Clinic, we offer you the ultimate and permanent solution for genetic hair loss and baldness with the latest digital hair transplantation techniques in Turkey, which guarantee you natural growth, high density, and lifelong permanent results without pain and with the highest success rates worldwide.",
+    "The section includes scalp hair transplantation, beard & mustache transplantation, and eyebrow transplantation, all performed under the supervision of specialized surgeons and with a strict safety protocol that preserves the vitality of the extracted follicles by up to 98% until the moment of their transplantation."
+  ],
+  "services": {
+    "scalp-hair-transplant": {
+      "title": "Scalp Hair Transplantation",
+      "tagline": "Scalp Hair Transplantation in Turkey | Regain your hair density and youthful appearance with a permanent, lifelong result",
+      "intro": "Hair loss and genetic baldness are among the most impactful issues affecting self-confidence for both men and women. At Orec Clinic, we offer you the ultimate and definitive solution with the latest digital hair transplantation techniques in Turkey, ensuring you natural growth, high density, and permanent lifelong results without pain and with the highest success rates worldwide.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Anatomical Components of Hair Transplantation",
+          "paragraphs": [
+            "The surgery is based on the principle of precise anatomical transfer and restoration, involving two main areas:"
+          ],
+          "blocks": [
+            {
+              "title": "Donor Area",
+              "text": "The area located at the back and sides of the head. The follicles in this area are genetically resistant to the DHT hormone responsible for hair loss and baldness, ensuring that the transplanted hair remains for a lifetime without falling out again."
+            },
+            {
+              "title": "Graft",
+              "text": "The living tissue extracted, where a single follicular unit (graft) contains one to four natural hairs. The surgeon classifies and sorts them under a microscope to ensure proper cosmetic distribution."
+            },
+            {
+              "title": "Recipient Area",
+              "text": "The bald or thinning areas that need to be thickened and the frontal hairline restored."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "World-Class Techniques Approved at Our Center",
+          "blocks": [
+            {
+              "title": "Advanced Follicular Unit Extraction (FUE)",
+              "text": "The golden standard and globally fundamental technique, where follicles are extracted individually and microscopically from the donor area using a Micro-Motor equipped with extremely fine tips (ranging from 0.6 to 0.8 mm), ensuring the extraction of follicles with complete safety and without leaving any linear scars on the back of the head."
+            },
+            {
+              "title": "Direct Hair Implantation (DHI)",
+              "text": "The newest and most precise technique, combining the steps of channel opening and follicular implantation in a single synchronized step using advanced medical Choi pens. This technique allows the surgeon complete control over the angle of hair inclination and its natural growth direction, making it ideal for filling gaps and for women as it doesn't require complete shaving of the head."
+            },
+            {
+              "title": "Sapphire FUE Technique",
+              "text": "A revolutionary development for opening aesthetic channels in the scalp using blades made from precious sapphire instead of traditional metal blades. Sapphire blades allow for smaller, closer, and ultra-smooth channel openings that don't cause tissue damage, accelerating the skin healing process and giving the patient doubled hair density and a completely natural appearance."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Medical Procedures and Recovery Journey in Detail",
+          "blocks": [
+            {
+              "title": "Pre-Procedure Steps (Digital Planning)",
+              "text": "The patient undergoes a comprehensive blood test and exclusion of any health issues or active skin diseases on the scalp. The doctor digitally draws the frontal hairline using specialized laser techniques, considering facial features and the patient's age to ensure a 100% natural result. The donor area is examined and the number of available follicles is measured for safe extraction without causing unnatural thinning."
+            },
+            {
+              "title": "During the Procedure",
+              "text": "The session takes 5 to 8 hours depending on the number of targeted follicles. The procedure is performed under pain-free local anesthesia; at Orec Clinic, we use pressure-based anesthesia devices (without needles) to provide maximum comfort for patients who have needle phobia and skin pain."
+            },
+            {
+              "title": "Recovery and Results Appearance",
+              "text": "The small crusts formed around the follicles fall off within 10 to 14 days through specialized medical washing at the clinic. The transplanted hair goes through a natural phase called Shock Loss from the first to the third month, which is a sign of follicular cell renewal and the beginning of their new cycle. The real and final hair begins to grow thickly from the fourth month, and the complete and impressive result appears within 10 to 12 months to last a lifetime and can be treated as completely natural hair (cutting, shaving, and styling)."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Medical Risks and How We Avoid Them",
+          "paragraphs": [
+            "Possible risks include: an artificial doll-like appearance due to transplanting multiple follicles in the frontal line, follicle death due to poor preservation, or infections."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Our Safety Protocol",
+              "text": "We avoid this in our center with extreme precision; our surgeons ensure that only single-hair follicles are planted in the frontal hairline to give a completely natural gradient, and the extracted follicles are immediately preserved in a nourishing and cooling solution (HypoThermosol) to maintain their vitality at 98% until the moment of implantation, with the application of an extremely strict sterilization protocol."
+            }
+          ]
+        }
+      ]
+    },
+    "beard-transplant": {
+      "title": "Beard & Mustache Transplantation",
+      "tagline": "Beard Transplantation in Turkey | A complete, harmonious masculine appearance with the highest natural density",
+      "intro": "The beard and mustache are symbols of attractiveness and elegant masculinity. Some men suffer from the absence of beard hair growth (smooth face) or have clear and inconsistent gaps due to genetic, hormonal factors, or old scars and fractures on the face. At Orec Clinic, we offer the optimal cosmetic and medical solution to fill gaps in the chin and mustache area to achieve a connected and dense appearance in a 100% natural way that cannot be distinguished from the original hair.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Components and Anatomical Details of Beard Transplantation",
+          "paragraphs": [
+            "Facial hair transplantation requires special anatomical precision that differs from scalp hair:"
+          ],
+          "blocks": [
+            {
+              "title": "Single Follicular Units of the Face",
+              "text": "Only single-hair follicles (one hair per graft) are extracted to mimic the nature of original chin hair, and multiple follicles are avoided to prevent a rough and artificial appearance on the skin."
+            },
+            {
+              "title": "Growth Angles and Flow",
+              "text": "Beard hair is planted at a very sharp and completely downward angle to match the natural flow and direction of a man's face."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Techniques Used in Beard Transplantation",
+          "paragraphs": [
+            "Our beard transplantation surgery primarily and exclusively relies on Direct Hair Implantation (DHI) and Sapphire techniques. The superior advantage of these techniques for the face is that they completely prevent any holes, scars, or visible wounds on the sensitive facial skin, allowing the surgeon to control by millimeter and degree in drawing the growth angles of the chin, sideburns, and mustache in a way that aligns with the patient's facial muscular structure."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Steps, Precautions, and Healing Period",
+          "blocks": [
+            {
+              "title": "The Procedure and Precautions",
+              "text": "The procedure takes 3 to 5 hours under pain-free local anesthesia."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Risks and How We Avoid Them",
+          "paragraphs": [
+            "The greatest risk in beard transplantation is the possibility of the follicle moving from its place or growing at a right angle (straight outward) due to facial expressions in the first few days."
+          ],
+          "blocks": [
+            {
+              "title": "💡 How Do We Avoid It?",
+              "text": "We implant the follicle with extremely safe and secure anatomical depth, and we require the patient to follow a soft diet for the first three days (avoiding hard chewing, excessive talking, or wide laughing) to ensure the roots stabilize and heal completely and safely in the facial skin."
+            }
+          ]
+        },
+        {
+          "icon": "⏱️",
+          "heading": "Recovery and Results Appearance",
+          "paragraphs": [
+            "Very small red dots appear at the transplantation sites and completely disappear within 5 to 7 days. The beard hair also goes through a temporary shedding phase and then resumes full actual growth and density starting from the fifth month, allowing the patient to shave his chin with a razor or clipper in a very natural way after 6 months from the procedure."
+          ]
+        }
+      ]
+    },
+    "eyebrow-transplant": {
+      "title": "Eyebrow Transplant",
+      "tagline": "Designing and enhancing eyebrows in Turkey | A natural and permanent frame for your eyes without tattooing",
+      "intro": "Eyebrows are the fundamental foundation for defining and framing the beauty of your eyes and your entire facial expressions. Eyebrows can be negatively affected by many factors such as excessive hair removal, genetic factors, stable alopecia, or the presence of old scars and burns that prevent hair from regrowing. Eyebrow transplantation at Orec Clinic provides a permanent, ultra-smooth, and precise medical aesthetic solution to restore full, harmonious, and naturally wide eyebrows, completely eliminating the need for temporary and skin-damaging tattoo dyes or microblading.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "The precise anatomical characteristics of eyebrow transplantation",
+          "paragraphs": [
+            "Eyebrow transplantation is the most delicate of all hair transplant surgeries and requires extreme engineering skill:"
+          ],
+          "blocks": [
+            {
+              "title": "The three directions of eyebrow growth",
+              "text": "Anatomically, the eyebrow is divided into three parts (the head: where hair grows upward; the body: where hair grows horizontally and obliquely; and the tail: where hair grows downward and outward). The surgeon adheres to precisely drawing and simulating these three directions during transplantation."
+            },
+            {
+              "title": "The flat angle of implantation",
+              "text": "Eyebrow hair is implanted at a very flat angle and close to the skin surface (ranging from only 15 to 20 degrees), allowing the hair to grow naturally flat on the face without protruding outward in a distorted manner."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "The approved technique",
+          "paragraphs": [
+            "The Micro-DHI technique is used exclusively in this procedure. Very fine and completely single follicles are selected from a designated area below the back of the head (to match the softness and thickness of the original eyebrow hair), and are transplanted with extreme precision within the predetermined and approved eyebrow design according to the patient's desire."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and recovery",
+          "blocks": [
+            {
+              "title": "The procedure",
+              "text": "A quick and simple procedure that takes between 2 to 3 hours under effective local anesthesia, with between 200 to 500 follicles being transplanted for each eyebrow, depending on the required density."
+            },
+            {
+              "title": "Recovery and special care",
+              "text": "Mild swelling around the eyes will subside within 3 to 4 days."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Risks and how we avoid them",
+          "paragraphs": [
+            "Possible risks include asymmetry of the eyebrows, or hair growing in random directions. This is prevented by relying on facial planning and measurement before the procedure, and using transplant pens with ultra-precise tips that prevent follicle twisting under the skin during implantation."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Important medical note for the patient",
+              "text": "Since the transplanted hair was harvested from the scalp, it carries the characteristics of rapid head hair growth in the initial period; therefore, we recommend that the patient regularly trim the ends of the new eyebrow hair (every week or two) using small scissors, and over time and years, the transplanted follicles adapt to their new environment on the face and slow down their growth rate to become completely identical to natural eyebrow hair."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "title": "Estetyka i leczenie zębów",
+  "tagline": "Twoja rodzinna medycyna w podróży ku odzyskaniu zaufania do własnego uśmiechu — nasza specjalizacja od pierwszego dnia, w sercu Stambułu",
+  "intro": [
+    "Ponieważ to uśmiech jako pierwszy łączy nas z innymi, w klinice Orec stworzyliśmy kompleksowy i bardzo zaawansowany dział stomatologii, w którym elita najzdolniejszych lekarzy i konsultantów oferuje Ci najnowsze rozwiązania z zakresu estetyki i leczenia zębów, z wykorzystaniem najprecyzyjniejszych cyfrowych technik świata.",
+    "Łączymy dla Ciebie precyzję nowoczesnej medycyny z ciepłem rodzinnej opieki — na podstawie naszych oficjalnych licencji tureckiego Ministerstwa Zdrowia oraz licencji na turystykę medyczną. Od cyfrowego projektowania uśmiechu, przez implanty natychmiastowe, po kompleksowe leczenie i prace protetyczne z najwyższej klasy cyrkonem i materiałami E-max."
+  ],
+  "services": {
+    "dental-implants": {
+      "title": "Implanty zębów",
+      "tagline": "Implanty zębów w Turcji | Optymalne i ostateczne rozwiązanie dla brakujących zębów",
+      "intro": "Implantacja zębów to najnowsza rewolucja współczesnej stomatologii i najtrwalsze rozwiązanie medyczne pozwalające zastąpić utracony lub mocno starty ząb bez uszkadzania zębów sąsiednich. W klinice Orec łączymy zaawansowaną technologię cyfrową z najlepszymi tureckimi specjalistami, aby zapewnić światowej klasy skuteczność leczenia i przebieg terapii bez bólu.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Podstawowe elementy implantu zęba",
+          "paragraphs": [
+            "Implant zęba składa się z trzech głównych części, które zrastają się ze sobą, dając wygląd i odczucie naturalnego zęba:"
+          ],
+          "blocks": [
+            {
+              "title": "Korzeń, czyli implant (Fixture)",
+              "text": "Mała śruba wykonana z czystego tytanu, wszczepiana w kość szczęki, która pełni funkcję naturalnego korzenia. Tytan wybrano ze względu na jego biokompatybilność — łatwo integruje się z kością (osteointegracja), nie zostaje odrzucony przez organizm i nie powoduje alergii ani zmian nowotworowych."
+            },
+            {
+              "title": "Łącznik (Abutment)",
+              "text": "Element łączący umieszczany na implancie, który mocuje go z koroną zewnętrzną."
+            },
+            {
+              "title": "Korona (Crown)",
+              "text": "Widoczny sztuczny ząb, wykonywany z wysokiej jakości i trwałych materiałów, takich jak cyrkon czy E-max, tak aby naturalnie współgrał z pozostałymi zębami pod względem wytrzymałości i blasku."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Techniki implantacji zębów w naszej klinice",
+          "blocks": [
+            {
+              "title": "Implanty tradycyjne (Standard Implants)",
+              "text": "Zasada działania: korzenie wszczepia się w tkankę kostną szczęki, a następnie czeka się od 3 do 4 miesięcy, aż kość całkowicie zrośnie się z implantem. Po jego pełnym ustabilizowaniu mocowany jest ostateczny ząb."
+            },
+            {
+              "title": "Implanty natychmiastowe (Immediate Implants)",
+              "text": "Zasada działania: zaawansowana technika, w której implant umieszcza się bezpośrednio w kości szczęki lub twarzoczaszki (z pominięciem długiego okresu oczekiwania — zwykle od razu po ekstrakcji uszkodzonego zęba), a cały proces kończy się w ciągu jednej lub dwóch wizyt. Dla kogo? To idealna opcja w pilnych przypadkach związanych z podróżą oraz u pacjentów z doskonałą gęstością kości; sprawdza się również u osób przyjmujących leki przeciwzakrzepowe lub chorujących na cukrzycę — pod ścisłą opieką lekarską i przy precyzyjnym planowaniu."
+            },
+            {
+              "title": "Implantacja całej szczęki (All-on-4 i All-on-6)",
+              "text": "Zasada działania: przy całkowitej utracie zębów i zaniku dziąseł wszczepia się jedynie 4 lub 6 korzeni bezpośrednio w kość szczęki. Dwa z tych implantów umieszcza się pod kątem do 65 stopni, aby zapewnić maksymalny kontakt i stabilność z kością oraz ominąć obszary zatok szczękowych. Następnie na tych korzeniach na stałe mocuje się pełną protezę."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do implantacji zębów",
+          "list": [
+            "Osoby powyżej 17–18 roku życia, ponieważ poniżej tego wieku szczęka wciąż jest w fazie wzrostu.",
+            "Przypadki utraty zębów wskutek wypadków, chorób lub sportów kontaktowych.",
+            "Osoby, które z powodu brakujących zębów mają trudności z przeżuwaniem pokarmu lub wymawianiem głosek."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Etapy Twojej podróży leczenia",
+          "blocks": [
+            {
+              "title": "Przygotowanie do implantacji (planowanie cyfrowe)",
+              "text": "Pacjent powinien poinformować lekarza o każdej chorobie przewlekłej, takiej jak zaburzenia krzepnięcia, cukrzyca czy nadciśnienie (szczególnie pacjenci z cukrzycą muszą mieć przez dłuższy czas stabilny poziom hemoglobiny glikowanej). Dentysta wykonuje trójwymiarowe badanie tomograficzne zębów (3D CT Scan), aby ocenić grubość i gęstość kości, lokalizację zakończeń nerwowych oraz położenie zatok szczękowych i z ogromną precyzją zaplanować miejsca wiercenia."
+            },
+            {
+              "title": "Przebieg zabiegu",
+              "text": "Zabieg przeprowadzany jest w znieczuleniu miejscowym (lub w sedacji świadomej, zgodnie z życzeniem pacjenta), bez bólu. Implanty (pojedynczy ząb, wiele zębów lub cała szczęka) umieszczane są zgodnie z wcześniejszym cyfrowym planem leczenia."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Ryzyko związane z implantami zębów i jak go unikamy?",
+          "paragraphs": [
+            "Jak przy każdym zabiegu chirurgicznym, implantacja może wiązać się z pewnymi potencjalnymi ryzykami, takimi jak: uszkodzenie nerwów, recesja dziąsła wokół implantu, obfite krwawienie, odrzucenie implantu objawiające się obrzękiem, uszkodzenie tkanki kostnej lub zaburzone gojenie się rany."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Sekret sukcesu",
+              "text": "Zdecydowana większość tych ryzyk może zostać całkowicie wyeliminowana dzięki doświadczeniu dentysty i precyzyjnemu planowaniu cyfrowemu. W klinice Orec stawiamy do Twojej dyspozycji najlepszych tureckich specjalistów od implantacji zębów, dzięki którym unikniesz odrzucenia implantu i związanych z nim powikłań."
+            }
+          ]
+        }
+      ]
+    },
+    "hollywood-smile": {
+      "title": "Hollywoodzki uśmiech",
+      "tagline": "Hollywoodzki uśmiech w Turcji | Sekret atrakcyjności, pewności siebie i trwałego blasku",
+      "intro": "Piękny uśmiech oznacza pewność siebie, a hollywoodzki uśmiech w Turcji jest dziś na wyciągnięcie ręki. W klinice Orec oferujemy najwyższej jakości licówki porcelanowe, które zapewniają harmonijne ustawienie zębów i olśniewającą, śnieżnobiałą iskrę. Hollywoodzki uśmiech nadaje zębom zdrowy wygląd — są równe i idealnie ustawione w linii, a efekt utrzymuje się wyjątkowo długo bez zmiany koloru i bez przebarwień.",
+      "sections": [
+        {
+          "icon": "🔍",
+          "heading": "Jak uzyskać hollywoodzki uśmiech? (przebieg zabiegu)",
+          "paragraphs": [
+            "Zabieg przeprowadzany jest zgodnie z precyzyjnym planem leczenia, który obejmuje:"
+          ],
+          "blocks": [
+            {
+              "title": "Kompleksowe leczenie",
+              "text": "Wyleczenie wszystkich wcześniejszych problemów z zębami (próchnicy, zapaleń dziąseł) przed rozpoczęciem jakichkolwiek zabiegów estetycznych."
+            },
+            {
+              "title": "Przygotowanie szkliwa",
+              "text": "Bardzo delikatne, mikroskopijne szlifowanie, które tworzy miejsce dla licówek porcelanowych."
+            },
+            {
+              "title": "Umocowanie licówek",
+              "text": "Precyzyjne przyklejenie licówek przy użyciu wysoce trwałych medycznych materiałów adhezyjnych."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do wykonania hollywoodzkiego uśmiechu",
+          "list": [
+            "Osoby z silnymi i uporczywymi przebarwieniami zębów.",
+            "Osoby często spożywające produkty o silnym działaniu barwiącym, takie jak kawa, herbata czy papierosy, które chcą mieć rozwiązanie odporne na przebarwienia w przyszłości.",
+            "Szpary (przerwy) między zębami, częściowo ułamane zęby lub zęby nierówne pod względem długości i wielkości."
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Zalecenia przed założeniem hollywoodzkiego uśmiechu (uczciwość medyczna)",
+          "paragraphs": [
+            "Należy upewnić się, że dany przypadek rzeczywiście wymaga założenia hollywoodzkiego uśmiechu; jeśli wystarczyłoby samo wybielanie zębów, zaleca się zrezygnowanie z zabiegu, ponieważ szlifowanie szkliwa potrzebne do osadzenia licówek to procedura trwała i nieodwracalna.",
+            "Jeżeli potwierdzono, że przypadek nadaje się do wykonania hollywoodzkiego uśmiechu w Turcji, leczenie zębów po założeniu licówek jest bardzo trudne ze względu na wysoki koszt ich usunięcia i wymiany. Dlatego nasi lekarze dbają, aby wszystkie zęby były w doskonałym stanie przed zabiegiem, poprzez:"
+          ],
+          "list": [
+            "Wyleczenie wszystkich wcześniejszych problemów z zębami i zadbanie o zdrowie jamy ustnej.",
+            "Ekstrakcję całkowicie zniszczonych zębów i zastąpienie ich estetycznymi implantami.",
+            "Leczenie lub usunięcie miazgi jednego lub kilku zębów, jeśli jest to konieczne, aby wykluczyć ból pod licówkami w przyszłości."
+          ]
+        },
+        {
+          "icon": "⏱️",
+          "heading": "Czas trwania leczenia i używane materiały",
+          "paragraphs": [
+            "Zakładane są licówki porcelanowe (Veneers) wykonane z ulepszonego niemieckiego cyrkonu lub z czystego materiału E-max; umieszcza się je zazwyczaj tylko na górnym łuku zębowym, tylko na dolnym albo na obu, aby uzyskać idealny wygląd i zachwycający uśmiech. Projektowanie i wykonanie w laboratorium trwa od dwóch do trzech tygodni (obejmuje 2–3 wizyty w klinice)."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki po założeniu hollywoodzkiego uśmiechu",
+          "list": [
+            "Codzienna higiena zębów — szczotkowanie, pasta i nitka dentystyczna — aby zapobiec gromadzeniu się kamienia nazębnego przy linii dziąseł.",
+            "Unikanie gryzienia bardzo twardych przedmiotów (np. otwierania opakowań zębami czy obgryzania końcówek długopisów), aby chronić licówki przed pęknięciami.",
+            "Regularne wizyty u dentysty (co 6 miesięcy) w celu kontroli i profesjonalnego czyszczenia."
+          ]
+        }
+      ]
+    },
+    "restorative-dentistry": {
+      "title": "Leczenie i odbudowa zębów",
+      "tagline": "Leczenie i odbudowa zębów w Turcji | Zdrowie Twoich zębów to fundament piękna Twojego uśmiechu",
+      "intro": "Zanim pomyślisz o jakimkolwiek zabiegu estetycznym, Twoje zęby muszą cieszyć się zdrowiem i siłą. Dział leczenia i odbudowy zębów w klinice Orec to miejsce, w którym pozbędziesz się bólu, próchnicy i problemów funkcjonalnych dzięki najnowszym technikom małoinwazyjnym oraz najwyższym standardom komfortu i bezpieczeństwa.",
+      "sections": [
+        {
+          "icon": "🛠️",
+          "heading": "Kompleksowe usługi lecznicze i odtwórcze w klinice Orec",
+          "blocks": [
+            {
+              "title": "Wypełnienia kompozytowe (Composite Fillings)",
+              "text": "Całkowicie usuwamy próchnicę i zastępujemy ją estetycznymi wypełnieniami światłoutwardzalnymi wykonanymi z wysokiej jakości kompozytu, które doskonale zlewają się z naturalnym kolorem i wyglądem zęba, przywracając mu wytrzymałość i pierwotny kształt bez żadnych zniekształceń."
+            },
+            {
+              "title": "Leczenie kanałowe (Root Canal Treatment)",
+              "text": "Korzystamy z najnowszych precyzyjnych urządzeń cyfrowych, aby dokładnie oczyścić zapalone i zainfekowane kanały korzeniowe i definitywnie pozbyć się bólu. Zabieg najczęściej zostaje ukończony podczas jednej, szybkiej i komfortowej wizyty w skutecznym znieczuleniu miejscowym."
+            },
+            {
+              "title": "Korony i mosty (Crowns & Bridges)",
+              "text": "Aby chronić osłabione, ułamane lub leczone kanałowo zęby. Stosujemy zaawansowane korony z cyrkonu i porcelany, które zapewniają twardość porównywalną z naturalnym szkliwem i wytrzymują silne siły żucia."
+            },
+            {
+              "title": "Leczenie chorób dziąseł i korekta ich linii",
+              "text": "Zdrowe dziąsła to ramota pięknego uśmiechu. Oferujemy głębokie usuwanie kamienia nazębnego, leczenie kieszonek dziąsłowych oraz korektę linii dziąseł laserem, aby pozbyć się przebarwień, stanów zapalnych i nieprzyjemnego zapachu z ust."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Przypadki wymagające leczenia i odbudowy zębów",
+          "list": [
+            "Ostry lub pulsujący ból zębów przy spożywaniu zimnych lub gorących potraw i napojów.",
+            "Szpary, ubytki lub pęknięcia w strukturze zęba będące skutkiem próchnicy lub nadmiernego nacisku.",
+            "Krwawienie dziąseł podczas mycia zębów lub nieprzyjemny zapach z ust."
+          ]
+        }
+      ]
+    },
+    "teeth-whitening": {
+      "title": "Wybielanie zębów",
+      "tagline": "Wybielanie zębów w Turcji | Szybkie, bezpieczne i niechirurgiczne rozwiązanie dla uśmiechu pełnego witalności",
+      "intro": "Jeśli chcesz przywrócić naturalną biel swoich zębów i pozbyć się zażółcenia wynikającego z codziennego stylu życia — bez szlifowania zębów i zakładania licówek — dział wybielania zębów w klinice Orec oferuje Ci najskuteczniejsze i najbezpieczniejsze rozwiązania medyczne, łagodne dla szkliwa.",
+      "sections": [
+        {
+          "icon": "⚡",
+          "heading": "Nasze zaawansowane systemy wybielania zębów",
+          "paragraphs": [
+            "Oferujemy dwie główne opcje, które uzupełniają się wzajemnie, zapewniając najlepszy i najtrwalszy efekt:"
+          ],
+          "blocks": [
+            {
+              "title": "Wybielanie laserowe w gabinecie (In-Office Laser / Zoom Whitening)",
+              "text": "Zasada działania: jedna szybka wizyta trwająca krócej niż godzinę. Dentysta nakłada na zęby profesjonalny żel wybielający o dobranym stężeniu, a następnie aktywuje go światłem lasera lub zaawansowaną lampą (Zoom). Efekt: natychmiastowe rozjaśnienie zębów średnio o 6–8 odcieni już podczas tej samej wizyty, przy pełnej ochronie dziąseł dzięki specjalnej osłonie."
+            },
+            {
+              "title": "Indywidualne szyny do wybielania w domu (Home Whitening Kits)",
+              "text": "Zasada działania: dentysta pobiera wycisk Twoich zębów i wykonuje elastyczne szyny plastikowe idealnie dopasowane do wymiarów Twoich ust, które otrzymujesz razem z bezpiecznym, domowym żelem wybielającym. Efekt: używasz ich w domu przez kilka dni, aby jak najdłużej zachować efekty wybielania gabinetowego lub uzyskać łagodne, stopniowe rozjaśnienie."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do wybielania zębów",
+          "list": [
+            "Zażółcenie spowodowane paleniem tytoniu oraz częstym piciem herbaty, kawy i napojów gazowanych.",
+            "Naturalne osłabienie bieli zębów wraz z wiekiem.",
+            "Pacjenci z równymi i harmonijnymi zębami, którzy potrzebują jedynie blasku i rozjaśnienia koloru."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Ważne wskazówki, jak zachować biel zębów po zabiegu",
+          "list": [
+            "Całkowita rezygnacja z barwiących potraw i napojów (kawa, herbata, curry, pomidory) oraz z palenia przez 48 godzin po zabiegu (tzw. biała dieta), ponieważ w tym czasie zęby są bardziej podatne na wchłanianie barwników.",
+            "Płukanie ust wodą bezpośrednio po wypiciu każdego ciemnego napoju również w przyszłości.",
+            "Stosowanie wybielającej pasty do zębów raz lub dwa razy w tygodniu jako regularnej pielęgnacji, zgodnie z zaleceniami lekarza w klinice Orec."
+          ]
+        }
+      ]
+    }
+  }
+}

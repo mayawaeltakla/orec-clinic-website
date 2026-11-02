@@ -2,6 +2,7 @@
 
 import { useLanguage } from './language-context'
 import { CLINIC } from '@/lib/i18n'
+import { DEPT_SLUG_BY_ID } from '@/lib/services-content/config'
 import { Mail, Phone, MapPin } from 'lucide-react'
 import { SOCIALS } from './social-icons'
 
@@ -83,7 +84,7 @@ export function Footer() {
               {dict.services.categories.map((c) => (
                 <li key={c.id}>
                   <a
-                    href="/services"
+                    href={`/services/${DEPT_SLUG_BY_ID[c.id] ?? ''}`}
                     className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-gold-2"
                   >
                     <span className="h-1 w-1 rounded-full bg-gold/60" aria-hidden />

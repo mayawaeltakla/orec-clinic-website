@@ -1,0 +1,238 @@
+{
+  "title": "Diş Estetiği ve Tedavisi",
+  "tagline": "Aile hekiminizin gülüşünüze olan özgüveninizi yeniden kazanma yolculuğunda — ilk günümüzden beri uzmanlığımızın merkezi, İstanbul'un kalbinde",
+  "intro": [
+    "Çünkü gülüşümüz, bizi başkalarıyla ilk kez bağlayan şeydir. Bu yüzden Orec Clinic'te diş hekimliği için tamamen kapsamlı ve son derece gelişmiş bir bölüm oluşturduk. Bu bölümde, en yetkin doktorlar ve danışmanlardan oluşan bir ekip, en son diş hekimliği estetik ve tedavi çözümlerini, en hassas dijital dünya teknikleriyle size sunmak için burada.",
+    "Gelişmiş tıbbın hassasiyetini ve aile bakımının sıcaklığını bir araya getiriyoruz. Sağlık Bakanlığı ve Türkiye'nin sağlık turizmi için Turizm Bakanlığı'nın resmi lisanslarımızla, dijital gülüş tasarımından anında implantlara, kapsamlı tedavilere ve dünya çapında zirkonya ve E-Max malzemelerinden üretilen estetik protezlere kadar her şeyi sunuyoruz."
+  ],
+  "services": {
+    "dental-implants": {
+      "title": "Diş İmplantı",
+      "tagline": "Diş implantı Türkiye'de | Kayıp dişler için en ideal ve kalıcı çözüm",
+      "intro": "Diş implantı, modern diş hekimliğinin en son devrimidir ve komşu dişlere zarar vermeden kayıp veya yıpranmış dişleri değiştirmek için en dayanıklı tıbbi alternatiftir. Orec Clinic'te, gelişmiş dijital teknoloji ile Türkiye'nin en yetkin hekimlerini birleştirerek dünya çapında bir başarı oranı ve ağrısız bir tedavi deneyimi sağlıyoruz.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Diş implantının temel bileşenleri",
+          "paragraphs": [
+            "Implant, doğal diş görünümünü ve hissini veren üç ana bölümden oluşur:"
+          ],
+          "blocks": [
+            {
+              "title": "Kök veya İmplant (Fixture)",
+              "text": "Titanium malzemeden yapılmış küçük bir vida, çene kemiğine yerleştirerek doğal kökün işlevini görür. Biyo-uyumlu titanium, kemikle kolayca kaynaşır (osteointegrasyon) ve vücut tarafından reddedilmez, hassasiyet veya tümörlere neden olmaz."
+            },
+            {
+              "title": "Abutment",
+              "text": "İmplantın üzerine takılan ve dış krona bağlayan parça."
+            },
+            {
+              "title": "Kron (Crown)",
+              "text": "Görünen yapay diş, dayanıklılık ve parlaklık açısından doğal dişlerinizle mükemmel uyum sağlayan zirkon veya E-Max gibi yüksek kaliteli malzemelerden yapılır."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Kliniğimizdeki diş implantı teknikleri",
+          "blocks": [
+            {
+              "title": "Standart İmplantlar",
+              "text": "Mekanizma: Çene kemiğine kökler yerleştirilir, kemik ile implantın tam olarak uyum sağlaması için 3-4 ay beklenir ve ardından kalıcı diş takılır."
+            },
+            {
+              "title": "Anlık İmplantlar (Immediate Implants)",
+              "text": "Mekanizma: Gelişmiş bir teknik olan bu yöntemde, implantlar hasarlı dişin çekilmesi üzerine genellikle tek seansta veya iki seansta çene veya yüz kemiğine doğrudan yerleştirilir. Uygun mu? Seyahat gereksinimleri acil olan vakalar veya kemik yoğunluğu mükemmel olan hastalar için ideal bir seçenektir. Akan kan veya şeker hastalığı olan hastalar için de tıbbi gözetim ve sıkı planlama ile uygundur."
+            },
+            {
+              "title": "Sabit Çene Protezi (All-on-4 & All-on-6)",
+              "text": "Mekanizma: Tam diş kaybı ve diş eti erimesi durumunda, çene kemiğine sadece 4 veya 6 implant yerleştirilir. Bu implantlardan ikisi maksimum kemik teması ve stabilite sağlamak ve sinüs boşluklarını önlemek için 65 derecelik bir açıyla yerleştirilir. Ardından tam diş protezi bu köklere kalıcı olarak takılır."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Diş implantı için adaylar",
+          "list": [
+            "17-18 yaş üstü bireyler, çünkü bu yaştan önce çene hala gelişimindedir.",
+            "Kaza, hastalık veya şiddetli sporlar nedeniyle diş kaybı yaşayanlar.",
+            "Diş kaybı nedeniyle yiyecek çiğnemek veya ses çıkarma sorunları yaşayanlar."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Tedavi seyahat süreciniz",
+          "blocks": [
+            {
+              "title": "Ön implant prosedürleri (Dijital planlama)",
+              "text": "Hasta, kanama bozukluğu, diyabet veya yüksek tansiyon gibi kronik bir hastalığı varsa doktora bildirmelidir (özellikle diyabet hastalarının uzun süreli stabil glikoz seviyelerine sahip olmaları gerekir). Diş cerrahı, kemik kalınlığını, yoğunluğunu, sinir uçlarının konumunu ve sinüs boşluklarını belirlemek için dişlerin üç boyutlu taramasını (3D CT Scan) yapar ve delme noktalarını hassas bir şekilde belirler."
+            },
+            {
+              "title": "Operasyon süreci",
+              "text": "Operasyon, yerel anestezi altında (veya hasta tercihi ile sedasyon) ağrısız bir şekilde gerçekleştirilir ve implantlar (tek diş, birden fazla diş veya tüm çene) önceden belirlenen dijital plana göre takılır."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Diş implantı riskleri ve bunları nasıl önleriz?",
+          "paragraphs": [
+            "Her cerrahi prosedür gibi implantasyon bazı potansiyel riskler taşıyabilir: sinir hasarı, implant etrafındaki diş eti çekilmesi, şiddetli kanama, vücudun implantı reddetmesi (şişlik ile), kemik dokusu hasarı veya yara iyileşme başarısızlığı."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Başarı sırrı",
+              "text": "Bu risklerin çoğu, diş cerrahının uzmanlığı ve detaylı dijital planlama tamamen önlenebilir. Orec Clinic'te, implant başarısızlığını veya risklerini önleyen dişler için size Türkiye'nin en yetkin hekimlerini sunuyoruz."
+            }
+          ]
+        }
+      ]
+    },
+    "hollywood-smile": {
+      "title": "Hollywood Gülüşü",
+      "tagline": "Hollywood Gülüşü Türkiye'de | Çekiciliğin, güvenin ve sürekli parıltının sırrı",
+      "intro": "Güzel bir gülümseme özgüven demektir ve Hollywood Gülüşü artık elinizin altında. Orec Clinic'te, uyumlu bir gülüş ve parlak bir beyazlık için en kalitelen seramik kaplamaları (veneer) sunuyoruz. Hollywood Gülüşü, dişlerinizin sağlıklı görünümünü sağlar: eşit ve düzgün bir dizilime sahip olurlar ve uzun yıllar boyunca renklerini kaybetmez veya lekelenmez.",
+      "sections": [
+        {
+          "icon": "🔍",
+          "heading": "Hollywood Gülüşü nasıl alınır? (İşlem adımları)",
+          "paragraphs": [
+            "İşlem, aşağıdakileri içeren detaylı bir tedavi planı ile gerçekleştirilir:"
+          ],
+          "blocks": [
+            {
+              "title": "Kapsamlı tedavi",
+              "text": "Estetik adıma geçmeden önce tüm önceki diş sorunlarının (çürüme, diş eti iltihapları) tedavi edilmesi."
+            },
+            {
+              "title": "Diş minesinin inceltilmesi (Hazırlık)",
+              "text": "Seramik kaplamalar için yer açmak için çok hafif mikroskopik bir aşındırma işlemi."
+            },
+            {
+              "title": "Seramik kaplamaların takılması",
+              "text": "Yüksek hassasiyetle tıbbi, çok dayanıklı yapıştırıcı kullanarak kaplamaların yapıştırılması."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Hollywood Gülüşü için adaylar",
+          "list": [
+            "Dişlerinde şiddetli ve dirençli renk değişikliği ve lekelenme yaşayanlar.",
+            "Kahve, çay ve sigara gibi yüksek pigmentli yiyecek ve içecekleri tüketen ve gelecekte lekelenmeyecek bir çözüm arayanlar.",
+            "Dişler arasında boşluklar (aralıklar) olan veya kısmen kırık, uzunluk ve boyut açısından eşit olmayan dişlere sahip olanlar."
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Hollywood Gülüşü takımı öncesi prosedürler ve uyarılar (Tıbbi şeffaflık)",
+          "paragraphs": [
+            "Hasta gerçekten Hollywood Gülüşü takımına ihtiyaç duyup duymadığından emin olunmalıdır; yalnızca diş beyafltırmanın yeterli olacağı durumlarda bu işlem yapılmamalıdır, çünkü kaplama takımı için diş minesinin inceltilmesi geri döndürülemez kalıcı bir işlemdir.",
+            "Türkiye'de Hollywood Gülüşü takımının uygunluğu onaylanırsa, kaldırma ve yeniden takım maliyetinin çok yüksek olması nedeniyle takımdan sonraki diş tedavisinin çok zor olduğu görülür. Bu nedenle hekimlerimiz, takım öncesi tüm dişlerin mükemmel durumda olduğundan emin olmak için şunları yapar:"
+          ],
+          "list": [
+            "Önceki tüm diş sorunlarının tedavi edilmesi ve ağız sağlığının sağlanması.",
+            "Tamamen zayıf dişlerin çekilmesi ve estetik implantlarla değiştirilmesi.",
+            "Gelecekte kaplamalar altında ağrı olmamasını sağlamak için gerekirse bir veya daha fazla diş sinir tedavisinin yapılması veya alınması."
+          ]
+        },
+        {
+          "icon": "⏱️",
+          "heading": "Tedavi süresi ve kullanılan malzemeler",
+          "paragraphs": [
+            "Alman geliştirilmiş zirkon veya saf E-Max kaplamaları genellikle sadece üst çenede, sadece alt çenede veya her iki çenede de takılır, mükemmel bir görünüm ve harika bir gülüş için. Tasarım ve laboratuvar montaj işlemi iki ila üç hafta sürer (klinikte 2-3 seansta tamamlanır)."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Hollywood Gülüşü takımı sonrası ipuçları",
+          "list": [
+            "Gum hatlarında plak birikmesini önlemek için günlük diş fırçalama, diş macunu ve diş ipi kullanımına uymak.",
+            "Kırılmalardan korumak için çok sert nesneleri ısıraktan kaçınmak (şişe kapağı açmak veya kalemi ısırak gibi).",
+            "Düzenli diş hekimi kontrolleri (her 6 ayda bir) için randevu almak."
+          ]
+        }
+      ]
+    },
+    "restorative-dentistry": {
+      "title": "Diş Tedavisi ve Restorasyonu",
+      "tagline": "Türkiye'de diş tedavisi ve restorasyonu | Diş sağlığınız, gülüşüzünüzün temelidir",
+      "intro": "Herhangi bir estetik prosedür düşünmeden önce dişlerinizin sağlıklı ve güçlü olması gerekir. Orec Kliniği'ndeki Diş Tedavisi ve Restorasyonu bölümü, en son rahatsız edici olmayan teknolojiler ve en yüksek konfor ve güvenlik standartları ile ağrıları, çürükleri ve fonksiyonel sorunları ortadan kaldırma noktasında hedefinizdir.",
+      "sections": [
+        {
+          "icon": "🛠️",
+          "heading": "Orec Kliniğindeki Kapsamlı Tedavi ve Restorasyon Hizmetleri",
+          "blocks": [
+            {
+              "title": "Kompozit Dolgular (Composite Fillings)",
+              "text": "Çürüğü tamamen çıkarıp, dişinizin doğal rengiyle mükemmel şekilde uyumlu yüksek kaliteli ışıkla sertleşen kompozit dolgularla değiştiriyoruz. Bu, dişe orijinal gücünü ve şeklini herhangi bir deformite olmadan geri kazandırır."
+            },
+            {
+              "title": "Kök Kanal Tedavisi (Root Canal Treatment)",
+              "text": "En son hassas dijital cihazları kullanarak enfekte ve iltihaplı sinüs kanallarını derinlemesine temizler, ağrıyı kalıcı olarak ortadan kaldırır ve bu prosedür genellikle etkili bir yerel anestezi altında tek, hızlı ve rahat bir seansta gerçekleştirilir."
+            },
+            {
+              "title": "Diş Kronları ve Köprüler (Crowns & Bridges)",
+              "text": "Zayıf, kırık veya kanal tedavisi görmüş dişleri korumak için. Doğal mine ile aynı sertliğe ve yüksek çiğneme kuvvetlerine dayanabilen gelişmiş zirkonyum ve porselen kronlar kullanıyoruz."
+            },
+            {
+              "title": "Diş Eti Hastalıkları Tedavisi ve Diş Eti Estetiği",
+              "text": "Sağlıklı diş eti, güzel bir gülüşün çerçevesidir. Derin diş taşları temizliği, diş eti cepleri tedavisi ve diş etini solgunluk, iltihap ve ağız kokusundan kurtarmak için lazerle diş eti renklendirme hizmetleri sunuyoruz."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Diş Tedavisi ve Restorasyonuna İhtiyaç Durumları",
+          "list": [
+            "Soğuk veya sıcak yiyecek ve içecekler yaptığınızda dişlerde şiddetli ağrı veya zonklama hissetmek.",
+            "Çürük veya aşırı basınç nedeniyle diş yapısında boşluklar, çürükler veya kırıklar varlığı.",
+            "Diş fırçalarken diş eti kanaması veya ağırdan istenmeyen bir koku yayılması."
+          ]
+        }
+      ]
+    },
+    "teeth-whitening": {
+      "title": "Diş Beyazlatma",
+      "tagline": "Türkiye'de diş beyazlatma | Hızlı, güvenli ve cerrahisiz canlı bir gülüş çözümü",
+      "intro": "Dişlerinizin doğal beyazlığını günlük yaşam tarzından kaynaklanan sararmadan kurtarmak ve dişleri törpüleme veya kaplamalar olmadan isterseniz, Orec Kliniği Diş Beyazlatma Bölümü, minesiz katmanda en etkili ve güvenli tıbbi çözümleri size sunar.",
+      "sections": [
+        {
+          "icon": "⚡",
+          "heading": "Gelişmiş Diş Beyazlama Sistemlerimiz",
+          "paragraphs": [
+            "En iyi ve en kalıcı sonuç için birbirini tamamlayan iki temel seçenek sunuyoruz:"
+          ],
+          "blocks": [
+            {
+              "title": "Klinik İçi Lazer Beyazlatma (In-Office Laser / Zoom Whitening)",
+              "text": "Mekanizması: Bir saatten daha kısa süren tek bir hızlı seansta. Diş hekimi, dişlere dikkatle konsantre edilmiş bir beyazlatma jeli uygular ve ardından lazer veya gelişmiş (Zoom) cihazı ile aktive eder. Sonuç: Aynı seansta diş rengini anında 6 ila 8 ton açar, özel bir izolatör ile diş etleri tamamen korunur."
+            },
+            {
+              "title": "Özel Ev Beyazlama Kiti (Home Whitening Kits)",
+              "text": "Mekanizması: Diş hekimi dişlerinizin kalıbını alır ve ağız boyutlarınıza tam olarak uyan esnek plastik kalıplar yapar ve evde kullanım için güvenli konsantrasyonda bir beyazlatma jeli ile birlikte size teslim eder. Sonuç: Klinik beyazlama sonuçlarını mümkün olan en uzun süre korumak veya yavaş ve rahat bir açılmak için evde kullanırsınız."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Diş Beyazlaması İçin Aday Durumlar",
+          "list": [
+            "Sigara içme, çay ve kahve ve gazlı içeceklerin aşırı tüketimi nedeniyle sararma.",
+            "Yaşlanma nedeniyle dişlerin doğal beyazlığının kaybolması.",
+            "Sadece canlılık ve renk açıklığı ihtiyacı olan, düzgün ve uyumlu dişlere sahip hastalar."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Seans Sonrası Diş Beyazlığını Korumak İçin Önemli İpuçları",
+          "list": [
+            "Seans sonrası 48 saat boyunca (beyaz diyet dönemi) kahve, çay, kürübı, domates gibi renkli yiyecek ve içeceklerden ve sigaradan tamamen uzak durun, çünkü dişler bu dönemde boyaları daha fazla emer.",
+            "Gelecekte herhangi koyu bir içecek aldıktan hemen sonra su ile gargara yapın.",
+            "Orec Kliniği'ndeki hekiminizin talimatlarına göre periyodik bakım olarak haftada bir veya iki kez beyazlatıcı diş macunu kullanın."
+          ]
+        }
+      ]
+    }
+  }
+}

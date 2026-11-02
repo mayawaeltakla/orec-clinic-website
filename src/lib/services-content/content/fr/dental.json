@@ -1,0 +1,238 @@
+{
+  "title": "Esthétique et soins dentaires",
+  "tagline": "Votre famille médicale dans un voyage de restauration de votre confiance en votre sourire — notre spécialisation depuis notre premier jour au cœur d'Istanbul",
+  "intro": [
+    "Puisque le sourire est ce qui nous relie les uns aux autres en premier lieu, la Clinique Orec a dédié un département complet et très avancé à la dentisterie, comprenant une élite des médecins et consultants les plus talentueux pour vous offrir les dernières solutions d'esthétique et de traitement dentaire avec les techniques numériques mondiales les plus précises.",
+    "Nous combinons pour vous la précision de la médecine moderne et la chaleur des soins familiaux, conformément à nos licences officielles du ministère de la Santé et du ministère du Tourisme turc pour le tourisme médical, et de la conception numérique du sourire à l'implantation immédiate et aux traitements complets et aux prothèses cosmétiques en matériaux zircon et E-Max mondiaux."
+  ],
+  "services": {
+    "dental-implants": {
+      "title": "Implants dentaires",
+      "tagline": "Implants dentaires en Turquie | La solution optimale et finale pour remplacer les dents manquantes",
+      "intro": "Les implants dentaires représentent la révolution la plus récente en dentisterie moderne, et constituent l'alternative médicale la plus durable pour remplacer une dent manquante ou usée sans endommager les dents adjacentes. Chez Orec Clinic, nous vous combinons la technologie numérique avancée et les meilleurs médecins turcs pour garantir un taux de succès mondial et une expérience thérapeutique sans douleur.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Composants de base d'un implant dentaire",
+          "paragraphs": [
+            "La dent implantée se compose de trois parties principales qui s'assemblent pour donner l'aspect et la sensation d'une dent naturelle :"
+          ],
+          "blocks": [
+            {
+              "title": "La racine ou l'implant (Fixture)",
+              "text": "Une petite vis en titane pur, insérée dans l'os de la mâchoire pour remplacer la racine naturelle. Le titane biocompatible est choisi car il s'intègre facilement à l'os (ostéo-intégration) sans être rejeté par le corps ou causer des allergies ou des tumeurs."
+            },
+            {
+              "title": "La couronne (Abutment)",
+              "text": "La pièce de connexion qui est fixée sur l'implant pour relier la couronne externe."
+            },
+            {
+              "title": "La couronne (Crown)",
+              "text": "La dent artificielle visible, fabriquée à partir de matériaux de haute qualité et durables comme la zircone ou l'E-Max pour s'intégrer naturellement avec vos autres dents en termes de résistance et d'éclat."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Types de techniques d'implantation dentaire dans notre clinique",
+          "blocks": [
+            {
+              "title": "Implants traditionnels ou standard (Standard Implants)",
+              "text": "Mécanisme : Les racines sont insérées dans l'os de la mâchoire, puis nous attendons une période de 3 à 4 mois pour que l'os s'intègre parfaitement à l'implant. Une fois stabilisé, la dent finale est fixée."
+            },
+            {
+              "title": "Implants immédiats (Immediate Implants)",
+              "text": "Mécanisme : Technique avancée où l'implant est inséré directement dans l'os de la mâchoire ou du visage (sans les longues périodes d'attente, généralement immédiatement après l'extraction de la dent endommagée), et se termine en une ou deux séances. Pour qui convient-elle ? Idéale pour les cas urgents dus à des voyages, ou pour les patients ayant une densité osseuse excellente, également adaptée pour les patients souffrant de troubles de la coagulation ou de diabète sous surveillance médicale stricte et planification rigoureuse."
+            },
+            {
+              "title": "Prothèse fixe de mâchoire (All-on-4 & All-on-6)",
+              "text": "Mécanisme : En cas de perte complète de dents et d'atrophie des gencives, seules 4 ou 6 racines sont implantées directement dans l'os de la mâchoire. Deux de ces implants sont placés à un angle pouvant atteindre 65 degrés pour maximiser le contact et la stabilité avec l'os et éviter les sinus maxillaires, puis la prothèse dentaire complète est fixée de manière permanente sur ces racines."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas candidats aux implants dentaires",
+          "list": [
+            "Personnes âgées de plus de 17-18 ans, car en dessous de cet âge la mâchoire est encore en croissance.",
+            "Cas de perte de dents due à des accidents, des maladies ou des sports violents.",
+            "Personnes souffrant de problèmes de mastication ou d'élocution dus à la perte de dents."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Étapes de votre parcours de traitement",
+          "blocks": [
+            {
+              "title": "Procédures pré-implantaires (planification numérique)",
+              "text": "Le patient doit informer le médecin s'il souffre d'une maladie chronique comme un trouble de la coagulation, du diabète ou de l'hypertension (les patients diabétiques doivent avoir un taux d'hémoglobine glyquée stable depuis longtemps). Le chirurgien dentaire effectue un scan 3D (3D CT Scan) des dents pour connaître l'épaisseur et la densité de l'os, l'emplacement des terminaisons nerveuses et des sinus maxillaires, afin de déterminer précisément les sites de forage."
+            },
+            {
+              "title": "Procédures de l'opération",
+              "text": "L'opération est réalisée sous anesthésie locale (ou sous sédation selon le souhait du patient) sans douleur, et les implants (une dent, plusieurs dents ou la mâchoire entière) sont placés selon le plan numérique préétabli."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Risques des implants dentaires et comment les éviter ?",
+          "paragraphs": [
+            "Comme toute procédure chirurgicale, l'implantation peut présenter certains risques potentiels tels que : lésion des nerfs, récession des gencives adjacentes à l'implant, saignement sévère, rejet de l'implant par gonflement, déchirure des tissus osseux, ou échec de la cicatrisation."
+          ],
+          "blocks": [
+            {
+              "title": "💡 La clé du succès",
+              "text": "La plupart de ces risques sont évités grâce à l'expérience du chirurgien dentaire et à la planification numérique précise. Chez Orec Clinic, nous mettons à votre disposition les meilleurs médecins turcs pour des implants dentaires qui évitent l'échec de l'implantation ou ses risques."
+            }
+          ]
+        }
+      ]
+    },
+    "hollywood-smile": {
+      "title": "Sourire hollywoodien",
+      "tagline": "Sourire hollywoodien en Turquie | Le secret de l'attrait, de la confiance et de l'éclat permanent",
+      "intro": "Un beau sourire signifie confiance en soi, et un sourire hollywoodien en Turquie est maintenant à votre portée. Chez Orec Clinic, nous vous offrons les meilleures couronnes en céramique (veneers) pour des dents harmonieuses et un éclat blanc éclatant. Le sourire hollywoodien vous offre une apparence dentaire saine, uniforme et alignée, qui dure très longtemps sans changer de couleur ou être soumise à des taches.",
+      "sections": [
+        {
+          "icon": "🔍",
+          "heading": "Comment obtenir un sourire hollywoodien ? (étapes du traitement)",
+          "paragraphs": [
+            "Le traitement se déroule selon un plan thérapeutique précis incluant :"
+          ],
+          "blocks": [
+            {
+              "title": "Traitement complet",
+              "text": "Traitement de tous les problèmes dentaires antérieurs (carie, inflammation des gencives) avant de commencer toute étape esthétique."
+            },
+            {
+              "title": "Préparation (émail dentaire)",
+              "text": "Micro-meulage très léger pour créer de l'espace pour les couronnes en céramique."
+            },
+            {
+              "title": "Fixation des couronnes en céramique",
+              "text": "Colle des lentilles avec une précision maximale en utilisant des adhésifs médicaux extrêmement résistants."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas candidats pour un sourire hollywoodien",
+          "list": [
+            "Personnes souffrant de colorations et de taches dentaires sévères et résistantes.",
+            "Ceux qui consomment beaucoup d'aliments et de boissons à forte teneur en colorants, comme le café, le thé et les cigarettes, et qui cherchent une solution qui ne se tachera pas à l'avenir.",
+            "Existence d'espaces (intervalles) entre les dents, ou de dents partiellement cassées, ou inégales en longueur et en taille."
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Procédures et précautions avant la pose d'un sourire hollywoodien (transparence médicale)",
+          "paragraphs": [
+            "Il faut s'assurer que le cas nécessite réellement un sourire hollywoodien ; si un simple blanchiment dentaire suffit, il est préférable de ne pas procéder à l'implantation, car l'émail dentaire est meulé pour permettre la fixation, ce qui est une procédure permanente et irréversible.",
+            "Et si l'on confirme que le cas est adapté pour un sourire hollywoodien en Turquie, il est très difficile de traiter les dents après la pose en raison du coût élevé de son retrait et de sa remise en place. C'est pourquoi nos médecins s'assurent que toutes les dents sont en excellent état avant la pose via :"
+          ],
+          "list": [
+            "Traitement de tous les problèmes dentaires antérieurs et assurance d'une santé bucco-dentaire parfaite.",
+            "Extraction des dents très abîmées et remplacement par des implants cosmétiques.",
+            "Traitement ou extraction de la pulpe d'une ou plusieurs dents si nécessaire pour s'assurer qu'aucune douleur ne surviendra sous les couronnes à l'avenir."
+          ]
+        },
+        {
+          "icon": "⏱️",
+          "heading": "Durée du traitement et matériaux utilisés",
+          "paragraphs": [
+            "Les couronnes en céramique ou les Veneers en zircone améliorée allemande ou en E-Max pur sont généralement posées uniquement sur l'arcade supérieure, uniquement sur l'inférieure, ou sur les deux arcades pour un aspect parfait et un sourire magnifique. Le processus de conception et de laboratoire dure de deux à trois semaines (incluant 2-3 séances à la clinique)."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils après la pose d'un sourire hollywoodien",
+          "list": [
+            "Respecter un nettoyage dentaire quotidien avec brosse à dents, dentifrice et fil dentaire pour empêcher l'accumulation de tartre au niveau des gencives.",
+            "Éviter de mordre des choses très dures (comme ouvrir des bouteilles avec les dents ou ronger des stylos) pour protéger les couronnes contre la casse.",
+            "Visiter le dentiste régulièrement (tous les 6 mois) pour un contrôle et un nettoyage professionnel."
+          ]
+        }
+      ]
+    },
+    "restorative-dentistry": {
+      "title": "Traitement et restauration dentaire",
+      "tagline": "Traitement et restauration dentaire en Turquie | La santé de vos dents est la fondation de la beauté de votre sourire",
+      "intro": "Avant de considérer toute procédure esthétique, vos dents doivent être en bonne santé et solides. Le département de traitement et restauration dentaire d'Orec Clinic est votre destination pour éliminer les douleurs, les caries et les problèmes fonctionnels avec les dernières technologies sans douleur et selon les plus hauts standards de confort et de sécurité.",
+      "sections": [
+        {
+          "icon": "🛠️",
+          "heading": "Services de traitement et de restauration complets à Orec Clinic",
+          "blocks": [
+            {
+              "title": "Plombages cosmétiques (Composite Fillings)",
+              "text": "Nous enlevons complètement la carie et la remplaçons par des plombages cosmétiques à lumière fabriqués à partir de composite de haute qualité, qui s'intègrent parfaitement à la couleur et à l'apparence naturelle de la dent, restaurant ainsi sa force et sa forme originales sans aucune trace disgracieuse."
+            },
+            {
+              "title": "Traitement de canal et dévitalisation (Root Canal Treatment)",
+              "text": "Nous utilisons les derniers équipements numériques précis pour nettoyer en profondeur les canaux nerveux infectés et enflammés, éliminer définitivement les douleurs, et cette procédure est généralement réalisée en une seule séance rapide et confortable sous anesthésie locale efficace."
+            },
+            {
+              "title": "Couronnes et bridges dentaires (Crowns & Bridges)",
+              "text": "Pour protéger les dents affaiblies, cassées ou celles qui ont subi une dévitalisation. Nous utilisons des couronnes en zirconium et en porcelaine avancées qui donnent à la dent une dureté comparable à l'émail naturel et résistent aux forces de mastication élevées."
+            },
+            {
+              "title": "Traitement des maladies des gencives et augmentation des gencives",
+              "text": "Des gencives saines sont le cadre d'un beau sourire. Nous offrons des services de détartrage profond, de traitement des poches parodontales et d'augmentation des gencives au laser pour éliminer le brunissement, les inflammations et les mauvaises odeurs buccales."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas nécessitant un traitement et une restauration dentaire",
+          "list": [
+            "Sentir des douleurs aiguës ou des pulsations dans les dents lors de la consommation d'aliments et de boissons froids ou chauds.",
+            "Existence d'espaces, de cavités ou de cassures dans la structure dentaire dues aux caries ou à une pression excessive.",
+            "Saignement des gencives lors du brossage des dents ou une mauvaise odeur buccale."
+          ]
+        }
+      ]
+    },
+    "teeth-whitening": {
+      "title": "Blanchiment des dents",
+      "tagline": "Blanchiment des dents en Turquie | Une solution rapide, sûre et non chirurgicale pour un sourire rayonnant de vitalité",
+      "intro": "Si vous souhaitez restaurer la blancheur naturelle de vos dents et éliminer le jaunissement causé par le mode de vie quotidien sans avoir à meuler les dents ou à poser des facettes, le département de blanchiment des dents d'Orec Clinic vous offre les solutions médicales les plus efficaces et les plus sûres sur l'émail dentaire.",
+      "sections": [
+        {
+          "icon": "⚡",
+          "heading": "Systèmes de blanchiment dentaire avancés chez nous",
+          "paragraphs": [
+            "Nous vous offrons deux options de base complémentaires pour obtenir le meilleur et le plus durable des résultats :"
+          ],
+          "blocks": [
+            {
+              "title": "Blanchiment au laser en cabinet (In-Office Laser / Zoom Whitening)",
+              "text": "Mécanisme : Une séance unique rapide prenant moins d'une heure. Le médecin applique un gel de blanchiment médical à concentration étudiée sur les dents, puis l'active avec une lumière laser ou un appareil (Zoom) avancé. Résultat : Éclaircissement immédiat de la couleur des dents de 6 à 8 teintes en même temps, avec une protection complète des gencives grâce à un isolant spécial."
+            },
+            {
+              "title": "Gouttières de blanchiment à domicile personnalisées (Home Whitening Kits)",
+              "text": "Mécanisme : Le médecin prend une empreinte de vos dents et fabrique des gouttières en plastique flexibles correspondant parfaitement aux dimensions de votre bouche, et vous les remet avec un gel de blanchiment à concentration domestique sûr. Résultat : Vous les utilisez à la maison pendant plusieurs jours pour maintenir les résultats du blanchiment en cabinet aussi longtemps que possible, ou pour un éclaircissement progressif et confortable."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas candidats au blanchiment dentaire",
+          "list": [
+            "Jaunissement causé par le tabagisme, la consommation excessive de thé, de café et de boissons gazeuses.",
+            "Perte de la blancheur naturelle des dents avec l'âge.",
+            "Patients possédant des dents bien alignées et harmonieuses qui n'ont besoin que d'éclat et d'éclaircissement."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils importants pour maintenir la blancheur de vos dents après la séance",
+          "list": [
+            "S'abstenir complètement des aliments et boissons colorés (café, thé, curry, tomates) et du tabagisme pendant 48 heures après la séance (période du régime blanc), car les dents sont plus susceptibles d'absorber les colorants à ce moment-là.",
+            "Se rincer la bouche immédiatement après avoir bu toute boisson foncée à l'avenir.",
+            "Utiliser un dentifrice blanchissant une ou deux fois par semaine comme entretien régulier, selon les recommandations de votre médecin à Orec Clinic."
+          ]
+        }
+      ]
+    }
+  }
+}

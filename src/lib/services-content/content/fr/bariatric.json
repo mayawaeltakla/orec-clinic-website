@@ -1,0 +1,214 @@
+{
+  "title": "Chirurgie bariatrique",
+  "tagline": "Chirurgies et traitements complets pour la perte de poids par laparoscopie avancée — sous la supervision d'une équipe chirurgicale et nutritionniste spécialisée, avec un suivi jusqu'à atteindre votre poids idéal",
+  "intro": [
+    "Le département des chirurgies et traitements de l'obésité comprend les dernières solutions chirurgicales et non chirurgicales pour la perte de poids : de la sleeve gastrique et du by-pass gastrique par laparoscopie avancée, au ballon gastrique et au botox gastrique pour les procédures les plus simples sans chirurgie, tous effectués avec les derniers équipements médicaux et les agrafeuses intelligentes certifiées mondialement.",
+    "La procédure la plus adaptée à votre cas est choisie après une évaluation complète de votre indice de masse corporelle (BMI), de votre santé générale et de vos habitudes alimentaires, avec un régime alimentaire progressif et la supervision de nutritionnistes spécialisés ainsi qu'un suivi comportemental continu jusqu'à atteindre votre poids idéal et le maintenir."
+  ],
+  "services": {
+    "gastric-sleeve": {
+      "title": "Sleeve gastrique",
+      "tagline": "Sleeve gastrique en Turquie | La solution radicale et la plus efficace pour se débarrasser de l'obésité sévère",
+      "intro": "Le sleeve gastrique est la première option chirurgicale mondialement pour les individus souffrant d'obésité sévère et ayant échoué à perdre du poids par les méthodes traditionnelles. À la Clinique Orec, nous appliquons cette chirurgie par laparoscopie avancée pour assurer une période de récupération plus rapide et moins de douleur, vous aidant à perdre jusqu'à 70% à 80% de votre excès de poids dès la première année seulement.",
+      "sections": [
+        {
+          "icon": "🩺",
+          "heading": "Changements anatomiques et physiologiques du sleeve",
+          "paragraphs": [
+            "Pendant la procédure, le chirurgien se concentre sur deux principaux changements dans la nature du système digestif :"
+          ],
+          "blocks": [
+            {
+              "title": "Réduction structurelle de la taille de l'estomac",
+              "text": "Environ 75% à 80% de la taille de l'estomac sont retirés longitudinalement, le transformant en un petit tube en forme de banane ou de manche de veste, réduisant considérablement la quantité de nourriture pouvant être absorbée."
+            },
+            {
+              "title": "Modification des hormones corporelles",
+              "text": "La partie retirée (la partie supérieure de l'estomac) contient les cellules responsables de la sécrétion de l'hormone ghréline (Ghreline), connue sous le nom d'hormone de la faim. Son revoir entraîne une diminution brutale et directe de l'envie de manger et un sentiment de satiété rapide."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Techniques médicales utilisées dans notre centre",
+          "blocks": [
+            {
+              "title": "Chirurgie laparoscopique microscopique 3D (Advanced Laparoscopy)",
+              "text": "La procédure est entièrement réalisée sans ouverture chirurgicale, mais à travers 4 à 5 petites incisions très minces dans la paroi abdominale (ne dépassant pas 1 cm) pour insérer la caméra et les instruments fins."
+            },
+            {
+              "title": "agrafes intelligentes à triple sécurité (Smart Staplers)",
+              "text": "Nous utilisons à la Clinique Orec les dernières agrafes médicales américaines (comme Medtronic ou Ethicon) qui coupent et agrafer les tissus avec 3 lignes parallèles de points en titane fins pour assurer les niveaux de sécurité les plus élevés."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et protocole post-opératoire",
+          "blocks": [
+            {
+              "title": "Avant la procédure",
+              "text": "Le patient subit des examens complets incluant (fonctions rénales et hépatiques, gaz du sang, électrocardiogramme, radiographie du thorax, et examen des hormones thyroïdiennes), ainsi qu'une consultation avec l'anesthésiste et l'endocrinologue."
+            },
+            {
+              "title": "Pendant la procédure",
+              "text": "La chirurgie dure de 45 à 60 minutes sous anesthésie générale."
+            },
+            {
+              "title": "Régime alimentaire après la procédure",
+              "text": "Le patient s'engage à suivre un régime alimentaire progressif précis sous la supervision de notre nutritionniste : les deux premières semaines, uniquement des liquides clairs ; les troisième et quatrième semaines, des aliments écrasés et broyés ; au deuxième mois, début progressif de la consommation d'aliments solides bien mâchés."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Risques et comment les éviter",
+          "paragraphs": [
+            "Les risques potentiels incluent historiquement : les fuites de la ligne d'agrafes, le saignement, ou les caillots sanguins dans les jambes."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Protocole de sécurité précis dans notre centre",
+              "text": "Nous évitons le risque de fuite à près de 100% grâce à un test de double coloration réalisé en salle d'opération pour s'assurer que l'estomac est complètement fermé, suivi d'une étape de recouvrement chirurgical pour suturer manuellement la ligne d'agrafes sur l'agrafage automatique pour renforcer la sécurité. Le patient reçoit également immédiatement des anticoagulants et des bas de compression spéciaux pour prévenir les caillots sanguins et activer la circulation sanguine."
+            }
+          ]
+        }
+      ]
+    },
+    "gastric-bypass": {
+      "title": "By-pass gastrique",
+      "tagline": "By-pass gastrique en Turquie | La norme d'or pour traiter l'obésité et se débarrasser du diabète",
+      "intro": "La chirurgie de by-pass gastrique est l'option idéale et la plus puissante pour les patients souffrant d'obésité sévère accompagnée de diabète de type 2, ou ceux souffrant de reflux œsophagien sévère (reflux acide chronique), ou les amateurs de desserts et de sucreries consommés avec excès.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Changements anatomiques et physiologiques du by-pass",
+          "paragraphs": [
+            "La chirurgie repose sur la combinaison de deux mécanismes pour la perte de poids (réduction de la taille + réduction de l'absorption) :"
+          ],
+          "blocks": [
+            {
+              "title": "Le petit poche gastrique (Gastric Pouch)",
+              "text": "Le chirurgien sépare une toute petite partie supérieure de l'estomac (de la taille d'un œuf de poule) pour en faire le nouvel estomac qui reçoit la nourriture."
+            },
+            {
+              "title": "Dérivation de l'intestin et contournement de l'absorption",
+              "text": "L'intestin grêle est coupé et la partie inférieure est connectée directement à la nouvelle poche gastrique, contournant ainsi le reste de l'ancien estomac, le duodénum et la première partie de l'intestin. Ce contournement empêche le corps d'absorber toutes les calories et les sucres consommés."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Options et techniques de by-pass dans notre centre",
+          "blocks": [
+            {
+              "title": "By-pass classique (Roux-en-Y Gastric Bypass)",
+              "text": "Implique deux connexions chirurgicales entre l'estomac et l'intestin, c'est le traitement radical et définitif approuvé mondialement pour les patients souffrant de reflux œsophagien sévère."
+            },
+            {
+              "title": "By-pass miniaturisé (Mini Gastric Bypass)",
+              "text": "Une technique plus récente et plus rapide impliquant une seule connexion chirurgicale entre la poche gastrique longitudinale et l'intestin, caractérisée par son efficacité très élevée dans la perte de poids et le traitement du diabète."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures médicales et période de convalescence",
+          "blocks": [
+            {
+              "title": "La procédure",
+              "text": "Elle est réalisée entièrement par laparoscopie sous anesthésie générale et dure environ une heure et demie à deux heures."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Risques et comment les éviter",
+          "paragraphs": [
+            "Les risques potentiels incluent : le syndrome de dumping (Dumping Syndrome) en consommant rapidement des sucres, ou une carence sévère en vitamines.",
+            "Nos médecins évitent cela en enseignant au patient comment réguler ses repas, tout en le soumettant à un programme de suppléments et de vitamines à vie pour compenser le manque d'absorption intestinale et maintenir la santé des os et des muscles."
+          ]
+        }
+      ]
+    },
+    "gastric-balloon": {
+      "title": "Ballon gastrique",
+      "tagline": "Ballon gastrique en Turquie | Perte de poids sans chirurgie et sans anesthésie générale",
+      "intro": "Si vous souffrez d'une prise de poids allant de 15 à 30 kilos et que vous craignez les interventions chirurgicales, le ballon gastrique vous offre une solution médicale sûre et temporaire pour vous aider à changer vos habitudes alimentaires et à contrôler votre appétit sans causer de modification permanente de l'anatomie de votre système digestif.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Mécanisme de fonctionnement et composants médicaux",
+          "paragraphs": [
+            "Le principe du ballon repose sur le remplissage d'espace dans l'estomac ; un ballon médical souple et en silicone de haute qualité est inséré dans l'estomac et rempli d'une solution médicale stérilisée (solution salée colorée en bleu) d'un volume compris entre 500 et 700 ml. Ce ballon occupe environ les deux tiers de la capacité de l'estomac, vous donnant une sensation de satiété et de plénitude après avoir consommé de très petites quantités de nourriture."
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Types de techniques de ballon gastrique dans notre clinique",
+          "blocks": [
+            {
+              "title": "Capsule intelligente programmée (Elipse Balloon)",
+              "text": "La technique la plus récente au monde sans laparoscopie ni anesthésie ; le patient avale une petite capsule connectée à un tube fin avec un verre d'eau dans la clinique, et une fois en place dans l'estomac (confirmé par radiographie), elle est remplie de solution puis le tube est retiré. Ce ballon se décompose naturellement et sort du corps après 4 mois."
+            },
+            {
+              "title": "Ballon gastrique classique (par laparoscopie)",
+              "text": "Il est inséré et retiré après 6 mois ou un an (selon le type de ballon) en utilisant un laparoscope sous sédation légère (sommeil profond temporaire de 15 minutes) et sans douleur."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Effets secondaires et comment les éviter",
+          "paragraphs": [
+            "Durant les trois premiers jours suivant la pose du ballon, il est tout à fait normal que le corps réagisse avec une défense se manifestant par des nausées, des vomissements ou des crampes d'estomac suite à la tentative de l'estomac de digérer le ballon."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Comment les éviter ?",
+              "text": "À la Clinique Orec, nous administrons au patient un protocole thérapeutique intensif contenant des anti-nauséeux, des inhibiteurs de forte acidité et des antispasmodiques avant la procédure et durant les premiers jours pour que le patient passe cette phase avec une fluidité et un confort complets."
+            }
+          ]
+        }
+      ]
+    },
+    "gastric-botox": {
+      "title": "Botox gastrique",
+      "tagline": "Injections de botox gastrique en Turquie | Contrôle de l'appétit et ralentissement de la digestion par la procédure médicale la plus simple pour la perte de poids",
+      "intro": "L'injection de botox gastrique est l'une des dernières procédures non chirurgicales conçues pour les personnes souffrant d'un léger à modéré surpoids (indice de masse corporelle BMI entre 27 et 35), ou qui ont des difficultés à suivre un régime alimentaire en raison d'une faim constante.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Mécanisme d'action du botox à l'intérieur de l'estomac",
+          "paragraphs": [
+            "Le botox, lorsqu'il est injecté dans la paroi de l'estomac, agit sur deux axes physiologiques :"
+          ],
+          "blocks": [
+            {
+              "title": "Paralysie temporaire des muscles de l'estomac",
+              "text": "Le botox est injecté dans les muscles de la paroi de l'estomac responsables de la vidange de la nourriture, ce qui ralentit considérablement leur contraction. En conséquence, la nourriture reste dans l'estomac pendant une très longue période (entre 6 et 8 heures au lieu de 2 heures), donnant au patient une sensation de satiété prolongée."
+            },
+            {
+              "title": "Effet sur le nerf de la faim",
+              "text": "Des parties spécifiques du fond de l'estomac sont injectées pour affecter le nerf vague responsable de l'envoi de signaux de faim au cerveau, réduisant ainsi l'envie intense de manger."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures médicales et durée d'efficacité",
+          "blocks": [
+            {
+              "title": "Étapes du traitement",
+              "text": "Une procédure simple et très sûne qui ne prend que de 15 à 20 minutes au sein de l'unité d'endoscopie digestive. La procédure est réalisée sous sédation locale et anesthésie légère, où le médecin insère un endoscope oral flexible et injecte le botox en environ 20 à 30 points étudiés dans la paroi musculaire de l'estomac, et le patient peut quitter la clinique et retourner à son travail en une heure seulement."
+            },
+            {
+              "title": "Récupération et apparition des résultats",
+              "text": "L'effet du botox commence à se manifester progressivement sur l'appétit en 3 à 4 jours après l'injection, et son effet médical actif à l'intérieur de l'estomac dure de 5 à 6 mois (période de validité du botox avant sa dégradation naturelle), une période dorée suffisante pour entraîner le patient à adopter un mode de vie sain et à perdre du poids en toute sécurité."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "breadcrumbHome": "Strona główna",
+    "breadcrumbServices": "Usługi",
+    "subServicesTitle": "Usługi w tej sekcji",
+    "exploreService": "Poznaj usługę",
+    "relatedTitle": "Inne usługi w tej samej sekcji",
+    "backToServices": "Powrót do wszystkich usług",
+    "backToDepartment": "Powrót do sekcji",
+    "ctaTitle": "Rozpocznij swoją podróż z Orec Clinic",
+    "ctaText": "Nasz zespół konsultacyjny jest zawsze do Twojej dyspozycji — chętnie wysłucha Cię i odpowie na każde pytanie. Skontaktuj się z nami jeszcze dziś i zrób pierwszy krok ku zdrowemu uśmiechowi i urodzie, która przywróci Ci radość życia!",
+    "ctaButton": "Umów bezpłatną konsultację",
+    "notFoundTitle": "Nie znaleziono strony",
+    "notFoundText": "Przepraszamy, żądana sekcja lub usługa nie jest dostępna. Odwiedź stronę Usług, aby zapoznać się ze wszystkimi naszymi działami medycznymi."
+  }
+}

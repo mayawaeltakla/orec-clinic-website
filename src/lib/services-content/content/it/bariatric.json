@@ -1,0 +1,214 @@
+{
+  "title": "Chirurgia bariatrica",
+  "tagline": "Interventi e trattamenti integrati per la perdita di peso con la laparoscopia avanzata — sotto la supervisione di un team chirurgico e nutrizionale specializzato e con un Follow-up continuo fino al raggiungimento del tuo peso ideale",
+  "intro": [
+    "Il reparto di chirurgia e trattamenti per l'obesità comprende le più recenti soluzioni chirurgiche e non chirurgiche per la perdita di peso: dalla gastrectomia verticale (sleeve) al bypass gastrico con la laparoscopia avanzata, fino al palloncino intragastrico e al botox gastrico per le procedure più semplici e senza chirurgia, tutte eseguite con i più moderni dispositivi medici e le graffatrici intelligenti approvate a livello internazionale.",
+    "La procedura più adatta al tuo caso viene selezionata dopo una valutazione completa dell'indice di massa corporea, del tuo stato di salute generale e delle tue abitudini alimentari, con un regime alimentare graduale, la supervisione di specialisti della nutrizione e un Follow-up comportamentale continuo fino al raggiungimento e al mantenimento del tuo peso ideale."
+  ],
+  "services": {
+    "gastric-sleeve": {
+      "title": "Gastrectomia verticale (sleeve)",
+      "tagline": "Intervento di gastrectomia verticale in Turchia | La soluzione radicale di maggior successo per eliminare l'obesità severa",
+      "intro": "La chirurgia della gastrectomia verticale (sleeve) è la prima scelta a livello mondiale per le persone che soffrono di obesità severa e che non sono riuscite a perdere peso con i metodi tradizionali. Presso Orec Clinic eseguiamo questo intervento con la laparoscopia avanzata per garantire un periodo di recupero più rapido e una minore sensazione di dolore, aiutandoti a perdere fino al 70-80% del tuo peso in eccesso già nel primo anno.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Modificazioni anatomiche e fisiologiche della gastrectomia verticale",
+          "paragraphs": [
+            "Durante l'intervento, il chirurgo si concentra sull'apportare due modifiche fondamentali alla natura dell'apparato digerente:"
+          ],
+          "blocks": [
+            {
+              "title": "Riduzione delle dimensioni strutturali dello stomaco",
+              "text": "Viene asportato circa il 75-80% del volume dello stomaco in senso longitudinale, trasformandolo in un piccolo tubo che ricorda una banana o la manica di un abito, riducendo notevolmente la quantità di cibo che può essere assunta."
+            },
+            {
+              "title": "Modifica degli ormoni corporei",
+              "text": "La parte asportata (il fondo dello stomaco) contiene le cellule responsabili della secrezione dell'ormone grelina (Ghrelin), noto come l'ormone della fame. La sua asportazione porta a una diminuzione immediata e marcata del desiderio di mangiare e a una rapida sensazione di sazietà."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Tecniche mediche utilizzate nel nostro centro",
+          "blocks": [
+            {
+              "title": "Chirurgia laparoscopica microscopica tridimensionale (Advanced Laparoscopy)",
+              "text": "L'intervento viene eseguito interamente senza incisione chirurgica aperta, ma attraverso 4-5 piccolissimi fori nella parete addominale (non superiori a 1 cm) per introdurre la telecamera e gli strumenti di precisione."
+            },
+            {
+              "title": "Graffatrici intelligenti con tripla sicurezza (Smart Staplers)",
+              "text": "Presso Orec Clinic utilizziamo le più recenti graffatrici mediche americane (come Medtronic o Ethicon), che tagliano e graffano i tessuti con 3 file parallele di punti in titanio di precisione per garantire i più alti livelli di sicurezza."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure e protocollo post-operatorio",
+          "blocks": [
+            {
+              "title": "Prima dell'intervento",
+              "text": "Il paziente esegue esami completi che comprendono (funzionalità renale ed epatica, gas del sangue, elettrocardiogramma, radiografia del torace ed esami degli ormoni tiroidei), oltre alla consulenza con l'anestesista e con l'endocrinologo."
+            },
+            {
+              "title": "Durante l'intervento",
+              "text": "La chirurgia dura da 45 a 60 minuti in anestesia generale."
+            },
+            {
+              "title": "Il regime alimentare dopo l'intervento",
+              "text": "Il paziente segue con precisione un regime alimentare graduale sotto la supervisione del nostro nutrizionista: nelle prime due settimane solo liquidi trasparenti, nella terza e quarta settimana alimenti frullati e macinati, nel secondo mese introduzione graduale di cibi solidi ben masticati."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Rischi e come li evitiamo",
+          "paragraphs": [
+            "I possibili rischi storicamente includono: la perdita dalla linea di graffe, l'emorragia o i coaguli alle gambe."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Il nostro rigoroso protocollo di sicurezza",
+              "text": "Evitiamo il rischio di perdite con una percentuale prossima al 100% eseguendo un test con doppio colorante all'interno della sala operatoria per accertare che lo stomaco sia completamente chiuso, seguito dalla fase di rinforzo chirurgico con la sutura manuale della linea di graffe al di sopra della graffatura automatica per rafforzare la sicurezza. Al paziente vengono inoltre somministrati immediatamente anticoagulanti e calze compressive speciali per prevenire i coaguli e attivare la circolazione sanguigna."
+            }
+          ]
+        }
+      ]
+    },
+    "gastric-bypass": {
+      "title": "Bypass gastrico",
+      "tagline": "Intervento di bypass gastrico in Turchia | Lo standard d'oro per il trattamento dell'obesità e l'eliminazione del diabete",
+      "intro": "La chirurgia del bypass gastrico è l'opzione ideale e più potente per i pazienti che soffrono di obesità severa accompagnata da diabete di tipo 2, o che soffrono di grave reflusso esofageo (acidità cronica), o che amano consumare dolci e zuccheri in modo vorace.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Modificazioni anatomiche e fisiologiche del bypass gastrico",
+          "paragraphs": [
+            "L'intervento si basa sull'unione di due meccanismi di perdita di peso (riduzione del volume + riduzione dell'assorbimento):"
+          ],
+          "blocks": [
+            {
+              "title": "La piccola tasca gastrica (Gastric Pouch)",
+              "text": "Il chirurgo separa una piccolissima parte superiore dello stomaco (della dimensione di un uovo di gallina) che diventa il nuovo stomaco che riceve il cibo."
+            },
+            {
+              "title": "Deviazione del percorso intestinale e aggiramento dell'assorbimento",
+              "text": "L'intestino tenue viene tagliato e la parte inferiore viene collegata direttamente alla nuova tasca gastrica, aggirando il resto dello stomaco vecchio, il duodeno e la prima parte dell'intestino. Questo aggiramento fa sì che il corpo non assorba tutte le calorie e gli zuccheri introdotti."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Opzioni e tecniche di bypass nel nostro centro",
+          "blocks": [
+            {
+              "title": "Bypass gastrico classico (Roux-en-Y Gastric Bypass)",
+              "text": "Vengono create due connessioni chirurgiche tra stomaco e intestino; è il trattamento radicale e definitivo approvato a livello mondiale per i pazienti affetti da grave reflusso esofageo."
+            },
+            {
+              "title": "Bypass gastrico mini (Mini Gastric Bypass)",
+              "text": "Tecnica più recente e rapida che prevede una sola connessione chirurgica tra la tasca gastrica longitudinale e l'intestino, caratterizzata da un'efficacia molto elevata nella perdita di peso e nel trattamento del diabete."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure mediche e periodo di recupero",
+          "blocks": [
+            {
+              "title": "L'intervento",
+              "text": "Viene eseguito interamente in laparoscopia in anestesia generale e dura circa un'ora e mezza o due ore."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Rischi e come li evitiamo",
+          "paragraphs": [
+            "I possibili rischi includono: la sindrome da dumping (Dumping Syndrome) quando si consumano zuccheri rapidamente, o una grave carenza di vitamine.",
+            "I nostri medici li evitano insegnando al paziente come regolare i propri pasti, imponendogli un programma continuativo di integratori e vitamine a vita per compensare la riduzione dell'assorbimento intestinale e mantenere la salute di ossa e muscoli."
+          ]
+        }
+      ]
+    },
+    "gastric-balloon": {
+      "title": "Palloncino intragastrico",
+      "tagline": "Palloncino intragastrico in Turchia | Perdita di peso senza chirurgia e senza anestesia generale",
+      "intro": "Se soffri di un sovrappeso compreso tra 15 e 30 chilogrammi e hai paura degli interventi chirurgici, il palloncino intragastrico ti offre una soluzione medica sicura e temporanea per aiutarti a cambiare le tue abitudini alimentari e controllare l'appetito, senza causare alcun cambiamento permanente all'anatomia del tuo apparato digerente.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Meccanismo d'azione e componenti mediche",
+          "paragraphs": [
+            "La logica del palloncino si basa sull'occupare spazio all'interno dello stomaco; viene inserito nello stomaco un palloncino medico morbido, realizzato in silicone di alta qualità, e riempito con un liquido medico sterile (soluzione salina colorata di blu) con un volume compreso tra 500 e 700 ml. Questo palloncino occupa circa due terzi del volume dello stomaco, facendoti sentire pieno e sazio dopo aver assunto quantità molto piccole di cibo."
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Tipi di tecniche di palloncino intragastrico nella nostra clinica",
+          "blocks": [
+            {
+              "title": "Capsula intelligente programmabile (Elipse Balloon)",
+              "text": "La tecnica più recente al mondo, senza endoscopia né anestesia; il paziente ingoia in clinica una piccola capsula collegata a un tubo sottile insieme a un bicchiere d'acqua e, una volta stabilitasi nello stomaco (viene verificato tramite radiografia), viene riempita con il liquido e il tubo viene ritirato. Questo palloncino si dissolve da solo ed viene espulso dal corpo naturalmente dopo 4 mesi."
+            },
+            {
+              "title": "Palloncino intragastrico classico (per via endoscopica)",
+              "text": "Viene inserito e rimosso dopo 6 mesi o un anno (a seconda del tipo di palloncino) utilizzando l'endoscopio medico sotto leggera sedazione (sonno profondo temporaneo di 15 minuti) e senza dolore."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Effetti collaterali e come evitarli",
+          "paragraphs": [
+            "Nei primi tre giorni dopo il posizionamento del palloncino, è del tutto normale che il corpo manifesti una reazione difensiva sotto forma di nausea, vomito o crampi allo stomaco, a causa del tentativo dello stomaco di digerire il palloncino."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Come li evitiamo?",
+              "text": "Presso Orec Clinic somministriamo al paziente un protocollo terapeutico intensivo contenente farmaci contro la nausea, potenti inibitori dell'acidità e antispastici, prima della procedura e durante i primi giorni, per permettere al paziente di superare questa fase con fluidità e completo benessere."
+            }
+          ]
+        }
+      ]
+    },
+    "gastric-botox": {
+      "title": "Botox gastrico",
+      "tagline": "Iniezioni di botox gastrico in Turchia | Inibisci l'appetito e rallenta la digestione con la procedura medica più semplice per combattere il sovrappeso",
+      "intro": "L'iniezione di botox gastrico è una delle procedure non chirurgiche più recenti, destinata alle persone con un sovrappeso lieve o moderato (indice di massa corporea BMI tra 27 e 35) o che trovano difficoltà a seguire una dieta a causa della fame continua.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Il meccanismo d'azione medica del botox all'interno dello stomaco",
+          "paragraphs": [
+            "Il botox, quando viene iniettato nella parete dello stomaco, agisce su due assi fisiologici:"
+          ],
+          "blocks": [
+            {
+              "title": "Paralisi temporanea dei muscoli dello stomaco",
+              "text": "Il botox viene iniettato nei muscoli della parete gastrica responsabili dello svuotamento del cibo, rallentando notevolmente il loro movimento di contrazione. Di conseguenza, il cibo rimane nello stomaco per un periodo molto prolungato (da 6 a 8 ore invece di due), donando al paziente una sensazione protratta di sazietà."
+            },
+            {
+              "title": "Azione sul nervo della fame",
+              "text": "Vengono iniettate alcune zone specifiche del fondo dello stomaco che agiscono sul nervo vago, responsabile dell'invio dei segnali di fame al cervello, riducendo così il forte desiderio di mangiare."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure mediche e periodo di validità",
+          "blocks": [
+            {
+              "title": "Le fasi del trattamento",
+              "text": "Procedura molto semplice e sicura che dura solo 15-20 minuti nell'unità di endoscopia dell'apparato digerente. Viene eseguita sotto sedazione locale e sonno leggero: il medico introduce l'endoscopio orale flessibile e inietta il botox in circa 20-30 punti studiati nella parete muscolare dello stomaco; il paziente può lasciare il centro e tornare al lavoro in appena un'ora."
+            },
+            {
+              "title": "Recupero e comparsa dei risultati",
+              "text": "L'effetto del botox sull'appetito inizia a manifestarsi gradualmente entro 3-4 giorni dall'iniezione, e la sua azione medica efficace all'interno dello stomaco dura da 5 a 6 mesi (che è il periodo di validità del botox prima che si dissolva naturalmente): un periodo d'oro sufficiente per educare il paziente a uno stile di vita sano e a perdere il peso in eccesso in tutta sicurezza."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,951 @@
+{
+  "title": "Cosmetic Surgery",
+  "tagline": "Facial, body, and intimate area surgeries — naturally harmonious features in the hands of elite specialized surgeons",
+  "intro": [
+    "We don't believe in artificial changes that erase your features, but rather see beauty in the naturalness of your appearance. With great care, we focus on highlighting the natural beauty of your face and body and correcting imperfections with the latest gentle scientific methods, to give you results that befit you and complete peace of mind throughout your journey with us.",
+    "Our cosmetic surgeries are divided into three comprehensive sections: facial cosmetic surgery, body cosmetic surgery, and intimate area cosmetic surgery, all performed with the latest surgical techniques and precise digital planning, with complete care before the procedure and during the recovery period after."
+  ],
+  "groups": {
+    "face": {
+      "title": "Facial Cosmetic Surgery",
+      "description": "Facial contouring and lifting procedures using the latest surgical and non-surgical techniques, with natural results that preserve the naturalness of your features and give you a youthful appearance full of vitality."
+    },
+    "body": {
+      "title": "Body Cosmetic Surgery",
+      "description": "Body contouring, sculpting, and lifting procedures to enhance your natural curves and restore confidence in your figure after pregnancy or significant weight loss."
+    },
+    "intimate": {
+      "title": "Intimate Area Cosmetic Surgery",
+      "description": "Aesthetic and functional solutions with utmost privacy and confidentiality, under the supervision of elite urology and reproductive medicine doctors and the latest safe techniques.",
+      "sections": [
+        {
+          "icon": "🏥",
+          "heading": "Medical Procedures and Recovery for All Intimate Area Sections",
+          "blocks": [
+            {
+              "title": "Before Procedures",
+              "text": "Expectations and results are discussed with utmost privacy and confidentiality with specialized doctors, and the patient must be free from any active infections in the urinary or reproductive system before the scheduled date."
+            },
+            {
+              "title": "Recovery Period",
+              "text": "The recovery period ranges from a few days (for non-surgical procedures and injections) to 4-6 weeks for full surgeries (such as vaginal tightening or penile lengthening), and sexual intercourse or intimate relations are completely prohibited, as well as lifting heavy weights throughout the healing period for stitches and tissue as determined by the doctor."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "services": {
+    "facelift": {
+      "title": "Facial Rejuvenation (Facelift)",
+      "tagline": "Facial surgery in Turkey | Restore youth and vitality to your features",
+      "intro": "Facelift surgery is the most powerful solution to eliminate signs of aging and deep sagging that temporary solutions cannot address. At Orec Clinic, we rely on the latest surgical techniques to refine facial features and give them a natural, youthful appearance full of vitality.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Our Facial Rejuvenation Techniques",
+          "blocks": [
+            {
+              "title": "Full Facelift",
+              "text": "Targets deep sagging in the lower half of the face and jawline through completely hidden incisions around the ear."
+            },
+            {
+              "title": "Mini Facelift",
+              "text": "A less invasive procedure that focuses on mild to moderate sagging of the cheeks for early signs of aging."
+            },
+            {
+              "title": "Non-Surgical Rejuvenation Techniques",
+              "text": "We offer advanced alternatives such as aesthetic threads, HIFU, and autologous fat injections to restore lost facial volume without surgery."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Individuals experiencing skin laxity and muscle relaxation in the cheek and jaw areas.",
+            "Appearance of deep wrinkles and clear folds around the mouth and nose."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "blocks": [
+            {
+              "title": "Before the Procedure",
+              "text": "The patient undergoes a comprehensive assessment of skin elasticity and facial anatomy. Digital planning is used to map incisions in inconspicuous locations (along the hairline and behind the ear)."
+            },
+            {
+              "title": "During the Procedure",
+              "text": "The procedure is performed under general anesthesia and takes 2 to 4 hours, during which deep tissues and the SMAS are tightened, and excess skin is removed."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "Adhere to wearing the specialized facial compression garment for the duration specified by the doctor to minimize swelling.",
+            "Avoid strenuous physical activities and direct sun exposure for at least one month."
+          ]
+        }
+      ]
+    },
+    "brow-lift": {
+      "title": "Brow Lift",
+      "tagline": "Brow lift and shaping in Turkey | For eyes that radiate youth and bright gazes",
+      "intro": "Gravity and aging cause the eyebrows to descend, giving the face a perpetually tired or angry appearance. A brow lift (or forehead lift) helps reposition the eyebrows to their natural place, enhancing the beauty of the eyes and rejuvenating the upper half of the face.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Types and Techniques of Brow Lift",
+          "blocks": [
+            {
+              "title": "Endoscopic Brow Lift",
+              "text": "The latest and safest technique, performed through very small microscopic incisions within the scalp using a tiny camera, without leaving any visible scars."
+            },
+            {
+              "title": "Temporal Lift",
+              "text": "Focuses on lifting the outer portion of the eyebrow (Foxy Eyes) to improve the appearance of the eyes."
+            },
+            {
+              "title": "Non-Surgical Lift",
+              "text": "Using aesthetic threads or Botox injections for mild cases."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Drooping and sagging of the eyebrows over the upper eyelids.",
+            "Presence of deep horizontal forehead wrinkles or vertical lines between the eyebrows (frown lines)."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "blocks": [
+            {
+              "title": "Before the Procedure",
+              "text": "The doctor evaluates the distance between the eyebrow and eye and facial expressions to ensure a harmonious result."
+            },
+            {
+              "title": "During the Procedure",
+              "text": "Often performed under local anesthesia with sedation or general anesthesia. The surgeon releases, lifts, and secures the tissues in their new, more youthful position."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "Apply cold compresses during the first 48 hours to reduce swelling around the eyes.",
+            "Sleep with the head elevated on extra pillows for several days after the procedure."
+          ]
+        }
+      ]
+    },
+    "rhinoplasty": {
+      "title": "Rhinoplasty",
+      "tagline": "Rhinoplasty in Turkey | The perfect balance between aesthetic beauty and respiratory efficiency",
+      "intro": "Rhinoplasty surgeries top the list of most requested procedures worldwide, and particularly in Turkey. At Orec Clinic, we aim not only to adjust the external shape of the nose to complement your features but also to correct functional issues such as deviated nasal septum and breathing difficulties.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Types and Techniques of Rhinoplasty at Our Clinic",
+          "blocks": [
+            {
+              "title": "Open Rhinoplasty",
+              "text": "Allows the surgeon complete visibility and precise modification of the cartilaginous and bony structure, ideal for complex cases or secondary revision surgeries."
+            },
+            {
+              "title": "Closed Rhinoplasty",
+              "text": "All surgical incisions are made inside the nostrils without any external wounds or scars, characterized by a faster recovery period."
+            },
+            {
+              "title": "Piezo Rhinoplasty",
+              "text": "Uses ultrasonic waves to sculpt nasal bones with extreme precision without damaging surrounding tissues and blood vessels, significantly reducing bruising and swelling."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Presence of a hump on the nasal bridge, enlarged nasal tip, or disproportionate size with the face.",
+            "Presence of congenital deformities or those resulting from accidents.",
+            "Suffering from common breathing problems or sleep snoring due to a deviated septum."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "blocks": [
+            {
+              "title": "Before the Procedure",
+              "text": "Photographic imaging and 3D simulation are performed to visualize the expected result of the new nose and discuss it with the patient."
+            },
+            {
+              "title": "During the Procedure",
+              "text": "Takes 2 to 3 hours under general anesthesia, during which the cartilage and bones are reshaped."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "A nasal splint is placed for 5 to 7 days to support the new structure.",
+            "Complete avoidance of wearing prescription or sunglasses for at least two months to prevent pressure on the nasal bones."
+          ]
+        }
+      ]
+    },
+    "otoplasty": {
+      "title": "Otoplasty",
+      "tagline": "Otoplasty in Turkey | Regain your confidence and appearance",
+      "intro": "Prominent or bat ears are a common source of embarrassment for both children and adults. Otoplasty (ear pinning) helps reshape the cartilage and adjust the distance of the ears to be closer and more harmonious with the head in a natural and meticulous manner.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniques Used in Otoplasty",
+          "blocks": [
+            {
+              "title": "Surgical Cartilage Reshaping",
+              "text": "Performed through a small, completely hidden incision behind the ear, where the cartilage is sculpted or folded and secured with permanent medical sutures."
+            },
+            {
+              "title": "Earlobe Repair",
+              "text": "To repair tears caused by long-term wear of heavy earrings or accidents."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Individuals with noticeable protrusion in one or both ears since birth.",
+            "Children (after 5-6 years old) to protect them from school bullying, as the ear cartilage has completed its growth and become flexible enough for shaping."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "blocks": [
+            {
+              "title": "Before the Procedure",
+              "text": "The surgeon evaluates the flexibility of the cartilage and measures the ideal angles for ear harmony with the head."
+            },
+            {
+              "title": "During the Procedure",
+              "text": "The surgery takes about one to one and a half hours and can be performed under local anesthesia for adults, and general anesthesia for young children to ensure their comfort."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "A flexible headband (bandana) should be worn day and night for the first week, then only during sleep for a month to protect the ear from accidental bending.",
+            "The recovery period is very quick, with return to work or study possible within a few days."
+          ]
+        }
+      ]
+    },
+    "lip-aesthetics": {
+      "title": "Lip Aesthetics",
+      "tagline": "Lip aesthetics in Turkey | Full, defined, and attractive smile",
+      "intro": "The aesthetics of lips are not limited to size alone but include harmony and the distance between them and the nose. At Orec Clinic, we offer comprehensive surgical and non-surgical options to achieve full lips with clear contours and a long-lasting natural appearance.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Options and Techniques for Lip Aesthetics",
+          "blocks": [
+            {
+              "title": "Upper Lip Lift",
+              "text": "A simple surgical procedure to shorten the excessive distance between the nose and upper lip, enhancing the natural lip color and providing a permanently fuller appearance without the need for fillers."
+            },
+            {
+              "title": "Lip Augmentation with Autologous Fat",
+              "text": "Natural fat is harvested from the patient's body, purified, and then injected into the lips to last for many years."
+            },
+            {
+              "title": "Lip Augmentation with Fillers",
+              "text": "A quick non-solution using safe hyaluronic acid to define and increase lip volume, with results lasting up to 6-9 months."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Individuals with very thin or asymmetrical lips.",
+            "Excessive distance between the nose and mouth due to genetic factors or aging."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "paragraphs": [
+            "While fillers take just minutes in the clinic, upper lip lift surgery takes less than an hour under local anesthesia. A very precise incision is made directly below the base of the nose, which will completely disappear over time."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "Avoid very hot drinks or using straws for two days after injection or surgery.",
+            "Maintain regular lip moisturization and avoid harsh cosmetics during the first week."
+          ]
+        }
+      ]
+    },
+    "neck-lift": {
+      "title": "Neck Rejuvenation",
+      "tagline": "Neck lift and rejuvenation in Turkey | Get rid of turkey neck and sagging for a tight, perfect neck",
+      "intro": "Signs of aging often appear on the neck before the face, causing what is known as turkey neck or double chin (jowls). Neck rejuvenation surgery removes excess skin, tightens lax muscles, and refines the jawline to achieve a sharp, attractive profile.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniques Used in Neck Rejuvenation",
+          "blocks": [
+            {
+              "title": "Neck Liposuction",
+              "text": "To eliminate accumulated fat in the jowl area for young patients with good skin elasticity."
+            },
+            {
+              "title": "Neck Muscle Lift Surgery (Platysmaplasty)",
+              "text": "Involves suturing and tightening the lax vertical bands of muscles in the neck through a very small, hidden incision under the chin."
+            },
+            {
+              "title": "Non-Surgical Neck Lift",
+              "text": "Using lifting threads or Botox Nefertiti technique to address mild neck sagging."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Accumulation of stubborn fat under the chin (double chin).",
+            "Skin sagging and appearance of folds and longitudinally protruding muscles in the neck."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "paragraphs": [
+            "The surgery is performed under general anesthesia (or local with sedation depending on the case), and is often combined with a facelift to achieve a comprehensive and integrated youthful result for the facial features."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "The special neck compression garment should be worn for several weeks to secure the skin and prevent fluid accumulation.",
+            "Avoid bending the neck sharply downward (like using the phone for long periods) during the first two weeks after the procedure."
+          ]
+        }
+      ]
+    },
+    "blepharoplasty": {
+      "title": "Blepharoplasty",
+      "tagline": "Blepharoplasty and treatment in Turkey | Get rid of tired eyes and puffy under-eye bags",
+      "intro": "The eyes are the mirror to the face, and sagging eyelids or fatty bags beneath them make a person appear older and fatigued. Blepharoplasty is an excellent cosmetic and functional solution to restore the natural openness of the eye and remove excess fat and skin with the highest precision.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Types and Applications of Blepharoplasty",
+          "blocks": [
+            {
+              "title": "Upper Blepharoplasty",
+              "text": "Involves removing sagging, drooping skin that may sometimes descend to partially obstruct vision."
+            },
+            {
+              "title": "Lower Blepharoplasty",
+              "text": "Focuses on removing or redistributing protruding fatty bags (under-eye puffiness) and tightening wrinkled skin."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Presence of sagging skin folds that hide the natural upper eyelid crease.",
+            "Persistent puffiness and clear fatty bags under the eyes that do not disappear with rest or creams."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "paragraphs": [
+            "The procedure is performed under local or general anesthesia and takes 1 to 2 hours. The upper eyelid incision is made in the natural crease of the eye, while the lower eyelid incision is made directly below the lash line or from the inside to ensure no visible scars at all."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "Use moisturizing eye drops regularly to prevent temporary dryness after the procedure.",
+            "Wear sunglasses when going out to protect the eyes from light and wind during the first two weeks."
+          ]
+        }
+      ]
+    },
+    "forehead-contouring": {
+      "title": "Forehead Contouring",
+      "tagline": "Forehead reduction and contouring in Turkey | Ideal proportions and complete harmony for facial features",
+      "intro": "The size of the forehead and the shape of the hairline significantly affect the visual balance of the face. Forehead contouring surgeries provide advanced solutions to reduce excessive area or sculpt prominent bones, giving the features a soft, harmonious appearance that complements the rest of the face.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniques for Forehead Contouring and Shaping",
+          "blocks": [
+            {
+              "title": "Forehead Reduction",
+              "text": "Involves moving the hairline down by 1.5 to 2 cm and removing excess forehead skin, ideal for those with very wide, genetic foreheads."
+            },
+            {
+              "title": "Contouring Prominent Forehead Bones",
+              "text": "A surgery aimed at smoothing the prominent bones directly above the eyebrows to give the face a more refined and harmonious appearance."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Individuals who suffer from a wide forehead with a noticeably receding hairline.",
+            "Prominent forehead bones that sharply affect the side profile of the face."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "paragraphs": [
+            "The procedure is surgically performed under general anesthesia. The surgeon ensures that the surgical incision is made in a clever zigzag pattern directly along the hairline so that hair follicles will grow through the scar in the future, completely and naturally hiding it."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "Avoid pulling the hair back forcefully (like a ponytail) for two months after the procedure to ensure the wound heals without tension.",
+            "The patient may experience temporary numbness in the scalp, which is completely normal and gradually subsides over a few weeks."
+          ]
+        }
+      ]
+    },
+    "genioplasty": {
+      "title": "Chin Enhancement",
+      "tagline": "Chin Enhancement and Sculpting in Turkey | The Key to Balance and Attractiveness for the Side Profile",
+      "intro": "The chin plays a pivotal role in defining the beauty of the side profile; a small or receding chin makes the nose appear larger, while an overly prominent chin gives the face excessive sharpness. Chin enhancement procedures help restore balance and harmony to the lower jaw area with utmost precision.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Chin Enhancement Methods and Techniques",
+          "blocks": [
+            {
+              "title": "Chin Augmentation with Silicone Implants",
+              "text": "Placement of a safe, customized medical implant above the chin bone through an internal incision in the mouth to enhance a receding chin and bring it forward."
+            },
+            {
+              "title": "Genioplasty (Chin Advancement or Reduction)",
+              "text": "Cutting the chin bone and moving it forward or backward, securing it with fine medical plates, for more advanced structural cases."
+            },
+            {
+              "title": "Non-Surgical Chin Contouring (Jawline Fillers)",
+              "text": "A quick solution using fillers to define the jawline and enhance the chin without any surgical intervention."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Individuals with a receding or small chin (weak chin).",
+            "Those who have excessive length or prominence in the chin area affecting facial harmony."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "paragraphs": [
+            "Surgical procedures are performed under general or deep local anesthesia. The greatest advantage of these procedures is that the incisions are usually inside the mouth (between the gum and lower lip), meaning there are absolutely no external scars or wounds on the face."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "Consuming soft foods and liquids for a week after oral surgery.",
+            "Rinsing with a medical and antiseptic mouthwash after every meal to maintain cleanliness of the internal surgical sutures and prevent infections."
+          ]
+        }
+      ]
+    },
+    "cheek-enhancement": {
+      "title": "Cheek Enhancement",
+      "tagline": "Cheek Enhancement and Sculpting in Turkey | Sculpted Features and Youthful, Full Cheeks",
+      "intro": "Full, high cheeks are a symbol of youth and beauty. At Orec Clinic, we offer the latest techniques for cheek sculpting and removing excess fat to achieve a sculpted face (defined features), or to restore lost volume for those experiencing facial wasting.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Our Cheek Enhancement Techniques",
+          "blocks": [
+            {
+              "title": "Bichectomy (Cheek Reduction)",
+              "text": "Removal of excess fat pads (buccal fat) from inside the cheek through a microscopic internal incision to achieve a sculpted face and accentuate the cheekbones attractively and boldly."
+            },
+            {
+              "title": "Cheek Augmentation with Fat Transfer or Fillers",
+              "text": "To fill in sunken or hollow cheeks and restore the face's vital volume."
+            },
+            {
+              "title": "Dimpleplasty",
+              "text": "A quick 20-minute procedure to create a natural dimple that appears only when smiling through a tiny internal suture."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Individuals with a very round face or overly full cheeks who desire more defined and sculpted features.",
+            "Those experiencing sagging or drooping in the cheek area due to aging or sudden weight loss."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "paragraphs": [
+            "Cheek procedures (whether sculpting or dimple creation) are quick and performed under local anesthesia, with all surgical incisions being inside the mouth, ensuring rapid healing without external scars."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "Applying ice packs regularly in the first 24 hours to reduce natural cheek swelling.",
+            "Strict adherence to oral hygiene and continuous rinsing to ensure rapid and safe healing of internal incisions."
+          ]
+        }
+      ]
+    },
+    "body-contouring": {
+      "title": "Body Contouring and Shaping",
+      "tagline": "Body Contouring Procedures in Turkey | Sculpt Your Perfect Body Shape",
+      "intro": "Body contouring procedures help eliminate localized obesity and stubborn fat that doesn't respond to diets or exercise. At Orec Clinic, we use the latest global techniques to reshape the body and accentuate its natural curves in a seamless and natural way.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Our Body Sculpting and Contouring Techniques",
+          "blocks": [
+            {
+              "title": "4D High-Definition Sculpting",
+              "text": "An advanced technique to accentuate the anatomical details of body muscles (like abdominal and waist muscles) with utmost precision."
+            },
+            {
+              "title": "Vaser Liposuction",
+              "text": "A technique that uses ultrasonic waves to break down fat cells and convert them into a liquid that can be gently suctioned, protecting blood vessels and helping to tighten the skin simultaneously."
+            },
+            {
+              "title": "SmartLipo (Liposuction with Laser)",
+              "text": "Using laser energy to melt fat and stimulate collagen production for excellent skin tightening of sagging skin."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Individuals who are close to their ideal weight but struggle with stubborn fat deposits in specific areas (abdomen, waist, back).",
+            "Those with good to moderate skin elasticity to maximize the benefits of liposuction procedures."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "blocks": [
+            {
+              "title": "Before the Procedure",
+              "text": "The areas to be sculpted are precisely determined and photographed. The patient is required to undergo comprehensive blood tests to ensure their readiness for anesthesia."
+            },
+            {
+              "title": "During the Procedure",
+              "text": "Performed under general or deep local anesthesia (depending on the number of areas), through very small microscopic incisions of just a few millimeters to minimize scarring completely."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "Strict adherence to wearing a medical compression garment (corset) for 4 to 6 weeks to reduce swelling and help the skin adhere to the new layer.",
+            "Early and light walking after the procedure to stimulate blood circulation and prevent clots."
+          ]
+        }
+      ]
+    },
+    "breast-surgery": {
+      "title": "Breast Enhancement",
+      "tagline": "Breast Enhancement Surgery in Turkey | Harmony, Femininity, and Absolute Confidence",
+      "intro": "Breast enhancement procedures are among those that most restore a woman's confidence in herself and the attractiveness of her figure. Whether you're looking to restore lost volume after breastfeeding or reduce excessive size to alleviate back pain, the doctors at Orec Clinic provide the safest and most advanced surgical solutions.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Breast Enhancement Categories and Applications",
+          "blocks": [
+            {
+              "title": "Breast Augmentation",
+              "text": "Use of safe, globally approved silicone implants (such as Mentor), or autologous fat injections to achieve a full, proportional size."
+            },
+            {
+              "title": "Breast Lift (Mastopexy)",
+              "text": "Removal of sagging skin and drooping breasts resulting from pregnancy, breastfeeding, or weight loss, with repositioning of the nipple to a youthful, higher location."
+            },
+            {
+              "title": "Breast Reduction",
+              "text": "Removal of excess tissue and fat from very large breasts to achieve a size proportional to height and body frame, alleviating neck and shoulder pain."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Women who experience asymmetry in size or shape of their breasts.",
+            "Noticeable sagging and drooping in breast tissue.",
+            "Genetically small breast size or regression after weight loss."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "paragraphs": [
+            "These procedures are performed under general anesthesia and take 2 to 3 hours. The surgeon ensures that surgical incisions are placed in hidden areas (around the nipple, or in the inframammary fold) to become unnoticeable over time."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "Wearing a supportive medical (sports) bra day and night for a full month after surgery.",
+            "Avoiding lifting heavy objects or engaging in strenuous sports targeting the upper body for 6 weeks."
+          ]
+        }
+      ]
+    },
+    "gynecomastia": {
+      "title": "Male Breast Reduction",
+      "tagline": "Gynecomastia Treatment in Turkey | Restore a Flat, Masculine Chest Appearance",
+      "intro": "Gynecomastia (enlargement of male breast tissue) is a common problem that causes significant psychological embarrassment and affects clothing choices and self-confidence. Gynecomastia treatment provides a radical and quick solution to eliminate enlarged glandular tissue and accumulated fat, achieving a firm, masculine chest.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Our Gynecomastia Treatment Techniques",
+          "blocks": [
+            {
+              "title": "Vaser Liposuction",
+              "text": "If gynecomastia is due to fat accumulation only (false gynecomastia), it is suctioned using Vaser through a very small incision without surgery."
+            },
+            {
+              "title": "Surgical Glandular Excision",
+              "text": "If gynecomastia is due to true glandular enlargement, the surgeon makes a small semi-circular incision directly below the nipple to remove the solid gland."
+            },
+            {
+              "title": "Dual Technique",
+              "text": "Combining suction with excision to ensure the chest is completely flush with the body wall for advanced cases."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Men and young men who experience protrusion or sagging in the chest area that doesn't resolve with exercise.",
+            "Those with stable hormone levels seeking a permanent cosmetic solution."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "paragraphs": [
+            "The procedure is very simple and takes about one hour. It can be performed under local anesthesia with sedation or general anesthesia depending on the extent of enlargement and patient preference."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "Wearing a medical chest compression garment for 4 weeks to prevent fluid accumulation and ensure skin tightening.",
+            "Return to desk work is possible within 3 to 5 days, avoiding chest exercises at the gym for a month."
+          ]
+        }
+      ]
+    },
+    "tummy-tuck": {
+      "title": "Tummy Tuck",
+      "tagline": "Tummy Tuck in Turkey | Say Goodbye to Deep Sagging and Reclaim a Firm, Flat Abdomen",
+      "intro": "The abdomen is one of the areas most affected by repeated pregnancies or significant weight loss, where muscles stretch and skin sags in a way that's difficult to correct with exercise. A tummy tuck procedure involves repairing separated muscles (diastasis recti) and removing excess hanging skin to achieve a completely flat and sculpted waist.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Types of Tummy Tuck Surgery",
+          "blocks": [
+            {
+              "title": "Full Tummy Tuck",
+              "text": "Targets sagging above and below the navel, includes reshaping and relocating the navel to a new position with complete muscle tightening."
+            },
+            {
+              "title": "Mini Tummy Tuck",
+              "text": "Focuses on excess, sagging skin below the navel only without the need to relocate the navel, suitable for mild sagging."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Women after multiple pregnancies and births to correct abdominal wall separation.",
+            "Individuals who have lost significant weight (after sleeve gastrectomy or strict dieting) and have hanging skin resembling an apron."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "paragraphs": [
+            "The procedure is performed under general anesthesia. The surgeon makes a horizontal incision below the abdomen (in the bikini line area to disappear completely under underwear), then tightens the muscles and removes excess skin, closing the wound with fine cosmetic sutures."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "Walking with a slight forward bend in the first few days to reduce tension on the abdominal incision.",
+            "Strict adherence to wearing a medical abdominal binder and completely avoiding lifting weights for two months."
+          ]
+        }
+      ]
+    },
+    "arm-lift": {
+      "title": "Arm Enhancement",
+      "tagline": "Arm Lift and Enhancement in Turkey | Say Goodbye to Bat Wings with Confidence",
+      "intro": "Fat accumulation and sagging skin in the arm area prevents many people from wearing summer or short-sleeved clothing freely. An arm lift procedure helps eliminate loose skin and sagging fat, giving the arms a firm, slender appearance that matches the rest of the body.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniques Used in Arm Enhancement",
+          "blocks": [
+            {
+              "title": "Surgical Arm Lift",
+              "text": "Removal of loose skin through a longitudinal incision on the inner arm or under the armpit to be as hidden as possible, the ideal method for significant sagging after weight loss surgery."
+            },
+            {
+              "title": "Vaser Arm Liposuction",
+              "text": "For cases with arm fullness due to fat without severe skin sagging, where Vaser helps remove fat and tighten skin without large incisions."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Those experiencing severe sagging with wrinkled and drooping skin on the arms due to aging or weight loss.",
+            "Fat deposits on the arms that don't respond to specific exercise routines."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "paragraphs": [
+            "The procedure takes about two hours under general anesthesia. The surgeon first removes fat to facilitate the process, then identifies and removes excess skin with extreme cosmetic precision to minimize future scarring."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "Wearing a medical compressive arm sleeve for the prescribed period to ensure tissue healing and rapid swelling reduction.",
+            "Elevating the arms on pillows during sleep in the first few days to accelerate fluid drainage and reduce swelling."
+          ]
+        }
+      ]
+    },
+    "thigh-lift": {
+      "title": "Thigh Enhancement",
+      "tagline": "Thigh Lift and Enhancement in Turkey | Comfortable Steps and a Harmonious, Sculpted Lower Body",
+      "intro": "Sagging of the inner and outer thighs not only creates an unbalanced appearance but also leads to health problems like constant friction, skin infections, and difficulty in movement. Thigh lift surgery provides an excellent solution to refine the lower body and give it exceptional flexibility and smoothness.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Thigh Lift Options and Applications",
+          "blocks": [
+            {
+              "title": "Inner Thigh Lift",
+              "text": "Targets skin sagging in the inner thigh area, with the incision placed in the thigh crease (inguinal area) to be completely hidden."
+            },
+            {
+              "title": "Full or Circumferential Thigh Lift",
+              "text": "Extends to include the outer thighs and buttocks for cases with very severe sagging affecting the entire lower body circumference."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Patients experiencing severe skin laxity in the thighs after weight fluctuations or bariatric surgery.",
+            "Individuals who experience painful thigh friction while walking or exercising."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedure and Steps",
+          "paragraphs": [
+            "Surgery is performed under general anesthesia. The surgeon removes excess skin and soft, sagging tissue after preliminary fat removal, then lifts the tissues and secures them with deep internal sutures to ensure result longevity and stability."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tips and Recovery Period",
+          "list": [
+            "Avoid very wide walking steps or squatting positions in the first two weeks to protect sutures from tension.",
+            "Meticulous attention to keeping the surgical incision area dry and clean, using prescribed antibiotics and antiseptics regularly."
+          ]
+        }
+      ]
+    },
+    "bbl": {
+      "title": "Butt Enhancement & Shaping",
+      "tagline": "Enhance and shape your buttocks in Turkey | A harmonious silhouette with feminine curves",
+      "intro": "The buttock area plays a prominent role in accentuating the beauty and proportion of a woman's lower body. Whether you're dealing with hip dips (the sleeping muscle) or have experienced volume loss due to weight loss, Orec Clinic offers the latest surgical and safe solutions to reshape and lift your buttocks for perfect harmony with your waistline.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniques Used in Buttock Enhancement",
+          "blocks": [
+            {
+              "title": "Brazilian Butt Lift (BBL)",
+              "text": "The most requested technique worldwide, it involves removing excess and stubborn fat from body areas (like the abdomen or waist), purifying it, then reinjecting and distributing it into the buttocks to give them a natural, lifted volume."
+            },
+            {
+              "title": "Buttock Implants",
+              "text": "Using durable, medical-grade silicone implants specifically designed for the buttocks for cases where patients don't have sufficient body fat for the BBL technique."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal Candidates",
+          "list": [
+            "Those who experience sagging or flatness in the buttock area.",
+            "Asymmetry in size between the sides, or the desire to eliminate hip dips."
+          ]
+        }
+      ]
+    },
+    "vaginal-rejuvenation": {
+      "title": "Vaginal Rejuvenation Surgery",
+      "tagline": "Vaginal rejuvenation in Turkey | Regain confidence, comfort, and functional health",
+      "intro": "The intimate area in women undergoes noticeable changes due to multiple births, aging, or genetic factors, affecting daily comfort and self-confidence. Vaginal rejuvenation surgeries aim to improve the external appearance and resolve functional and physical issues resulting from tissue stretching.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Vaginal Rejuvenation Procedures",
+          "blocks": [
+            {
+              "title": "Labiaplasty",
+              "text": "A procedure aimed at reducing or reshaping excessive or asymmetrical inner or outer labia to eliminate discomfort and pain during exercise or when wearing tight clothing."
+            },
+            {
+              "title": "Perineal Repair",
+              "text": "Restoring damaged external tissue resulting from previous surgical incisions during natural childbirth."
+            }
+          ]
+        }
+      ]
+    },
+    "vaginal-fat-filler": {
+      "title": "Vaginal Fat & Filler Injections",
+      "tagline": "Injecting the intimate area with fat and fillers in Turkey | Restore volume and vitality",
+      "intro": "With aging or significant weight loss, the outer labia may lose their natural volume, appearing thin or wrinkled. Injections offer a quick and simple cosmetic solution to restore a full, youthful appearance to the area.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Available Injection Options",
+          "blocks": [
+            {
+              "title": "Autologous Fat Injections",
+              "text": "A small amount of fat is harvested from the patient's own body, completely purified, then reinjected into the outer labia for results that last for years with complete safety."
+            },
+            {
+              "title": "Medical Filler Injections",
+              "text": "Using hyaluronic acids specifically designed for sensitive areas as a quick, in-office, non-surgical procedure requiring no downtime."
+            }
+          ]
+        }
+      ]
+    },
+    "vaginoplasty": {
+      "title": "Vaginoplasty",
+      "tagline": "Vaginal tightening and reconstruction in Turkey | Advanced solutions to restore functional efficiency",
+      "intro": "Multiple natural births lead to stretching and relaxation of the vaginal wall muscles and surrounding tissues, causing a feeling of looseness, loss of satisfaction, and sometimes urinary incontinence. The tightening procedure rebuilds the internal muscular support.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Our Vaginoplasty Techniques",
+          "blocks": [
+            {
+              "title": "Surgical Tightening (Vaginoplasty)",
+              "text": "A precise procedure where the lax muscles are tightened and excess tissue lining the vagina is removed, offering the ultimate and final solution for severe and advanced tissue laxity."
+            },
+            {
+              "title": "Non-Surgical Tightening (Laser)",
+              "text": "For mild to moderate cases, where specialized laser beams stimulate tissue to produce collagen, causing the inner wall to shrink and tighten without surgery."
+            }
+          ]
+        }
+      ]
+    },
+    "penile-aesthetics": {
+      "title": "Penile Aesthetics & Enhancement",
+      "tagline": "Penile aesthetics in Turkey | Boost confidence and achieve masculine balance",
+      "intro": "Sexual health and the external appearance of genital organs are fundamental to a man's self-confidence and psychological stability. At Orec Clinic, we provide advanced, proven aesthetic and surgical solutions under the supervision of elite urology and reproductive health specialists to address concerns regarding the size or shape of the male organ.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Penile Girth Enhancement Techniques",
+          "blocks": [
+            {
+              "title": "Penile Girth Augmentation",
+              "text": "A procedure aimed at increasing the circumference of the male organ through injections of autologous fat extracted from the body, or using specialized fillers, or implanting approved medical tissues and matrices, resulting in a more voluminous and proportional appearance."
+            }
+          ]
+        }
+      ]
+    },
+    "penile-lengthening": {
+      "title": "Penile Lengthening",
+      "tagline": "Penile lengthening in Turkey | Surgery to increase male organ length with the latest safe medical standards",
+      "intro": "Some men suffer from actual or perceived shortness of the male organ, affecting their marital and psychological lives. Surgery provides well-studied and effective solutions to increase visible length and achieve desired results with complete medical safety.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Penile Lengthening Procedure",
+          "blocks": [
+            {
+              "title": "Suspensory Ligament Release",
+              "text": "The most common surgical technique, where the urologist releases the ligament that attaches the base of the penis to the pubic bone, allowing the internal hidden part of the penis to protrude outward, providing a noticeable length increase of 2 to 5 cm (depending on each individual's anatomy)."
+            },
+            {
+              "title": "Pubic Fat Removal (Apparent Lengthening)",
+              "text": "In cases of localized obesity, fat accumulates above the pubic area, hiding a significant portion of the penis length. In this case, this fat is removed to allow the organ to appear at its full natural length."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

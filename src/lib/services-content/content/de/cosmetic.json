@@ -1,0 +1,951 @@
+{
+  "title": "Ästhetische Chirurgie",
+  "tagline": "Gesichts-, Körper- und Intimchirurgie — Natürliche, harmonische Konturen in den Händen von Elite-Chirurgen",
+  "intro": [
+    "Wir glauben nicht an künstliche Veränderungen, die Ihre Merkmale tilgen, sondern wir erkennen die Schönheit in der Natürlichkeit und Spontaneität Ihres Aussehens. Wir konzentrieren uns mit ganzem Herzen darauf, die natürliche Schönheit in Ihrem Gesicht und Körper zu betonen und Unvollkommenheiten mit den neuesten sanften wissenschaftlichen Methoden zu korrigieren, um Ihnen ein Ergebnis zu verleihen, das Ihnen angemessen ist und Sie während Ihrer gesamten Reise bei uns mit vollster Sicherheit beruhigt.",
+    "Unsere ästhetischen Chirurgien sind in drei integrierte Abteilungen unterteilt: Gesichtsästhetik, Körperästhetik und Intimästhetik. Alle Eingriffe werden mit den neuesten chirurgischen Technologien und präziser digitaler Planung durchgeführt, umfassende Versorgung vor dem Eingriff und während der anschließenden Erholungsphase."
+  ],
+  "groups": {
+    "face": {
+      "title": "Gesichtsästhetik",
+      "description": "Gesichtsstraffungs- und -formgebungsoperationen mit den neuesten chirurgischen und nicht-chirurgischen Techniken für natürliche Ergebnisse, die die Natürlichkeit Ihrer Züge bewahren und Ihnen ein jugendliches, vitales Erscheinungsbild verleihen."
+    },
+    "body": {
+      "title": "Körperästhetik",
+      "description": "Körperformung, -konturierung und -straffung, um Ihre natürlichen Kurven zu betonen und Ihr Körpergefühl nach Schwangerschaft oder starkem Gewichtsverlust wiederherzustellen."
+    },
+    "intimate": {
+      "title": "Intimästhetik (persönliche Bereiche)",
+      "description": "Ästhetische und funktionelle Lösungen mit höchster Diskretion und Vertraulichkeit, unter der Leitung von Elite-Urologen und Gynäkologen sowie den neuesten sicheren Technologien.",
+      "sections": [
+        {
+          "icon": "🏥",
+          "heading": "Medizinische Verfahren und Erholung für alle intimen Bereiche",
+          "blocks": [
+            {
+              "title": "Vor den Eingriffen",
+              "text": "Die Erwartungen und Ergebnisse werden mit den Fachärzten mit größter Diskretion und Vertraulichkeit besprochen. Der Patient muss vor dem Termin frei von aktiven Infektionen im Harn- oder Fortpflanzungssystem sein."
+            },
+            {
+              "title": "Erholungsphase",
+              "text": "Die Genesungsphase reicht von wenigen Tagen (für nicht-chirurgische Verfahren und Injektionen) bis zu 4-6 Wochen für vollständige Operationen (wie Vaginoplastik oder Penislängenverlängerung). Geschlechtsverkehr oder die Ausübung sexueller Beziehungen ist während der gesamten vom Arzt festgelegten Heilungsphase der Nähte und Gewebe strengstens untersagt, ebenso das Heben schwerer Lasten."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "services": {
+    "facelift": {
+      "title": "Gesichtsstraffung (Facelift)",
+      "tagline": "Gesichtsstraffungen in der Türkei | Verjüngen Sie Ihr Gesicht und gewinnen Sie Ihre jugendliche Vitalität zurück",
+      "intro": "Die Gesichtsstraffung ist die stärkste und grundlegendste Lösung zur Beseitigung von Zeichen des Alterns und tiefen Hauterschlaffungen, auf die temporäre Lösungen keine Wirkung zeigen. Bei Orec Clinic setzen wir auf die neuesten chirurgischen Techniken, um die Gesichtszüge zu verfeinern und ein natürliches, jugendliches und vitales Aussehen zu verleihen.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Unsere Gesichtsstraffungstechniken",
+          "blocks": [
+            {
+              "title": "Volle Gesichtsstraffung (Full Facelift)",
+              "text": "Ziel sind tiefe Schlaffungen im unteren Gesichtsbereich und die Kinnlinie durch vollständig verborgene Schnitte um das Ohr herum."
+            },
+            {
+              "title": "Mini-Gesichtsstraffung (Mini Facelift)",
+              "text": "Ein weniger invasives Verfahren, das sich auf leichte bis mittlere Schlaffungen der Wangen bei jüngeren Patienten konzentriert."
+            },
+            {
+              "title": "Nicht-chirurgische Straffungstechniken",
+              "text": "Wir bieten fortschrittliche Alternativen wie Schönheitsfäden, HIFU und autologe Fettinjektionen an, um das Gesichtsvolumen ohne Operation wiederherzustellen."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Wer ist geeignet",
+          "list": [
+            "Personen, die unter Hauterschlaffung und Muskelerschlaffung im Wangen- und Kinnbereich leiden.",
+            "Tiefe Falten und deutliche Nasolabialfalten um Mund und Nase."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Ablauf und Schritte",
+          "blocks": [
+            {
+              "title": "Vor der Operation",
+              "text": "Der Patient wird einer umfassenden Bewertung der Hautelastizität und der Gesichtsanatomie unterzogen. Die Schnittführung wird digital geplant, um unsichtbare Stellen zu wählen (am Haaransatz und hinter dem Ohr)."
+            },
+            {
+              "title": "Während der Operation",
+              "text": "Die Operation wird unter Vollnarkose durchgeführt und dauert 2 bis 4 Stunden, wobei tiefe Gewebe und das SMAS-System angehoben und überschüssige Haut entfernt werden."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Nachsorge und Genesungsphase",
+          "list": [
+            "Das Tragen des speziellen Gesichtsgürtels für die vom Arzt empfohlene Dauer, um Schwellungen zu reduzieren.",
+            "Vermeidung anstrengender körperlicher Aktivitäten und direkter Sonneneinstrahlung für mindestens einen Monat."
+          ]
+        }
+      ]
+    },
+    "brow-lift": {
+      "title": "Augenbrauenstraffung",
+      "tagline": "Anheben und Straffen der Augenbrauen in der Türkei | Für jugendliche und strahlende Blicke",
+      "intro": "Schwerkraft und Alter führen zu einem Absinken der Augenbrauen, was dem Gesicht ein ständig müdes oder wütendes Aussehen verleiht. Die Augenbrauenstraffung (oder Stirnstraffung) hilft, die Augenbrauen an ihre natürliche Position zurückzuführen, um die Schönheit der Augen zu betonen und den oberen Gesichtsbereich zu verjüngen.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Arten und Techniken der Augenbrauenstraffung",
+          "blocks": [
+            {
+              "title": "Endoskopische Augenbrauenstraffung (Endoscopic Brow Lift)",
+              "text": "Die neueste und sicherste Technik, die über sehr kleine mikroskopische Schnitte im Kopfhair mit einer kleinen Kamera durchgeführt wird, ohne sichtbare Narben zu hinterlassen."
+            },
+            {
+              "title": "Temporal Lift",
+              "text": "Konzentriert sich auf das Anheben des äußeren Augenbrauenbereichs (Foxy Eyes) zur Verbesserung des Aussehens der Augen."
+            },
+            {
+              "title": "Nicht-chirurgisches Anheben",
+              "text": "Mit Schönheitsfäden oder Botoxinjektionen für leichte Fälle."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Wer ist geeignet",
+          "list": [
+            "Absinken der Augenbrauen über dem Oberlid.",
+            "Tiefe horizontale Falten auf der Stirn oder vertikale Linien zwischen den Augenbrauen (Zornesfalten)."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Ablauf und Schritte",
+          "blocks": [
+            {
+              "title": "Vor der Operation",
+              "text": "Der Arzt untersucht den Abstand zwischen Augenbraue und Auge sowie die Gesichtsausdrücke, um ein harmonisches Ergebnis sicherzustellen."
+            },
+            {
+              "title": "Während der Operation",
+              "text": "Wird oft unter lokaler Betäubung mit Sedierung oder Vollnarkose durchgeführt. Der Chirurg lockert die Gewebe, hebt sie an und fixiert sie in der neuen, jugendlicheren Position."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Nachsorge und Genesungsphase",
+          "list": [
+            "Kühlen mit kalten Kompressen innerhalb der ersten 48 Stunden, um die Schwellungen um die Augen zu reduzieren.",
+            "Schlaf mit erhöhtem Kopf durch zusätzliche Kissen für mehrere Tage nach dem Eingriff."
+          ]
+        }
+      ]
+    },
+    "rhinoplasty": {
+      "title": "Rhinoplastik (Nasenkorrektur)",
+      "tagline": "Rhinoplastik in der Türkei | Die perfekte Balance zwischen ästhetischer Schönheit und Atmungsfunktion",
+      "intro": "Rhinoplastik-Operationen stehen weltweit und insbesondere in der Türkei an der Spitze der am häufigsten nachgefragten Eingriffe. Bei Orec Clinic geht es uns nicht nur darum, die äußere Form der Nase an Ihre Gesichtszüge anzupassen, sondern wir korrigieren auch gezielt funktionelle Probleme wie eine verkrümmte Nasenscheidewand und Atembeschwerden.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Arten und Techniken unserer Rhinoplastik",
+          "blocks": [
+            {
+              "title": "Offene Rhinoplastik (Open Rhinoplasty)",
+              "text": "Sie ermöglicht dem Chirurgen eine vollständige Sicht und eine präzise Korrektur des Knorpel- und Knochenaufbaus und eignet sich ideal für komplexe Fälle oder sekundäre Revisionsoperationen."
+            },
+            {
+              "title": "Geschlossene Rhinoplastik (Closed Rhinoplasty)",
+              "text": "Alle chirurgischen Schnitte werden von innen durch die Nasenlöcher gesetzt, ganz ohne äußere Wunden oder Narben, und zeichnen sich durch eine schnellere Erholungsphase aus."
+            },
+            {
+              "title": "Ultraschall-Rhinoplastik (Ultrasonic / Piezo)",
+              "text": "Mit Ultraschallwellen werden die Nasenknochen mit höchster Präzision modelliert, ohne das umliegende Gewebe und die Blutgefäße zu schädigen, was Blutergüsse und Schwellungen deutlich reduziert."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Geeignete Kandidaten",
+          "list": [
+            "Nasenbuckel, vergrößerte Nasenspitze oder eine Nasengröße, die nicht im Einklang mit dem Gesicht steht.",
+            "Angeborene Fehlbildungen oder Deformitäten als Folge von Unfällen.",
+            "Häufige Atemprobleme oder Schnarchen im Schlaf aufgrund einer verkrümmten Nasenscheidewand."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Verfahren und Schritte",
+          "blocks": [
+            {
+              "title": "Vor der Operation",
+              "text": "Es werden Fotografien und eine 3D-Simulation angefertigt, um das zu erwartende Ergebnis der neuen Nase darzustellen und mit dem Patienten zu besprechen."
+            },
+            {
+              "title": "Während der Operation",
+              "text": "Der Eingriff dauert 2 bis 3 Stunden und erfolgt unter Vollnarkose, wobei Knorpel und Knochen neu geformt werden."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tipps und Erholungsphase",
+          "list": [
+            "Zur Stützung des neuen Gerüsts wird für 5 bis 7 Tage eine Nasenschiene angelegt.",
+            "Mindestens zwei Monate lang auf Seh- oder Sonnenbrillen verzichten, um Druck auf die Nasenknochen zu vermeiden."
+          ]
+        }
+      ]
+    },
+    "otoplasty": {
+      "title": "Otoplastik (Ohrenkorrektur)",
+      "tagline": "Otoplastik in der Türkei | Gewinnen Sie Ihr Selbstbewusstsein und Ihr Aussehen zurück",
+      "intro": "Abstehende Ohren sind bei Kindern und Erwachsenen gleichermaßen eine häufige Quelle der Verlegenheit. Die Otoplastik (Ohrenkorrektur) formt den Knorpel neu und passt den Abstand der Ohren so an, dass sie auf natürliche und präzise Weise näher und harmonischer am Kopf anliegen.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniken der Otoplastik",
+          "blocks": [
+            {
+              "title": "Chirurgische Knorpelumformung",
+              "text": "Der Eingriff erfolgt über einen kleinen, vollständig versteckten Schnitt hinter dem Ohr, wobei der Knorpel geformt oder gefaltet und mit dauerhaften medizinischen Nähten fixiert wird."
+            },
+            {
+              "title": "Ohrläppchenkorrektur (Earlobe Repair)",
+              "text": "Zur Reparatur von Rissen, die durch das langjährige Tragen schwerer Ohrringe oder durch Unfälle entstanden sind."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Geeignete Kandidaten",
+          "list": [
+            "Personen mit einer deutlichen Abstehung eines Ohres oder beider Ohren seit der Geburt.",
+            "Kinder (nach dem Alter von 5-6 Jahren), um sie vor Mobbing in der Schule zu schützen, da das Ohrknorpelwachstum abgeschlossen und der Knorpel flexibel genug für die Formung ist."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Verfahren und Schritte",
+          "blocks": [
+            {
+              "title": "Vor der Operation",
+              "text": "Der Chirurg beurteilt die Elastizität des Knorpels und misst die idealen Winkel für ein harmonisches Verhältnis des Ohres zum Kopf."
+            },
+            {
+              "title": "Während der Operation",
+              "text": "Die Operation dauert etwa eine bis anderthalb Stunden und kann bei Erwachsenen unter örtlicher Betäubung und bei kleinen Kindern zur Wahrung ihres Wohlbefindens unter Vollnarkose durchgeführt werden."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tipps und Erholungsphase",
+          "list": [
+            "In der ersten Woche sollte Tag und Nacht ein elastisches Kopfband (Bandana) getragen werden, danach einen Monat lang nur während des Schlafs, um das Ohr vor unbeabsichtigtem Abknicken zu schützen.",
+            "Die Genesung verläuft sehr schnell; die Rückkehr zur Arbeit oder zum Studium ist bereits nach wenigen Tagen möglich."
+          ]
+        }
+      ]
+    },
+    "lip-aesthetics": {
+      "title": "Lippenästhetik",
+      "tagline": "Lippenästhetik in der Türkei | Vollere, definierte und anziehende Lippen",
+      "intro": "Die Ästhetik der Lippen beschränkt sich nicht nur auf das Volumen, sondern umfasst auch die Harmonie und den Abstand zwischen Lippen und Nase. Bei Orec Clinic bieten wir umfassende chirurgische und nicht-chirurgische Optionen, um volle Lippen mit klaren Kanten und einen langanhaltend natürlichen Aussehen zu erhalten.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Optionen und Techniken der Lippenästhetik",
+          "blocks": [
+            {
+              "title": "Lippenanhebung (Lip Lift)",
+              "text": "Ein einfacher chirurgischer Eingriff, um den großen Abstand zwischen Nase und Oberlippe zu verkürzen, wodurch die natürliche Lippenfarbe betont und ein dauerhaft volles Aussehen ohne den Bedarf an Fillern verliehen wird."
+            },
+            {
+              "title": "Lippenvergrößerung mit autologer Fettinjektion",
+              "text": "Natürliches Fett wird aus dem Körper des Patienten entnommen, gereinigt und dann in die Lippen injiziert, um ein Ergebnis für viele Jahre zu gewährleisten."
+            },
+            {
+              "title": "Lippenvergrößerung mit Fillern (Lip Fillers)",
+              "text": "Eine schnelle, nicht-chirurgische Lösung mit sicherer Hyaluronsäure zur Definition und Vergrößerung der Lippen, deren Ergebnisse bis zu 6-9 Monate anhalten."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Geeignete Kandidaten",
+          "list": [
+            "Frauen mit sehr dünnen oder asymmetrischen Lippen.",
+            "Großer Abstand zwischen Nase und Mund aufgrund genetischer Faktoren oder Alterung."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Verfahren und Schritte",
+          "paragraphs": [
+            "Während die Filler-Injektion nur wenige Minuten in der Klinik dauert, dauert die Lippenanhebung unter örtlicher Betäubung weniger als eine Stunde, wobei ein sehr feiner Schnitt direkt unter der Basis der Nase erfolgt, der mit der Zeit vollständig verschwindet."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tipps und Erholungsphase",
+          "list": [
+            "Vermeiden Sie sehr heiße Getränke oder den Einsatz von Strohhalmen für zwei Tage nach der Injektion oder dem Eingriff.",
+            "Halten Sie die Lippen regelmäßig feucht und vermeiden Sie harte Kosmetikprodukte in der ersten Woche."
+          ]
+        }
+      ]
+    },
+    "neck-lift": {
+      "title": "Halsstraffung",
+      "tagline": "Straffung und Ästhetik des Halses in der Türkei | Beseitigen Sie das Doppelkinn und schlaffe Haut für einen straffen und perfekten Hals",
+      "intro": "Zeichen des Alterns erscheinen oft zuerst am Hals, was zu dem sogenannten Truthahnhals oder Doppelkinn führt. Die Halsstraffung entfernt überschüssige Haut, strafft erschlaffte Muskeln und formt die Kieferlinie neu, um eine scharfe und attraktive Silhouette zu erhalten.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniken der Halsstraffung",
+          "blocks": [
+            {
+              "title": "Fettabsaugung am Hals (Neck Liposuction)",
+              "text": "Zur Entfernung von angesammeltem Fett im Doppelkinn-Bereich bei jüngeren Patienten mit guter Hautelastizität."
+            },
+            {
+              "title": "Halsmuskulaturstraffung (Platysmaplasty)",
+              "text": "Die erschlafften vertikalen Bänder der Halsmuskeln werden durch einen sehr kleinen und versteckten Schnitt unter dem Kinn genäht und gestrafft."
+            },
+            {
+              "title": "Nicht-chirurgische Halsstraffung",
+              "text": "Mit Aufhthreads oder der Botox-Neuromuskeltechnik zur Straffung leichter Halserschlaffungen."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Geeignete Kandidaten",
+          "list": [
+            "Ansammlung von hartnäckigem Fett unter dem Kinn (Doppelkinn).",
+            "Hauterschlaffung und sichtbare Falten sowie länglich hervorstehende Muskeln am Hals."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Verfahren und Schritte",
+          "paragraphs": [
+            "Die Operation wird unter Vollnarkose (oder örtlicher Betäubung mit Sedierung je nach Fall) durchgeführt und wird oft mit einer Facelift kombiniert, um ein umfassendes und jugendliches Ergebnis für die Gesichtszüge zu erzielen."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tipps und Erholungsphase",
+          "list": [
+            "Der spezielle Halsmuss muss für mehrere Wochen getragen werden, um die Haut zu fixieren und Flüssigkeitsansammlungen zu verhindern.",
+            "Vermeiden Sie scharfes Nach unten Beugen des Halses (z. B. langes Telefonieren) während der ersten zwei Wochen nach dem Eingriff."
+          ]
+        }
+      ]
+    },
+    "blepharoplasty": {
+      "title": "Augenlidstraffung",
+      "tagline": "Ästhetik und Behandlung der Augenlider in der Türkei | Beseitigen Sie das müde Aussehen und geschwollene Augenringe",
+      "intro": "Die Augen sind der Spiegel des Gesichts. Hängende Augenlider oder Fettkissen darunter verleihen eine zusätzliche Alterserscheinung und einen ermüten Aussehen. Die Augenlidstraffung ist eine ausgezeichnete ästhetische und funktionelle Lösung, um die natürliche Weite der Augen wiederherzustellen und überschüssiges Fett und Haut mit höchster Präzision zu entfernen.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Bereiche und Anwendungen der Augenlidästhetik",
+          "blocks": [
+            {
+              "title": "Obere Augenlidstraffung (Upper Blepharoplasty)",
+              "text": "Entfernt die erschlaffte und herabhängende Haut, die manchmal den Sichtfeldteil verdecken kann."
+            },
+            {
+              "title": "Untere Augenlidstraffung (Lower Blepharoplasty)",
+              "text": "Konzentriert sich auf die Entfernung oder Neuverteilung der hervorstehenden Fettkissen (Schwellungen unter den Augen) und das Straffen der gerunzelten Haut."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Geeignete Kandidaten",
+          "list": [
+            "Hängende Hautfalten, die die natürliche Falte des oberen Augenlids verdecken.",
+            "Dauerhafte Schwellungen und klare Fettkissen unter den Augen, die nicht durch Ruhe oder Cremes verschwinden."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Verfahren und Schritte",
+          "paragraphs": [
+            "Die Operation erfolgt unter örtlicher oder Vollnarkose und dauert ein bis zwei Stunden. Der Schnitt am oberen Augenlid erfolgt in der natürlichen Falte des Auges, während der Schnitt am unteren Augenlid direkt unter der Wimpernlinie oder von innen erfolgt, um jegliche sichtbare Narbe zu vermeiden."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tipps und Erholungsphase",
+          "list": [
+            "Regelmäßige Anwendung von feuchtigkeitsspendenden Augentropfen, um vorübergehende Trockenheit nach dem Eingriff zu vermeiden.",
+            "Tragen Sie beim Verlassen der Wohnung eine Sonnenbrille, um die Augen vor Licht und Wind in den ersten beiden Wochen zu schützen."
+          ]
+        }
+      ]
+    },
+    "forehead-contouring": {
+      "title": "Stirnkonturierung",
+      "tagline": "Ästhetik und Verkleinerung der Stirn in der Türkei | Ideale Proportionen und vollständige Harmonie der Gesichtszüge",
+      "intro": "Die Stirnfläche und die Form der Haarlinie beeinflussen das visuelle Gleichgewicht des Gesichts erheblich. Die Stirnkonturierung bietet fortschrittliche Lösungen zur Verkleinerung überschüssiger Fläche oder zur Formung hervorstehender Knochen, was dem Gesicht eine weiche und harmonische Note verleiht, die zum Rest des Gesichts passt.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniken der Stirnästhetik und -formung",
+          "blocks": [
+            {
+              "title": "Stirnverkleinerung (Forehead Reduction)",
+              "text": "Die Haarlinie wird um 1,5 bis 2 cm nach vorne verlagert und überschüssige Haut von der Stirn entfernt. Ideal für Menschen mit sehr breiter, genetisch bedingter Stirn."
+            },
+            {
+              "title": "Formung hervorstehender Stirnknochen (Forehead Contouring)",
+              "text": "Eine Operation, die darauf abzielt, die hervorstehenden Knochen direkt über den Augenbrauen zu glätten, um dem Gesicht ein feineres und harmonischeres Aussehen zu verleihen."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Geeignete Kandidaten",
+          "list": [
+            "Menschen, die unter einer breiten Stirn und einem stark zurückliegenden Haaransatz leiden.",
+            "Scharf hervorstehende Stirnknochen, die die seitliche Gesichtsform beeinflussen."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Verfahren und Schritte",
+          "paragraphs": [
+            "Die Operation wird chirurgisch unter Vollnarkose durchgeführt. Der Chirurg sorgt dafür, dass der chirurgische Schnitt in einer geschwungenen Form innerhalb der Haarlinie erfolgt, damit die Haare zukünftig durch die Narbe wachsen können und diese vollständig und natürlich verdecken."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tipps und Erholungsphase",
+          "list": [
+            "Vermeiden Sie starkes Zurückkämmen der Haare (wie einen Pferdeschwanz) für zwei Monate nach dem Eingriff, um eine Narbenheilung ohne Spannung zu gewährleisten.",
+            "Der Patient kann ein vorübergehendes Taubheitsgefühl in der Kopfhaut verspüren, was völlig normal ist und sich innerhalb weniger Wochen allmählich legt."
+          ]
+        }
+      ]
+    },
+    "genioplasty": {
+      "title": "Kinnästhetik",
+      "tagline": "Ästhetik und Formung des Kinns in der Türkei | Schlüssel zum Gleichgewicht und Attraktivität der seitlichen Gesichtszüge",
+      "intro": "Das Kinn spielt eine zentrale Rolle bei der Bestimmung der Schönheit des seitlichen Profils; ein kleines oder zurückliegendes Kinn lässt die Nase größer erscheinen, während ein sehr hervorstehendes Kinn dem Gesicht eine übermäßige Schärfe verleiht. Kinnkorrekturen helfen mit höchster Präzision, das Gleichgewicht und die Harmonie im Kieferbereich wiederherzustellen.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Methoden und Techniken der Kinnästhetik",
+          "blocks": [
+            {
+              "title": "Kinnvergrößerung mit Silikonimplantaten (Chin Implants)",
+              "text": "Platzierung eines sicheren, maßgeschneiderten medizinischen Implantats über dem Knochen durch einen inneren Mundschnitt, um ein zurückliegendes Kinn zu vergrößern und hervorzuheben."
+            },
+            {
+              "title": "Kinnvor- oder -zurückverlagerung (Genioplasty)",
+              "text": "Verschiebung des Kinnknochens nach vorne oder hinten und Fixierung mit feinen medizinischen Platten für fortgeschrittenere strukturelle Fälle."
+            },
+            {
+              "title": "Nicht-chirurgische Kinnkonturierung (Kieferfiller)",
+              "text": "Eine schnelle Lösung mit Filler zur Definition der Kieferlinie und Hervorhebung des Kinns ohne jeglichen chirurgischen Eingriff."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Geeignete Kandidaten",
+          "list": [
+            "Personen mit zurückliegendem oder kleinem Kinn (schwachem Kinn).",
+            "Menschen, die unter einer Länge oder übermäßigen Vorwölbung im Kinnbereich leiden, die die Harmonie der Gesichtszüge beeinträchtigt."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Verfahren und Schritte",
+          "paragraphs": [
+            "Die chirurgischen Eingriffe werden unter Voll- oder tiefer lokaler Betäubung durchgeführt. Der größte Vorteil dieser Eingriffe ist, dass die Schnitte meist im Inneren des Mundes (zwischen Zahnfleisch und unterer Lippe) erfolgen, was bedeutet, dass es keinerlei Narben oder Wunden im Gesicht gibt."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tipps und Erholungsphase",
+          "list": [
+            "Verzichten Sie für eine Woche nach der oralen Operation auf feste Lebensmittel und flüssige Kost.",
+            "Spülen Sie nach jeder Mahlzeit mit medizinischem Mundspülung und Desinfektionsmittel, um die chirurgischen inneren Nähte sauber zu halten und Infektionen zu vermeiden."
+          ]
+        }
+      ]
+    },
+    "cheek-enhancement": {
+      "title": "Wangenkonturierung",
+      "tagline": "Wangenmodellierung in der Türkei | Skulpturierte Züge und volle, jugendliche Wangen",
+      "intro": "Vollmundige und hochgewölbte Wangen sind ein Symbol für Jugend und Schönheit. Bei Orec Clinic bieten wir die modernsten Techniken für die Wangenmodellierung und die Entfernung von überschüssigem Fett an, um ein skulpturiertes Gesicht (definierte Züge) zu erhalten oder das bei Gesichtsschwund verlorene Volumen wiederherzustellen.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Unsere Wangenmodellierungstechniken",
+          "blocks": [
+            {
+              "title": "Wangenmodellierung und -straffung (Bichectomy)",
+              "text": "Entfernung von überschüssigen Fettpolstern (Buccal Fat Pads) aus dem Inneren der Wange durch eine mikroskopische innere Incision, um ein skulptiertes Gesicht zu erhalten und die Wangenknochen attraktiv und selbstbewusst hervorzuheben."
+            },
+            {
+              "title": "Wangenaugmentation mit autologer Fetttransplantation oder Filler",
+              "text": "Um schmale oder eingefallene Wangen aufzufüllen und das vitale Volumen des Gesichts wiederherzustellen."
+            },
+            {
+              "title": "Wangenfurchen-Operation (Dimpleplasty)",
+              "text": "Ein schnelles Verfahren, das 20 Minuten dauert, um eine natürliche Wange zu schaffen, die nur beim Lächeln erscheint, durch eine feine innere Naht."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal für",
+          "list": [
+            "Personen mit sehr rundem Gesicht oder übermäßig vollen Wangen, die definierteere und skulpturierte Züge wünschen.",
+            "Personen, die aufgrund von Alterungsprozess oder plötzlichem Gewichtsverlust eine schlaffe oder hängende Wangenregion haben."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Verfahren und Schritte",
+          "paragraphs": [
+            "Wangenoperationen (sowohl Modellierung als auch Furchen) sind schnell und werden unter örtlicher Betäubung durchgeführt. Alle chirurgischen Schnitte befinden sich im Mundraum, was eine schnelle Heilung und das Fehlen äußerer Narben gewährleistet."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tipps und Heilungsphase",
+          "list": [
+            "Regelmäßiges Auflegen von Kältekompressen in den ersten 24 Stunden, um den natürlichen Wangenschwellung zu reduzieren.",
+            "Absolute Einhaltung der Mundhygiene und kontinuierliches Spülen, um eine schnelle und sichere Heilung der inneren Schnitte sicherzustellen."
+          ]
+        }
+      ]
+    },
+    "body-contouring": {
+      "title": "Körperformung und Konturierung",
+      "tagline": "Körperformungsoperationen in der Türkei | Gestalte deine perfekte Körperkontur",
+      "intro": "Körperformungsoperationen helfen, lokales Fett und hartnäckige Fettpolster zu entfernen, die nicht auf Diäten oder Sport reagieren. Bei Orec Clinic verwenden wir die modernsten internationalen Techniken, um den Körper neu zu formen und seine natürlichen Schönheitslinien auf eine fließende und ästhetische Weise zu betonen.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Unsere Körperformungs- und Konturierungstechniken",
+          "blocks": [
+            {
+              "title": "Hochpräzise Körperformung (4D High-Definition Sculpting)",
+              "text": "Eine fortschrittliche Technik, um die anatomischen Details der Körpermuskeln (wie Bauch- und Rückenmuskeln) mit äußerster Präzision hervorzuheben."
+            },
+            {
+              "title": "Fettabsaugung mit Vaser (Vaser Liposuction)",
+              "text": "Eine Technik, die auf Ultraschallwellen basiert, um Fettzellen aufzubrechen und sie in eine Flüssigkeit umzuwandeln, die sanft abgesaugt werden kann. Dies schützt die Blutgefäße und hilft gleichzeitig, die Haut straff zu machen."
+            },
+            {
+              "title": "Fettabsaugung mit Laser (SmartLipo)",
+              "text": "Die Verwendung von Laserenergie, um Fett aufzulösen und die Kollagenproduktion anzuregen, um schlaffe Haut hervorragend zu straffen."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal für",
+          "list": [
+            "Personen, die ihrem Idealgewicht nahe sind, aber unter hartnäckigen Fettansammlungen in bestimmten Bereichen (Bauch, Taille, Rücken) leiden.",
+            "Personen mit guter bis mittlerer Hautelastizität, um maximal von den Absaugverfahren zu profitieren."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Verfahren und Schritte",
+          "blocks": [
+            {
+              "title": "Vor der Operation",
+              "text": "Die zu modellierenden Bereiche werden genau bestimmt und fotografiert. Der Patient wird aufgefordert, eine umfassende Blutuntersuchung durchzuführen, um seine Eignung für die Narkose sicherzustellen."
+            },
+            {
+              "title": "Während der Operation",
+              "text": "Wird unter Vollnarkose oder tiefer lokaler Betäubung durchgeführt (je nach Anzahl der Bereiche) und erfolgt über sehr kleine mikroskopische Schnitte, die nicht mehr als wenige Millimeter betragen, um Narben vollständig zu minimieren."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tipps und Heilungsphase",
+          "list": [
+            "Absolute Einhaltung des Tragens eines medizinischen Kompressionskorsetts (Korsett) für 4 bis 6 Wochen, um Schwellungen zu reduzieren und der Haut zu helfen, an die neue Schicht anzuschließen.",
+            "Leichtes und frühzeitiges Gehen nach der Operation zur Aktivierung der Blutzirkulation und zur Vermeidung von Blutgerinnseln."
+          ]
+        }
+      ]
+    },
+    "breast-surgery": {
+      "title": "Brustchirurgie",
+      "tagline": "Brustvergrößerungen in der Türkei | Harmonie, Weiblichkeit und absolute Selbstsicherheit",
+      "intro": "Brustvergrößerungen sind eine der Operationen, die das Selbstbewusstsein einer Frau und die Attraktivität ihrer Figur am stärksten wiederherstellen. Egal, ob Sie die nach der Stillzeit verlorene Größe zurückgewinnen möchten oder eine zu große Größe reduzieren, um Rückenschmerzen zu lindern, die Ärzte von Orec Clinic bieten Ihnen die sichersten und fortschrittlichsten chirurgischen Lösungen.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Bereiche und Anwendungen der Brustchirurgie",
+          "blocks": [
+            {
+              "title": "Brustvergrößerung (Breast Augmentation)",
+              "text": "Die Verwendung sicherer, weltweit zugelassener Silikonimplantate (wie Mentor) oder autologer Fetttransplantation für ein volles und proportioniertes Ergebnis."
+            },
+            {
+              "title": "Bruststraffung und -anhebung (Breast Lift / Mastopexy)",
+              "text": "Entfernung von schlaffer Haut und hängenden Brüsten, die durch Schwangerschaft, Stillen oder Gewichtsverlust verursacht wurden, mit der Rückverlagerung der Brustwarze in ihre jugendliche, höhere Position."
+            },
+            {
+              "title": "Brustverkleinerung (Breast Reduction)",
+              "text": "Entfernung von überschüssigem Gewebe und Fett bei sehr großen Brüsten, um eine Größe zu erreichen, die mit der Körpergröße und -struktur harmoniert und Nacken- und Schulterbeschwerden zu beseitigen."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal für",
+          "list": [
+            "Frauen, die eine Asymmetrie in Größe oder Form der Brüste haben.",
+            "Deutliche Schlaffheit und Hängen des Brustgewebes.",
+            "Genetisch kleine Brustgröße oder Rückgang nach Gewichtsverlust."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Verfahren und Schritte",
+          "paragraphs": [
+            "Diese Operationen werden unter Vollnarkose durchgeführt und dauern 2 bis 3 Stunden. Der Chirurg legt Wert darauf, die chirurgischen Schnitte an versteckten Stellen (um die Brustwarze oder in der unteren Brustfalte) zu platzieren, damit sie mit der Zeit unsichtbar werden."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tipps und Heilungsphase",
+          "list": [
+            "Tragen eines unterstützenden medizinischen Sport-BHs Tag und Nacht für einen vollen Monat nach der Operation.",
+            "Vermeiden des Hebens schwerer Gegenstände oder intensiver Sportarten, die den Oberkörper belasten, für 6 Wochen."
+          ]
+        }
+      ]
+    },
+    "gynecomastia": {
+      "title": "Männliche Brustvergrößerung",
+      "tagline": "Behandlung der Gynäkomastie in der Türkei | Wiederherstellen einer flachen, männlichen Brustkontur",
+      "intro": "Die Gynäkomastie (Vergrößerung des Brustgewebes beim Mann) ist ein häufiges Problem, das viel psychischen Stress verursacht und die Kleidungswahl und das Selbstbewusstsein beeinflusst. Die Gynäkomastie-Operation bietet eine radikale und schnelle Lösung zur Entfernung der vergrößerten Drüsen und angesammelten Fette, um eine straffe, männliche Brust zu erhalten.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Unsere Gynäkomastie-Behandlungstechniken",
+          "blocks": [
+            {
+              "title": "Fettabsaugung mit Vaser",
+              "text": "Wenn die Gynäkomastie nur durch Fettansammlung verursacht wird (falsche Gynäkomastie), wird es durch Vaser über eine sehr kleine Öffnung ohne chirurgischen Eingriff abgesaugt."
+            },
+            {
+              "title": "Chirurgische Drüsenentfernung",
+              "text": "Wenn die Gynäkomastie durch eine echte Vergrößerung der Brustdrüse verursacht wird, macht der Chirurg einen kleinen halbkreisförmigen Schnitt direkt unter der Brustwarze, um die feste Drüse zu entfernen."
+            },
+            {
+              "title": "Kombinierte Technik",
+              "text": "Kombination von Absaugung und Entfernung, um eine vollständige Glättung der Brust mit dem Brustkorb bei fortgeschrittenen Fällen sicherzustellen."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Ideal für",
+          "list": [
+            "Männer und junge Männer, die unter einem Vorsprung oder Schlaffheit der Brustregion leiden, die nicht durch Sport verschwindet.",
+            "Personen mit stabilen Hormonspiegeln, die nach einer dauerhaften ästhetischen Lösung suchen."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Verfahren und Schritte",
+          "paragraphs": [
+            "Die Operation ist sehr einfach und dauert etwa eine Stunde. Sie kann unter lokaler Betäubung mit Sedierung oder Vollnarkose durchgeführt werden, je nach Ausmaß der Vergrößerung und Vorliebe des Patienten."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tipps und Heilungsphase",
+          "list": [
+            "Tragen des speziellen medizinischen Brustkorsetts für 4 Wochen, um Flüssigkeitsansammlungen zu verhindern und eine Hautstraffung sicherzustellen.",
+            "Die Rückkehr zur Bürotätigkeit ist nach 3 bis 5 Tagen möglich, mit Vermeidung von Brusttraining im Fitnessstudio für einen Monat."
+          ]
+        }
+      ]
+    },
+    "tummy-tuck": {
+      "title": "Bauchdeckenstraffung",
+      "tagline": "Bauchstraffung in der Türkei | Beseitigen Sie tiefe Hautlappen und erhalten Sie einen flachen, straffen Bauch",
+      "intro": "Der Bauch ist eine der am stärksten von wiederholten Schwangerschaften oder starkem Gewichtsverlust betroffenen Bereiche, da sich die Muskeln dehnen und die Haut erschlafft, was sich nur schwer durch Sport behandeln lässt. Die Bauchstraffung dient dazu, die getrennten Muskeln (Muskeldiastase) zu nähen, überschüssige, herabhängende Haut zu entfernen und so einen vollständig flachen und geformten Bauch zu erhalten.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Arten der Bauchstraffung",
+          "blocks": [
+            {
+              "title": "Vollständige Bauchstraffung (Full Tummy Tuck)",
+              "text": "Ziel sind Hautlappen über und unter dem Bauchnabel, einschließlich der Neugestaltung und Verlagerung des Nabels an seine neue Position mit vollständiger Straffung der Muskeln."
+            },
+            {
+              "title": "Mini-Bauchstraffung (Mini Tummy Tuck)",
+              "text": "Konzentriert sich auf überschüssige, erschlaffte Haut unterhalb des Bauchnabels, ohne den Nabel versetzen zu müssen. Geeignet für leichte Hautlappen."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandidaten",
+          "list": [
+            "Frauen nach Schwangerschaften und Geburten zur Korrektur der Bauchwanddehnung.",
+            "Personen, die viel Gewicht verloren haben (nach Magenverkleinerungsoperationen oder strengem Diätplan) und bei denen sich eine herabhängende Haut wie ein Schürze gebildet hat."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Verfahren und Schritte",
+          "paragraphs": [
+            "Die Operation erfolgt unter Vollnarkose. Der Chirurg macht einen horizontalen Schnitt unterhalb des Bauches (in der Bikinizone, die vollständig unter der Unterwäsche verborgen ist), strafft dann die Muskeln, entfernt überschüssige Haut und näht die Wunde mit feinen kosmetischen Stichen."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tipps und Genesungsphase",
+          "list": [
+            "Gehen Sie in den ersten Tagen mit einer leichten Vorwärtsneigung, um die Spannung auf die Bauchwunde zu reduzieren.",
+            "Tragen Sie medizinische Bauchbinde regelmäßig und vermeiden Sie absolut das Heben von Gewichten für zwei Monate."
+          ]
+        }
+      ]
+    },
+    "arm-lift": {
+      "title": "Armlifting",
+      "tagline": "Straffung und Formung der Arme in der Türkei | Beseitigen Sie mit Zuversicht den Eherlingsarm-Effekt",
+      "intro": "Akkumulation von Fett und erschlaffte Haut im Bereich der Arme hindert viele Menschen daran, sommerliche oder kurzärmlige Kleidung ungezwungen zu tragen. Das Armlifting hilft, schlaffe Haut und hängendes Fett zu entfernen und verleiht den Armen ein straffes, schlankes Aussehen, das zum restlichen Körperbau passt.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniken beim Armlifting",
+          "blocks": [
+            {
+              "title": "Chirurgisches Armlifting",
+              "text": "Entfernung der erschlafften Haut durch einen Längsschnitt an der Innenseite des Arms oder unter der Achsel, um ihn so unauffällig wie möglich zu verbergen. Dies ist die ideale Methode für starke Hautlappen nach einer Magenverkleinerung."
+            },
+            {
+              "title": "Fettabsaugung der Arme mit Vaser",
+              "text": "Für Fälle, bei denen die Arme mit Fett gefüllt sind, ohne dass eine starke Hauterschlaffung vorliegt. Vaser hilft bei der Fettabsaugung und Hautstraffung ohne große Wunden."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandidaten",
+          "list": [
+            "Personen mit starker Hauterschlaffung und runzeliger, herabhängender Haut an den Armen aufgrund von Alterungsprozess oder Gewichtsverlust.",
+            "Fettansammlungen an den Armen, die auf spezifische Sportübungen nicht ansprechen."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Verfahren und Schritte",
+          "paragraphs": [
+            "Die Operation dauert etwa zwei Stunden unter Vollnarkose. Der Chirurg entfernt zunächst Fett, um den Prozess zu erleichtern, dann identifiziert und entfernt er überschüssige Haut mit höchster kosmetischer Präzision, um das zukünftige Erscheinungsbild der Narbe zu reduzieren."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tipps und Genesungsphase",
+          "list": [
+            "Tragen Sie die medizinische, kompressive Armschiene für die empfohlene Dauer, um eine Gewebeheilung und schnelles Abklingen der Schwellung zu gewährleisten.",
+            "Heben Sie die Arme in den ersten Tagen während des Schlafens auf Kissen, um die Flüssigkeitsabfuhr zu beschleunigen und die Schwellung zu reduzieren."
+          ]
+        }
+      ]
+    },
+    "thigh-lift": {
+      "title": "Oberschenkelstraffung",
+      "tagline": "Straffung und Formung der Oberschenkel in der Türkei | Für bequeme Schritte und ein harmonisch geformtes unteres Körperprofil",
+      "intro": "Hautlappen an den inneren und äußeren Oberschenkeln führen nicht nur zu einem unausgeglichenen Erscheinungsbild, sondern verursachen auch Gesundheitsprobleme wie ständige Reibung, Hautentzündungen und Bewegungseinschränkungen. Die Oberschenkelstraffung bietet eine ausgezeichnete Lösung, um den unteren Körper zu formen und ihm außergewöhnliche Elastizität und Weichheit zu verleihen.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Optionen und Anwendungen der Oberschenkelstraffung",
+          "blocks": [
+            {
+              "title": "Innere Oberschenkelstraffung (Inner Thigh Lift)",
+              "text": "Ziel ist die Hautlappen im Bereich der inneren Oberschenkel. Der Schnitt wird in der Leistenbeuge vorgenommen, um ihn vollständig zu verbergen."
+            },
+            {
+              "title": "Vollständige oder umfassende Oberschenkelstraffung",
+              "text": "Erstreckt sich auf die äußeren Oberschenkel und Gesäß für Fälle mit sehr starker Hauterschlaffung, die den gesamten unteren Körperumfasst."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandidaten",
+          "list": [
+            "Patienten mit starker Hauterschlaffung an den Oberschenkeln nach Gewichtschwankungen oder Magenverkleinerung.",
+            "Personen, die unter schmerzhaftem Reiben der Oberschenkel beim Gehen oder Sport leiden."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Verfahren und Schritte",
+          "paragraphs": [
+            "Die Operation wird unter Vollnarkose durchgeführt. Der Chirurg entfernt überschüssige Haut und erschlafftes Weichteilgewebe nach einer vorbereitenden Fettabsaugung, hebt dann das Gewebe an und fixiert es mit tiefen inneren Stichen, um die Dauerhaftigkeit und Stabilität des Ergebnisses zu gewährleisten."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Tipps und Genesungsphase",
+          "list": [
+            "Vermeiden Sie weite Schritte beim Gehen oder das Hocken in den ersten zwei Wochen, um die Nähte vor Zugbelastung zu schützen.",
+            "Achten Sie streng auf Trockenheit und Hygiene des chirurgischen Schnittbereichs und verwenden Sie regelmäßig verschriebene Antibiotika und Desinfektionsmittel."
+          ]
+        }
+      ]
+    },
+    "bbl": {
+      "title": "Gesäßformung und -konturierung",
+      "tagline": "Gesäßformung in der Türkei | Harmonischer Körperbau und feminine Kurven",
+      "intro": "Die Gesäßregion spielt eine bedeutende Rolle bei der Betonung der Schönheit und Proportionen des weiblichen unteren Körperbaus. Egal, ob Sie unter schlaffen Gesäßmuskeln (Schlafmuskeln) leiden oder eine Verkleinerung des Gesäßvolumens aufgrund von Gewichtsverlust haben, wir bei Orec Clinic bieten die modernsten und sichersten chirurgischen Lösungen zur Neugestaltung und Anhebung des Gesäßes, um es perfekt mit der Taille abzustimmen.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniken der Gesäßformung",
+          "blocks": [
+            {
+              "title": "Brasilianisches Gesäßlifting (BBL - Brazilian Butt Lift)",
+              "text": "Die weltweit am häufigsten nachgefragte Technik, die auf der Absaugung von überschüssigem und hartnäckigem Fett aus Körperbereichen (wie Bauch oder Taille) und seiner Reinigung, gefolgt von der Injektion und Verteilung im Gesäß zur Verleihung eines natürlichen, angehobenen Volumens basiert."
+            },
+            {
+              "title": "Silikonimplantate für das Gesäß (Butt Implants)",
+              "text": "Verwendung von medizinisch widerstandsfähigen, maßgeschneiderten Silikonimplantaten für das Gesäß für Fälle, in denen der Körper nicht genug Fettreserven für eine BBL-Technik hat."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandidaten",
+          "list": [
+            "Personen mit erschlafftem oder flachem Gesäß.",
+            "Asymmetrie in der Größe zwischen beiden Seiten oder der Wunsch, schlaffe Gesäßmuskeln zu beseitigen."
+          ]
+        }
+      ]
+    },
+    "vaginal-rejuvenation": {
+      "title": "Intimchirurgie und -ästhetik",
+      "tagline": "Intimchirurgie in der Türkei | Gewinnen Sie Vertrauen, Komfort und funktionale Gesundheit zurück",
+      "intro": "Die empfindliche Region der Frauen zeigt durch wiederholte Geburten, Alterungsprozess oder genetische Faktoren deutliche Veränderungen, die den täglichen Komfort und das Selbstbewusstsein beeinflussen. Ziele der Intimchirurgie sind die Verbesserung des äußeren Erscheinungsbilds und die Lösung funktioneller und körperlicher Probleme durch Gewebestretching.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Bereiche und Anwendungen der Intimchirurgie",
+          "blocks": [
+            {
+              "title": "Schamlippenkorrektur (Labiaplasty)",
+              "text": "Eine Operation, die darauf abzielt, überschüssige oder asymmetrische innere oder äußere Schamlippen zu verkleinern oder neu zu formen, um Beschämung und Schmerzen bei sportlicher Betätigung oder Tragen enger Kleidung zu beseitigen."
+            },
+            {
+              "title": "Perineoplastik",
+              "text": "Rekonstruktion der äußeren Gewebe, die durch vorherige Geburtsrisse beschädigt wurden."
+            }
+          ]
+        }
+      ]
+    },
+    "vaginal-fat-filler": {
+      "title": "Vaginale Fett- und Filler-Injektionen",
+      "tagline": "Injektionen in der intimen Zone mit Fett und Fillern in der Türkei | Wiederherstellung von Volumen und Frische",
+      "intro": "Mit fortschreitendem Alter oder erheblichem Gewichtsverlust kann die äußeren Schamlippen der Vagina ihr natürliches Volumen verlieren und mager oder faltig aussehen. Die Injektion ist eine schnelle und einfästhetische Lösung, um das volle und jugendliche Aussehen der Region wiederherzustellen.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Verfügbare Injektionsoptionen",
+          "blocks": [
+            {
+              "title": "Vaginale Eigenfett-Injektionen",
+              "text": "Eine kleine Menge Fett wird aus dem Körper der Patientin selbst entnommen, vollständig filtriert und dann in die äußeren Schamlippen injiziert, um ein langanhaltendes und absolut sicheres Ergebnis für viele Jahre zu gewährleisten."
+            },
+            {
+              "title": "Medizinische Filler-Injektionen",
+              "text": "Verwendung von Hyaluronsäure, die für sensible Bereiche entwickelt wurde, als nicht-chirurgische schnelle Klinikbehandlung, die keine Erholungszeit erfordert."
+            }
+          ]
+        }
+      ]
+    },
+    "vaginoplasty": {
+      "title": "Vaginoplastik",
+      "tagline": "Vaginalverengung und -rekonstruktion in der Türkei | Fortschrittliche Lösungen zur Wiederherstellung der funktionaleffizienz",
+      "intro": "Wiederholte natürliche Geburten führen zu einer Dehnung und Erschlaffung der Muskeln der vaginalen Wand und des umgebenden Gewebes, was zu einem Gefühl der Weite, Verlust der Zufriedenheit und manchmal zu Problemen mit der Blasenkontrolle (Stressinkontinenz) führt. Die Verengungsoperation zielt darauf ab, die innere muskuläre Unterstützung wiederherzustellen.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Unsere Vaginalverengungstechniken",
+          "blocks": [
+            {
+              "title": "Chirurgische Verengung (Vaginoplastik)",
+              "text": "Eine präzise Operation, bei der erschlaffte Muskeln zusammengezogen und überzähles Gewebe der vaginalen Auskleidung entfernt wird. Dies ist die optimale und endgültige Lösung für schwere und fortgeschrittene Gewebeschwäche."
+            },
+            {
+              "title": "Nicht-chirurgische Verengung (mit Laser)",
+              "text": "Für leichte bis mittlere Fälle, bei denen spezielle Laserstrahlen das Gewebe anregen, Kollagen zu produzieren, was zu einer Straffung und Verengung der inneren Wand ohne chirurgischen Eingriff führt."
+            }
+          ]
+        }
+      ]
+    },
+    "penile-aesthetics": {
+      "title": "Penile Ästhetik und Verbesserung",
+      "tagline": "Penile Ästhetik in der Türkei | Steigerung des Selbstbewusstseins und männliche Harmonie",
+      "intro": "Die sexuelle Gesundheit und das äußere Erscheinungsbild der Genitalien sind grundlegende Pfeiler für das Selbstbewusstsein und die psychische Stabilität des Mannes. Wir bieten bei Orec Clinic erprobte ästhetische und chirurgische Lösungen unter der Aufsicht einer Elite von Urologen und Andrologen zur Behandlung von Bedenken bezüglich Größe oder Form des männlichen Gliedes.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniken für Penile Vergrößerung und Verdickung",
+          "blocks": [
+            {
+              "title": "Penile Verdickung (Penile Girth Augmentation)",
+              "text": "Ein Verfahren, das darauf abzielt, den Umfang und die Dicke des männlichen Gliedes durch Injektion von körpereigenem Fett, Verwendung von speziellem Filler oder Implantation von zugelassenen medizinischen Geweben und Matrizen zu erhöhen, was ein massigereres und harmonischeres Erscheinungsbild verleiht."
+            }
+          ]
+        }
+      ]
+    },
+    "penile-lengthening": {
+      "title": "Penile Verlängerung",
+      "tagline": "Penile Verlängerung in der Türkei | Chirurgie zur Vergrößerung der Länge des männlichen Gliedes nach den neuesten sicheren medizinischen Standards",
+      "intro": "Einige Männer leiden unter einer echten oder scheinbaren Verkürzung des männlichen Gliedes, die ihr Eheleben und ihr psychisches Wohlbefinden beeinträchtigt. Die Chirurgie bietet durchdachte und wirksame Lösungen zur Vergrößerung der sichtbaren Länge und zur Erzielung der gewünschten Ergebnisse mit voller medizinischer Sicherheit.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Mechanismus der Verlängerungsoperation",
+          "blocks": [
+            {
+              "title": "Lösung des Suspensory Bandes (Suspensory Ligament Release)",
+              "text": "Dies ist die am häufigsten angewandte chirurgische Technik, bei der der Urologe das Band, das die Basis des Penis mit dem Beckenknochen verbindet, löst, wodurch der innere verborgene Teil des Penis hervortreten kann, was eine deutliche Längenzunahme von 2 bis 5 cm ergibt (je nach anatomischer Beschaffenheit jedes Körpers)."
+            },
+            {
+              "title": "Entfernung von Schamfett (sichtbare Verlängerung)",
+              "text": "Bei lokaler Fettleibigkeit sammelt sich Fett über der Schamgegend und verdeckt einen großen Teil der Penislänge; in diesem Fall wird dieses Fett abgesaugt, damit das Organ in seiner natürlichen vollen Länge hervortritt."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

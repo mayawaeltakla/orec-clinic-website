@@ -1,0 +1,951 @@
+{
+  "title": "Estetik Cerrahiler",
+  "tagline": "Yüz ve vücut estetiği ve hassas bölgeler estetiği — Uzman cerrahlar ekibimizle doğal ve uyumlu bir görünüm",
+  "intro": [
+    "Yüz özelliklerinizi silmek için yapay değişikliklere inanmıyoruz; güzelliği görünümünüzün doğallığı ve özgünlüğünde görüyoruz. Yüzünüzün ve vücudunuzun doğal güzellik vurgularını öne çıkarmak ve en yeni bilimsel nazik yöntemlerle kusurları düzeltmek üzerine tüm sevgimizle odaklanıyoruz, size yolculuğunuz boyunca sizi hak eden ve sizi tamamen güvende hissettiren sonuçları sunmak için.",
+    "Estetik cerrahilerimiz üç ana bölüme ayrılmıştır: yüz estetiği, vücut estetiği ve hassas bölgeler estetiği. Tüm bu işlemler en yeni cerrahi teknikler ve detaylı dijital planlama ile gerçekleştirilir ve operasyon öncesi tam bakım ile sonrasındaki iyileşme süreci kapsamlı bir şekilde yönetilir."
+  ],
+  "groups": {
+    "face": {
+      "title": "Yüz Estetiği",
+      "description": "En yeni cerrahi ve cerrahi olmayan tekniklerle yüz liftingi, şekillendirme ve estetiği işlemleri, yüz özelliklerinizin doğallığını koruyan ve size canlı, genç bir görünüm kazandıran sonuçlar."
+    },
+    "body": {
+      "title": "Vücut Estetiği",
+      "description": "Vücut şekillendirme, kontur oluşturma ve lifting işlemleri, hamilelik veya önemli kilo kaybı sonrası doğal hatlarınızı öne çıkarmak ve vücut hatlarınıza olan güveninizi yeniden kazanmak için."
+    },
+    "intimate": {
+      "title": "Hassas Bölgeler Estetiği (Mahrem)",
+      "description": "Üst düzey gizlilik ve güvenlikle estetik ve fonksiyonel çözümler, üroloji ve jinekoloji uzmanları denetiminde en yeni güvenli teknikler ile.",
+      "sections": [
+        {
+          "icon": "🏥",
+          "heading": "Hassas Bölgeler Tüm Bölümleri için Medikal Süreçler ve İyileşme",
+          "blocks": [
+            {
+              "title": "Operasyon Öncesi",
+              "text": "Uzman hekimlerimizle beklentiler ve sonuçlar maksimum gizlilikte görüşülür, idrar yolu veya üreme sistemi aktif enfeksiyonu olmayan hastalar operasyon için uygun kabul edilir."
+            },
+            {
+              "title": "İyileşme Süreci",
+              "text": "İyileşme süresi, cerrahi olmayan işlemler ve enjeksiyonlar için birkaç gün ile vajinoplasti veya penis uzatma gibi tam cerrahi işlemler için 4-6 hafta arasında değişir. Cerrahi işlemlerde dikişlerin ve dokuların tam iyileşmesi kadar doktorun belirlediği süre boyunca cinsel ilişki ve ağır yük taşıma kesinlikle yasaktır."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "services": {
+    "facelift": {
+      "title": "Yüz Germe (Face Lift)",
+      "tagline": "Yüz estetiği ameliyatları Türkiye'de | Gençlik ve canlılık yüz hatlarınıza geri kazanın",
+      "intro": "Yüz estetiği ve germe ameliyatı, geçici çözümlerin işe yaramadığı ciddi yaşlanma belirtileri ve sarkmaları ortadan kaldırmanın en güçlü kalıcı çözümüdür. Orec Clinic'te, yüz hatlarınıza şekil verip doğal ve genç bir görünüm kazandıran en son cerrahi tekniklerimizi kullanıyoruz.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Yüz germe tekniklerimiz",
+          "blocks": [
+            {
+              "title": "Tam Yüz Germe Cerrahisi (Full Facelift)",
+              "text": "Yüzün alt yarısındaki ve çene hatlarındaki derin sarkmaları tamamen kulak etrafındaki görünmez kesi hattıyla hedefler."
+            },
+            {
+              "title": "Kısmi Yüz Germe (Mini Facelift)",
+              "text": "Daha az invazif bir prosedür, erken yaşlardaki hafif ila orta dereceli yanak sarkmalarına odaklanır."
+            },
+            {
+              "title": "Cerrahi Olmayan Germe Teknikleri",
+              "text": "Estetik iplikler, HIFU ve kendi yağ enjeksiyonu gibi gelişmiş alternatif çözümlerle ameliyatsız yüz kaybı yaşanan hacmi geri kazandırır."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday durumlar",
+          "list": [
+            "Yanak ve çene bölgesinde cilt sarkması ve kas gevşekliği yaşayan kişiler.",
+            "Ağız ve burun çevresinde derin kırışıklıklar ve belirgin çizgilerin ortaya çıkması."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Prosedürler ve Adımlar",
+          "blocks": [
+            {
+              "title": "Ameliyat öncesi",
+              "text": "Hasta, cilt esnekliği ve yüz anatomisi kapsamlı bir değerlendirmeye tabi tutulur. Kesi hatları görünmez yerlerde (saç çizgisi ve kulak arkasında) sayısal olarak planlanır."
+            },
+            {
+              "title": "Ameliyat sırasında",
+              "text": "Ameliyat genel anestezi altında yapılır ve 2 ila 4 saat sürer. Derin dokular ve SMAS gerilir, fazla cilt kesilir."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "İpuçları ve iyileşme süreci",
+          "list": [
+            "Ödemi azaltmak için doktorun belirlediği süre boyunca yüz korsesini takmaya bağlı kalmak.",
+            "En az bir ay boyunca yoğun fiziksel aktivitelerden ve direkt güneş ışığından kaçınmak."
+          ]
+        }
+      ]
+    },
+    "brow-lift": {
+      "title": "Kaş Germe",
+      "tagline": "Kaş kaldırma ve germe Türkiye'de | Gençlik ve parlayan bakışlara sahip gözler için",
+      "intro": "Yerçekimi ve ilerleyen yaş, kaşların düşmesine neden olarak yüzü sürekli yorgun veya öfkeli görünümünde bırakabilir. Kaş germe (veya alın germe) ameliyatı, gözlerin güzelliğini vurgulamak ve yüzün üst yarısını gençleştirmek için kaşlarını doğal konumlarına geri yerleştirir.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Kaş germe türleri ve teknikleri",
+          "blocks": [
+            {
+              "title": "Endoskopik Kaş Germe (Endoscopic Brow Lift)",
+              "text": "En yeni ve en güvenli teknik, saçlı derideki çok küçük mikroskopik kesilerle ve minik bir kamera kullanılarak yapılır, görünmez iz bırakmaz."
+            },
+            {
+              "title": "Temporal Kaldırma (Temporal Lift)",
+              "text": "Kasık kaşın dış kısmını (Foxy Eyes görünümü) kaldırarak gözlerin çevresel görünümünü iyileştirmeye odaklanır."
+            },
+            {
+              "title": "Cerrahi Olmayan Kaldırma",
+              "text": "Hafif vakalar için estetik iplikler veya botoks enjeksiyonları kullanılır."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday durumlar",
+          "list": [
+            "Kaşların üst göz kapaklarının üzerine düşmesi ve seviyesinin düşmesi.",
+            "Alında yatay derin kırışıklıklar veya kaşlar arasında dikey çizgiler (kaş çatma çizgileri)."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Prosedürler ve Adımlar",
+          "blocks": [
+            {
+              "title": "Ameliyat öncesi",
+              "text": "Doktor, uyumlu bir sonuç sağlamak için kaş ve göz arasındaki mesafeyi ve yüz ifadelerini inceler."
+            },
+            {
+              "title": "Ameliyat sırasında",
+              "text": "Genellikle lokal anestezi ile sedasyon veya genel anestezi altında yapılır. Cerrah dokuları serbest bırakır, yukarı kaldırır ve daha genç bir konumda sabitler."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "İpuçları ve iyileşme süreci",
+          "list": [
+            "Göz çevresindeki şişliği azaltmak için ilk 48 saat içinde soğuk kompres uygulamak.",
+            "Prosedürden sonraki birkaç gün ek yastıklarla başı yukarıda yatmak."
+          ]
+        }
+      ]
+    },
+    "rhinoplasty": {
+      "title": "Burun Estetiği",
+      "tagline": "Burun estetiği Türkiye'de | Görüntünün güzelliği ile nefes etkinliğinin mükemmel dengesi",
+      "intro": "Burun estetiği dünya genelinde ve özellikle Türkiye'de en çok talep edilen cerrahi işlemlerin başında gelir. Orec Clinic olarak biz sadece burnun dış görünümünü yüz hatlarınıza uygun şekilde değiştirmeyi değil, aynı zamanda burun septum deviası ve solunum güçlükleri gibi işlevsel sorunları düzeltmeyi de hedefleriz.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Burun Estetiği Türlerimiz ve Tekniklerimiz",
+          "blocks": [
+            {
+              "title": "Açık Burun Estetiği (Open Rhinoplasty)",
+              "text": "Cerraha kıkırdak ve kemik yapısını tam görme ve hassas bir şekilde düzeltme imkanı tanır, karmaşık durumlar veya ikinci düzey onarımlar için idealdir."
+            },
+            {
+              "title": "Kapalı Burun Estetiği (Closed Rhinoplasty)",
+              "text": "Tüm cerrahi kesiler burun deliklerinin içinden yapılır, dışarıda herhangi bir yara veya iz kalmaz ve daha hızlı bir iyileşme süresi sunar."
+            },
+            {
+              "title": "Piezo Burun Estetiği (Ultrasonic / Piezo)",
+              "text": "Burun kemiklerini son derece hassas bir şekilde şekillendirmek için ultrasonik dalgalar kullanılır, çevre dokuları ve kan damarlarını zedelemediği için morarma ve şişliği önemli ölçüde azaltır."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday Olan Durumlar",
+          "list": [
+            "Burun köprüsünde çıkıntı, burun kanadında genişleme veya burun boyutunun yüzle uyumsuzluğu.",
+            "Doğuştan gelen veya kazalara bağlı deformasyonlar.",
+            "Burun septum deviası nedeniyle sık karşılaşılan solunum sorunları veya horlama."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "İşlem Adımları ve Süreç",
+          "blocks": [
+            {
+              "title": "Operasyon Öncesi",
+              "text": "Yeni burunun beklenen sonucunu görmek ve hasta ile görüşmek için fotoğraf çekimi ve üç boyutlu simülasyon yapılır."
+            },
+            {
+              "title": "Operasyon Sırasında",
+              "text": "Genel anestezi altında 2 ila 3 saat sürer, burun kıkırdakları ve kemikleri yeniden şekillendirilir."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "İpuçları ve İyileşme Dönemi",
+          "list": [
+            "Yeni yapıyı desteklemek için buruna 5 ila 7 gün boyunca burun bandajı takılır.",
+            "Burun kemiklerine baskı yapmamak için en az iki ay boyunca gözlük veya güneş gözlüğü kullanmaktan kaçınılmalıdır."
+          ]
+        }
+      ]
+    },
+    "otoplasty": {
+      "title": "Kulak Estetiği",
+      "tagline": "Kulak estetiği Türkiye'de | Kendinize ve görünümünüze olan güveninizi yeniden kazanın",
+      "intro": "Dışarıya çıkık veya yelpaze şeklindeki kulaklar hem çocuklar hem de yetişkinler için sık karşılaşılan bir utanç kaynağıdır. Kulak estetiği (otoplasti) işlemi, kulak kıkırdaklarını yeniden şekillendirerek ve kulak ile kafa arasındaki mesafeyi ayarlayarak daha doğal ve estetik bir görünüm sağlar.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Kulak Estetiğinde Kullanılan Teknikler",
+          "blocks": [
+            {
+              "title": "Kıkırdak Yeniden Şekillendirme Cerrahisi",
+              "text": "Kulak arkasında tamamen gizli küçük bir kesiden yapılır, kıkırdaklar oyulur, katlanır ve kalıcı tıbbi dikişlerle sabitlenir."
+            },
+            {
+              "title": " Kulak Memesi Düzeltme (Earlobe Repair)",
+              "text": "Ağır küpe uzun süreli kullanımı veya kazalara bağlı yırtıkların onarımı için yapılır."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday Olan Durumlar",
+          "list": [
+            "Doğumdan itibaren bir veya her iki kulakta belirgin dışa çıkıklık olan kişiler.",
+            "Okulda zorbalıktan korunmak için çocuklar (5-6 yaşından sonra), kulak kıkırdaklarının büyümesi tamamlandığı ve şekillendirilmeye uygun olduğu dönem."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "İşlem Adımları ve Süreç",
+          "blocks": [
+            {
+              "title": "Operasyon Öncesi",
+              "text": "Cerrah kıkırdak esnekliğini kontrol eder ve kulak ile kafa arasında ideal açıları ölçer."
+            },
+            {
+              "title": "Operasyon Sırasında",
+              "text": "Cerrahi yaklaşık 1 ila 1.5 saat sürer, yetişkinlerde lokal anestezi ile yapılabilir, küçük çocuklarda rahatları için genel anestezi uygulanır."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "İpuçları ve İyileşme Dönemi",
+          "list": [
+            "İlk hafta geceleri ve gündüzleri esnek bir baş bandı (bandaj) takılmalı, ardından bir ay boyunca sadece uyurken takılarak kulakların istem dışı bükülmesi önlenmelidir.",
+            "İyileşme süresi çok hızlıdır, iş veya okula birkaç gün içinde geri dönülebilir."
+          ]
+        }
+      ]
+    },
+    "lip-aesthetics": {
+      "title": "Dudak Estetiği",
+      "tagline": "Dudak estetiği Türkiye'de | Dolgun, belirgin ve çekici gülüş",
+      "intro": "Dudak estetiği sadece hacimle sınırlı kalmaz, aynı zamanda uyum ve burun ile aralarındaki mesafeyle de ilgilidir. Orec Clinic'te, dudaklarınızı dolgun, belirgin kenarlarla ve uzun süreli doğal bir görünüm elde etmek için cerrahi ve cerrahi olmayan kapsamlı seçenekler sunuyoruz.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Dudak Estetiği Seçenekleri ve Teknikleri",
+          "blocks": [
+            {
+              "title": "Üst Dudak Liftingi",
+              "text": "Burun ve üst dudak arasındaki uzun mesafeyi kısaltarak doğal dudak rengini vurgulayan ve dudak dolgusu gerektirmeden kalıcı olarak dolgun bir görünüm sağlayan basit cerrahi bir prosedür."
+            },
+            {
+              "title": "Kendi Yağlarınızla Dudak Dolgusu",
+              "text": "Hastanın vücudundan doğal yağların alınması, temizlenmesi ve dudaklara enjekte edilmesi ile yıllarca süren sonuçlar elde edilir."
+            },
+            {
+              "title": "Dudak Dolgusu (Lip Fillers)",
+              "text": "Hyalüronik asit kullanımıyla hızlı cerrahi olmayan çözüm ile dudakların şekillenmesi ve hacminin artırılması, sonuçları 6-9 ay kadar sürer."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday Olan Durumlar",
+          "list": [
+            "Çok ince veya iki tarafta asimetrik dudaklara sahip olanlar.",
+            "Genetik faktörler veya yaşlanma nedeniyle burun ile ağız arasındaki mesafenin uzaması."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Prosedürler ve Adımlar",
+          "paragraphs": [
+            "Dolgu klinikte sadece birkaç dakika sürerken, üst dudak liftingi lokal anestezi altında bir saatten az sürer. Burun tabanının hemen altında çok ince bir kesi yapılır ve zamanla yara izi tamamen kaybolur."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Öneriler ve İyileşme Dönemi",
+          "list": [
+            "Enjeksiyon veya ameliyat sonrası iki gün boyunca çok sıcak içeceklerden veya pipet kullanmaktan kaçının.",
+            "İlk hafta düzenli olarak dudaklarınızı nemlendirin ve sert makyaj ürünlerinden uzak durun."
+          ]
+        }
+      ]
+    },
+    "neck-lift": {
+      "title": "Boyun Estetiği",
+      "tagline": "Boyun germe ve estetiği Türkiye'de | Sıkı ve mükemmel boyun için gerdik ve sarkmaları ortadan kaldırın",
+      "intro": "Ya belirtileri genellikle yüzden önce boyunda ortaya çıkar, bu da horoz boyun veya çift çene olarak bilinen duruma neden olur. Boyun estetiği, fazla cildi çıkarmak, sarkmış kasları germek ve çene hattını yeniden şekillendirerek keskin ve çekici bir profil görünümü sağlar.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Boyun Estetiğinde Kullanılan Teknikler",
+          "blocks": [
+            {
+              "title": "Boyun Liposuctionu",
+              "text": "Gençlerde iyi cilt esnekliğine sahip olanlarda çene altında biriken yağların giderilmesi için."
+            },
+            {
+              "title": "Boyun Kas Germe Cerrahisi (Platysmaplasty)",
+              "text": "Boynun sarkmış uzun kas bağlarının dikişlerle ve gerilmesi için çene altında çok küçük ve gizli bir kesi yapılır."
+            },
+            {
+              "title": "Cerrahi Olmayan Boyun Germe",
+              "text": "Dikişli germe teknikleri veya botoks ile basit boyun sarkmalarını germek için Botox Nefertiti tekniği kullanılır."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday Olan Durumlar",
+          "list": [
+            "Çene altında (çift çene) dirençli yağ birikimi.",
+            "Cilt sarkması ve boyun boyunca uzunlamasına çizgiler ve belirgin kasların ortaya çıkması."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Prosedürler ve Adımlar",
+          "paragraphs": [
+            "Ameliyat genel anestezi altında yapılır (veya duruma göre lokal anestezi ile sedasyon genellikle yüz germe ile birleştirilir ve gençleşmiş kapsamlı ve bütüncül bir sonuç sağlar."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Öneriler ve İyileşme Dönemi",
+          "list": [
+            "Cildi sabitleştirmek ve sıvı birikimini önlemek için haftalarca boyun korse giyilmelidir.",
+            "Ameliyatın ilk iki haftasında boyunu aşağı doğru keskin şekilde eğmemek (örneğin uzun süreli telefon kullanımı gibi)."
+          ]
+        }
+      ]
+    },
+    "blepharoplasty": {
+      "title": "Göz Kapağı Estetiği",
+      "tagline": "Göz kapağı estetiği ve tedavisi Türkiye'de | Yorgun ve şiş göz görünümünden kurtulun",
+      "intro": "Gözler yüze bir aynadır ve göz kapağı sarkması veya altındaki yağ torbaları kişiyi yaşça büyük ve yorgun gösterir. Göz kapağı ameliyatı, gözlerin doğal genişliğini geri kazanan ve yağ torbaları ve fazla cildi en yüksek hassasiyetle çıkaran mükemmel bir estetik ve işlevsel çözümdür.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Göz Kapağı Estetiği Bölümleri ve Uygulamaları",
+          "blocks": [
+            {
+              "title": "Üst Göz Kapağı Estetiği (Upper Blepharoplasty)",
+              "text": "Görüşü engelleyen sarkmış ve gevşemiş cildin çıkarılmasını içerir."
+            },
+            {
+              "title": "Alt Göz Kapağı Estetiği (Lower Blepharoplasty)",
+              "text": "Göz altındaki belirgin yağ torbalarının (göz altı şişlikleri) çıkarılmasına veya yeniden dağıtılmasına ve cildin gerilmesine odaklanır."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday Olan Durumlar",
+          "list": [
+            "Üst göz kapağının doğal çizgisini gizleyen sarkmış cilt kıvrımları.",
+            "Dinlenme veya kremlerle kaybolmayan sürekli şişlikler ve belirgin yağ torbaları."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Prosedürler ve Adımlar",
+          "paragraphs": [
+            "Ameliyat lokal veya genel anestezi altında yapılır ve bir ila iki saat sürer. Üst göz kapağı kesisi gözün doğal kıvrımında yapılırken, alt göz kapağı kesisi kirpiklerin hemen altında veya içeriden yapılır böylece herhangi bir yara izi görünmez."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Öneriler ve İyileşme Dönemi",
+          "list": [
+            "Ameliyat sonrası geçici kuruluğu önlemek için düzenli olarak nemlendirici göz damlası kullanın.",
+            "İlk iki hafta dışarı çıktığınızda gözlerinizi ışıktan ve rüzgardan korumak için güneş gözlüğü takın."
+          ]
+        }
+      ]
+    },
+    "forehead-contouring": {
+      "title": "Alın Estetiği",
+      "tagline": "Alın estetiği ve kısaltma Türkiye'de | Mükemmel oranlar ve yüz özellikleri için tam uyum",
+      "intro": "Alın alanı ve saç çizgisi yüzün görsel dengesini önemli ölçüde etkiler. Alın estetiği operasyonları, fazla alanı küçültmek veya belirgin kemikleri şekillendirmek için gelişmiş çözümler sunarak, yüzün diğer kısımlarıyla uyumlu, yumuşak ve dengeli bir görünüm kazandırır.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Alın Estetiği ve Şekillendirme Teknikleri",
+          "blocks": [
+            {
+              "title": "Alın Küçültme Cerrahisi (Forehead Reduction)",
+              "text": "Saç çizgisini 1.5 ila 2 cm aşağıya indirme ve alından fazla cildi çıkarma, çok geniş ve kalıtsal alınlara sahip olanlar için idealdir."
+            },
+            {
+              "title": "Alın Kemiği Şekillendirme (Forehead Contouring)",
+              "text": "Kaşların hemen üzerindeki belirgin kemikleri yumuşatarak yüze daha ince ve uyumlu bir görünüm kazandırmayı amaçlayan bir ameliyattır."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday Olan Durumlar",
+          "list": [
+            "Alnın genişliği ve saç çizgisinin belirgin şekilde geriye çekilmesiyle boğuşan kişiler.",
+            "Yüzün profil görünümünü etkileyen keskin alını çıkık kemikleri."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Prosedürler ve Adımlar",
+          "paragraphs": [
+            "Ameliyat genel anestezi altında yapılır ve cerrah saç çizgisi hemen içinde akıllı bir şekilde dalgalı bir kesi yapar böylece gelecekte saç kökleri yara izinden büyüyerek tamamen ve doğal bir şekilde gizlenir."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Öneriler ve İyileşme Dönemi",
+          "list": [
+            "Ameliyattan sonraki iki ay boyunca saçları güçlü bir şekilde geriye çekmekten (örneğin at kuyruğu saç modeli) kaçının.",
+            "Hasta başın geçici bir uyuşukluk hissedebilir bu tamamen normaldir ve birkaç hafta içinde yavaş yavaş geçer."
+          ]
+        }
+      ]
+    },
+    "genioplasty": {
+      "title": "Çene Estetiği",
+      "tagline": "Çene estetiği ve şekillendirme Türkiye'de | Yüz profilinin dengesi ve çekiciliği için anahtar",
+      "intro": "Çene, profil görünümünün güzelliğini belirlemede merkezi bir rol oynar; küçük veya geri çekilmiş çene burnu daha büyük gösterirken, çok belirgin çene yüzü fazla keskin yapar. Çene estetiği operasyonları, alt çene bölgesini hassas bir şekilde yeniden dengeler ve uyum sağlar.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Çene Estetiği Yöntemleri ve Teknikleri",
+          "blocks": [
+            {
+              "title": "Silikon İmplantlarla Çene Büyütme (Chin Implants)",
+              "text": "Çene kemiğinin üzerine özel medikal güvenli implantın ağız içi bir kesi ile yerleştirilerek geri çekilmiş çene büyütülür ve belirginleştirilir."
+            },
+            {
+              "title": "Çene Kemiği İleri veya Geri Alma Cerrahisi (Genioplasty)",
+              "text": "Çene kemiğinin kesilmesi ve ileriye veya geriye hareket ettirilmesi ve ince medikal plaklarla sabitlenmesi, daha ileri yapısal vakalar için."
+            },
+            {
+              "title": "Cerrahi Olmayan Çene Şekillendirme (Çene Dolgusu)",
+              "text": "Herhangi bir cerrahi müdahale olmaksızın çene çizgisini çizmek ve belirginleştirmek için dolgu kullanımı ile hızlı çözüm."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday Olan Durumlar",
+          "list": [
+            "Geri çekilmiş veya küçük çene (zayıf çene) sahipleri.",
+            "Çene bölgesinde uzunluk veya fazla belirginlik nedeniyle özelliklerin uyumsuzluğundan muzdarip olanlar."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Prosedürler ve Adımlar",
+          "paragraphs": [
+            "Cerrahi operasyonlar genel veya derin lokal anestezi altında yapılır. Bu prosedürlerin en büyük özelliği kesilerin genellikle ağzın içinde (diş etleri ve alt dudak arasında) olması, bu da yüzde herhangi bir yara izi veya yarım olmadığı anlamına gelir."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Öneriler ve İyileşme Dönemi",
+          "list": [
+            "Ağız içi cerrahiden sonraki bir hafta boyunca yumak ve sıvı yiyeceklere bağlı kalın.",
+            "Her yemekten sonra cerrahi dikişlerin temizliğini korumak ve enfeksiyonları önlemek için tıbbi ağız gargarası ve antiseptik kullanın."
+          ]
+        }
+      ]
+    },
+    "cheek-enhancement": {
+      "title": "Yanak Estetiği",
+      "tagline": "Yanak estetiği ve şekillendirme Türkiye'de | Heykel gibi işlenmiş yüz hatları ve dolgun, genç görünümlü yanaklar",
+      "intro": "Dolgun ve yüksek yanaklar, gençliğin ve güzelliğin simgesidir. Orec Clinic olarak; heykel gibi işlenmiş bir yüze (belirgin hatlara) kavuşmak ya da yüz hacmi kaybı yaşayanların kaybettikleri hacmi geri kazanmaları için yanak şekillendirme ve fazla yağlardan kurtulma tekniklerinin en yenilerini sunuyoruz.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Yanak Estetiği Tekniklerimiz",
+          "blocks": [
+            {
+              "title": "Yanak Estetiği ve Şekillendirme Ameliyatı (Bichectomy)",
+              "text": "Yanak içindeki fazla yağ yastıkçıklarının (bukkal yağ) mikroskobik bir iç kesiyle çıkarılması; böylece heykel gibi işlenmiş bir yüz elde edilir ve elmacık kemikleri çekici ve dikkat çekici bir şekilde öne çıkar."
+            },
+            {
+              "title": "Otolog Yağ Enjeksiyonu veya Filler ile Yanak Dolgusu",
+              "text": "Çökük veya içe düşmüş yanakları doldurmak ve yüzün canlı hacmini geri kazandırmak için uygulanır."
+            },
+            {
+              "title": "Gamze (Çukur Yanak) Estetiği (Dimpleplasty)",
+              "text": "Yalnızca gülümserken beliren, doğal görünümlü bir gamze oluşturmak için uygulanan; ince bir iç dikişle yapılan ve yalnızca 20 dakika süren hızlı bir işlemdir."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday Olan Durumlar",
+          "list": [
+            "Çok yuvarlak bir yüze veya aşırı dolgun yanaklara sahip olan ve daha belirgin, heykel gibi işlenmiş hatlar isteyen kişiler.",
+            "Yaşlanmaya veya ani kilo kaybına bağlı olarak yanak bölgesinde sarkma ve düşme yaşayan kişiler."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Prosedürler ve Adımlar",
+          "paragraphs": [
+            "Yanak işlemleri (ister şekillendirme ister gamze estetiği olsun) hızlıdır ve lokal anestezi altında yapılır; tüm cerrahi kesiler ağız içinden gerçekleştirildiği için iyileşme hızlı olur ve dışarıdan görünen herhangi bir iz kalmaz."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "İpuçları ve İyileşme Dönemi",
+          "list": [
+            "Yanaklardaki doğal şişliği azaltmak için ilk 24 saat boyunca düzenli aralıklarla buz kompresi uygulamak.",
+            "İç kesilerin hızlı ve güvenli şekilde iyileşmesini sağlamak için ağız hijyenine tam olarak uymak ve ağızı sürekli çalkalamak."
+          ]
+        }
+      ]
+    },
+    "body-contouring": {
+      "title": "Vücut Hatları ve Kontur Estetiği",
+      "tagline": "Türkiye'de Vücut Hatları Estetiği | İdeal Vücut Hatlarınızı Şekillendirin",
+      "intro": "Vücut hatları estetiği, diyet veya egzersizlere yanıt vermeyen yerel yağlanma ve dirençli yağları ortadan kaldırmaya yardımcı olur. Orec Clinic'te, vücudu yeniden şekillendirmek ve eğrisel hatlarını akıcı ve doğal bir şekilde vurgulamak için en son teknolojik yöntemleri kullanıyoruz.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Vücut Şekillendirme ve Konturlendirme Tekniklerimiz",
+          "blocks": [
+            {
+              "title": "Yüksek Hassasiyetli Vücut Şekillendirme (4D High-Definition Sculpting)",
+              "text": "Vücut kaslarının anatomik detaylarını (karın ve bel kasları gibi) son derece hassas bir şekilde vurgulamak için gelişmiş bir tekniktir."
+            },
+            {
+              "title": "Vaser Liposuction",
+              "text": "Yağ hücrelerini parçalamak ve onları kolayca emilebilecek sıvıya dönüştürmek için ultrasonik dalgalara dayalı bir tekniktir. Bu, kan damarlarını korur ve aynı zamanda cildi germeye yardımcı olur."
+            },
+            {
+              "title": "SmartLipo",
+              "text": "Yağları eritmek ve sarkmış cildi sıkılaştırmak için kolajen üretimini uyarmak için lazer enerjisinin kullanılması."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday Hasta Kriterleri",
+          "list": [
+            "İdeal ağırlıklarına yakın olan ancak belirli bölgelerde (karın, bel, sırt) dirençli yağ birikimleri olan kişiler.",
+            "Maksimum fayda sağlamak için iyi ortalama cilt esnekliğine sahip olan kişiler."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "İşlemler ve Adımlar",
+          "blocks": [
+            {
+              "title": "Operasyon Öncesi",
+              "text": "Şekillendirilecek bölgeler hassasiyetle belirlenir ve görüntülenir. Hastanın anesteziye hazır olduğundan emin olmak için tam kan testleri istenir."
+            },
+            {
+              "title": "Operasyon Sırasında",
+              "text": "Genel veya derin bölgesel anestezi altında (bölge sayısına bağlı olarak) gerçekleştirilir ve izleri tamamen azaltmak için birkaç milimetreden daha küçük mikroskopik kesilerle yapılır."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "İyileşme Süreci ve İpuçları",
+          "list": [
+            "Ödemi azaltmak ve cildin yeni katmana yapışmasına yardımcı olmak için 4 ila 6 hafta boyunca korse giymeye tam olarak uymak.",
+            "Kan dolaşımını harekete geçirmek ve kan pıhtılarını önlemek için operasyondan sonra erken ve hafif yürüyüş yapmak."
+          ]
+        }
+      ]
+    },
+    "breast-surgery": {
+      "title": "Göğüs Estetiği",
+      "tagline": "Türkiye'deki Göğüs Estetiği Ameliyatları | Orantı, Kadınsılık ve Tam Güven",
+      "intro": "Göğüs estetiği operasyonları, kadının özgüvenini ve vücut cazibesini yeniden kazandıran en yaygın operasyonlardan biridir. Emzirme sonrası kaybedilen hacmi geri kazanmak için mi yoksa sırt ağrılarından kurtulmak için fazla hacmi küçültmek için mi arıyorsanız, Orec Clinic doktorları en güvenli ve en gelişmiş cerrahi çözümleri size sunar.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Göğüs Estetiği Bölümleri ve Uygulamalar",
+          "blocks": [
+            {
+              "title": "Göğüs Büyütme (Breast Augmentation)",
+              "text": "Dünya çapında güvenilir ve onaylanmış silikon implantlar (Mentor gibi) veya dolgun ve orantılı bir hacim elde etmek için kendi yağ enjeksiyonu kullanımı."
+            },
+            {
+              "title": "Göğüs Kaldırma ve Germe (Breast Lift / Mastopexy)",
+              "text": "Hamilelik, emzirme veya kilo kaybından kaynaklanan sarkmış ciltten ve düşük göğüs dokusundan kurtulmak, meme başını genç ve yüksek konumuna geri getirmek."
+            },
+            {
+              "title": "Göğüs Küçültme (Breast Reduction)",
+              "text": "Çok büyük göğüslerden fazla doku ve yağın çıkarılması, boy ve vücut yapısıyla orantılı bir hacim elde etme ve boyun ve omuz ağrılarından kurtulma amacıyla."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday Hasta Kriterleri",
+          "list": [
+            "Göğüs boyutu veya şeklinde asimetri sorunu yaşayan kadınlar.",
+            "Göğüs dokusunda belirgin sarkma ve düşüş varlığı.",
+            "Kalıtsal olarak küçük göğüs boyutu veya kilo kaybı sonrası gerileme."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "İşlemler ve Adımlar",
+          "paragraphs": [
+            "Bu operasyonlar genel anestezi altında yapılır ve 2 ila 3 saat sürer. Cerrah, cerrahi kesileri gizli yerlerde (meme başı etrafında veya göğüs altı kıvrımında) yerleştirmeye özen gösterir ki zamanla görünmez hale gelsinler."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "İyileşme Süreci ve İpuçları",
+          "list": [
+            "Operasyon sonrası bir ay boyunca geceleri ve gündüzleri destekleyici (sporcu) bir sütyen giymek.",
+            "Üst vücut bölgesini hedefleyen ağır kaldırmaktan veya yoğun sporlardan 6 hafta süreyle kaçınmak."
+          ]
+        }
+      ]
+    },
+    "gynecomastia": {
+      "title": "Jinekomasti",
+      "tagline": "Jinekomasti tedavisi Türkiye'de | Düz ve erkeksi göğüs görünümünüzü geri kazanın",
+      "intro": "Jinekomasti (erkeklerde göğüs dokusunun büyümesi), ciddi psikolojik rahatsızlık yaratan ve kıyafet seçimlerini de özgüveni de etkileyen yaygın bir sorundur. Jinekomasti tedavi ameliyatı, büyümüş glandüler dokudan ve birikmiş yağlardan kurtularak gergin ve erkeksi bir göğse kavuşmanızı sağlayan kökten ve hızlı bir çözümdür.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Jinekomasti Tedavi Tekniklerimiz",
+          "blocks": [
+            {
+              "title": "Vaser ile Yağ Aldırma",
+              "text": "Jinekomasti yalnızca yağ birikiminden kaynaklanıyorsa (yalancı jinekomasti), ameliyata gerek kalmadan çok küçük bir açıklıktan Vaser ile yağlar emilir."
+            },
+            {
+              "title": "Glandüler Dokunun Cerrahi Olarak Çıkarılması",
+              "text": "Jinekomasti, göğüs bezinin gerçek anlamda büyümesinden kaynaklanıyorsa, cerrah sert bezi çıkarmak için meme ucunun hemen altına küçük bir yarım daire şeklinde kesi yapar."
+            },
+            {
+              "title": "Kombine (Çift) Teknik",
+              "text": "İleri vakalarda göğsün vücut duvarıyla tamamen aynı hatta gelmesini garantilemek için yağ emme işlemi cerrahi çıkarma ile birleştirilir."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday Olan Durumlar",
+          "list": [
+            "Göğüs bölgesinde egzersizle geçmeyen çıkıntı veya sarkma yaşayan erkekler ve genç erkekler.",
+            "Hormon seviyeleri dengelenmiş ve kalıcı estetik bir çözüm arayan kişiler."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Prosedürler ve Adımlar",
+          "paragraphs": [
+            "Ameliyat çok basittir ve yaklaşık bir saat sürer; büyümenin boyutuna ve hastanın tercihine göre seditasyon eşliğinde lokal anesteziyle veya genel anesteziyle yapılabilir."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "İpuçları ve İyileşme Dönemi",
+          "list": [
+            "Sıvı birikimini önlemek ve cildin gerginleşmesini sağlamak için 4 hafta boyunca göğüs için özel medikal korse takmak.",
+            "Ofis işlerine 3 ila 5 gün içinde dönmek mümkündür; bir ay boyunca spor salonunda göğüs egzersizlerinden kaçınmak gerekir."
+          ]
+        }
+      ]
+    },
+    "tummy-tuck": {
+      "title": "Karın Germe (Tummy Tuck)",
+      "tagline": "Karın germe ameliyatı Türkiye'de | Derin sarkmalardan kurtulun ve gergin, düz bir karına geri kavuşun",
+      "intro": "Karın bölgesi, sık hamileliklerden veya büyük ölçekli kilo kayıplarından en çok etkilenen bölgelerden biridir; kaslar genişler, cilt sarkar ve bu durum egzersizle düzeltilmesi zor hale gelir. Karın germe ameliyatı; ayrılan kasların (kas ayrışması) tekrar dikilmesini ve sarkan fazla cildin alınmasını sağlayarak tamamen düz bir karın ve belirgin, zarif bir bel hattı kazandırır.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Karın Germe Ameliyatı Türleri",
+          "blocks": [
+            {
+              "title": "Tam Karın Germe (Full Tummy Tuck)",
+              "text": "Göbek üstü ve altındaki sarkmaları hedefler; kasların tamamen gerginleştirilmesiyle birlikte göbeğin yeniden şekillendirilip yeni yerine taşınmasını da kapsar."
+            },
+            {
+              "title": "Mini Karın Germe (Mini Tummy Tuck)",
+              "text": "Göbeğin yerini değiştirmeye gerek kalmadan yalnızca göbek altı bölgesindeki sarkmış fazla cilde odaklanır; hafif sarkmalar için uygundur."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday Olan Durumlar",
+          "list": [
+            "Hamilelik ve sık doğumlar sonrası karın duvarındaki gevşemeyi düzeltmek isteyen kadınlar.",
+            "Önemli miktarda kilo vermiş (tüp mide ameliyatı veya sıkı diyet sonrası) ve önlüğe benzer sarkmış bir cilt oluşmuş kişiler."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Prosedürler ve Adımlar",
+          "paragraphs": [
+            "Ameliyat genel anestezi altında yapılır. Cerrah, karın alt bölgesine yatay bir kesi yapar (iç çamaşırının altında tamamen gizleneceği bikini hattı bölgesinde), ardından kasları gerginleştirir, fazla cildi çıkarır ve yarayı ince estetik dikişlerle kapatır."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "İpuçları ve İyileşme Dönemi",
+          "list": [
+            "Karın kesisine binen gerginliği azaltmak için ilk günlerde hafifçe öne eğik bir duruşla yürümek.",
+            "Medikal karın korsesini düzenli olarak takmaya özen göstermek ve iki ay boyunca ağırlık kaldırmaktan tamamen kaçınmak."
+          ]
+        }
+      ]
+    },
+    "arm-lift": {
+      "title": "Kol Estetiği",
+      "tagline": "Kol germe ve estetiği Türkiye'de | Yarasa kanadı görünümünden güvenle kurtulun",
+      "intro": "Kol bölgesindeki yağ birikimi ve cilt sarkması, birçok kişinin yazlık veya kısa kollu kıyafetleri rahatça giymesini engeller. Kol germe ameliyatı, gevşek ciltten ve sarkmış yağlardan kurtulmanıza yardımcı olarak kolların vücudun geri kalanıyla uyumlu, gergin ve ince bir görünüme kavuşmasını sağlar.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Kol Estetiğinde Kullanılan Teknikler",
+          "blocks": [
+            {
+              "title": "Cerrahi Kol Germe",
+              "text": "Kolun iç tarafında veya koltuk altında, mümkün olduğunca gizli kalacak şekilde yapılan boyuna bir kesiyle sarkmış cildin çıkarılması; tüp mide ameliyatı sonrası oluşan büyük sarkmalar için ideal yöntemdir."
+            },
+            {
+              "title": "Vaser ile Kol Yağ Aldırma",
+              "text": "Ciltte ciddi sarkma olmadan yağa bağlı kol dolgunluğu yaşayan vakalar içindir; Vaser, büyük kesiler olmadan yağların alınmasına ve cildin gerginleştirilmesine yardımcı olur."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday Olan Durumlar",
+          "list": [
+            "Yaşlanma veya kilo kaybına bağlı olarak kollarda ciddi sarkma ile birlikte kırışık ve düşkün bir cilt yaşayan kişiler.",
+            "Kol bölgesindeki yağ birikimlerinin özel egzersiz programlarına yanıt vermemesi."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Prosedürler ve Adımlar",
+          "paragraphs": [
+            "Ameliyat genel anestezi altında yaklaşık iki saat sürer. Cerrah önce işlemi kolaylaştırmak için yağları emer, ardından fazla cildi belirleyip ileride iz görünümünü en aza indirmek için büyük bir estetik özenle keserek çıkarır."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "İpuçları ve İyileşme Dönemi",
+          "list": [
+            "Dokuların iyileşmesini ve ödemin hızla geçmesini sağlamak için belirlenen süre boyunca sıkıştırıcı medikal kol korsesini takmak.",
+            "Sıvı drenajını hızlandırmak ve şişliği azaltmak için ilk günlerde uyku sırasında kolları yastıklarla yukarıda tutmak."
+          ]
+        }
+      ]
+    },
+    "thigh-lift": {
+      "title": "Firmer ve Daha Estetik Bacaklar",
+      "tagline": "Türkiye'deki Bacak Germe ve Estetiği | Konforlu deneyim, uyumlu ve hatları belirgin vücut hatları",
+      "intro": "İç ve dış bacak sarkmaları sadece estetik görünümü bozmakla kalmaz, aynı sürekli sürtünme, cilt enfeksiyonları ve hareket zorlukları gibi sağlık sorunlarına da neden olur. Bacak germe ameliyatı, alt vücudu yeniden şekillendirmek ve olağanüstü bir esneklik ve pürüzsüzlük kazandırmak için mükemmel bir çözüm sunar.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Bacak Germe Seçenekleri ve Uygulamalar",
+          "blocks": [
+            {
+              "title": "İç Bacak Germe (Inner Thigh Lift)",
+              "text": "İki bacak iç bölgesindeki sarkık cildi hedefler ve kesinin bacak kıvrımında (kasık bölgesinde) yapılması sayesinde tamamen görünmez kalır."
+            },
+            {
+              "title": "Tam veya Çevresel Bacak Germe",
+              "text": "Vücudun alt çevresinde uzanan ciddi sarkmaları olan vakalar için dış bacaklar ve kalça bölgesini de kapsayacak şekilde genişletilir."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday Olan Vakalar",
+          "list": [
+            "Kilo kaybı veya mide küçültme ameliyatı sonrası bacaklarında ciddi sarkma yaşayan hastalar.",
+            "Yürürken veya spor yaparken ağrılı bacak sürtünmesi yaşayan kişiler."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Ameliyat Süreci ve Adımlar",
+          "paragraphs": [
+            "Ameliyat genel anestezi altında gerçekleştirilir. Cerrah, ön yağ aldırma işlemi sonrası fazla cildi ve sarkık yumuşak dokuları çıkarır, ardından dokuları kaldırır ve sonuçların kalıcı ve sabit olması için derin iç dikişlerle sabitler."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "İyileşme Dönemi İpuçları",
+          "list": [
+            "Dikişlerin gerilmesini önlemek için ilk iki hafta çok geniş adımlarla yürüme veya çömelme pozisyonunda oturmaktan kaçının.",
+            "Ameliyat bölgesinin tamamen kuru ve temiz kalmasına özen göstermek ve reçete edilen antibiyotikleri ve dezenfektanları düzenli olarak kullanmak."
+          ]
+        }
+      ]
+    },
+    "bbl": {
+      "title": "Kalça Estetiği ve Şekillendirme",
+      "tagline": "Türkiye'deki Kalça Estetiği ve Şekillendirme | Uyumlu vücut hatları, zarif ve estetik hatlar",
+      "intro": "Kalça bölgesi, kadının alt vücut güzelliğini ve orantısını vurgulamada önemli bir rol oynar. Yaşlanan kalça kası (dormant kas) veya kilo kaybı nedeniyle kalçalarda hacim kaybı yaşıyor olmanız fark etmeksizin, Orec Clinic olarak son ve güvenli cerrahi çözümlerle kalçalarınızı yeniden şekillendirmek ve kaldırmak için size özel hizmetler sunuyoruz.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Kalça Estetiğinde Kullanılan Teknikler",
+          "blocks": [
+            {
+              "title": "Brezilya Kalça Estetiği (BBL - Brazilian Butt Lift)",
+              "text": "Dünya genelinde en çok talep gören teknik, vücudun belirli bölgelerinden (karın veya bel gibi) fazla ve dirençli yağların alınması, saflaştırılması ve ardından kalça bölgesine yeniden enjekte edilerek doğal ve dolgun bir görünüm kazandırılması üzerine kuruludur."
+            },
+            {
+              "title": "Kalça Protezleri (Butt Implants)",
+              "text": "BBL tekniğinin uygulanamayacağı durumlarda, vücutta yeterli yağ deposu bulunmayan vakalarda kalça bölgesi için özel olarak tasarlanmış dayanıklı medikal silikon implantların kullanılmasıdır."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Aday Olan Vakalar",
+          "list": [
+            "Kalçada sarkma veya düzleşme yaşayanlar.",
+            "Kalçalarda asimetri olması veya yaşanan kalça düşüklüğünün giderilmesi isteyenler."
+          ]
+        }
+      ]
+    },
+    "vaginal-rejuvenation": {
+      "title": "Vajinal Estetik ve Cerrahi",
+      "tagline": "Türkiye'deki Vajinal Estetik | Kendinize olan güveninizi, konforunuzu ve fonksiyonel sağlığınızı yeniden kazanın",
+      "intro": "Kadınların hassas bölgeleri, tekrarlayan doğumlar, ilerleyen yaş veya genetik faktörler nedeniyle önemli değişiklikler yaşayabilir. Bu durumlar günlük konforu ve özgüveni olumsuz etkileyebilir. Vajinal estetik ameliyatları, dış görünümü iyileştirmek ve dokularda meydana gelen gerilimlere bağlı fonksiyonel ve fiziksel sorunları çözmeyi hedefler.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Vajinal Estetiğin Bölümleri ve Uygulamaları",
+          "blocks": [
+            {
+              "title": "Dudak Estetiği (Labiaplasty)",
+              "text": "Spor yaparken veya dar giysiler giyerken rahatsızlık ve ağrıya neden olan aşırı veya asimetrik iç veya dış dudakların küçültülmesi veya yeniden şekillendirilmesi amacıyla yapılan bir cerrahi işlemdir."
+            },
+            {
+              "title": "Vajina Daraltma ve Estetiği",
+              "text": "Doğum sırasında oluşan esnemeler nedeniyle dış dokuların onarılması ve yeniden şekillendirilmesi işlemidir."
+            }
+          ]
+        }
+      ]
+    },
+    "vaginal-fat-filler": {
+      "title": "Vajinal Yağ ve Filler Enjeksiyonu",
+      "tagline": "Türkiye'de hassas bölgeye yağ ve filler enjeksiyonu | Hacim ve canlılık geri kazanılsın",
+      "intro": "Yaşlanma veya önemli kilo kaybı ile birlikte, dış dudaklar doğal hacimlerini kaybedebilir ve ince veya kıvrımlı görünüm alabilirler. Enjeksiyon, bölgenin dolgun ve genç görünümünü yeniden kazandırmak için hızlı ve basit bir estetik çözümdür.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Mevcut Enjeksiyon Seçenekleri",
+          "blocks": [
+            {
+              "title": "Vajinal Yağ Enjeksiyonu",
+              "text": "Küçük miktarda hastanın kendi vücudundan yağ alınır, tamamen filtrelenir ve ardından dış dudaklara enjekte edilir. Bu sayede sonuçlar yıllarca boyunca güvenli bir şekilde sürer."
+            },
+            {
+              "title": "Tıbbi Filler Enjeksiyonu",
+              "text": "Hassas bölgeler için özel olarak tasarlanmış hyalüronik asit kullanımı, ofiste gerçekleştirilen hızlı cerrahi olmayan bir işlemdir ve iyileşme süresi gerektirmez."
+            }
+          ]
+        }
+      ]
+    },
+    "vaginoplasty": {
+      "title": "Vajinoplasti",
+      "tagline": "Türkiye'de vajinal daraltma ve onarım | İşlevselliği geri kazanan gelişmiş çözümler",
+      "intro": "Tekrarlayan normal doğumlar, vajinal duvar kaslarını ve çevre dokuları genişletir ve sarkmasına neden olur. Bu durum, genişleme hissi, tatminsizlik ve idrar kaçırma (stres üriner inkontinansı) sorunlarına yol açabilir. Daraltma işlemi, iç kas desteğini yeniden inşa eder.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Vajinal Daraltma Tekniklerimiz",
+          "blocks": [
+            {
+              "title": "Cerrahi Daraltma (Vajinoplasti)",
+              "text": "Sarkmış kasların birleştirilip dikilmesi ve vajinal astarı aşırı doku ile kırpıldığı hassas bir işlemdir. Bu, ileri düzey ve şiddetli doku sarkması için en uygun ve kalıcı çözümdür."
+            },
+            {
+              "title": "Cerrahi Olmayan Daraltma (Lazer)",
+              "text": "Basit ila orta vakalar için, özel lazer ışınlarının dokuyu kolajen üretimi için uyararak iç duvarın büzülmesini ve daralmasını sağladığı cerrahi olmayan bir yöntemdir."
+            }
+          ]
+        }
+      ]
+    },
+    "penile-aesthetics": {
+      "title": "Penil Estetik",
+      "tagline": "Türkiye'de penis estetiği | Özgüven artışı ve erkek dengesi",
+      "intro": "Cinsel sağlık ve genital bölgelerin dış görünüm, bir erkeğin kendine güveni ve zihinsel istikrarının temel direklerindendir. Orec Clinic'te, üroloji ve jinekoloji uzmanları denetiminde, penis boyutu veya şekliyle ilgili endişeleri tedavi etmek için gelişmiş ve kanıtlanmış estetik ve cerrahi çözümler sunuyoruz.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Penil Kalınlaştırma ve Estetik Teknikleri",
+          "blocks": [
+            {
+              "title": "Penis Kalınlaştırma (Penile Girth Augmentation)",
+              "text": "Vücuttan alınan yağ enjeksiyonu, özel filler kullanımı veya onaylanmış doku ve materyallerin implantasyonu yoluyla penis çevresinin ve çapının artırılmasını hedefleyen bir işlemdir. Bu, daha dolgun ve orantılı bir görünüm sağlar."
+            }
+          ]
+        }
+      ]
+    },
+    "penile-lengthening": {
+      "title": "Penis Uzatma",
+      "tagline": "Türkiye'de penis uzatma | En yeni güvenli tıbbi standartlarla penis boyu artırma cerrahisi",
+      "intro": "Bazı erkekler, cinsel hayatları ve psikolojik durumları üzerinde etkili olan gerçek veya görünür penis kısalığı yaşar. Cerrahi, görünür uzunluğu artırmak ve tam tıbbi güvenlikle istenen sonuçları elde etmek için tasarlanmış etkili çözümler sunar.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Uzatma Cerrahisi Mekanizması",
+          "blocks": [
+            {
+              "title": "Askılı Bağ Bırakma (Suspensory Ligament Release)",
+              "text": "En yaygın cerrahi tekniktir; üroloji cerrahisi, penis tabanını leğen kemiğine bağlayan bağı serbest bırakır. Bu, penisin gizli iç kısmının dışa çıkmasına olanak tanır ve 2 ila 5 cm arasında net bir uzama sağlar (her bireyin tıbbi anatomisine bağlı olarak)."
+            },
+            {
+              "title": "Leğen Bölgesi Yağlarının Alınması (Görünür Uzatma)",
+              "text": "Yerel obezite durumlarında, leğen bölgesi üzerinde biriken yağ, penisin büyük bir bölümünü gizler; bu durumda yağlar alınarak penis tam doğal uzunluğuyla ortaya çıkar."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

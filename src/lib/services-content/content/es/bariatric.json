@@ -1,0 +1,214 @@
+{
+  "title": "Cirugías de obesidad",
+  "tagline": "Cirugías y tratamientos integrales para la pérdida de peso con laparoscopia avanzada — bajo la supervisión de un equipo quirúrgico y nutricional especializado, con seguimiento hasta alcanzar tu peso ideal",
+  "intro": [
+    "El departamento de cirugías y tratamientos de obesidad incluye las últimas soluciones quirúrgicas y no quirúrgicas para la pérdida de peso: desde la manga gástrica y el bypass gástrico con laparoscopia avanzada, hasta el balón gástrico y el bótox gástrico para procedimientos más simples sin cirugía, todos con los últimos equipos médicos y grapadoras inteligentes aprobadas a nivel mundial.",
+    "Se seleccionará el procedimiento más adecuado para tu caso después de una evaluación integral del índice de masa corporal, tu salud general y tus hábitos alimentarios, con un plan nutricional progresivo y supervisión de especialistas en nutrición y seguimiento conductual continuo hasta alcanzar y mantener tu peso ideal."
+  ],
+  "services": {
+    "gastric-sleeve": {
+      "title": "Manga gástrica",
+      "tagline": "Procedimiento de manga gástrica en Turquía | La solución más radical y exitosa para la obesidad extrema",
+      "intro": "La cirugía de manga gástrica es la opción número uno a nivel mundial para personas que sufren de obesidad extrema y que han fracasado en perder peso mediante métodos tradicionales. En Clínica Orec, realizamos esta cirugía a través de laparoscopia avanzada para garantizar el período de recuperación más rápido y menos dolor, lo que te ayuda a perder hasta un 70% a 80% de tu peso excedente en el primer año.",
+      "sections": [
+        {
+          "icon": "🩺",
+          "heading": "Cambios anatómicos y fisiológicos en la manga gástrica",
+          "paragraphs": [
+            "Durante el procedimiento, el cirujano se centra en producir dos cambios principales en el sistema digestivo:"
+          ],
+          "blocks": [
+            {
+              "title": "Reducción estructural del tamaño del estómago",
+              "text": "Se extirpa aproximadamente un 75% a 80% del tamaño del estómago longitudinalmente, convirtiéndolo en un pequeño tubo similar a un plátano o una manga de vestir, lo que reduce significativamente la cantidad de comida que se puede absorber."
+            },
+            {
+              "title": "Modificación de las hormonas corporales",
+              "text": "La parte extirpada (cúpula del estómago) contiene las células responsables de secretar la hormona grelina (Ghrelin), conocida como la hormona del hambre. Su extirpación provoca una disminución brusca y directa del deseo de comer y una sensación de saciedad rápida."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Técnicas médicas utilizadas en nuestro centro",
+          "blocks": [
+            {
+              "title": "Laparoscopia microscópica tridimensional avanzada",
+              "text": "El procedimiento se realiza completamente sin una incisión quirúrgica abierta, sino a través de 4 a 5 pequeños agujeros en la pared abdominal (no superiores a 1 cm) para introducir la cámara y los instrumentos finos."
+            },
+            {
+              "title": "Aparatos de grapado inteligentes de triple seguridad",
+              "text": "En Clínica Orec, utilizamos los últimos grapadores médicos estadounidenses (como Medtronic o Ethicon), que cortan y grapan los tejidos con 3 líneas paralelas de suturas de titanio finas para garantizar los más altos niveles de seguridad."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedimientos y protocolo postoperatorio",
+          "blocks": [
+            {
+              "title": "Antes de la cirugía",
+              "text": "El paciente se somete a exámenes completos que incluyen (función renal y hepática, gases en sangre, electrocardiograma, radiografía de tórax y análisis de hormonas tiroideas), además de una consulta con el anestesiólogo y el endocrinólogo."
+            },
+            {
+              "title": "Durante la cirugía",
+              "text": "La cirugía dura de 45 a 60 minutos bajo anestesia general."
+            },
+            {
+              "title": "La dieta postoperatoria",
+              "text": "El paciente sigue una dieta progresiva estricta bajo la supervisión de nuestro especialista en nutrición: las dos primeras semanas solo líquidos claros, la tercera y cuarta semana alimentos triturados y en puré, el segundo mes comenzar gradualmente con alimentos sólidos bien masticados."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Riesgos y cómo evitarlos",
+          "paragraphs": [
+            "Los riesgos potenciales históricamente incluyen: fugas de las grapas, sangrado o coágulos en las piernas."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Nuestro estricto protocolo de seguridad",
+              "text": "Evitamos el riesgo de fuga en casi un 100% mediante una prueba de tinte doble dentro del quirófano para asegurar el cierre completo del estómago, seguido de un paso de envoltura quirúrgica para coser manualmente las grapas sobre el grapado automático para mayor seguridad. También se administra al paciente anticoagulantes y medias de compresión especiales inmediatamente para prevenir coágulos y activar la circulación sanguínea."
+            }
+          ]
+        }
+      ]
+    },
+    "gastric-bypass": {
+      "title": "Bypass gástrico",
+      "tagline": "Procedimiento de bypass en Turquía | El estándar de oro para el tratamiento de la obesidad y la diabetes",
+      "intro": "La cirugía de bypass gástrico es la opción ideal y más fuerte para pacientes que sufren de obesidad extrema acompañada de diabetes tipo 2, o que padecen reflujo gastroesofágico severo (acidez crónica), o para los amantes de los dulces y azúcar.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Cambios anatómicos y fisiológicos en el bypass gástrico",
+          "paragraphs": [
+            "La cirugía se basa en combinar dos mecanismos para la pérdida de peso (reducción del tamaño + reducción de la absorción):"
+          ],
+          "blocks": [
+            {
+              "title": "Bolsa gástrica pequeña",
+              "text": "El cirujano separa una porción superior muy pequeña del estómago (del tamaño de un huevo de gallina) para que sea el nuevo estómago que recibe los alimentos."
+            },
+            {
+              "title": "Derivación intestinal y salto de la absorción",
+              "text": "Se corta el intestino delgado y se conecta la parte inferior directamente con la nueva bolsa gástrica, omitiendo así el resto del estómago antiguo, el duodeno y la primera parte del intestino. Este desvío evita que el cuerpo absorba todas las calorías y azúcares ingeridos."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Opciones y técnicas de bypass en nuestra clínica",
+          "blocks": [
+            {
+              "title": "Bypass clásico (Roux-en-Y)",
+              "text": "Se realizan dos uniones quirúrgicas entre el estómago y el intestino, siendo el tratamiento radical y definitivo reconocido mundialmente para pacientes con reflujo gastroesofágico severo."
+            },
+            {
+              "title": "Bypass miniaturizado",
+              "text": "Una técnica más reciente y rápida que implica una única unión quirúrgica entre la bolsa gástrica longitudinal y el intestino, caracterizada por su alta eficiencia en la pérdida de peso y el tratamiento de la diabetes."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedimientos médicos y período de convalecencia",
+          "blocks": [
+            {
+              "title": "La cirugía",
+              "text": "Se realiza completamente por laparoscopia bajo anestesia general y dura aproximadamente una hora y media a dos horas."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Riesgos y cómo evitarlos",
+          "paragraphs": [
+            "Los riesgos potenciales incluyen: síndrome de dumping al consumir azúcares rápidamente, o deficiencia aguda de vitaminas.",
+            "Nuestros médicos evitan esto enseñando al paciente cómo regular sus comidas, obligándolo a un programa de suplementos y vitaminas periódicas de por vida para compensar la deficiencia de absorción intestinal y mantener la salud ósea y muscular."
+          ]
+        }
+      ]
+    },
+    "gastric-balloon": {
+      "title": "Balón gástrico",
+      "tagline": "Balón gástrico en Turquía | Pérdida de peso sin cirugía y sin anestesia general",
+      "intro": "Si sufres de un aumento de peso entre 15 y 30 kilogramos y temes las intervenciones quirúrgicas, el balón gástrico te ofrece una solución médica segura y temporal para ayudarte a cambiar tus hábitos alimenticios y controlar tu apetito sin causar ningún cambio permanente en la anatomía de tu sistema digestivo.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Mecanismo de funcionamiento y componentes médicos",
+          "paragraphs": [
+            "El principio del balón se basa en ocupar espacio dentro del estómago; se introduce un balón médico blando y fabricado con silicona de alta calidad dentro del estómago y se llena con líquido médico estéril (solución salina coloreada de azul) con un volumen de 500 a 700 ml. Este balón ocupa aproximadamente dos tercios del volumen del estómago, lo que te hace sentir lleno y saciado después de consumir cantidades muy pequeñas de comida."
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Tipos de técnicas de balón gástrico en nuestra clínica",
+          "blocks": [
+            {
+              "title": "Cápsula inteligente programada",
+              "text": "La técnica más reciente a nivel mundial y sin laparoscopia ni anestesia; el paciente traga una pequeña cápsula conectada a un fino tubo con un vaso de agua en la clínica, y una vez que se estabiliza en el estómago (se confirma mediante radiografía), se llena con líquido y luego se retira el tubo. Este balón se degrada naturalmente y sale del cuerpo naturalmente después de 4 meses."
+            },
+            {
+              "title": "Balón gástrico clásico (por laparoscopia)",
+              "text": "Se introduce y retira después de 6 meses o un año (dependiendo del tipo de balón) utilizando un laparoscopio bajo sedación ligera (sueño profundo temporal de 15 minutos) y sin dolor."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Efectos secundarios y cómo evitarlos",
+          "paragraphs": [
+            "En los primeros tres días después de la colocación del balón, es completamente normal que el cuerpo reaccione defensivamente con náuseas, vómitos o calambres estomacales debido a que el estómago intenta digerir el balón."
+          ],
+          "blocks": [
+            {
+              "title": "💡 ¿Cómo los evitamos?",
+              "text": "En Clínica Orec, administramos al paciente un protocolo terapéutico intensivo que incluye medicamentos antieméticos, inhibidores potentes de la acidez y antiespasmódicos antes del procedimiento y durante los primeros días para que el paciente pase por esta etapa con total suavidad y comodidad."
+            }
+          ]
+        }
+      ]
+    },
+    "gastric-botox": {
+      "title": "Botox Gástrico",
+      "tagline": "Inyecciones de botox gástrico en Turquía | Control del apetito y ralentización de la digestión con el procedimiento médico más sencillo para combatir el peso",
+      "intro": "La inyección de botox gástrico es uno de los procedimientos no quirúrgicos más recientes, diseñado para personas que sufren de un aumento de peso leve o moderado (índice de masa corporal BMI entre 27 y 35), o que tienen dificultades para adherirse a una dieta debido al hambre constante.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Mecanismo médico de acción del botox dentro del estómago",
+          "paragraphs": [
+            "El botox actúa sobre dos fisiologías cuando se inyecta en la pared del estómago:"
+          ],
+          "blocks": [
+            {
+              "title": "Paralización temporal de los músculos del estómago",
+              "text": "El botox se inyecta en los músculos de la pared del estómago responsables de vaciar los alimentos, lo que provoca una ralentización significativa de sus contracciones. Como resultado, los alimentos permanecen en el estómago durante mucho más tiempo (hasta 6-8 horas en lugar de 2), lo que le al paciente una sensación de saciedad prolongada."
+            },
+            {
+              "title": "Efecto sobre el nervio del hambre",
+              "text": "Se inyectan áreas específicas en el fondo del estómago que afectan al nervio vago, responsable de enviar señales de hambre al cerebro, reduciendo así el deseo intenso de comer."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedimientos médicos y período de validez",
+          "blocks": [
+            {
+              "title": "Pasos del tratamiento",
+              "text": "Un procedimiento simple y muy seguro que toma solo 15-20 minutos dentro de la unidad de endoscopia digestiva. El procedimiento se realiza bajo sedación local y sueño ligero, donde el médico introduce el endoscopio flexible oral e inyecta botox en aproximadamente 20-30 puntos estratégicos en la pared muscular del estómago, y el paciente puede abandonar el centro y regresar a su trabajo en solo una hora."
+            },
+            {
+              "title": "Recuperación y aparición de resultados",
+              "text": "El efecto del botox comienza a manifestarse gradualmente en el apetito dentro de 3-4 días de la inyección, y su efecto médico efectivo dentro del estómago dura entre 5-6 meses (que es el período de validez del botox antes de que se disuelva naturalmente), un período dorado suficiente para entrenar al paciente en un estilo de vida saludable y perder el peso exceso de forma segura."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

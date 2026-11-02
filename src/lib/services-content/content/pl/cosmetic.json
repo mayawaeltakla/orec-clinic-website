@@ -1,0 +1,951 @@
+{
+  "title": "Chirurgia estetyczna",
+  "tagline": "Zabiegi chirurgii estetycznej twarzy, ciała i miejsc intymnych — naturalne, harmonijne rysy w rękach elity wyspecjalizowanych chirurgów",
+  "intro": [
+    "Nie wierzymy w sztuczne zmiany, które zacierają rysy — piękno dostrzegamy w naturalności i spontaniczności Twojego wyglądu. Z ogromną troską skupiamy się na wyeksponowaniu naturalnego piękna Twojej twarzy i ciała oraz korygowaniu niedoskonałości najnowszymi, łagodnymi metodami naukowymi, aby dać Ci rezultat, który Ci przystoi, i pełen spokój na każdym etapie wspólnej podróży.",
+    "Nasze zabiegi chirurgii estetycznej dzielą się na trzy obszary: chirurgię estetyczną twarzy, chirurgię estetyczną ciała oraz chirurgię estetyczną miejsc intymnych. Wszystkie wykonywane są najnowszymi technikami chirurgicznymi i przy wsparciu precyzyjnego planowania cyfrowego, z kompleksową opieką przed zabiegiem oraz w okresie rekonwalescencji."
+  ],
+  "groups": {
+    "face": {
+      "title": "Chirurgia estetyczna twarzy",
+      "description": "Zabiegi modelowania i liftingu twarzy najnowszymi technikami chirurgicznymi i niechirurgicznymi, z naturalnymi rezultatami, które zachowują naturalny charakter Twoich rysów i dają młody wygląd pełen witalności."
+    },
+    "body": {
+      "title": "Chirurgia estetyczna ciała",
+      "description": "Zabiegi modelowania sylwetki, korekty proporcji i ponownego liftingu, które eksponują Twoje naturalne krągłości i przywracają pewność siebie po ciąży lub dużej utracie wagi."
+    },
+    "intimate": {
+      "title": "Chirurgia estetyczna miejsc intymnych",
+      "description": "Rozwiązania estetyczne i funkcjonalne z zachowaniem najwyższej dyskrecji i poufności, pod nadzorem elity specjalistów urologii i medycyny rozrodczej, z wykorzystaniem najnowszych bezpiecznych technik.",
+      "sections": [
+        {
+          "icon": "🏥",
+          "heading": "Procedury medyczne i rekonwalescencja we wszystkich obszarach chirurgii miejsc intymnych",
+          "blocks": [
+            {
+              "title": "Przed zabiegami",
+              "text": "Oczekiwania i przewidywane rezultaty omawiane są ze specjalistami z zachowaniem najwyższej dyskrecji i poufności. Przed terminem zabiegu pacjent musi być wolny od jakichkolwiek aktywnych infekcji układu moczowego lub rozrodczego."
+            },
+            {
+              "title": "Okres rekonwalescencji",
+              "text": "Okres rekonwalescencji trwa od kilku dni (w przypadku zabiegów niechirurgicznych i iniekcji) do 4–6 tygodni przy pełnych operacjach (takich jak zwężanie pochwy czy wydłużanie prącia). Przez cały okres gojenia szwów i tkanek, wyznaczony przez lekarza, całkowicie zabronione są stosunki seksualne i zbliżenia intymne, a także dźwiganie ciężarów."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "services": {
+    "facelift": {
+      "title": "Odmładzanie twarzy (lifting twarzy)",
+      "tagline": "Operacje estetyczne twarzy w Turcji | Przywróć młodość i witalność swoim rysom",
+      "intro": "Operacja liftingu twarzy to najskuteczniejsze rozwiązanie pozwalające pozbyć się oznak starzenia i głębokich opadnięć, z którymi nie radzą sobie rozwiązania tymczasowe. W klinice Orec korzystamy z najnowszych technik chirurgicznych, aby ponownie ukształtować rysy twarzy i nadać im naturalny, młody wygląd pełen witalności.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Nasze techniki odmładzania twarzy",
+          "blocks": [
+            {
+              "title": "Pełny chirurgiczny lifting twarzy (Full Facelift)",
+              "text": "Działa na głębokie opadnięcia w dolnej połowie twarzy i wzdłuż linii szczęki, przez nacięcia całkowicie ukryte wokół ucha."
+            },
+            {
+              "title": "Mini lifting twarzy (Mini Facelift)",
+              "text": "Zabieg mniej inwazyjny, skoncentrowany na lekkich i umiarkowanych opadnięciach policzków przy wczesnych oznakach starzenia."
+            },
+            {
+              "title": "Techniki liftingu niechirurgicznego",
+              "text": "Oferujemy zaawansowane alternatywy, takie jak nici estetyczne, HIFU oraz iniekcje własnej tkanki tłuszczowej, aby przywrócić utraconą objętość twarzy bez operacji."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Osoby z wiotkością skóry i rozluźnieniem mięśni w okolicy policzków i szczęki.",
+            "Pojawienie się głębokich zmarszczek i wyraźnych fałd wokół ust i nosa."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "blocks": [
+            {
+              "title": "Przed zabiegiem",
+              "text": "Pacjent przechodzi kompleksową ocenę elastyczności skóry i anatomii twarzy. Planowanie cyfrowe służy do wyznaczenia nacięć w miejscach niewidocznych (wzdłuż linii włosów i za uchem)."
+            },
+            {
+              "title": "Podczas zabiegu",
+              "text": "Zabieg wykonywany jest w znieczuleniu ogólnym i trwa od 2 do 4 godzin; w tym czasie napina się głębokie tkanki i powięź SMAS oraz usuwa nadmiar skóry."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Należy konsekwentnie nosić specjalną opaskę uciskową na twarz przez okres wskazany przez lekarza, aby ograniczyć opuchliznę.",
+            "Unikanie intensywnego wysiłku fizycznego i bezpośredniej ekspozycji na słońce przez co najmniej miesiąc."
+          ]
+        }
+      ]
+    },
+    "brow-lift": {
+      "title": "Lifting brwi",
+      "tagline": "Lifting i unoszenie brwi w Turcji | Dla oczu promieniujących młodością i jasnym spojrzeniem",
+      "intro": "Grawitacja i wiek powodują opadanie brwi, przez co twarz nabiera stale zmęczonego lub groźnego wyglądu. Lifting brwi (lub czoła) pomaga przywrócić brwi do ich naturalnego położenia, podkreślając piękno oczu i odmładzając górną część twarzy.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Rodzaje i techniki liftingu brwi",
+          "blocks": [
+            {
+              "title": "Endoskopowy lifting brwi (Endoscopic Brow Lift)",
+              "text": "Najnowsza i najbezpieczniejsza technika, wykonywana przez bardzo drobne, mikroskopijne nacięcia w owłosionej skórze głowy przy użyciu miniaturowej kamery, bez pozostawiania widocznych blizn."
+            },
+            {
+              "title": "Lifting skroniowy (Temporal Lift)",
+              "text": "Koncentruje się na uniesieniu zewnętrznej części brwi (tzw. Foxy Eyes), poprawiając wygląd oczu."
+            },
+            {
+              "title": "Lifting niechirurgiczny",
+              "text": "Z wykorzystaniem nici estetycznych lub iniekcji botoksu w łagodnych przypadkach."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Obniżenie poziomu brwi i ich zwisanie nad górnymi powiekami.",
+            "Głębokie poziome zmarszczki na czole lub pionowe linie między brwiami (zmarszczki gniewu)."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "blocks": [
+            {
+              "title": "Przed zabiegiem",
+              "text": "Lekarz analizuje odległość między brwią a okiem oraz mimikę twarzy, aby zapewnić harmonijny rezultat."
+            },
+            {
+              "title": "Podczas zabiegu",
+              "text": "Zabieg najczęściej wykonywany jest w znieczuleniu miejscowym z sedacją lub w znieczuleniu ogólnym. Chirurg uwalnia tkanki, unosi je i mocuje w nowym, bardziej młodym położeniu."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Stosowanie zimnych okładów przez pierwsze 48 godzin, aby zmniejszyć opuchliznę wokół oczu.",
+            "Spanie z głową uniesioną na dodatkowych poduszkach przez kilka dni po zabiegu."
+          ]
+        }
+      ]
+    },
+    "rhinoplasty": {
+      "title": "Rhinoplastyka (plastyka nosa)",
+      "tagline": "Rhinoplastyka w Turcji | Idealna równowaga między urodą wyglądu a sprawnym oddychaniem",
+      "intro": "Operacje plastyki nosa ściągają na siebie największe zainteresowanie na świecie — szczególnie w Turcji. W klinice Orec nie chodzi nam wyłącznie o zmianę zewnętrznego kształtu nosa tak, aby współgrał z Twoimi rysami; dbamy również o skorygowanie problemów funkcjonalnych, takich jak skrzywienie przegrody nosowej i trudności w oddychaniu.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Nasze rodzaje i techniki rhinoplastyki",
+          "blocks": [
+            {
+              "title": "Technika otwarta (Open Rhinoplasty)",
+              "text": "Daje chirurgowi pełną widoczność i pozwala precyzyjnie modelować strukturę chrząstek i kości; idealna w przypadkach złożonych oraz przy operacjach rewizyjnych."
+            },
+            {
+              "title": "Technika zamknięta (Closed Rhinoplasty)",
+              "text": "Wszystkie nacięcia chirurgiczne wykonuje się wewnątrz nozdrzy, bez żadnych zewnętrznych ran czy blizn; charakteryzuje się szybszą rekonwalescencją."
+            },
+            {
+              "title": "Rhinoplastyka ultradźwiękowa (Ultrasonic / Piezo)",
+              "text": "Wykorzystuje fale ultradźwiękowe do rzeźbienia kości nosa z niezwykłą precyzją, bez uszkadzania otaczających tkanek i naczyń krwionośnych, co znacznie zmniejsza siniaki i opuchliznę."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Garb na grzbiecie nosa, powiększony koniuszek nosa lub rozmiar nosa nieharmonizujący z twarzą.",
+            "Wady wrodzone lub powstałe w wyniku wypadków.",
+            "Problemy z oddychaniem lub chrapanie podczas snu spowodowane skrzywieniem przegrody nosowej."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "blocks": [
+            {
+              "title": "Przed zabiegiem",
+              "text": "Wykonuje się fotografię i symulację trójwymiarową, aby zobaczyć przewidywany efekt nowego nosa i omówić go z pacjentem."
+            },
+            {
+              "title": "Podczas zabiegu",
+              "text": "Zabieg trwa od 2 do 3 godzin w znieczuleniu ogólnym; w tym czasie przebudowuje się chrząstki i kości."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Na nos zakłada się szynę na 5–7 dni, aby podeprzeć nową strukturę.",
+            "Całkowita rezygnacja z noszenia okularów korekcyjnych lub przeciwsłonecznych przez co najmniej dwa miesiące, aby nie uciskać kości nosa."
+          ]
+        }
+      ]
+    },
+    "otoplasty": {
+      "title": "Otoplastyka (plastyka uszu)",
+      "tagline": "Otoplastyka w Turcji | Odzyskaj pewność siebie i zadowolenie z własnego wyglądu",
+      "intro": "Uszy odstające to częste źródło skrępowania zarówno u dzieci, jak i u dorosłych. Otoplastyka (plastyka uszu) pomaga ukształtować chrząstki i zmniejszyć odległość uszu od głowy tak, aby były bliżej głowy i bardziej harmonijne — w naturalny i staranny sposób.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniki stosowane w otoplastyce",
+          "blocks": [
+            {
+              "title": "Chirurgiczne modelowanie chrząstki",
+              "text": "Wykonywane przez małe, całkowicie ukryte nacięcie za uchem: chrząstkę rzeźbi się lub zagina i mocuje trwałymi szwami medycznymi."
+            },
+            {
+              "title": "Korekta płatka ucha (Earlobe Repair)",
+              "text": "Naprawa rozdarć powstałych wskutek wieloletniego noszenia ciężkich kolczyków lub urazów."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Osoby z wyraźnym wygięciem jednego lub obu uszu od urodzenia.",
+            "Dzieci (po 5–6 roku życia), aby uchronić je przed dręceniem w szkole, gdy chrząstka ucha kończy już wzrost i jest wystarczająco elastyczna do modelowania."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "blocks": [
+            {
+              "title": "Przed zabiegiem",
+              "text": "Chirurg ocenia elastyczność chrząstki i mierzy idealne kąty, aby ucho harmonizowało z głową."
+            },
+            {
+              "title": "Podczas zabiegu",
+              "text": "Operacja trwa około godziny do półtorej godziny; u dorosłych można ją wykonać w znieczuleniu miejscowym, a u małych dzieci w znieczuleniu ogólnym dla ich komfortu."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Przez pierwszy tydzień należy nosić elastyczną opaskę na głowę (bandanę) dzień i noc, a potem tylko podczas snu przez miesiąc, aby chronić ucho przed niezamierzonym zgięciem.",
+            "Rekonwalescencja jest bardzo szybka — powrót do pracy lub szkoły możliwy jest po kilku dniach."
+          ]
+        }
+      ]
+    },
+    "lip-aesthetics": {
+      "title": "Estetyka ust",
+      "tagline": "Estetyka ust w Turcji | Uśmiech pełny, wyraźny i pociągający",
+      "intro": "Uroda ust nie ogranicza się do ich wielkości — obejmuje także harmonię oraz odległość między ustami a nosem. W klinice Orec oferujemy kompleksowe opcje chirurgiczne i niechirurgiczne, aby uzyskać pełne usta o wyraźnych konturach i trwałym, naturalnym wyglądzie.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Opcje i techniki estetyki ust",
+          "blocks": [
+            {
+              "title": "Operacja uniesienia górnej wargi (Lip Lift)",
+              "text": "Prosty zabieg chirurgiczny skracający zbyt dużą odległość między nosem a górną wargą; uwypukla naturalną barwę warg i daje trwale pełniejszy wygląd bez potrzeby wypełniaczy."
+            },
+            {
+              "title": "Powiększanie ust własną tkanką tłuszczową",
+              "text": "Z ciała pacjenta pobiera się naturalny tłuszcz, oczyszcza go, a następnie wstrzykuje w usta — efekt utrzymuje się przez wiele lat."
+            },
+            {
+              "title": "Powiększanie ust wypełniaczami (Lip Fillers)",
+              "text": "Szybkie rozwiązanie niechirurgiczne z użyciem bezpiecznego kwasu hialuronowego, które definiuje i powiększa usta; efekt utrzymuje się do 6–9 miesięcy."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Osoby z bardzo cienkimi lub niesymetrycznymi ustami.",
+            "Wydłużenie odległości między nosem a ustami wskutek czynników genetycznych lub starzenia."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "paragraphs": [
+            "Wypełniacz aplikuje się w klinice w kilka minut, natomiast operacja uniesienia wargi trwa mniej niż godzinę w znieczuleniu miejscowym. Wykonuje się bardzo precyzyjne nacięcie tuż pod podstawą nosa, którego ślad z czasem całkowicie znika."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Unikanie bardzo gorących napojów i picia przez słomkę przez dwa dni po iniekcji lub operacji.",
+            "Regularne nawilżanie ust i unikanie agresywnych kosmetyków w pierwszym tygodniu."
+          ]
+        }
+      ]
+    },
+    "neck-lift": {
+      "title": "Odmładzanie szyi",
+      "tagline": "Lifting i odmładzanie szyi w Turcji | Pozbądź się fałdów i wiotkości — odzyskaj napiętą, idealną szyję",
+      "intro": "Oznaki starzenia często pojawiają się na szyi wcześniej niż na twarzy, tworząc tzw. szyję indyka albo podwójny podbródek (opadające fałdy). Operacja odmładzania szyi usuwa nadmiar skóry, napina rozluźnione mięśnie i rzeźbi linię żuchwy, aby uzyskać ostry, pociągający profil.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniki stosowane w odmładzaniu szyi",
+          "blocks": [
+            {
+              "title": "Liposukcja szyi (Neck Liposuction)",
+              "text": "Pozbycie się nagromadzonego tłuszczu w okolicy podwójnego podbródka u młodych osób z dobrą elastycznością skóry."
+            },
+            {
+              "title": "Operacja napinania mięśni szyi (Platysmaplasty)",
+              "text": "Szycie i napinanie rozluźnionych pionowych pasm mięśni szyi przez bardzo małe, ukryte nacięcie pod podbródkiem."
+            },
+            {
+              "title": "Lifting szyi niechirurgiczny",
+              "text": "Z wykorzystaniem nici liftingujących lub techniki Nefertiti z botoksem przy łagodnych opadnięciach szyi."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Nagromadzenie opornego tłuszczu pod podbródkiem (podwójny podbródek).",
+            "Wiotkość skóry i pojawianie się fałdów oraz pionowo zaznaczających się mięśni na szyi."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "paragraphs": [
+            "Operacja wykonywana jest w znieczuleniu ogólnym (lub miejscowym z sedacją, w zależności od przypadku) i często łączy się ją z liftingiem twarzy, aby uzyskać kompleksowy, młody efekt dla całych rysów."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Przez kilka tygodni należy nosić specjalny gorset uciskowy na szyję, aby ustabilizować skórę i zapobiec gromadzeniu się płynów.",
+            "Unikanie gwałtownego pochylania głowy w dół (np. długiego używania telefonu) przez pierwsze dwa tygodnie po zabiegu."
+          ]
+        }
+      ]
+    },
+    "blepharoplasty": {
+      "title": "Blefaroplastyka (plastyka powiek)",
+      "tagline": "Plastyka i leczenie powiek w Turcji | Pozbądź się zmęczonego spojrzenia i opuchniętych woreczków pod oczami",
+      "intro": "Oczy to lustro twarzy, a opadające powieki czy woreczki tłuszczowe pod nimi dodają lat i nadają wyczerpany wygląd. Blefaroplastyka to doskonałe rozwiązanie estetyczno-funkcjonalne, które przywraca naturalną otwartość oka i z najwyższą precyzją usuwa fałdy tłuszczu i nadmiar skóry.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Rodzaje i zastosowania blefaroplastyki",
+          "blocks": [
+            {
+              "title": "Plastyka górnych powiek (Upper Blepharoplasty)",
+              "text": "Polega na usunięciu wiotkiej, opadającej skóry, która czasem może schodzić tak nisko, że zasłania nawet część pola widzenia."
+            },
+            {
+              "title": "Plastyka dolnych powiek (Lower Blepharoplasty)",
+              "text": "Skupia się na usunięciu lub przemieszczeniu wystających woreczków tłuszczowych (opuchlizna pod oczami) i napinaniu pofałdowanej skóry."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Wiotkie fałdy skórne zasłaniające naturalną fałdę górnej powieki.",
+            "Utrzymująca się opuchlizna i wyraźne woreczki pod oczami, które nie znikają po odpoczynku ani pod wpływem kremów."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "paragraphs": [
+            "Zabieg przeprowadzany jest w znieczuleniu miejscowym lub ogólnym i trwa od 1 do 2 godzin. Nacięcie górnej powieki wykonuje się w naturalnej fałdzie oka, a nacięcie dolnej powieki tuż pod linią rzęs lub od wewnątrz, co gwarantuje brak jakichkolwiek widocznych blizn."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Regularne stosowanie nawilżających kropli do oczu, aby zapobiec przejściowej suchości po zabiegu.",
+            "Noszenie okularów przeciwsłonecznych na zewnątrz, aby chronić oczy przed światłem i wiatrem w pierwszych dwóch tygodniach."
+          ]
+        }
+      ]
+    },
+    "forehead-contouring": {
+      "title": "Modelowanie czoła",
+      "tagline": "Redukcja i modelowanie czoła w Turcji | Idealne proporcje i pełna harmonia rysów twarzy",
+      "intro": "Wielkość czoła i kształt linii włosów znacząco wpływają na wizualną równowagę twarzy. Operacje modelowania czoła oferują zaawansowane rozwiązania pozwalające zmniejszyć nadmierną powierzchnię lub wyrzeźbić wystające kości, nadając rysom miękki, harmonijny wygląd współgrający z resztą twarzy.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniki modelowania i kształtowania czoła",
+          "blocks": [
+            {
+              "title": "Operacja redukcji czoła (Forehead Reduction)",
+              "text": "Polega na przesunięciu linii włosów w dół o 1,5–2 cm i usunięciu nadmiaru skóry czoła; idealna dla osób z bardzo szerokim, dziedzicznym czołem."
+            },
+            {
+              "title": "Rzeźbienie wystających kości czoła (Forehead Contouring)",
+              "text": "Operacja mająca na celu wygładzenie kości wystających tuż nad brwiami, aby nadać twarzy bardziej subtelny i harmonijny wygląd."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Osoby z szerokim czołem i wyraźnie cofniętą linią włosów.",
+            "Wyraźnie wystające kości czoła wpływające na profil boczny twarzy."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "paragraphs": [
+            "Zabieg wykonywany jest chirurgicznie w znieczuleniu ogólnym. Chirurg dba o to, aby nacięcie przebiegało zygzakiem wzdłuż linii włosów, dzięki czemu mieszki włosowe odrosną w przyszłości przez bliznę i całkowicie, naturalnie ją ukryją."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Unikanie mocnego zaczesywania włosów do tyłu (np. kucyka) przez dwa miesiące po zabiegu, aby rana zrosła się bez napięcia.",
+            "Pacjent może odczuwać przejściowe drętwienie skóry głowy — to zupełnie normalne i ustępuje stopniowo w ciągu kilku tygodni."
+          ]
+        }
+      ]
+    },
+    "genioplasty": {
+      "title": "Korekta podbródka",
+      "tagline": "Korekta i modelowanie podbródka w Turcji | Klucz do równowagi i atrakcyjności profilu twarzy",
+      "intro": "Podbródek odgrywa kluczową rolę w kształtowaniu piękna profilu bocznego: mały lub cofnięty podbródek sprawia, że nos wydaje się większy, a zbyt wysunięty dodaje twarzy nadmiernej ostrości. Zabiegi korekty podbródka pomagają przywrócić równowagę i harmonię w okolicy żuchwy z niezwykłą precyzją.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Metody i techniki korekty podbródka",
+          "blocks": [
+            {
+              "title": "Powiększanie podbródka implantami silikonowymi (Chin Implants)",
+              "text": "Umieszczenie bezpiecznego, dopasowanego implantu medycznego na kości podbródka przez nacięcie wewnętrzne w ustach, aby wysunąć i uwypuklić cofnięty podbródek."
+            },
+            {
+              "title": "Operacja przesunięcia kości podbródka (Genioplasty)",
+              "text": "Przecięcie kości podbródka, przesunięcie jej do przodu lub do tyłu i mocowanie drobnymi płytkami medycznymi — w bardziej zaawansowanych przypadkach strukturalnych."
+            },
+            {
+              "title": "Niechirurgiczne modelowanie podbródka (wypełniacze żuchwy)",
+              "text": "Szybkie rozwiązanie z użyciem wypełniacza do rysowania linii żuchwy i uwypuklenia podbródka bez żadnej ingerencji chirurgicznej."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Osoby z cofniętym lub małym podbródkiem (tzw. słabym podbródkiem).",
+            "Osoby, u których nadmierna długość lub wydatność podbródka zaburza harmonię rysów."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "paragraphs": [
+            "Zabiegi chirurgiczne wykonywane są w znieczuleniu ogólnym lub głębokim miejscowym. Ich największą zaletą jest to, że nacięcia znajdują się zwykle wewnątrz ust (między dziąsłem a wargą dolną), co oznacza brak jakichkolwiek zewnętrznych blizn czy ran na twarzy."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Stosowanie miękkich pokarmów i płynów przez tydzień po operacji wewnątrzustnej.",
+            "Płukanie ust medycznym płynem antyseptycznym po każdym posiłku, aby utrzymać czystość wewnętrznych szwów chirurgicznych i uniknąć infekcji."
+          ]
+        }
+      ]
+    },
+    "cheek-enhancement": {
+      "title": "Korekta policzków",
+      "tagline": "Korekta i modelowanie policzków w Turcji | Rysy jak wyrzeźbione i pełne młodości jabłuszka",
+      "intro": "Pełne, wysoko osadzone policzki to symbol młodości i piękna. W klinice Orec oferujemy najnowsze techniki modelowania policzków i usuwania nadmiaru tkanki tłuszczowej — aby uzyskać wyrzeźbioną twarz (wyraźne rysy) albo przywrócić utraconą objętość osobom z wychudzoną twarzą.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Nasze techniki korekty policzków",
+          "blocks": [
+            {
+              "title": "Operacja modelowania policzków (Bichectomy)",
+              "text": "Usunięcie nadmiarowych poduszek tłuszczowych (tłuszczu policzkowego) od wewnątrz policzka przez mikroskopijne nacięcie wewnętrzne, co daje wyrzeźbioną twarz i atrakcyjnie uwypukla kości policzkowe."
+            },
+            {
+              "title": "Powiększanie policzków własnym tłuszczem lub wypełniaczami",
+              "text": "Aby wypełnić szczupłe lub zapadnięte policzki i przywrócić twarzy żywotną objętość."
+            },
+            {
+              "title": "Tworzenie dołeczków (Dimpleplasty)",
+              "text": "Szybki 20-minutowy zabieg tworzący naturalny dołeczek widoczny tylko przy uśmiechu, dzięki drobnemu szwowi wewnętrznemu."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Osoby o bardzo okrągłej twarzy lub nadmiernie pełnych policzkach, które marzą o bardziej zarysowanych i wyrzeźbionych rysach.",
+            "Osoby z wiotkością lub opadnięciem w okolicy kości policzkowych wskutek wieku lub nagłej utraty wagi."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "paragraphs": [
+            "Zabiegi na policzkach (zarówno modelowanie, jak i tworzenie dołeczków) są szybkie i wykonywane w znieczuleniu miejscowym, a wszystkie nacięcia znajdują się wewnątrz jamy ustnej, co zapewnia szybkie gojenie i brak zewnętrznych blizn."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Regularne przykładanie okładów z lodu przez pierwsze 24 godziny, aby ograniczyć naturalną opuchliznę policzków.",
+            "Bezwzględna dbałość o higienę jamy ustnej i częste płukanie, aby zapewnić szybkie i bezpieczne gojenie nacięć wewnętrznych."
+          ]
+        }
+      ]
+    },
+    "body-contouring": {
+      "title": "Modelowanie sylwetki",
+      "tagline": "Operacje modelowania sylwetki w Turcji | Narysuj idealną linię swojego ciała",
+      "intro": "Zabiegi modelowania sylwetki pomagają pozbyć się otyłości miejscowej i opornego tłuszczu, który nie reaguje na diety ani ćwiczenia. W klinice Orec stosujemy najnowsze światowe techniki, aby ponownie ukształtować ciało i wyeksponować jego naturalne krągłości w płynny, naturalny sposób.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Nasze techniki rzeźbienia i modelowania ciała",
+          "blocks": [
+            {
+              "title": "Rzeźbienie ciała wysokiej definicji (4D High-Definition Sculpting)",
+              "text": "Zaawansowana technika uwypuklająca szczegóły anatomiczne mięśni ciała (np. mięśnie brzucha i talii) z niezwykłą precyzją."
+            },
+            {
+              "title": "Liposukcja Vaser (Vaser Liposuction)",
+              "text": "Technika wykorzystująca fale ultradźwiękowe do rozbijania komórek tłuszczowych i przekształcania ich w płyn łatwy do delikatnego odessania; chroni naczynia krwionośne i jednocześnie pomaga napinać skórę."
+            },
+            {
+              "title": "Liposukcja laserowa (SmartLipo)",
+              "text": "Wykorzystuje energię lasera do rozpuszczania tłuszczu i stymulacji produkcji kolagenu, zapewniając doskonałe napinanie wiotkiej skóry."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Osoby zbliżone do wagi idealnej, zmagające się z opornymi nagromadzeniami tłuszczu w określonych miejscach (brzuch, talia, plecy).",
+            "Osoby o dobrej lub przeciętnej elastyczności skóry, które w największym stopniu skorzystają z zabiegów odsysania."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "blocks": [
+            {
+              "title": "Przed zabiegiem",
+              "text": "Precyzyjnie wyznacza się i fotografuje obszary przeznaczone do rzeźbienia. Pacjent wykonuje kompletne badania krwi, aby upewnić się, że może otrzymać znieczulenie."
+            },
+            {
+              "title": "Podczas zabiegu",
+              "text": "Wykonywany w znieczuleniu ogólnym lub głębokim miejscowym (w zależności od liczby stref) przez bardzo drobne, mikroskopijne nacięcia liczące zaledwie kilka milimetrów, co niemal całkowicie eliminuje blizny."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Bezwzględne noszenie medycznego ubrania uciskowego (gorsetu) przez 4–6 tygodni, aby zmniejszyć opuchliznę i pomóc skórze przylegać do nowego konturu.",
+            "Wczesne, lekkie spacery po zabiegu, aby pobudzić krążenie krwi i zapobiec zakrzepom."
+          ]
+        }
+      ]
+    },
+    "breast-surgery": {
+      "title": "Estetyka piersi",
+      "tagline": "Operacje plastyczne piersi w Turcji | Harmonia, kobiecość i absolutna pewność siebie",
+      "intro": "Zabiegi estetyki piersi to te, które w największym stopniu przywracają kobiecie pewność siebie i atrakcyjność sylwetki. Niezależnie od tego, czy chcesz odzyskać utraconą objętość po karmieniu piersią, czy zmniejszyć zbyt duży biust, aby pozbyć się bólu pleców — lekarze kliniki Orec zaproponują Ci najbezpieczniejsze i najbardziej zaawansowane rozwiązania chirurgiczne.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Rodzaje i zastosowania chirurgii piersi",
+          "blocks": [
+            {
+              "title": "Powiększanie piersi (Breast Augmentation)",
+              "text": "Zastosowanie bezpiecznych, zatwierdzonych na całym świecie implantów silikonowych (takich jak Mentor) lub iniekcji własnej tkanki tłuszczowej, aby uzyskać pełną i proporcjonalną wielkość."
+            },
+            {
+              "title": "Lifting i napinanie piersi (Breast Lift / Mastopexy)",
+              "text": "Usunięcie wiotkiej skóry i podniesienie opadających piersi po ciąży, karmieniu lub utracie wagi, z przemieszczeniem brodawki do młodszego, wyższego położenia."
+            },
+            {
+              "title": "Redukcja piersi (Breast Reduction)",
+              "text": "Usunięcie nadmiaru tkanki i tłuszczu z bardzo dużych piersi, aby uzyskać rozmiar proporcjonalny do wzrostu i budowy ciała oraz pozbyć się bólu karku i ramion."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydatki do zabiegu",
+          "list": [
+            "Kobiety z asymetrią wielkości lub kształtu piersi.",
+            "Wyraźna wiotkość i opadanie tkanki piersiowej.",
+            "Dziedzicznie mały biust lub jego zmniejszenie po utracie wagi."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "paragraphs": [
+            "Zabiegi wykonywane są w znieczuleniu ogólnym i trwają od 2 do 3 godzin. Chirurg umieszcza nacięcia w ukrytych miejscach (wokół brodawki lub w dolnym fałdzie piersi), aby z czasem stały się niewidoczne."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Noszenie podtrzymującego biustonosza medycznego (sportowego) dzień i noc przez pełny miesiąc po operacji.",
+            "Unikanie dźwigania ciężarów i intensywnych sportów angażujących górną część ciała przez 6 tygodni."
+          ]
+        }
+      ]
+    },
+    "gynecomastia": {
+      "title": "Ginekomastia (przerost piersi u mężczyzn)",
+      "tagline": "Leczenie ginekomastii w Turcji | Odzyskaj płaski, męski wygląd klatki piersiowej",
+      "intro": "Ginekomastia (przerost tkanki piersiowej u mężczyzn) to częsty problem, który wywołuje poważne skrępowanie psychiczne i wpływa na wybór ubrań oraz pewność siebie. Leczenie ginekomastii daje radykalne i szybkie rozwiązanie pozwalające usunąć przerośniętą tkankę gruczołową i nagromadzony tłuszcz, przywracając napiętą, męską klatkę piersiową.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Nasze techniki leczenia ginekomastii",
+          "blocks": [
+            {
+              "title": "Liposukcja Vaser",
+              "text": "Jeśli ginekomastia wynika wyłącznie z nagromadzenia tłuszczu (tzw. rzekoma ginekomastia), odsysa się go techniką Vaser przez bardzo małe nakłucie, bez operacji."
+            },
+            {
+              "title": "Chirurgiczne usunięcie gruczołu",
+              "text": "Jeśli ginekomastia wynika z rzeczywistego przerostu gruczołu piersiowego, chirurg wykonuje małe półokrągłe nacięcie tuż pod brodawką, aby usunąć twardy gruczoł."
+            },
+            {
+              "title": "Technika łączona",
+              "text": "Połączenie odsysania z wycięciem, aby w zaawansowanych przypadkach zapewnić pełne wyrównanie klatki piersiowej ze ścianą ciała."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Mężczyźni i młodzi faceci z wydatnością lub wiotkością w okolicy klatki piersiowej, które nie ustępują przy ćwiczeniach.",
+            "Osoby ze stabilnym poziomem hormonów, szukające trwałego rozwiązania estetycznego."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "paragraphs": [
+            "Zabieg jest bardzo prosty i trwa około godziny. Można go wykonać w znieczuleniu miejscowym z sedacją lub w znieczuleniu ogólnym — w zależności od stopnia przerostu i preferencji pacjenta."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Noszenie medycznego ubrania uciskowego na klatkę piersiową przez 4 tygodnie, aby zapobiec gromadzeniu się płynów i zapewnić napinanie skóry.",
+            "Powrót do pracy biurowej możliwy po 3–5 dniach, przy unikaniu ćwiczeń klatki piersiowej na siłowni przez miesiąc."
+          ]
+        }
+      ]
+    },
+    "tummy-tuck": {
+      "title": "Abdominoplastyka (plastyka brzucha)",
+      "tagline": "Abdominoplastyka w Turcji | Pożegnaj głębokie opadnięcia i odzyskaj napięty, płaski brzuch",
+      "intro": "Brzuch to jeden z obszarów najbardziej dotkniętych wielokrotnymi ciążami lub znaczną utratą wagi: mięśnie się rozciągają, a skóra opada w sposób trudny do skorygowania ćwiczeniami. Abdominoplastyka polega na ponownym zszyciu rozdzielonych mięśni (rozejście mięśni prostych brzucha) i usunięciu zwisającego nadmiaru skóry, aby uzyskać całkowicie płaski brzuch i wyrzeźbioną talię.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Rodzaje operacji plastyki brzucha",
+          "blocks": [
+            {
+              "title": "Pełna abdominoplastyka (Full Tummy Tuck)",
+              "text": "Obejmuje opadnięcia powyżej i poniżej pępka; obejmuje przebudowę i przemieszczenie pępka na nowe miejsce oraz pełne napinanie mięśni."
+            },
+            {
+              "title": "Mini abdominoplastyka (Mini Tummy Tuck)",
+              "text": "Skupia się na nadmiarowej, wiotkiej skórze tylko poniżej pępka, bez konieczności przemieszczania pępka; odpowiednia przy lekkich opadnięciach."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Kobiety po wielu ciążach i porodach, aby skorygować rozejście się ściany brzucha.",
+            "Osoby, które straciły dużą wagę (po gastrektomii lub restrykcyjnej diecie) i mają zwisającą skórę przypominającą fartuch."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "paragraphs": [
+            "Zabieg wykonywany jest w znieczuleniu ogólnym. Chirurg wykonuje poziome nacięcie w dolnej części brzucha (w okolicy linii bikini, aby całkowicie ukryć je pod bielizną), następnie napina mięśnie, usuwa nadmiar skóry i zamyka ranę drobnymi szwami kosmetycznymi."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Chodzenie z lekkim pochyleniem do przodu przez pierwsze dni, aby zmniejszyć napięcie rany brzusznej.",
+            "Konsekwentne noszenie medycznego pasa brzusznego i całkowita rezygnacja z dźwigania przez dwa miesiące."
+          ]
+        }
+      ]
+    },
+    "arm-lift": {
+      "title": "Plastyka ramion",
+      "tagline": "Lifting i plastyka ramion w Turcji | Pożegnaj skrzydła nietoperza z pewnością siebie",
+      "intro": "Nagromadzenie tłuszczu i wiotkość skóry w okolicy ramion nie pozwalają wielu osobom swobodnie nosić letnich ubrań z krótkim rękawem. Operacja liftingu ramion pomaga pozbyć się rozluźnionej skóry i opadającego tłuszczu, nadając ramionom napięty, szczupły wygląd współgrający z resztą sylwetki.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniki stosowane w plastyce ramion",
+          "blocks": [
+            {
+              "title": "Chirurgiczny lifting ramion",
+              "text": "Usunięcie wiotkiej skóry przez podłużne nacięcie po wewnętrznej stronie ramienia lub pod pachą, tak aby było maksymalnie ukryte — idealna metoda przy dużych opadnięciach po operacji odchudzającej."
+            },
+            {
+              "title": "Liposukcja ramion Vaser",
+              "text": "Dla przypadków z pełnością ramienia spowodowaną tłuszczem, ale bez silnej wiotkości skóry; Vaser pozwala odessać tłuszcz i napinać skórę bez dużych nacięć."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Osoby z silną wiotkością oraz pofałdowaną, opadającą skórą ramion wskutek wieku lub utraty wagi.",
+            "Nagromadzenia tłuszczu na ramionach nieodpowiadające na dedykowane ćwiczenia."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "paragraphs": [
+            "Zabieg trwa około dwóch godzin w znieczuleniu ogólnym. Chirurg najpierw odessuje tłuszcz, aby ułatwić operację, a następnie wyznacza i usuwa nadmiar skóry z ogromną precyzją kosmetyczną, aby zminimalizować przyszłą bliznę."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Noszenie medycznego rękawa uciskowego przez okres wskazany przez lekarza, aby zapewnić gojenie tkanek i szybkie zmniejszenie opuchlizny.",
+            "Unoszenie ramion na poduszkach podczas snu w pierwszych dniach, aby przyspieszyć odpływ płynów i zmniejszyć opuchliznę."
+          ]
+        }
+      ]
+    },
+    "thigh-lift": {
+      "title": "Plastyka ud",
+      "tagline": "Lifting i plastyka ud w Turcji | Wygodne kroki i harmonijna, wyrzeźbiona dolna partia sylwetki",
+      "intro": "Opadanie wewnętrznych i zewnętrznych stron ud to nie tylko brak harmonii wyglądu, ale też problemy zdrowotne: ciągłe otarcia, infekcje skórne i trudności w poruszaniu się. Chirurgia liftingu ud to doskonałe rozwiązanie pozwalające ponownie ukształtować dolną część ciała i nadać jej wyjątkową elastyczność i gładkość.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Opcje i zastosowania liftingu ud",
+          "blocks": [
+            {
+              "title": "Lifting wewnętrznej strony ud (Inner Thigh Lift)",
+              "text": "Działa na wiotkość skóry wewnętrznej strony ud; nacięcie wykonuje się w fałdzie pachwiny, aby był całkowicie ukryty."
+            },
+            {
+              "title": "Lifting pełny lub obwodowy ud",
+              "text": "Rozciąga się na zewnętrzne strony ud i pośladki w przypadkach bardzo silnej wiotkości obejmującej cały dolny obwód ciała."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Pacjenci z silną wiotkością skóry ud po wahaniach wagi lub operacji bariatrycznej.",
+            "Osoby odczuwające bolesne otarcia ud podczas chodzenia lub uprawiania sportu."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Przebieg zabiegu i etapy",
+          "paragraphs": [
+            "Operacja wykonywana jest w znieczuleniu ogólnym. Chirurg usuwa nadmiar skóry i miękkie, wiotkie tkanki po wstępnym odsysaniu tłuszczu, a następnie unosi tkanki i mocuje je głębokimi szwami wewnętrznymi, aby zapewnić trwałość i stabilność efektu."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Wskazówki i okres rekonwalescencji",
+          "list": [
+            "Unikanie bardzo szerokich kroków i pozycji przysiadu przez pierwsze dwa tygodnie, aby chronić szwy przed napięciem.",
+            "Bardzo staranne dbanie o suchość i czystość okolicy nacięcia oraz regularne stosowanie przepisanych antybiotyków i środków dezynfekujących."
+          ]
+        }
+      ]
+    },
+    "bbl": {
+      "title": "Modelowanie i powiększanie pośladków",
+      "tagline": "Modelowanie i kształtowanie pośladków w Turcji | Harmonijna sylwetka i kobiece krągłości",
+      "intro": "Okolica pośladków odgrywa ważną rolę w podkreśleniu piękna i proporcji dolnej części kobiecej sylwetki. Niezależnie od tego, czy zmagasz się z tzw. hip dips (ubytkami w biodrach), czy z utratą objętości pośladków po odchudzaniu — w klinice Orec oferujemy najnowsze bezpieczne rozwiązania chirurgiczne, aby przebudować i unieść pośladki tak, aby idealnie współgrały z obwodem talii.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniki stosowane w modelowaniu pośladków",
+          "blocks": [
+            {
+              "title": "Brazylijski lifting pośladków (BBL — Brazilian Butt Lift)",
+              "text": "Najczęściej wybierana technika na świecie: odsysa się nadmiarowy, oporny tłuszcz z innych partii ciała (np. brzucha lub talii), oczyszcza go, a następnie wstrzykuje i rozprowadza w pośladkach, nadając im naturalną, uniesioną objętość."
+            },
+            {
+              "title": "Implanty silikonowe dla pośladków (Butt Implants)",
+              "text": "Stosowanie trwałych, medycznych implantów silikonowych zaprojektowanych specjalnie dla pośladków — w przypadkach, gdy pacjent nie ma wystarczającego zapasu tkanki tłuszczowej do techniki BBL."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Kandydaci do zabiegu",
+          "list": [
+            "Osoby z opadnięciem lub spłaszczeniem wyglądu pośladków.",
+            "Asymetria wielkości między stronami lub chęć pozbycia się ubytków w biodrach (hip dips)."
+          ]
+        }
+      ]
+    },
+    "vaginal-rejuvenation": {
+      "title": "Chirurgia i estetyka pochwy",
+      "tagline": "Estetyka pochwy w Turcji | Odzyskaj pewność siebie, komfort i zdrowie funkcjonalne",
+      "intro": "Miejsca intymne kobiet przechodzą wyraźne zmiany wskutek wielokrotnych porodów, starzenia lub czynników genetycznych, co wpływa na codzienny komfort i pewność siebie. Chirurgia estetyczna pochwy ma na celu poprawę wyglądu zewnętrznego oraz rozwiązanie problemów funkcjonalnych i fizycznych wynikających z rozciągnięcia tkanek.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Zabiegi i zastosowania estetyki pochwy",
+          "blocks": [
+            {
+              "title": "Labioplastyka (Labiaplasty)",
+              "text": "Zabieg zmniejszenia lub przebudowy nadmiernych lub niesymetrycznych warg sromowych mniejszych lub większych, aby pozbyć się skrępowania i bólu podczas uprawiania sportu lub noszenia obcisłych ubrań."
+            },
+            {
+              "title": "Plastyka i naprawa krocza",
+              "text": "Odtworzenie uszkodzonych tkanek zewnętrznych powstałych wskutek poprzednich nacięć podczas porodów naturalnych."
+            }
+          ]
+        }
+      ]
+    },
+    "vaginal-fat-filler": {
+      "title": "Iniekcje miejsc intymnych — własny tłuszcz i wypełniacze",
+      "tagline": "Iniekcje miejsc intymnych własnym tłuszczem i wypełniaczami w Turcji | Przywróć objętość i blask",
+      "intro": "Z wiekiem lub przy znacznej utracie wagi wargi sromowe większe mogą utracić naturalną objętość i wyglądać na wychudzone lub pofałdowane. Iniekcje to szybkie i proste rozwiązanie estetyczne przywracające okolicy pełny, młody wygląd.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Dostępne opcje iniekcji",
+          "blocks": [
+            {
+              "title": "Iniekcje własnej tkanki tłuszczowej",
+              "text": "Od pacjentki pobiera się niewielką ilość tłuszczu z jej własnego ciała, dokładnie go oczyszcza, a następnie wstrzykuje w wargi sromowe większe — efekt utrzymuje się latami, w pełni bezpiecznie."
+            },
+            {
+              "title": "Iniekcje wypełniacza medycznego",
+              "text": "Zastosowanie kwasów hialuronowych zaprojektowanych dla miejsc intymnych jako szybki, gabinetowy zabieg niechirurgiczny, który nie wymaga okresu rekonwalescencji."
+            }
+          ]
+        }
+      ]
+    },
+    "vaginoplasty": {
+      "title": "Plastyka pochwy (zwężanie)",
+      "tagline": "Zwężanie i rekonstrukcja pochwy w Turcji | Zaawansowane rozwiązania przywracające sprawność funkcjonalną",
+      "intro": "Wielokrotne porody naturalne prowadzą do rozciągnięcia i rozluźnienia mięśni ściany pochwy oraz otaczających tkanek, co powoduje poczucie poszerzenia, utratę satysfakcji, a czasem problemy z kontrolą moczu (nietrzymanie wysiłkowe). Zabieg zwężania odbudowuje wewnętrzne podparcie mięśniowe.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Nasze techniki plastyki pochwy",
+          "blocks": [
+            {
+              "title": "Zwężanie chirurgiczne (Vaginoplasty)",
+              "text": "Precyzyjna operacja, podczas której napina się i zbiera rozluźnione mięśnie oraz usuwa nadmiar tkanek wyściełających pochwę — optymalne i ostateczne rozwiązanie przy zaawansowanej wiotkości tkanek."
+            },
+            {
+              "title": "Zwężanie niechirurgiczne (laserowe)",
+              "text": "W przypadkach łagodnych do umiarkowanych: specjalistyczne wiązki lasera stymulują tkanki do produkcji kolagenu, co powoduje obkurczenie i zwężenie wewnętrznej ściany bez operacji."
+            }
+          ]
+        }
+      ]
+    },
+    "penile-aesthetics": {
+      "title": "Estetyka i powiększanie prącia",
+      "tagline": "Estetyka prącia w Turcji | Wzmocnij pewność siebie i osiągnij męską równowagę",
+      "intro": "Zdrowie seksualne i wygląd zewnętrzny narządów płciowych to fundament męskiej pewności siebie i stabilności psychicznej. W klinice Orec oferujemy zaawansowane, sprawdzone rozwiązania estetyczne i chirurgiczne pod nadzorem elity specjalistów urologii i zdrowia rozrodczego, aby rozwiązać obawy dotyczące wielkości lub kształtu członka.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniki pogrubiania prącia",
+          "blocks": [
+            {
+              "title": "Powiększanie obwodu prącia (Penile Girth Augmentation)",
+              "text": "Zabieg mający na celu zwiększenie obwodu członka poprzez iniekcje własnej tkanki tłuszczowej pobranej z ciała, zastosowanie specjalistycznego wypełniacza lub wszczepienie zatwierdzonych tkanek i matryc medycznych, co daje bardziej masywny i proporcjonalny wygląd."
+            }
+          ]
+        }
+      ]
+    },
+    "penile-lengthening": {
+      "title": "Wydłużanie prącia",
+      "tagline": "Wydłużanie prącia w Turcji | Operacja zwiększenia długości członka według najnowszych bezpiecznych standardów medycznych",
+      "intro": "Niektórzy mężczyźni cierpią z powodu rzeczywistego lub odczuwanego skrócenia członka, co wpływa na ich życie małżeńskie i psychikę. Chirurgia oferuje przemyślane i skuteczne rozwiązania zwiększające widoczną długość i pozwalające osiągnąć pożądane rezultaty w pełnym bezpieczeństwie medycznym.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Mechanizm operacji wydłużania",
+          "blocks": [
+            {
+              "title": "Uwolnienie więzadła wiszącego (Suspensory Ligament Release)",
+              "text": "Najczęstsza technika chirurgiczna: urolog uwalnia więzadło łączące podstawę prącia z kością łonową, co pozwala zewnętrznie uwidocznić ukrytą wewnętrzną część członka i daje wyraźne wydłużenie o 2–5 cm (w zależności od anatomii każdego organizmu)."
+            },
+            {
+              "title": "Usunięcie tłuszczu łonowego (wydłużenie pozorne)",
+              "text": "W przypadkach otyłości miejscowej tłuszcz nagromadza się nad okolicą łonową i ukrywa znaczną część długości prącia; w takiej sytuacji odsysa się ten tłuszcz, aby narząd ukazał się w pełnej, naturalnej długości."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "breadcrumbHome": "Ana Sayfa",
+    "breadcrumbServices": "Hizmetler",
+    "subServicesTitle": "Bu Bölümün Hizmetleri",
+    "exploreService": "Hizmeti Keşfet",
+    "relatedTitle": "Aynı Bölümdeki Diğer Hizmetler",
+    "backToServices": "Tüm Hizmetlere Geri Dön",
+    "backToDepartment": "Bölüme Geri Dön",
+    "ctaTitle": "Orec Clinic ile Yolculuğunuza Başlayın",
+    "ctaText": "Danışman ekibimiz her zaman sizinle konuşmak ve tüm sorularınıza nazikçe cevap vermek için burada. Bugün bizimle iletişime geçin ve sağlıklı bir gülüşme ve hayata tutku yeniden kazandıran güzellik yolculuğunuzdaki ilk adımı atın!",
+    "ctaButton": "Ücretsiz Danışmanlık Randevusu Al",
+    "notFoundTitle": "Sayfa Bulunamadı",
+    "notFoundText": "Üzgünüz, istenen bölüm veya hizmet mevcut değil. Lütfen tüm tıbbi bölümlerimizi keşfetmek için Hizmetler sayfasını ziyaret edin."
+  }
+}

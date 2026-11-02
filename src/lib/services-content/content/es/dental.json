@@ -1,0 +1,238 @@
+{
+  "title": "Estética y Tratamiento Dental",
+  "tagline": "Tu familia médica en el viaje para recuperar tu confianza en tu sonrisa — nuestra especialidad principal desde el primer día en el corazón de Estambul",
+  "intro": [
+    "Porque la sonrisa es lo primero que nos conecta con los demás, en Orec Clinic hemos dedicado un departamento completo y muy avanzado para la odontología, que cuenta con la élite de los médicos y consultores para ofrecerte las últimas soluciones en estética y tratamiento dental con las técnicas digitales más precisas del mundo.",
+    "Combinamos para ti la precisión de la medicina avanzada con el calor de la atención familiar, bajo nuestras licencias oficiales del Ministerio de Salud y el Ministerio de Turismo de Turquía para el turismo médico, desde el diseño digital de la sonrisa hasta la implantación inmediata, los tratamientos integrales y las prótesis cosméticas con materiales de circonio y E-Max mundiales."
+  ],
+  "services": {
+    "dental-implants": {
+      "title": "Implantes dentales",
+      "tagline": "Implantes dentales en Turquía | La solución óptima y definitiva para reemplazar los dientes perdidos",
+      "intro": "Los implantes dentales son la última revolución en la odontología moderna, siendo la alternativa médica más duradera para reemplazar un diente perdido o desgastado sin causar daño a los dientes circundantes. En Orec Clinic, combinamos para ti la tecnología digital avanzada con los cirujanos dentales más hábiles de Turquía para garantizar tasas de éxito mundiales y una experiencia de tratamiento libre de dolor.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Componentes básicos de un implante dental",
+          "paragraphs": [
+            "Un diente implantado consta de tres partes principales que se unen para dar la apariencia y sensación de un diente natural:"
+          ],
+          "blocks": [
+            {
+              "title": "El implante o fixture",
+              "text": "Un pequeño tornillo hecho de titanio puro, que se inserta en el hueso de la mandíbula para reemplazar la raíz natural. El titanio biocompatible se elige porque se fusiona fácilmente con el hueso (osteointegración) sin ser rechazado por el cuerpo o causar alergias o tumores."
+            },
+            {
+              "title": "El pilar o abutment",
+              "text": "La pieza de unión que se coloca sobre el implante para conectarlo con la corona externa."
+            },
+            {
+              "title": "La corona",
+              "text": "El diente artificial visible, fabricado con materiales de alta calidad y durabilidad como el zirconio o el E-Max para fusionarse naturalmente con el resto de tus dientes en cuanto a fuerza y brillo."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Tipos de técnicas de implantes dentales en nuestra clínica",
+          "blocks": [
+            {
+              "title": "Implantes tradicionales o estándar",
+              "text": "Mecanismo: Se insertan las raíces en el hueso de la mandíbula, luego esperamos un período de 3 a 4 meses para que el hueso se adapte completamente al implante, y una vez estabilizado se coloca el diente final."
+            },
+            {
+              "title": "Implantes inmediatos",
+              "text": "Mecanismo: Técnica avanzada en la que el implante se inserta directamente en el hueso de la mandíbula o la cara (omitiendo largos períodos de espera, generalmente justo después de extraer el diente dañado), y se completa en una o dos sesiones. ¿Para quién es? Es la opción ideal para casos urgentes por motivos de viaje, o para pacientes que tienen una densidad ósea excelente, también es adecuada para pacientes con trastornos de coagulación o diabetes bajo supervisión médica cuidadosa y planificación meticulosa."
+            },
+            {
+              "title": "Implantes de mandíbula fija (All-on-4 & All-on-6)",
+              "text": "Mecanismo: En casos de pérdida total de dientes y reflujo de encías, se plantan solo 4 o 6 raíces directamente dentro del hueso de la mandíbula. Dos de estos implantes se colocan con un ángulo de inclinación de hasta 65 grados para proporcionar el máximo contacto y estabilidad con el hueso y evitar las áreas de los senos paranasales, luego se fija el denture completo permanentemente sobre estas raíces."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Casos candidatos para implantes dentales",
+          "list": [
+            "Personas mayores de 17-18 años, porque por debajo de esa edad el hueso de la mandíbula aún está en crecimiento.",
+            "Casos de pérdida de dientes debido a accidentes, enfermedades, o deportes violentos.",
+            "Personas que sufren problemas para masticar alimentos o pronunciar sonidos debido a la pérdida de dientes."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedimientos de tu viaje de tratamiento",
+          "blocks": [
+            {
+              "title": "Procedimientos pre-implantación (planificación digital)",
+              "text": "El paciente debe informar al médico si tiene alguna enfermedad crónica como trastornos de coagulación, diabetes o hipertensión (especialmente los pacientes diabéticos deben tener su nivel de hemoglobina glicosina estable durante mucho tiempo). El cirujano dental realiza un escaneo tridimensional (3D CT Scan) de los dientes para conocer el grosor y densidad del hueso, la ubicación de los nervios terminales, y la ubicación de los senos paranasales para determinar con precisión exacta los lugares de perforación."
+            },
+            {
+              "title": "Procedimiento de la cirugía",
+              "text": "El procedimiento se realiza bajo anestesia local (o sedación consciente según el deseo del paciente) sin dolor, y se colocan los implantes (un diente, múltiples dientes, o mandíbula completa) según el plan digital preestablecido."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Riesgos de los implantes dentales y cómo evitarlos",
+          "paragraphs": [
+            "Como cualquier procedimiento quirúrgico, la implantación puede incluir algunos riesgos potenciales como: daño a los nervios, retracción de las encías adyacentes al implante, sangrado severo, rechazo del cuerpo al implante a través de hinchazón, desgarro del tejido óseo, o falla en la cicatrización de la herida."
+          ],
+          "blocks": [
+            {
+              "title": "💡 El secreto del éxito",
+              "text": "La mayoría de estos riesgos se evitan por completo basándose en la experiencia del cirujano dental y la planificación digital detallada. En Orec Clinic, ponemos a tu disposición a los cirujanos dentales más hábiles de Turquía para que obtienes implantes dentales evitando la falla del implante o sus riesgos."
+            }
+          ]
+        }
+      ]
+    },
+    "hollywood-smile": {
+      "title": "Sonrisa de Hollywood",
+      "tagline": "Sonrisa de Hollywood en Turquía | El secreto del atractivo, la confianza y el brillo duradero",
+      "intro": "Una sonrisa hermosa significa confianza en uno mismo, y la Sonrisa de Hollywood en Turquía está ahora a tu alcance. En Orec Clinic, te ofrecemos los mejores tipos de carillas de porcelana (veneers) para dientes uniformes y un blanco radiante. La Sonrisa de Hollywood te proporciona una apariencia saludable para los dientes, siendo iguales y alineados, y dura mucho tiempo sin cambiar de color o mancharse.",
+      "sections": [
+        {
+          "icon": "🔍",
+          "heading": "¿Cómo conseguir una Sonrisa de Hollywood? (Pasos del procedimiento)",
+          "paragraphs": [
+            "El procedimiento se realiza a través de un plan de tratamiento detallado que incluye:"
+          ],
+          "blocks": [
+            {
+              "title": "Tratamiento integral",
+              "text": "Tratamiento de todos los problemas dentales previos (caries, inflamaciones de las encías) antes de comenzar cualquier paso cosmético."
+            },
+            {
+              "title": "Eliminación de la capa de esmalte dental (preparación)",
+              "text": "Un lijado microscópico muy sutil para crear espacio para las carillas de porcelana."
+            },
+            {
+              "title": "Colocación de las carillas de porcelana",
+              "text": "Adhesión de las carillas con alta precisión utilizando adhesivos médicos de alta resistencia."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Casos candidatos para una Sonrisa de Hollywood",
+          "list": [
+            "Personas que sufren de decoloración y manchas graves y persistentes en los dientes.",
+            "Aquellos que consumen frecuentemente alimentos y bebidas con alto contenido de pigmentos, como café, té y cigarrillos, y buscan una solución que no se manche en el futuro.",
+            "Existencia de espacios (huecos) entre los dientes, o dientes rotos parcialmente, o desiguales en longitud y tamaño."
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Procedimientos y advertencias antes de la colocación de una Sonrisa de Hollywood (Responsabilidad médica)",
+          "paragraphs": [
+            "Se debe asegurar que el caso realmente necesite la colocación de una Sonrisa de Hollywood; si solo un blanqueamiento dental es suficiente, se recomienda no hacerlo, ya que se lija la capa de esmalte dental para permitir la colocación, un procedimiento permanente e irreversible.",
+            "Si se confirma que el caso es adecuado para la colocación de una Sonrisa de Hollywood en Turquía, es muy difícil tratar los dientes después de la colocación debido al alto costo de su eliminación y reposición, por lo que nuestros médicos se aseguran de que todos los dientes estén en excelente estado antes de la colocación a través de:"
+          ],
+          "list": [
+            "Tratamiento de todos los problemas dentales previos y garantizando la salud bucal.",
+            "Extracción total de los dientes deteriorados y reemplazándolos con implantes cosméticos.",
+            "Tratamiento o extracción del nervio de uno o más dientes si es necesario para asegurar que no ocurran dolores bajo las carillas en el futuro."
+          ]
+        },
+        {
+          "icon": "⏱️",
+          "heading": "Duración del tratamiento y materiales utilizados",
+          "paragraphs": [
+            "Se colocan carillas de porcelana o Veneers fabricados con zirconio alemán mejorado o carillas de E-Max puro, y generalmente se colocan solo en la fila superior, solo en la fila inferior, o en ambas filas para obtener una apariencia perfecta y una sonrisa espectacular. El proceso de diseño e instalación de laboratorio toma de dos a tres semanas (incluye 2-3 sesiones en la clínica)."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Consejos después de la colocación de una Sonrisa de Hollywood",
+          "list": [
+            "Mantener la limpieza dental diaria con cepillo, pasta dental e hilo dental para prevenir la acumulación de sarro en los bordes de las encías.",
+            "Evitar morder objetos muy duros (como abrir botellas con los dientes o roer lápices) para proteger las carillas de roturas.",
+            "Visitar al dentista regularmente (cada 6 meses) para revisiones y limpieza profesional."
+          ]
+        }
+      ]
+    },
+    "restorative-dentistry": {
+      "title": "Tratamiento y restauración dental",
+      "tagline": "Tratamiento y restauración dental en Turquía | La salud de tus dientes es la base de la belleza de tu sonrisa",
+      "intro": "Antes de considerar cualquier procedimiento cosmético, tus dientes deben gozar de salud y fortaleza. El departamento de tratamiento y restauración dental en Orec Clinic es tu destino para eliminar dolores, caries y problemas funcionales con las últimas tecnologías no invasivas y los más altos estándares de comodidad y seguridad.",
+      "sections": [
+        {
+          "icon": "🛠️",
+          "heading": "Servicios de tratamiento y restauración integrales en Orec Clinic",
+          "blocks": [
+            {
+              "title": "Empastes estéticos (Composite Fillings)",
+              "text": "Eliminamos completamente las caries y las reemplazamos con empastes estéticos de luz hechos de composite de alta calidad, que se fusionan perfectamente con el color y apariencia natural del diente, restaurando su fuerza y forma original sin ningún efecto deformante."
+            },
+            {
+              "title": "Tratamiento de conducto y endodoncia (Root Canal Treatment)",
+              "text": "Utilizamos los últimos equipos digitales precisos para limpiar profundamente los canales nerviosos infectados e inflamados, eliminando el dolor de forma permanente. Este procedimiento generalmente se realiza en una sola sesión rápida y cómoda bajo anestesia local efectiva."
+            },
+            {
+              "title": "Coronas y puentes dentales (Crowns & Bridges)",
+              "text": "Para proteger dientes débiles, rotos o aquellos que han sido sometidos a endodoncia. Utilizamos coronas de circonio y porcelana avanzadas que otorgan al diente una dureza similar al esmalte natural y soportan altas fuerzas de masticación."
+            },
+            {
+              "title": "Tratamiento de enfermedades de las encías y aumento de encías",
+              "text": "Las encías sanas son el marco de una sonrisa hermosa. Ofrecemos servicios de limpieza de sarro profundo, tratamiento de bolsas periodontales y aumento de encías con láser para eliminar el oscurecimiento, inflamaciones y mal aliento bucal."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Casos que requieren tratamiento y restauración dental",
+          "list": [
+            "Dolor agudo o pulso en los dientes al consumir alimentos y bebidas fríos o calientes.",
+            "Existencia de espacios, hoyos o roturas en la estructura del diente debido a caries o presión excesiva.",
+            "Sangrado de las encías durante el cepillado o mal aliento desagradable de la boca."
+          ]
+        }
+      ]
+    },
+    "teeth-whitening": {
+      "title": "Blanqueamiento dental",
+      "tagline": "Blanqueamiento dental en Turquía | Solución rápida, segura y no quirúrgica para una sonrisa radiante",
+      "intro": "Si deseas restaurar el blanco natural de tus dientes y eliminar el amarilleo causado por el estilo de vida diario sin necesidad de limar los dientes o colocar carillas, el departamento de blanqueamiento dental en Orec Clinic te ofrece las soluciones médicas más efectivas y seguras sobre la capa del esmalte.",
+      "sections": [
+        {
+          "icon": "⚡",
+          "heading": "Nuestros sistemas de blanqueamiento dental avanzados",
+          "paragraphs": [
+            "Te ofrecemos dos opciones básicas complementarias entre sí para obtener el mejor y más duradero resultado:"
+          ],
+          "blocks": [
+            {
+              "title": "Blanqueamiento con láser en clínica (In-Office Laser / Zoom Whitening)",
+              "text": "Mecanismo: Una sesión rápida que dura menos de una hora. El médico aplica un gel de blanqueamiento médico con concentración estudiada en los dientes, luego se activa con luz láser o un dispositivo (Zoom) avanzado. Resultado: Aclaramiento inmediato del color de los dientes de 6 a 8 tonos en la misma sesión, con protección total de las encías mediante un aislamiento especial."
+            },
+            {
+              "title": "Kits de blanqueamiento personalizados para casa (Home Whitening Kits)",
+              "text": "Mecanismo: El médico toma una impresión de tus dientes y fabrica moldes plásticos flexibles que coinciden perfectamente con las dimensiones de tu boca, entregándote un gel de blanqueamiento con concentración segura para uso en casa. Resultado: Lo usas en casa durante varios días para mantener los resultados del blanqueamiento clínico el mayor tiempo posible, o para un aclaramiento gradual y cómodo."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Casos candidatos para blanqueamiento dental",
+          "list": [
+            "Amarilleo causado por fumar, consumo excesivo de té, café y refrescos.",
+            "Decaimiento del blanco natural de los dientes debido al avance de la edad.",
+            "Pacientes que poseen dientes alineados y proporcionales que solo necesitan un brillo y aclaramiento de color."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Consejos importantes para mantener el blanco de tus dientes después de la sesión",
+          "list": [
+            "Abstenerse completamente de alimentos y bebidas coloreados (café, té, curry, tomates) y de fumar durante 48 horas después de la sesión (período de dieta blanca), ya que los dientes son más susceptibles a absorber pigmentos en este tiempo.",
+            "Enjuagarse la boca inmediatamente después de consumir cualquier bebida oscura en el futuro.",
+            "Usar pasta dental blanqueadora una o dos veces por semana como mantenimiento periódico según las indicaciones de tu médico en Orec Clinic."
+          ]
+        }
+      ]
+    }
+  }
+}

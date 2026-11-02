@@ -1,0 +1,951 @@
+{
+  "title": "Chirurgies Esthétiques",
+  "tagline": "Chirurgies esthétiques du visage, du corps et des zones intimes — Des traits naturels harmonieux entre les mains d'une élite de chirurgiens spécialisés",
+  "intro": [
+    "Nous ne croyons pas au changement artificiel qui efface les traits, mais voyons la beauté dans l'authenticité et la naturalité de votre apparence. Nous mettons tout notre amour à souligner les beautés naturelles de votre visage et de votre corps et à corriger les imperfections avec les dernières méthodes scientifiques douces, pour vous donner un résultat qui vous honore et une sécurité totale qui vous assure un esprit tranquille tout au long de votre voyage avec nous.",
+    "Nos chirurgies esthétiques se divisent en trois sections complètes : chirurgie esthétique du visage, chirurgie esthétique du corps et chirurgie esthétique des zones intimes, toutes réalisées avec les dernières techniques chirurgicales et une planification numérique précise, avec une prise en charge complète avant l'opération et pendant la période de convalescence qui suit."
+  ],
+  "groups": {
+    "face": {
+      "title": "Chirurgie Esthétique du Visage",
+      "description": "Procédures de lifting et de modelage du visage avec les dernières techniques chirurgicales et non chirurgicales, avec des résultats naturels qui préservent l'authenticité de vos traits et vous donnent un aspect jeune et plein de vitalité."
+    },
+    "body": {
+      "title": "Chirurgie Esthétique du Corps",
+      "description": "Procédures de modelage corporel, de mise en harmonie de la silhouette et de lifting, pour mettre en valeur vos courbes naturelles et restaurer la confiance en votre silhouette après une grossesse ou une perte de poids importante."
+    },
+    "intimate": {
+      "title": "Chirurgie Esthétique des Zones Intimes",
+      "description": "Solutions esthétiques et fonctionnelles avec une intimité et une confidentialité maximales, sous la supervision d'une élite d'urologues et de gynécologues et avec les dernières techniques sécurisées.",
+      "sections": [
+        {
+          "icon": "🏥",
+          "heading": "Procédures médicales et convalescence pour toutes les sections de la zone intime",
+          "blocks": [
+            {
+              "title": "Avant les procédures",
+              "text": "Les attentes et les résultats sont discutés avec les médecins spécialistes dans la plus grande intimité et confidentialité, et il est obligatoire que le patient soit exempt de toute infection active du système urinaire ou génital avant la date fixée."
+            },
+            {
+              "title": "Période de convalescence",
+              "text": "La période de convalescence varie de quelques jours (pour les procédures non chirurgicales et les injections) à 4-6 semaines pour les chirurgies complètes (comme la vaginoplastie ou l'élargissement du pénis), et les rapports sexuels ou l'activité sexuelle sont strictement interdits, ainsi que le port de charges lourdes pendant toute la période de guérison des sutures et des tissus prescrite par le médecin."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "services": {
+    "facelift": {
+      "title": "Lifting du visage",
+      "tagline": "Chirurgie faciale en Turquie | Retrouvez la jeunesse et la vitalité de vos traits",
+      "intro": "La chirurgie de lifting du visage est la solution la plus radicale pour éliminer les signes du vieillissement et le relâchement profond qui ne répondent pas aux traitements temporaires. À la Clinique Orec, nous nous appuyons sur les techniques chirurgicales les plus récentes pour redessiner les traits du visage et lui redonner un aspect naturel et jeune, débordant de vitalité.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Nos techniques de lifting du visage",
+          "blocks": [
+            {
+              "title": "Lifting chirurgical complet (Full Facelift)",
+              "text": "Cible le relâchement profond dans la partie inférieure du visage et la ligne des mâchoires par des incisions complètement dissimulées autour de l'oreille."
+            },
+            {
+              "title": "Lifting partiel (Mini Facelift)",
+              "text": "Une procédure moins invasive, qui se concentre sur le relâchement léger à modéré des joues chez les plus jeunes."
+            },
+            {
+              "title": "Techniques de lifting non chirurgical",
+              "text": "Nous proposons des solutions alternatives avancées telles que les fils tenseurs, le HIFU et les injections de graisse autologue pour restaurer le volume facial perdu sans chirurgie."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas idéaux",
+          "list": [
+            "Les personnes souffrant d'un relâchement cutané et musculaire dans la zone des joues et des mâchoires.",
+            "Apparition de rides profondes et de plis marqués autour de la bouche et du nez."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "blocks": [
+            {
+              "title": "Avant l'opération",
+              "text": "Le patient subit une évaluation complète de l'élasticité de la peau et de l'anatomie faciale. La planification numérique permet de tracer les incisions dans des zones invisibles (ligne des cheveux et derrière l'oreille)."
+            },
+            {
+              "title": "Pendant l'opération",
+              "text": "L'opération est réalisée sous anesthésie générale et dure de 2 à 4 heures, consistant à retendre les tissus profonds et le SMAS, et à exciser l'excès de peau."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de convalescence",
+          "list": [
+            "Respecter le port de la bande de contention faciale pendant la durée prescrite par le médecin pour minimiser le gonflement.",
+            "Éviter les activités physiques intenses et l'exposition directe au soleil pendant au moins un mois."
+          ]
+        }
+      ]
+    },
+    "brow-lift": {
+      "title": "Lifting des sourcils",
+      "tagline": "Lifting et élévation des sourcils en Turquie | Pour un regard jeune et vif",
+      "intro": "La gravité et le vieillissement entraînent une chute des sourcils, donnant au visage une apparence constamment fatiguée ou en colère. Le lifting des sourcils (ou lifting frontal) aide à repositionner les sourcils à leur place naturelle pour mettre en valeur la beauté des yeux et rajeunir la partie supérieure du visage.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Types et techniques de lifting des sourcils",
+          "blocks": [
+            {
+              "title": "Lifting endoscopique des sourcils (Endoscopic Brow Lift)",
+              "text": "La technique la plus récente et la plus sûre, réalisée par de très petites incisions microscopiques dans le cuir chevelu utilisant une caméra miniature, sans laisser de cicatrices visibles."
+            },
+            {
+              "title": "Lifting temporal (Temporal Lift)",
+              "text": "Se concentre sur l'élévation de la partie externe du sourcil (regard de renard Foxy Eyes) pour améliorer l'apparence des yeux en amande."
+            },
+            {
+              "title": "Lifting non chirurgical",
+              "text": "Utilisation de fils tenseurs ou d'injections de Botox pour les cas légers."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas idéaux",
+          "list": [
+            "Chute et affaissement des sourcils au-dessus des paupières supérieures.",
+            "Présence de rides horizontales profondes sur le front ou des lignes verticales entre les sourcils (rides du lion)."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "blocks": [
+            {
+              "title": "Avant l'opération",
+              "text": "Le médecin étudie la distance entre les sourcils et les yeux, ainsi que les expressions du visage pour assurer un résultat harmonieux."
+            },
+            {
+              "title": "Pendant l'opération",
+              "text": "Généralement réalisée sous anesthésie locale avec sédatif ou anesthésie générale, le chirurgique relâche les tissus, les élève et les fixe dans leur nouvelle position plus jeune."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de convalescence",
+          "list": [
+            "Application de compresses froides pendant les 48 premières heures pour réduire le gonflement autour des yeux.",
+            "Dormir avec la tête surélevée avec des oreillers supplémentaires pendant plusieurs jours après la procédure."
+          ]
+        }
+      ]
+    },
+    "rhinoplasty": {
+      "title": "Rhinoplastie",
+      "tagline": "Rhinoplastie en Turquie | L'équilibre parfait entre beauté esthétique et fonction respiratoire",
+      "intro": "La chirurgie esthétique du nez figure en tête des interventions les plus demandées dans le monde et particulièrement en Turquie. Chez Clinique Orec, nous ne visons pas seulement à modifier la forme extérieure du nez pour l'harmoniser avec vos traits, mais nous nous assurons également de corriger les problèmes fonctionnels tels que la déviation de la cloison nasale et les difficultés respiratoires.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Nos types et techniques de rhinoplastie",
+          "blocks": [
+            {
+              "title": "Technique ouverte (Open Rhinoplasty)",
+              "text": "Permet au chirurgien d'avoir une vision complète et un ajustement précis de la structure cartilagineuse et osseuse, idéale pour les cas complexes ou les chirurgies de révision."
+            },
+            {
+              "title": "Technique fermée (Closed Rhinoplasty)",
+              "text": "Toutes les incisions chirurgicales sont réalisées à l'intérieur des narines sans aucune blessure ou cicatrice externe, avec une période de convalescence plus rapide."
+            },
+            {
+              "title": "Rhinoplastie au bistouri piézoélectrique (Ultrasonic / Piezo)",
+              "text": "Utilisation d'ondes ultrasoniques pour sculpter les os du nez avec une précision extrême sans endommager les tissus et les vaisseaux sanguins environnants, réduisant considérablement les ecchymoses et le gonflement."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas idéaux",
+          "list": [
+            "Présence d'une bosse sur le pont nasal, d'un nez élargi à la pointe, ou d'une disproportion avec le reste du visage.",
+            "Déformations congénitales ou résultant d'accidents.",
+            "Souffrance de problèmes respiratoires courants ou de ronflements dus à une déviation de la cloison nasale."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "blocks": [
+            {
+              "title": "Avant l'opération",
+              "text": "Des photographies et une simulation 3D sont réalisées pour visualiser le résultat attendu du nouveau nez et discuter avec le patient."
+            },
+            {
+              "title": "Pendant l'opération",
+              "text": "Durée de 2 à 3 heures sous anesthésie générale, consistant à remodeler les cartilages et les os."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de convalescence",
+          "list": [
+            "Un plâtre est appliqué sur le nez pendant 5 à 7 jours pour soutenir la nouvelle structure.",
+            "Interdiction totale de porter des lunettes de vue ou de soleil pendant au moins deux mois pour éviter de mettre de la pression sur les os du nez."
+          ]
+        }
+      ]
+    },
+    "otoplasty": {
+      "title": "Otoplastie",
+      "tagline": "Otoplastie en Turquie | Retrouvez confiance en vous et en votre apparence",
+      "intro": "Les oreilles proéminentes ou décollées sont une source commune de gêne chez les enfants et les adultes. L'opération d'otoplastie (réduction des oreilles) aide à remodeler le cartilage et à ajuster la distance des oreilles pour qu'elles soient plus proches et harmonieuses avec la tête de manière naturelle et précise.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniques utilisées en otoplastie",
+          "blocks": [
+            {
+              "title": "Chirurgie de remodelage du cartilage",
+              "text": "Réalisée par une petite incision complètement dissimulée derrière l'oreille, où le cartilage est sculpté ou plié et fixé avec des points médicaux permanents."
+            },
+            {
+              "title": "Réparation du lobe de l'oreille (Earlobe Repair)",
+              "text": "Pour réparer les déchirures causées par le port prolongé de lourds boucles d'oreilles ou des accidents."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas idéaux",
+          "list": [
+            "Personnes présentant un proéminent marqué d'une oreille ou des deux dès la naissance.",
+            "Enfants (après 5-6 ans) pour les protéger du harcèlement scolaire, lorsque le cartilage de l'oreille a terminé sa croissance et est suffisamment flexible pour être modelé."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "blocks": [
+            {
+              "title": "Avant l'opération",
+              "text": "Le chirurgien examine la flexibilité du cartilage et mesure les angles idéaux pour l'harmonie de l'oreille avec la tête."
+            },
+            {
+              "title": "Pendant l'opération",
+              "text": "La chirurgie dure environ une heure à une heure et demie, et peut être réalisée sous anesthésie locale pour les adultes, et sous anesthésie générale pour les jeunes enfants pour assurer leur confort."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de convalescence",
+          "list": [
+            "Un bandage élastique (bande) doit être porté jour et nuit la première semaine, puis uniquement pendant le sommeil pendant un mois pour protéger l'oreille d'un pli involontaire.",
+            "La convalescence est très rapide, permettant de reprendre le travail ou les études en quelques jours seulement."
+          ]
+        }
+      ]
+    },
+    "lip-aesthetics": {
+      "title": "Esthétique des lèvres",
+      "tagline": "Esthétique des lèvres en Turquie | Lèvres pleines, définies et attrayantes",
+      "intro": "L'esthétique des lèvres ne se limite pas seulement au volume, mais inclut également l'harmonie et l'espace entre les lèvres et le nez. À Orec Clinic, nous offrons des options chirurgicales et non chirurgiques complètes pour obtenir des lèvres pleines aux bords nets et un aspect naturel durable.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Options et techniques d'esthétique des lèvres",
+          "blocks": [
+            {
+              "title": "Lèvre supérieure (Lip Lift)",
+              "text": "Une procédure chirurgicale simple pour raccourcir la distance entre le nez et la lèvre supérieure, mettant en valeur la couleur naturelle des lèvres et donnant un aspect plein permanent sans avoir besoin de fillers."
+            },
+            {
+              "title": "Augmentation des lèvres par injection de graisse autologue",
+              "text": "La graisse naturelle est prélevée du patient, purifiée, puis injectée dans les lèvres pour des résultats qui durent des années."
+            },
+            {
+              "title": "Augmentation des lèvres par filler (Lip Fillers)",
+              "text": "Une solution non chirurgicale rapide utilisant de l'acide hyaluronique sûr pour définir et augmenter le volume des lèvres, avec des résultats durants jusqu'à 6-9 mois."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas éligibles",
+          "list": [
+            "Femmes ayant des lèvres très minces ou asymétriques.",
+            "Distance accrue entre le nez et la bouche due à des facteurs génétiques ou au vieillissement."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "paragraphs": [
+            "Alors que le filler ne prend que quelques minutes en cabinet, la chirurgie de lifting de lèvre prend moins d'une heure sous anesthésie locale, où une incision très fine est faite directement sous la base du nez, disparaissant complètement avec le temps."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de convalescence",
+          "list": [
+            "Éviter les boissons très chaudes ou l'utilisation de pailles pendant deux jours après l'injection ou la chirurgie.",
+            "Hydrater régulièrement les lèvres et éviter les produits cosmétiques agressifs la première semaine."
+          ]
+        }
+      ]
+    },
+    "neck-lift": {
+      "title": "Esthétique du cou",
+      "tagline": "Lifting et esthétique du cou en Turquie | Éliminez le double menton et les relâchements pour un cou ferme et parfait",
+      "intro": "Les signes du vieillissement apparaissent souvent sur le cou avant le visage, provoquant ce qu'on appelle le cou de dinde ou un double menton. La chirurgie esthétique du cou élimine l'excès de peau, resserre les muscles affaiblis et redessine la ligne de la mâchoire pour un profil net et attrayant.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniques utilisées en esthétique du cou",
+          "blocks": [
+            {
+              "title": "Liposuccion du cou (Neck Liposuction)",
+              "text": "Pour éliminer la graisse accumulée dans la zone du double menton chez les jeunes patients ayant une bonne élasticité cutanée."
+            },
+            {
+              "title": "Chirurgie de resserrement des muscles du cou (Platysmaplasty)",
+              "text": "Implique de suturer et de serrer les ligaments musculaires affaiblis du cou par une très petite incision cachée sous le menton."
+            },
+            {
+              "title": "Lifting non chirurgical du cou",
+              "text": "En utilisant des fils de lifting ou la technique du Nefertiti avec le Botox pour traiter les relâchements légers du cou."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas éligibles",
+          "list": [
+            "Accumulation de graisse persistante sous le menton (double menton).",
+            "Relâchement cutané et apparition de plis et de muscles proéminents longitudinaux dans le cou."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "paragraphs": [
+            "La chirurgie est réalisée sous anesthésie générale (ou locale avec sédatif selon le cas), et est souvent combinée à un lifting du visage pour obtenir un résultat global et complet rajeunissant."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de convalescence",
+          "list": [
+            "Le port d'un coude de contention spécifique est nécessaire pendant plusieurs semaines pour stabiliser la peau et prévenir l'accumulation de fluides.",
+            "Éviter de pencher fortement la tête vers le bas (comme lors de l'utilisation prolongée du téléphone) pendant les deux premières semaines post-opératoires."
+          ]
+        }
+      ]
+    },
+    "blepharoplasty": {
+      "title": "Lifting et esthétique des paupières",
+      "tagline": "Esthétique et traitement des paupières en Turquie | Éliminez l'apparence fatiguée des yeux et les poches sous les yeux",
+      "intro": "Les yeux sont le miroir du visage, et les paupières tombantes ou les poches sous les yeux donnent une apparence plus âgée et fatiguée. La blépharoplastie est une solution esthétique et fonctionnelle excellente pour restaurer l'ouverture naturelle des yeux et éliminer les poches graisseuses et l'excès de peau avec la plus grande précision.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Sections et applications de l'esthétique des paupières",
+          "blocks": [
+            {
+              "title": "Esthétique des paupières supérieures (Upper Blepharoplasty)",
+              "text": "Implique l'élimination de la peau affaisseuse qui peut parfois descendre et obstruire partielment la vision."
+            },
+            {
+              "title": "Esthétique des paupières inférieures (Lower Blepharoplasty)",
+              "text": "Se concentre sur l'élimination ou le redéploiement des poches graisseuses proéminentes et le resserrement de la peau ridée."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas éligibles",
+          "list": [
+            "Plis cutanés qui masquent le pli naturel de la paupière supérieure.",
+            "Poches persistantes et poches graisseuses visibles sous les yeux qui ne disparaissent pas avec le repos ou les crèmes."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "paragraphs": [
+            "La procédure est réalisée sous anesthésie locale ou générale et dure de une à deux heures. L'incision de la paupière supérieure est faite dans le pli naturel de l'œil, tandis que l'incision de la paupière inférieure se fait juste sous la ligne des cils ou à l'intérieur pour garantir l'absence de toute cicatrice visible."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de convalescence",
+          "list": [
+            "Utiliser régulièrement des gouttes pour les yeux pour éviter la sécheresse temporaire après l'opération.",
+            "Porter des lunettes de soleil en sortant pour protéger les yeux de la lumière et du vent pendant les deux premières semaines."
+          ]
+        }
+      ]
+    },
+    "forehead-contouring": {
+      "title": "Esthétique du front",
+      "tagline": "Harmonisation et réduction du front en Turquie | Des proportions idéales et une harmonie parfaite des traits du visage",
+      "intro": "La taille du front et la forme de la ligne capillaire influencent considérablement l'équilibre visuel du visage. Les chirurgies esthétiques du front offrent des solutions avancées pour réduire l'excès de surface ou sculpter les os proéminents, et confèrent aux traits une touche douce et harmonieuse qui s'accorde avec le reste du visage.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniques d'esthétique et de modelage du front",
+          "blocks": [
+            {
+              "title": "Réduction du front (Forehead Reduction)",
+              "text": "Consiste à abaisser la ligne capillaire de 1,5 à 2 cm et à retirer l'excès de peau du front ; idéale pour les personnes ayant un front très large d'origine héréditaire."
+            },
+            {
+              "title": "Sculpture des os frontaux proéminents (Forehead Contouring)",
+              "text": "Une chirurgie visant à lisser les os proéminents juste au-dessus des sourcils pour donner au visage un aspect plus délicat et harmonieux."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas éligibles",
+          "list": [
+            "Personnes souffrant d'un front large avec une ligne capillaire visiblement dégarnie.",
+            "Proéminence marquée des os frontaux supérieurs affectant le profil latéral du visage."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "paragraphs": [
+            "L'intervention est réalisée chirurgicalement sous anesthésie générale, et le chirurgien veille à effectuer l'incision selon un motif en zigzag astucieux juste à l'intérieur de la ligne capillaire, afin que les follicules pileux poussent à travers la cicatrice par la suite et la masquent complètement et naturellement."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de convalescence",
+          "list": [
+            "Éviter de tirer les cheveux vers l'arrière avec force (comme une queue de cheval) pendant deux mois après l'intervention pour garantir une cicatrisation de la plaie sans tension.",
+            "Le patient peut ressentir un engourdissement temporaire du cuir chevelu, ce qui est tout à fait normal et disparaît progressivement en quelques semaines."
+          ]
+        }
+      ]
+    },
+    "genioplasty": {
+      "title": "Esthétique du menton",
+      "tagline": "Esthétique et modelage du menton en Turquie | La clé de l'équilibre et de l'attractivité du profil du visage",
+      "intro": "Le menton joue un rôle central dans la définition de la beauté du profil ; un menton petit ou fuyant donne au nez une apparence plus grande, tandis qu'un menton trop proéminent confère au visage une dureté excessive. Les interventions d'esthétique du menton aident à rétablir l'équilibre et l'harmonie de la zone mandibulaire avec une précision extrême.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Méthodes et techniques d'esthétique du menton",
+          "blocks": [
+            {
+              "title": "Augmentation du menton par implants en silicone (Chin Implants)",
+              "text": "Placement d'un implant médical sûr et personnalisé sur l'os du menton par une incision interne dans la bouche, pour projeter et mettre en valeur un menton fuyant."
+            },
+            {
+              "title": "Chirurgie d'avancée ou de recul de l'os du menton (Genioplasty)",
+              "text": "L'os du menton est sectionné, puis avancé ou reculé et fixé à l'aide de fines plaques médicales, pour les cas structurels plus avancés."
+            },
+            {
+              "title": "Définition du menton sans chirurgie (filler de la mâchoire)",
+              "text": "Solution rapide utilisant des fillers pour dessiner la ligne de la mâchoire et mettre en valeur le menton sans aucune intervention chirurgicale."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas éligibles",
+          "list": [
+            "Personnes présentant un menton fuyant ou petit (menton faible).",
+            "Ceux qui souffrent d'une longueur ou d'une proéminence excessive de la zone du menton affectant l'harmonie des traits."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "paragraphs": [
+            "Les interventions sont réalisées sous anesthésie générale ou locale approfondie. Le plus grand avantage de ces opérations est que les incisions se font généralement à l'intérieur de la bouche (entre la gencive et la lèvre inférieure), ce qui signifie qu'il n'y a absolument aucune cicatrice ni blessure externe sur le visage."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de convalescence",
+          "list": [
+            "Opter pour des aliments mous et des liquides pendant une semaine après la chirurgie intra-orale.",
+            "Se rincer la bouche avec un bain de bouche médical antiseptique après chaque repas pour maintenir la propreté des sutures internes et prévenir les infections."
+          ]
+        }
+      ]
+    },
+    "cheek-enhancement": {
+      "title": "Esthétique des joues",
+      "tagline": "Esthétique et modelage des joues en Turquie | Des traits sculptés et des pommettes pleines de jeunesse",
+      "intro": "Les joues pleines et hautes sont un symbole de jeunesse et de beauté. À Orec Clinic, nous proposons les techniques les plus récentes pour sculpter les joues et éliminer l'excès de graisse afin d'obtenir un visage sculpté (traits définis), ou de restaurer le volume perdu chez les personnes souffrant d'un visage creusé.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Nos techniques d'esthétique des joues",
+          "blocks": [
+            {
+              "title": "Chirurgie d'esthétique et de modelage des joues (Bichectomy)",
+              "text": "Retrait des coussinets adipeux (de Bichat) en excès à l'intérieur de la joue par une micro-incision interne, pour obtenir un visage sculpté et accentuer les pommettes de manière attrayante et audacieuse."
+            },
+            {
+              "title": "Augmentation des joues par injection de graisse autologue ou fillers",
+              "text": "Pour combler les joues maigres ou creuses et redonner au visage son volume vital."
+            },
+            {
+              "title": "Création de fossettes (Dimpleplasty)",
+              "text": "Procédure rapide de 20 minutes pour créer une fossette naturelle qui n'apparaît qu'au sourire, grâce à un minuscule point interne."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas éligibles",
+          "list": [
+            "Personnes au visage très rond ou aux joues excessivement pleines souhaitant des traits plus définis et sculptés.",
+            "Ceux qui souffrent d'un relâchement ou d'une descente de la zone des pommettes dû à l'âge ou à une perte de poids soudaine."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "paragraphs": [
+            "Les interventions sur les joues (qu'il s'agisse du modelage ou des fossettes) ont l'avantage d'être rapides et réalisées sous anesthésie locale, et toutes leurs incisions se font à l'intérieur de la cavité buccale, ce qui garantit une cicatrisation rapide et l'absence de cicatrices externes."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de convalescence",
+          "list": [
+            "Appliquer régulièrement des poches de glace pendant les premières 24 heures pour limiter le gonflement naturel des joues.",
+            "Respecter scrupuleusement l'hygiène buccale et se rincer la bouche régulièrement pour garantir une cicatrisation rapide et sûre des incisions internes."
+          ]
+        }
+      ]
+    },
+    "body-contouring": {
+      "title": "Remodelage corporel et harmonisation de la silhouette",
+      "tagline": "Interventions de remodelage corporel en Turquie | Sculptez la silhouette idéale de votre corps",
+      "intro": "Les interventions de remodelage corporel permettent d'éliminer l'obésité localisée et les graisses rebelles qui ne répondent ni aux régimes ni à l'exercice physique. À Orec Clinic, nous utilisons les techniques les plus récentes au monde pour resculturer le corps et mettre en valeur ses courbes esthétiques de manière fluide et naturelle.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Nos techniques de sculpture et de remodelage corporel",
+          "blocks": [
+            {
+              "title": "Sculpture corporelle haute définition 4D (4D High-Definition Sculpting)",
+              "text": "Technique avancée pour accentuer les détails anatomiques des muscles du corps (comme les muscles abdominaux et la taille) avec une précision extrême."
+            },
+            {
+              "title": "Liposuccion Vaser (Vaser Liposuction)",
+              "text": "Technique fondée sur les ultrasons pour fragmenter les cellules adipeuses et les transformer en un liquide facile à aspirer en douceur, ce qui protège les vaisseaux sanguins et aide en même temps à raffermir la peau."
+            },
+            {
+              "title": "Liposuccion au laser (SmartLipo)",
+              "text": "Utilisation de l'énergie laser pour liquéfier la graisse et stimuler la production de collagène, pour un raffermissement excellent de la peau relâchée."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas éligibles",
+          "list": [
+            "Personnes proches de leur poids idéal mais souffrant d'amas graisseux récalcitrants dans certaines zones (abdomen, taille, dos).",
+            "Personnes ayant une bonne à moyenne élasticité cutanée pour tirer le meilleur parti des liposuccions."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "blocks": [
+            {
+              "title": "Avant l'opération",
+              "text": "Les zones à sculpter sont délimitées avec précision et photographiées. Il est demandé au patient d'effectuer des analyses sanguines complètes pour garantir son aptitude à l'anesthésie."
+            },
+            {
+              "title": "Pendant l'opération",
+              "text": "Réalisée sous anesthésie générale ou locale approfondie (selon le nombre de zones), par des micro-incisions de quelques millimètres seulement afin de réduire au maximum les cicatrices."
+            }
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de convalescence",
+          "list": [
+            "Porter scrupuleusement la gaine de contention médicale pendant 4 à 6 semaines pour réduire le gonflement et aider la peau à adhérer à la nouvelle couche.",
+            "Marcher légèrement et précocement après l'intervention pour stimuler la circulation sanguine et prévenir les caillots."
+          ]
+        }
+      ]
+    },
+    "breast-surgery": {
+      "title": "Esthétique mammaire",
+      "tagline": "Chirurgies esthétiques mammaires en Turquie | Harmonie, féminité et confiance absolue",
+      "intro": "Les interventions d'esthétique mammaire sont parmi celles qui redonnent le plus à la femme confiance en elle et attractivité à sa silhouette. Que vous cherchiez à restaurer le volume perdu après l'allaitement ou à réduire un volume excessif pour soulager les douleurs dorsales, les médecins d'Orec Clinic vous offrent les solutions chirurgicales les plus sûres et les plus avancées.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Catégories et applications de l'esthétique mammaire",
+          "blocks": [
+            {
+              "title": "Augmentation mammaire (Breast Augmentation)",
+              "text": "Utilisation d'implants en silicone sûrs et approuvés à l'échelle mondiale (tels que Mentor), ou d'injections de graisse autologue pour obtenir un volume plein et harmonieux."
+            },
+            {
+              "title": "Lifting et redrapage du sein (Breast Lift / Mastopexy)",
+              "text": "Élimination de la peau relâchée et correction de la ptose du sein résultant de la grossesse, de l'allaitement ou d'une perte de poids, avec repositionnement du mamelon dans une position plus jeune et plus haute."
+            },
+            {
+              "title": "Réduction mammaire (Breast Reduction)",
+              "text": "Retrait des tissus et de la graisse excédentaires des seins trop volumineux, afin d'obtenir un volume proportionnel à la taille et à la morphologie et de soulager les douleurs du cou et des épaules."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas éligibles",
+          "list": [
+            "Femmes souffrant d'une asymétrie de volume ou de forme des seins.",
+            "Présence d'un relâchement marqué et d'une ptose du tissu mammaire.",
+            "Petit volume mammaire d'origine génétique ou régression après une perte de poids."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "paragraphs": [
+            "Ces interventions sont réalisées sous anesthésie générale et durent de 2 à 3 heures. Le chirurgien veille à placer les incisions dans des zones dissimulées (autour du mamelon, ou dans le pli sous-mammaire) pour qu'elles deviennent invisibles avec le temps."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de convalescence",
+          "list": [
+            "Porter un soutien-gorge médical de maintien (sportif) jour et nuit pendant un mois complet après l'opération.",
+            "Éviter de porter des objets lourds ou de pratiquer des sports intenses sollicitant le haut du corps pendant 6 semaines."
+          ]
+        }
+      ]
+    },
+    "gynecomastia": {
+      "title": "Gynécomastie",
+      "tagline": "Traitement de la gynécomastie en Turquie | Retrouvez un torse plat et masculin",
+      "intro": "La gynécomastie (développement du tissu mammaire chez l'homme) est un problème fréquent qui provoque une gêne psychologique importante et influence le choix des vêtements et la confiance en soi. Le traitement chirurgical de la gynécomastie offre une solution radicale et rapide pour éliminer le tissu glandulaire hypertrophié et la graisse accumulée, et retrouver un torse ferme et masculin.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Nos techniques de traitement de la gynécomastie",
+          "blocks": [
+            {
+              "title": "Liposuccion Vaser",
+              "text": "Si la gynécomastie est uniquement due à une accumulation de graisse (fausse gynécomastie), celle-ci est aspirée au Vaser par une toute petite ouverture, sans chirurgie."
+            },
+            {
+              "title": "Exérèse chirurgicale de la glande",
+              "text": "Si la gynécomastie est due à une véritable hypertrophie de la glande mammaire, le chirurgien pratique une petite incision semi-circulaire juste sous le mamelon pour retirer la glande ferme."
+            },
+            {
+              "title": "Technique combinée",
+              "text": "Association de la liposuccion et de l'exérèse pour garantir que le torse soit parfaitement appliqué contre la paroi du corps dans les cas avancés."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas éligibles",
+          "list": [
+            "Hommes et jeunes hommes présentant une protrusion ou un relâchement de la zone pectorale qui ne disparaît pas avec le sport.",
+            "Personnes dont les niveaux hormonaux sont stabilisés et qui recherchent une solution esthétique définitive."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "paragraphs": [
+            "L'opération est très simple et dure environ une heure. Elle peut être réalisée sous anesthésie locale avec sédatif ou sous anesthésie générale, selon l'ampleur de l'hypertrophie et la préférence du patient."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de convalescence",
+          "list": [
+            "Porter la gaine médicale spécifique au torse pendant 4 semaines pour éviter l'accumulation de liquides et assurer le raffermissement de la peau.",
+            "Le retour au travail de bureau est possible en 3 à 5 jours, en évitant les exercices pectoraux à la salle de sport pendant un mois."
+          ]
+        }
+      ]
+    },
+    "tummy-tuck": {
+      "title": "Abdominoplastie",
+      "tagline": "Abdominoplastie en Turquie | Éliminez les relâchements profonds et retrouvez un ventre ferme et plat",
+      "intro": "L'abdomen est l'une des zones les plus affectées par les grossesses répétées ou une perte de poids importante : les muscles se distendent et la peau se relâche d'une manière difficile à corriger par le sport. L'abdominoplastie consiste à ressuturer les muscles séparés (diastasis abdominal) et à retirer l'excès de peau pendante, pour un ventre parfaitement plat et une taille sculptée.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Types de chirurgie d'abdominoplastie",
+          "blocks": [
+            {
+              "title": "Abdominoplastie complète (Full Tummy Tuck)",
+              "text": "Traite le relâchement au-dessus et en dessous du nombril et comprend le remodelage et le repositionnement du nombril dans sa nouvelle position, avec un resserrement complet des muscles."
+            },
+            {
+              "title": "Mini-abdominoplastie (Mini Tummy Tuck)",
+              "text": "Se concentre uniquement sur l'excès de peau relâchée situé sous le nombril, sans qu'il soit nécessaire de déplacer celui-ci ; convient aux relâchements légers."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas éligibles",
+          "list": [
+            "Femmes après grossesse et accouchements répétés, pour corriger la distension de la paroi abdominale.",
+            "Personnes ayant perdu beaucoup de poids (après une sleeve gastrectomie ou un régime strict) et présentant un tablier de peau pendante."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "paragraphs": [
+            "L'opération est réalisée sous anesthésie générale : le chirurgien pratique une incision horizontale dans le bas-ventre (dans la zone de la ligne du bikini pour qu'elle disparaisse complètement sous les sous-vêtements), puis resserre les muscles, retire l'excès de peau et referme la plaie par de fines sutures esthétiques."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de convalescence",
+          "list": [
+            "Marcher légèrement penché en avant pendant les premiers jours pour réduire la tension sur la plaie abdominale.",
+            "Porter régulièrement la ceinture abdominale médicale et éviter totalement de porter des charges pendant deux mois."
+          ]
+        }
+      ]
+    },
+    "arm-lift": {
+      "title": "Esthétique des bras",
+      "tagline": "Lifting et esthétique des bras en Turquie | Dites adieu aux ailes de chauve-souris en toute confiance",
+      "intro": "L'accumulation de graisse et le relâchement cutané au niveau des bras empêchent beaucoup de personnes de porter librement des vêtements d'été ou à manches courtes. Le lifting des bras permet d'éliminer la peau distendue et la graisse relâchée, donnant aux bras un aspect ferme et svelte en accord avec le reste de la silhouette.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniques utilisées en esthétique des bras",
+          "blocks": [
+            {
+              "title": "Lifting chirurgical des bras",
+              "text": "Retrait de la peau relâchée par une incision longitudinale à la face interne du bras ou sous l'aisselle, afin qu'elle soit aussi dissimulée que possible ; méthode idéale pour les relâchements importants après une sleeve gastrectomie."
+            },
+            {
+              "title": "Liposuccion Vaser des bras",
+              "text": "Pour les cas où le bras est gonflé de graisse sans relâchement cutané sévère : le Vaser permet d'aspirer la graisse et de raffermir la peau sans grandes incisions."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas éligibles",
+          "list": [
+            "Personnes souffrant d'un relâchement sévère et d'une peau ridée et pendante au niveau des bras due à l'âge ou à une perte de poids.",
+            "Amas graisseux des bras qui ne répondent pas aux exercices ciblés."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "paragraphs": [
+            "L'intervention dure environ deux heures sous anesthésie générale. Le chirurgien aspire d'abord la graisse pour faciliter l'opération, puis délimite et retire l'excès de peau avec une extrême précision esthétique afin de minimiser l'aspect de la cicatrice à l'avenir."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de convalescence",
+          "list": [
+            "Porter la manche de compression médicale pendant la durée prescrite pour assurer la cicatrisation des tissus et la rapide disparition du gonflement.",
+            "Surélever les bras sur des oreillers pendant le sommeil les premiers jours pour accélérer le drainage des liquides et réduire le gonflement."
+          ]
+        }
+      ]
+    },
+    "thigh-lift": {
+      "title": "Lifting des cuisses",
+      "tagline": "Lifting et remodelage des cuisses en Turquie | Des étapes confortables et une silhouette harmonique et sculptée",
+      "intro": "Le relâchement des cuisses internes et externes ne cause pas seulement une apparence déséquilibrée, mais mène également à des problèmes de santé tels que frottements constants, infections cutanées et difficultés de mouvement. La chirurgie de lifting des cuisses offre une solution excellente pour raffiner la partie inférieure du corps et lui donner une flexibilité et une douceur exceptionnelles.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Options et applications de lifting des cuisses",
+          "blocks": [
+            {
+              "title": "Lifting des cuisses internes (Inner Thigh Lift)",
+              "text": "Cible le relâchement cutané dans la zone interne des cuisses, avec une incision dans le pli de l'aine qui disparaît complètement."
+            },
+            {
+              "title": "Lifting complet ou circonférentiel des cuisses",
+              "text": "S'étend pour inclure les cuisses externes et les fesses pour les cas de relâchement très sévère s'étendant sur tout le contour inférieur du corps."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas candidats",
+          "list": [
+            "Patients souffrant d'un relâchement important de la peau des cuisses après des fluctuations de poids ou un bypass gastrique.",
+            "Personnes souffrant de frottement douloureux des cuisses en marchant ou en faisant du sport."
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procédures et étapes",
+          "paragraphs": [
+            "La chirurgie est réalisée sous anesthésie générale. Le chirurgien élimine l'excès de peau et les tissus mous relâchés après une liposuccion préliminaire, puis soulève les tissus et les fixe avec des points profonds pour assurer la durabilité et la stabilité du résultat."
+          ]
+        },
+        {
+          "icon": "💡",
+          "heading": "Conseils et période de récupération",
+          "list": [
+            "Éviter les pas trop larges ou la position accroupie pendant les deux premières semaines pour protéger les points de tension.",
+            "Assurer une parfaite sécheresse et propreté de la zone de l'incision chirurgicale et utiliser régulièrement les antibiotiques et antiseptiques prescrits."
+          ]
+        }
+      ]
+    },
+    "bbl": {
+      "title": "Remodelage et harmonisation des fesses",
+      "tagline": "Remodelage et sculptage des fesses en Turquie | Silhouette harmonique et courbes féminines équilibrées",
+      "intro": "La zone des fesses joue un rôle important dans la mise en valeur de l'harmonie de la silhouette féminine. Que vous souffriez de la graisse des hanches (muscle endormi) ou d'une réduction du volume des fesses due à une perte de poids, nous à la Clinique Orec offrons les dernières solutions chirurgicales et sûres pour remodeler et soulever les fesses pour qu'elles s'adaptent parfaitement à la taille.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniques utilisées pour le remodelage des fesses",
+          "blocks": [
+            {
+              "title": "Lifting fessier brésilien (BBL - Brazilian Butt Lift)",
+              "text": "La technique la plus demandée dans le monde, basée sur l'aspiration de graisse excédentaire et résistante du corps (comme l'abdomen ou la taille), son purification, puis son réinjection et distribution dans les fesses pour leur donner un volume naturel et relevé."
+            },
+            {
+              "title": "Implants fessiers (Butt Implants)",
+              "text": "Utilisation d'implants en silicone médicaux robustes et spécifiquement conçus pour les fesses pour les cas où il n'y a pas suffisamment de graisse corporelle pour effectuer la technique BBL."
+            }
+          ]
+        },
+        {
+          "icon": "👤",
+          "heading": "Cas candidats",
+          "list": [
+            "Femmes souffrant d'un relâchement ou d'un aspect plat des fesses.",
+            "Asymétrie du volume entre les deux côtés, ou désir de se débarrasser de la graisse des hanches."
+          ]
+        }
+      ]
+    },
+    "vaginal-rejuvenation": {
+      "title": "Chirurgie et rajeunissement vaginal",
+      "tagline": "Rajeunissement vaginal en Turquie | Retrouvez la confiance, le confort et la fonctionnalité",
+      "intro": "La zone intime des femmes subit des changements évidents en raison des accouchements répétés, du vieillissement ou de facteurs génétiques, affectant le confort quotidien et la confiance en soi. La chirurgie de rajeunissement vise à améliorer l'apparence extérieure et à résoudre les problèmes fonctionnels et physiques résultant de l'étirement des tissus.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Sections et applications de rajeunissement vaginal",
+          "blocks": [
+            {
+              "title": "Plastie des lèvres (Labiaplasty)",
+              "text": "Chirurgie visant à réduire ou à remodeler les lèvres internes ou externes excessives ou asymétriques, pour éliminer la gêne et la douleur pendant l'activité sportive ou le port de vêtements serrés."
+            },
+            {
+              "title": "Rajeunissement et réparation du périnée",
+              "text": "Réparation des tissus externes endommagés par des incisions chirurgicales antérieures lors d'accouchements naturels."
+            }
+          ]
+        }
+      ]
+    },
+    "vaginal-fat-filler": {
+      "title": "Injection de graisse et de remplissage vaginal",
+      "tagline": "Injection de graisse et de remplissage dans la zone intime en Turquie | Restauration du volume et de l'éclat",
+      "intro": "Avec l'avancement en âge ou une perte de poids importante, les lèvres externes du vagin peuvent perdre leur volume naturel et paraissent affinées ou ridées. L'injection est une solution cosmétique rapide et simple pour restaurer l'apparence pleine et jeune de la zone.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Options d'injection disponibles",
+          "blocks": [
+            {
+              "title": "Injection de graisse autologue vaginale",
+              "text": "Une petite quantité de graisse est prélevée du corps de la patiente elle-même, entièrement filtrée, puis réinjectée dans les lèvres externes pour des résultats qui durent des années avec une sécurité absolue."
+            },
+            {
+              "title": "Injection de produit de comblement médical",
+              "text": "Utilisation d'acides hyaluroniques spécifiquement conçus pour les zones intimes comme une procédure non chirurgicale rapide en cabinet ne nécessitant pas de temps de récupération."
+            }
+          ]
+        }
+      ]
+    },
+    "vaginoplasty": {
+      "title": "Plastie vaginale",
+      "tagline": "Rétrécissement et réparation du vagin en Turquie | Solutions avancées pour restaurer la fonctionnalité",
+      "intro": "Les accouchements naturels répétés entraînent un étirement et un relâchement des muscles du vagin et des tissus environnants, provoquant une sensation d'élargissement, une perte de satisfaction et parfois des problèmes de contrôle de la vessie (incontinence d'effort). La plastie vaginale consiste à reconstruire le soutien musculaire interne.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniques de rétrécissement vaginal à la Clinique Orec",
+          "blocks": [
+            {
+              "title": "Rétrécissement chirurgical (Vaginoplasty)",
+              "text": "Une procédure minutieuse consistant à rapprocher et à serrer les muscles relâchés et à exciser les tissus excédentaires tapissant le vagin, constituant la solution optimale et définitive pour un relâchement tissulaire sévère et avancé."
+            },
+            {
+              "title": "Rétrécissement non chirurgical (au laser)",
+              "text": "Pour les cas légers à modérés, où les faisceaux laser spécifiques stimulent les tissus pour produire du collagène, entraînant un rétrécissement de la paroi interne sans chirurgie."
+            }
+          ]
+        }
+      ]
+    },
+    "penile-aesthetics": {
+      "title": "Esthétique et amélioration du pénis",
+      "tagline": "Esthétique pénienne en Turquie | Renforcement de la confiance et équilibre masculin",
+      "intro": "La santé sexuelle et l'apparence externe des organes génitaux sont des piliers fondamentaux de l'autoconfiance et de l'équilibre psychologique de l'homme. À la Clinique Orec, nous offrons des solutions cosmétiques et chirurgicales avancées et éprouvées sous la supervision d'une élite d'urologues et de spécialistes en santé reproductive pour traiter les préoccupations liées à la taille ou à la forme du pénis.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Techniques d'augmentation esthétique et de girth pénien",
+          "blocks": [
+            {
+              "title": "Augmentation de la circonférence pénienne (Penile Girth Augmentation)",
+              "text": "Une procédure visant à augmenter la circonférence et le diamètre du pénis par l'injection de graisse autologue prélevée sur le corps, ou l'utilisation de produits de comblement spécifiques, ou l'implantation de tissus et de matrices médicales approuvées, donnant une apparence plus massive et harmonieuse."
+            }
+          ]
+        }
+      ]
+    },
+    "penile-lengthening": {
+      "title": "Allongement du pénis",
+      "tagline": "Allongement du pénis en Turquie | Chirurgie d'augmentation de la longueur du pénis avec les dernières normes médicales sûres",
+      "intro": "Certains hommes souffrent d'un raccourcissement réel ou apparent du pénis qui affecte leur vie conjugale et leur bien-être. La chirurgie offre des solutions étudiées et efficaces pour augmenter la longueur apparente et obtenir les résultats souhaités avec une sécurité médicale totale.",
+      "sections": [
+        {
+          "icon": "🔬",
+          "heading": "Mécanisme de l'opération d'allongement",
+          "blocks": [
+            {
+              "title": "Libération du ligament suspenseur (Suspensory Ligament Release)",
+              "text": "La technique chirurgicale la plus courante, où l'urologue libère le ligament qui relie la base du pénis au pubis, permettant à la partie interne cachée du pénis de se projeter vers l'extérieur, donnant une augmentation nette de la longueur variant de 2 à 5 cm (selon l'anatomie médicale de chaque corps)."
+            },
+            {
+              "title": "Liposuprapubienne (allongement apparent)",
+              "text": "Dans les cas d'obésité localisée, la graisse s'accumule au-dessus de la zone pubienne et cache une grande partie de la longueur du pénis ; dans ce cas, cette graisse est aspirée pour permettre au pénis d'émerger à sa longueur naturelle complète."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

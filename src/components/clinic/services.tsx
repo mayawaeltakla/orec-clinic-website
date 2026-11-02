@@ -1,6 +1,7 @@
 'use client'
 
 import { useLanguage } from './language-context'
+import { DEPT_SLUG_BY_ID } from '@/lib/services-content/config'
 import { Sparkle, ChevronLeft, ChevronRight } from 'lucide-react'
 
 /** Real photos for each main service — clinic-provided photos (all four departments) */
@@ -111,10 +112,10 @@ export function Services() {
                 )}
 
                 <a
-                  href={cat.id === 'dental' ? '/services#dental' : '/contact'}
+                  href={`/services/${DEPT_SLUG_BY_ID[cat.id] ?? ''}`}
                   className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-gold-2 transition-colors hover:text-gold"
                 >
-                  {cat.id === 'dental' ? dict.dental.title : dict.services.viewAll}
+                  {dict.services.viewAll}
                   <Chevron className="h-4 w-4 transition-transform group-hover:translate-x-0.5 rtl:group-hover:-translate-x-0.5" aria-hidden />
                 </a>
               </div>

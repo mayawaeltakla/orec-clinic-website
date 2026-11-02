@@ -1,0 +1,214 @@
+{
+  "title": "Bariatrische Chirurgie",
+  "tagline": "Umfassende chirurgische und nicht-chirurgische Gewichtsbehandlungen mit fortschrittlicher Laparoskopie — unter Aufsicht eines spezialisi chirurgischen und ernährungswissenschaftlichen Teams mit Begleitung bis zum Erreichen Ihres Idealgewichts",
+  "intro": [
+    "Die Abteilung für bariatrische Chirurgie und Gewichtsbehandlungen umfasst die modernsten chirurgischen und nicht-chirurgischen Lösungen zur Gewichtsreduktion: von der Magensleeve und der laparoskopischen Magenbypass-Operation bis hin zum Magenballon und Magen-Botox für minimal-invasive, nicht-chirurgische Verfahren. Alle Verfahren werden mit den neuesten medizinischen Geräten und international zugelassenen Smart-Staplern durchgeführt.",
+    "Der für Sie am besten geeignete Eingriff wird nach einer umfassenden Bewertung Ihres Body-Mass-Index (BMI), Ihrer allgemeinen Gesundheit und Ihrer Essgewohnheiten ausgewählt. Dazu gehört ein schrittweises Ernährungsprogramm, die Betreuung durch Ernährungsspezialisten und eine kontinuierliche Verhaltensbegleitung, um Ihr Idealgewicht zu erreichen und langfristig zu erhalten."
+  ],
+  "services": {
+    "gastric-sleeve": {
+      "title": "Magen Sleeve",
+      "tagline": "Magen Sleeve Operation in der Türkei | Die radikalste und erfolgreichste Lösung zur Überwindung von starkem Übergewicht",
+      "intro": "Die Magen Sleeve-Operation ist weltweit die erste Wahl für Personen mit starkem Übergewicht, die durch traditionelle Methoden keine Gewichtsreduktion erreichen konnten. Bei Orec Clinic führen wir diese Operation mittels moderner Laparoskopie durch, um eine schnellste Erholungszeit und minimale Schmerzen zu gewährleisten, was Ihnen hilft, bereits im ersten Jahr bis zu 70% bis 80% Ihres Übergewichts zu verlieren.",
+      "sections": [
+        {
+          "icon": "🩺",
+          "heading": "Anatomische und physiologische Veränderungen bei der Sleeve-Gastrektomie",
+          "paragraphs": [
+            "Während des Eingriffs konzentriert sich der Chirurg auf zwei Hauptänderungen am Verdauungssystem:"
+          ],
+          "blocks": [
+            {
+              "title": "Strukturelle Verkleinerung des Magens",
+              "text": "Etwa 75% bis 80% des Magenvolumens werden länglich entfernt, sodass er sich in eine kleine bananenförmige Röhre oder eine Art Mantel verwandelt, was die aufnehmbare Nahrungsmenge erheblich reduziert."
+            },
+            {
+              "title": "Anpassung der körperlichen Hormone",
+              "text": "Der entfernte Teil (der Fundus des Magens) enthält die Zellen, die für die Ausschüttung des Ghrelin-Hormons (des Hungerhormons) verantwortlich sind. Seine Entfernung führt zu einem starken und direkten Abfall des Hungergefühls und zu schneller Sättigung."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Die medizinischen Techniken, die in unserem Zentrum verwendet werden",
+          "blocks": [
+            {
+              "title": "Mikroskopische 3D-Laparoskopie (Advanced Laparoscopy)",
+              "text": "Der gesamte Eingriff erfolgt ohne offenen chirurgischen Schnitt, sondern durch 4 bis 5 sehr kleine Löcher in der Bauchwand (nicht größer als 1 cm) zur Einführung der Kamera und feiner Instrumente."
+            },
+            {
+              "title": "Dreifach-sichere Smart Stapler (Smart Staplers)",
+              "text": "Bei Orec Clinic verwenden wir die modernsten amerikanischen medizinischen Klammern (wie Medtronic oder Ethicon), die Gewebe mit drei parallelen Reihen feiner Titan-Nähte schneiden und verschließen, um höchste Sicherheit zu gewährleisten."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Abläufe und das postoperative Protokoll",
+          "blocks": [
+            {
+              "title": "Vor der Operation",
+              "text": "Der Patient umfassenden Untersuchungen unterzogen, einschließlich (Nieren- und Leberfunktion, Blutgase, EKG, Röntgenaufnahme der Lunge und Schilddrüsenhormontests), sowie eine Konsultation mit dem Anästhesisten und Endokrinologen."
+            },
+            {
+              "title": "Während der Operation",
+              "text": "Die Operation dauert 45 bis 60 Minuten unter Vollnarkose."
+            },
+            {
+              "title": "Die postoperative Ernährung",
+              "text": "Der Patient hält sich an eine streng schrittweise Ernährung unter der Aufsicht unseres Ernährungsspezialisten: Die ersten beiden Wochen nur klare Flüssigkeiten, die dritte und vierte Woche pürierte und gemahlene Lebensmittel, im zweiten Monat schrittweise Beginn des festen Essens, das gut gekaut ist."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Risiken und wie wir sie vermeiden",
+          "paragraphs": [
+            "Zu den möglichen Risiken gehören historisch gesehen: Leckage an der Nahtlinie, Blutungen oder Beingefäßthrombosen."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Unser präzises Sicherheitsprotokoll",
+              "text": "Wir vermeiden das Risiko einer Leckage zu fast 100% durch einen doppelten Farbstofftest im Operationssaal, um sicherzustellen, dass der Magen vollständig verschlossen ist, gefolgt von einem chirurgischen Übernahtschritt, bei dem die Nahtlinie manuell über der automatischen Naht genäht wird, um die Sicherheit zu erhöhen. Dem Patienten werden sofort Blutverdünnmittel und spezielle Kompressionsstrümpfe verabreicht, um Thrombosen zu verhindern und die Durchblutung zu aktivieren."
+            }
+          ]
+        }
+      ]
+    },
+    "gastric-bypass": {
+      "title": "Magenbypass",
+      "tagline": "Magenbypass Operation in der Türkei | Der Goldstandard zur Behandlung von Adipositas und zur Beseitung von Diabetes",
+      "intro": "Die Magenbypass-Operation ist die ideale und stärkste Option für Patienten mit starkem Übergewicht, das von Typ-2-Diabetes begleitet wird, oder für Patienten mit schwerer Refluxkrankheit (chronische Sodbrennen), oder für Süßigkeiten- und Zuckerkonsumenten, die unkontrolliert essen.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Anatomische und physiologische Veränderungen beim Magenbypass",
+          "paragraphs": [
+            "Die Operation basiert auf der Kombination zweier Mechanismen zur Gewichtsreduktion (Volumenreduktion + Absorptionsreduktion):"
+          ],
+          "blocks": [
+            {
+              "title": "Kleiner Magenbeutel (Gastric Pouch)",
+              "text": "Der Chirurg trennt einen sehr kleinen oberen Teil des Magens (in der Größe eines Hühnereies), der als neuer Magen dient, der Nahrung aufnimmt."
+            },
+            {
+              "title": "Umleitung des Dünndarms und Umgehung der Absorption",
+              "text": "Der Dünndarm wird durchtrennt und der untere Teil direkt mit dem neuen Magenbeutel verbunden, wobei der Rest des alten Magens, der Zwölffingerdarm und der erste Teil des Dünndarms umgangen werden. Diese Umgehung führt dazu, dass der Körper nicht alle aufgenommenen Kalorien und Zucker absorbiert."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Unsere Optionen und Techniken für den Magenbypass",
+          "blocks": [
+            {
+              "title": "Klassischer Magenbypass (Roux-en-Y Gastric Bypass)",
+              "text": "Dabei werden zwei chirurgische Verbindungen zwischen Magen und Darm hergestellt, es ist die radikalste und endgültig weltweit anerkannte Behandlung für Patienten mit schwerem gastroösophagealem Reflux."
+            },
+            {
+              "title": "Miniaturisierter Magenbypass (Mini Gastric Bypass)",
+              "text": "Eine neuere und schnellere Technik, die nur eine chirurgische Verbindung zwischen dem länglichen Magenbeutel und dem Darm umfasst, und zeichnet sich durch ihre sehr hohe Effizienz bei Gewichtsreduktion und Diabetesbehandlung aus."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Medizinische Abläufe und Erholungsphase",
+          "blocks": [
+            {
+              "title": "Die Operation",
+              "text": "Wird vollständig laparoskopisch unter Vollnarkose durchgeführt und dauert etwa eineinhalb bis zwei Stunden."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Risiken und wie wir sie vermeiden",
+          "paragraphs": [
+            "Zu den möglichen Risiken gehören: Dumping-Syndrom bei schnellem Verzehr von Zucker oder schwerer Vitaminmangel.",
+            "Unsere Ärzte vermeiden dies, indem sie den Patienten anleiten, wie er seine Mahlzeiten regulieren kann, und verpflichten ihn zu einem lebenslangen Programm mit Ergänzungsmitteln und Vitaminen, um den Mangel an intestinaler Absorption auszugleichen und die Gesundheit von Knochen und Muskeln zu erhalten."
+          ]
+        }
+      ]
+    },
+    "gastric-balloon": {
+      "title": "Magenballon",
+      "tagline": "Magenballon in der Türkei | Gewichtsverlust ohne Operation und ohne Vollnarkose",
+      "intro": "Wenn Sie unter einem Gewicht von 15 bis 30 Kilogramm leiden und sich vor chirurgischen Eingriffen fürchten, bietet der Magenballon eine sichere und vorübergehende medizinische Lösung, um Ihnen zu helfen, Ihre Essgewohnheiten zu ändern und Ihren Appetit zu kontrollieren, ohne dass sich Ihr Verdauungssystem dauerhaft verändert.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Wirkungsweise und medizinische Komponenten",
+          "paragraphs": [
+            "Das Prinzip des Ballons basiert darauf, Platz im Magen einzunehmen; ein weicher medizinischer Silikonballon hoher Qualität wird in den Magen eingeführt und mit steriler medizinischer Flüssigkeit (gefärbte Salzlösung) mit einem Volumen von 500 bis 700 ml gefüllt. Dieser Ballon nimmt etwa zwei Drittel des Magenvolumens ein, sodass Sie sich nach der Aufnahme sehr kleiner Mengen an Nahrung voll und satt fühlen."
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Arten der Magenballon-Techniken in unserer Klinik",
+          "blocks": [
+            {
+              "title": "Programmierbare intelligente Kapsel (Elipse Balloon)",
+              "text": "Die weltweit neueste Technik ohne Laparoskopie oder Narkose; der Patient schluckt eine kleine Kapsel, die an einen dünnen Schlauch angeschlossen ist, mit einem Glas Wasser in der Klinik. Sobald sie im Magen angekommen ist (wird durch Röntgenbestätigung überprüft), wird sie mit Flüssigkeit gefüllt und der Schlauch wird zurückgezogen. Dieser Ballon löst sich selbst auf und verlässt den Körper natürlich nach 4 Monaten."
+            },
+            {
+              "title": "Klassischer Magenballon (über Laparoskopie)",
+              "text": "Wird nach 6 Monaten oder einem Jahr (je nach Ballontyp) mit dem medizinischen Laparoskop unter leichter Sedierung (tiefe Sedierung für 15 Minuten) und ohne Schmerzen eingeführt und entfernt."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Nebenwirkungen und wie man sie vermeidet",
+          "paragraphs": [
+            "In den ersten drei Tagen nach der Ballonimplantation ist es völlig normal, dass der Körper eine Abwehrreaktion zeigt, die sich in Übelkeit, Erbrechen oder Magenkrämpfen äußert, da der Magen versucht, den Ballon zu verdauen."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Wie vermeiden wir das?",
+              "text": "Bei Orec Clinic verabreichen wir dem Patienten ein intensives therapeutisches Protokoll, das Medikamente gegen Übelkeit, starke Säureblocker und Krampflöser vor dem Eingriff und in den ersten Tagen enthält, damit der Patient diese Phase glatt und vollständig bequem überstehen kann."
+            }
+          ]
+        }
+      ]
+    },
+    "gastric-botox": {
+      "title": "Magen-Botox",
+      "tagline": "Magen-Botox-Injektionen in der Türkei | Appetitkontrolle und Verlangsamung der Verdauung durch das einfachste medizinische Verfahren zur Gewichtsreduktion",
+      "intro": "Magen-Botox-Injektionen sind eines der neuesten nicht-chirurgischen Verfahren für Personen mit leichter bis mittlerer Gewichtszunahme (BMI zwischen 27 und 35) oder für diejenigen, die Schwierigkeiten haben, sich an eine Diät zu halten, weil sie ständig hungrig sind.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Medizinische Wirkungsweise von Botox im Magen",
+          "paragraphs": [
+            "Botox wirkt bei der Injektion in die Magenwand auf zwei physiologische Ebenen:"
+          ],
+          "blocks": [
+            {
+              "title": "Vorübergehende Lähmung der Magenmuskulatur",
+              "text": "Botox wird in die Muskeln der Magenwand injiziert, die für die Entleerung des Nahrungsbreis verantwortlich sind, was zu einer erheblichen Verlangsamung ihrer Kontraktionsbewegungen führt. Als Ergebnis bleibt die Nahrung wesentlich länger im Magen (6 bis 8 Stunden statt 2 Stunden), was dem Patienten ein anhaltendes Sättigungsgefühl verleiht."
+            },
+            {
+              "title": "Wirkung auf den Hungernerve",
+              "text": "In bestimmte Bereiche des Magenbodens wird injiziert, die auf den Nervus vagus einwirken, der für das Senden von Hunger signalen an das Gehirn verantwortlich ist, was das intensive Verlangen nach Nahrung reduziert."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Medizinische Verfahren und Haltedauer",
+          "blocks": [
+            {
+              "title": "Behandlungsschritte",
+              "text": "Ein sehr einfacher und sicherer Vorgang, der nur 15 bis 20 Minuten in der endoskopischen Einheit dauert. Die Prozedur erfolgt unter lokaler Sedierung und leichtem Schlaf, bei der der Arzt den flexiblen oralen Endoskop einführt und Botox in etwa 20 bis 30 sorgfältig ausgewählte Punkte der Magenmuskulatur injiziert. Der Patient kann die Klinik nach einer Stunde verlassen und zu seinen täglichen Aktivitäten zurückkehren."
+            },
+            {
+              "title": "Erholung und Ergebnis",
+              "text": "Die Wirkung von Botox auf den Appetit zeigt sich schrittweise innerhalb von 3 bis 4 Tagen nach der Injektion und die medizinische Wirkung im Magen hält 5 bis 6 Monate an (die Haltedauer von Botox, bevor es sich natürlich auflöst), was eine goldene Zeit ist, in der der Patient lernen kann, einen gesunden Lebensstil zu pflegen und überschüssiges Gewicht sicher abzunehmen."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

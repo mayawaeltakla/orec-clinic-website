@@ -5,6 +5,7 @@ import { useLanguage } from './language-context'
 import { LanguageSwitcher } from './language-switcher'
 import { ThemeToggle } from './theme-toggle'
 import { whatsappLink, CLINIC } from '@/lib/i18n'
+import { DEPT_SLUG_BY_ID } from '@/lib/services-content/config'
 import { WhatsAppGlyph } from './social-icons'
 import { Menu, X, ChevronDown, MessageCircle, Phone, Mail } from 'lucide-react'
 
@@ -85,7 +86,7 @@ export function Header() {
                     {dict.services.categories.map((c) => (
                       <a
                         key={c.id}
-                        href="/services"
+                        href={`/services/${DEPT_SLUG_BY_ID[c.id] ?? ''}`}
                         className="rounded-xl p-3 transition-colors hover:bg-accent"
                       >
                         <span className="flex items-center gap-2 text-sm font-bold text-gold-2">

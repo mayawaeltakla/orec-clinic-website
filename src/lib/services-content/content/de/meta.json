@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "breadcrumbHome": "Startseite",
+    "breadcrumbServices": "Leistungen",
+    "subServicesTitle": "Dienstleistungen dieses Bereichs",
+    "exploreService": "Dienstleistung entdecken",
+    "relatedTitle": "Weitere Dienstleistungen im selben Bereich",
+    "backToServices": "Zurück zu allen Dienstleistungen",
+    "backToDepartment": "Zurück zum Bereich",
+    "ctaTitle": "Beginnen Sie Ihre Reise mit der Orec Clinic",
+    "ctaText": "Unser Beratungsteam ist jederzeit für Sie da, um Ihnen zuzuhören und all Ihre Fragen freundlich zu beantworten. Kontaktieren Sie uns noch heute und machen Sie den ersten Schritt zu einem gesunden Lächeln und einem Schönheit, die die Leidenschaft für das Leben zurückbringt!",
+    "ctaButton": "Kostenlose Beratung buchen",
+    "notFoundTitle": "Seite nicht gefunden",
+    "notFoundText": "Entschuldigung, der gewünschte Bereich oder die Dienstleistung ist nicht verfügbar. Besuchen Sie bitte die Dienstleistungsseite, um alle unsere medizinischen Bereiche zu erkunden."
+  }
+}

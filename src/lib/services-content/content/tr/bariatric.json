@@ -1,0 +1,214 @@
+{
+  "title": "Obezite Cerrahisi",
+  "tagline": "Gelişmiş laparoskopik kilo verme cerrahisi ve tedavileri — uz cerrahi ve beslenme ekibimiz gözetiminde ve ideal kilonuza ulaşana kadar sürekli takiple",
+  "intro": [
+    "Obezite cerrahisi ve tedavileri bölümümüz, kilo vermenin en son cerrahi ve cerrahi olmayan çözümlerini sunar: gelişmiş laparoskopik mide küçültme ve mide bypassı, daha basit cerrahi olmayan prosedürler için mide balonu ve mide botoksu. Tüm bu uygulamalar, uluslararası onaylı en son tıbbi cihazlar ve akıllı dikişlerle gerçekleştirilir.",
+    "BMI'nız, genel sağlık durumunuz ve beslenme alışkanlıklarınız kapsamlı bir değerlendirme sonrasında durumunuz için en uygun prosedür seçilir. Uzman beslenme uzmanlarımızın denetiminde ve sürekli davranışsal takiple birlikte aşamalı bir beslenme planıyla ideal kilonuza ulaşmanız ve korumanız sağlanır."
+  ],
+  "services": {
+    "gastric-sleeve": {
+      "title": "Mide Ameliyatı",
+      "tagline": "Türkiye'de mide ameliyatı | Aşırı kilodan kurtulmanın en başaralı ve kökten çözümü",
+      "intro": "Mide ameliyatı, aşırı kilolardan ve geleneksel yöntemlerle kilo veremeyenler için dünya çapındaki ilk tercihtir. Orec Clinic'te, daha hızlı iyileşme süresi ve daha az ağrı hissi sağlamak için bu ameliyatı gelişmiş laparoskopik yöntemle uyguluyoruz. Bu sayede, ilk yıl içinde fazla ağırlığınızın %70 ila %80'ini kaybetmenize yardımcı oluruz.",
+      "sections": [
+        {
+          "icon": "🩺",
+          "heading": "Tümöideki Anatomik ve Fizyolojik Değişiklikler",
+          "paragraphs": [
+            "Ameliyat sırasında, cerrah sindirim sisteminin doğasında iki ana değişiklik yapmaya odaklanır:"
+          ],
+          "blocks": [
+            {
+              "title": "Mide Yapısının Boyutunun Küçültülmesi",
+              "text": "Midenin yaklaşık %75 ila %80'i uzunluğunda çıkarılarak, muz şeklinde veya bir ceket gibi dar bir tüpe dönüştürülür. Bu, alınabilecek yiyecek miktarını önemli ölçüde azaltır."
+            },
+            {
+              "title": "Vücut Hormonlarının Düzenlenmesi",
+              "text": "Çıkarılan kısım (mide kubbesi), açlık hormonu olarak bilinen ghrelin hormonu salgılayan hücreleri içerir. Bu kısmın çıkarılması, yiyecek yeme isteği ve hızlı tokluk hissinde keskin bir düşüşe neden olur."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Merkezimizde Kullanılan Tıbbi Teknikler",
+          "blocks": [
+            {
+              "title": "İleri Düzey Laparoskopik Mikroskopik Cerrahi (Advanced Laparoscopy)",
+              "text": "Ameliyat tamamen açık cerrahi kesi olmadan, karın duvarına (1 cm'yi geçmeyen) 4 ila 5 çok küçük delikten kamera ve ince aletlerin sokulmasıyla yapılır."
+            },
+            {
+              "title": "Üçlü Güvenlikli Akıllı Cırtlar (Smart Staplers)",
+              "text": "Orec Clinic'te, Medtronic veya Ethicon gibi en son Amerikan tıbbi cırtlarını kullanıyoruz. Bu cırtlar, en yüksek güvenlik seviyelerini sağlamak için doku keser ve 3 paralel ince titanyum dikişiyle diker."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Ameliyat Öncesi ve Sonrası Prosedürler",
+          "blocks": [
+            {
+              "title": "Ameliyat Öncesi",
+              "text": "Hasta, böbrek ve karaciğer fonksiyonları, kan gazları, EKG, göğüs radyografisi ve tiroid hormonları dahil olmak üzere kapsamlı bir muayene ve anestezi uzmanı ile endokrin uzmanı görüşmesi geçer."
+            },
+            {
+              "title": "Ameliyat Sırasında",
+              "text": "Ameliyat genel anestezi altında 45 ila 60 dakika sürer."
+            },
+            {
+              "title": "Ameliyat Sonrası Diyet",
+              "text": "Hasta, diyetisyenimizin denetiminde dikkatli derecelendirilmiş bir diyet uygular: İlk iki hafta sadece şeffaf sıvılar, üçüncü ve dördüncü hafta püre ve ezilmiş yiyecekler, ikinci ay iyi çiğnenmiş katı yiyeceklerin yavaş yavaş başlanması."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Riskler ve Nasıl Önlendiği",
+          "paragraphs": [
+            "Geçmişte olası riskler şunları içerirdi: cırt sızıntısı, kanama veya bacak pıhtıları."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Hassas Güvenlik Protokolümüz",
+              "text": "Opratuar ortamında çift boya testi yaparak midenin tamamen kapandığından emin oluruz, ardından cırt hattını manuel olarak dikerek güvenliği artırmak için otomatik dikimin üzerine cerrahi sarmalama adımı takip ederiz. Ayrıca, pıhtılaşmayı önlemek ve kan dolaşımını aktif hale getirmek için hastaya hemen kan sulandırıcılar ve özel basınçlı çoraplar verilir."
+            }
+          ]
+        }
+      ]
+    },
+    "gastric-bypass": {
+      "title": "Mide Bypass",
+      "tagline": "Türkiye'de bypass ameliyatı | Obezite ve diyabesten kurtulmanın altın standardı",
+      "intro": "Mide bypass ameliyatı, aşırı kilolu ve tip 2 diyabetli, şiddetli reflü (kronik mide yanması) olan veya tatlıları ve şekerleri aşırı tüketen hastalar için en ideal ve en güçlü seçenektir.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Bypass'teki Anatomik ve Fizyolojik Değişiklikler",
+          "paragraphs": [
+            "Ameliyat, kilo kaybı için iki mekanizmayı birleştirmeye dayanır (hacim azaltma + emilim azaltma):"
+          ],
+          "blocks": [
+            {
+              "title": "Küçük Mide Poşu (Gastric Pouch)",
+              "text": "Cerrah, mideden (bir tavuk yumurtası büyüklüğünde) çok küçük bir üst kısmı ayırır ve bu, yiyecekleri alan yeni mide olur."
+            },
+            {
+              "title": "Bağırsakların Yönlendirilmesi ve Emilimin Atlatılması",
+              "text": "İnce bağırsak kesilir ve alt kısmı doğrudan yeni mide poşuna bağlanır. Bu, eski mideyi, onikiparmak bağırsağını ve ince bağırsağın ilk bölümünü atlayarak yapılır. Bu bypass, vücudun alınan tüm kalori ve şekerleri emmesini engeller."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Bypass Seçeneklerimiz ve Tekniklerimiz",
+          "blocks": [
+            {
+              "title": "Klasik Bypass (Roux-en-Y Gastric Bypass)",
+              "text": "Mide ve bağırsak arasında iki cerrahi bağlantı yapılır. Bu, şiddetli reflü hastaları için dünya çapında onaylanmış kök ve nihai tedavidir."
+            },
+            {
+              "title": "Mikro Bypass (Mini Gastric Bypass)",
+              "text": "Daha yeni ve daha hızlı bir tekniktir, mide poşu ile ince bağırsak arasında tek bir cerrahi bağlantı içerir. Kilo kaybı ve diyabette tedavi etmede çok yüksek verimliliğiyle bilinir."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Tıbbi Prosedürler ve İyileşme Süresi",
+          "blocks": [
+            {
+              "title": "Ameliyat",
+              "text": "Tamamen laparoskopik olarak genel anestezi altında yapılır ve yaklaşık bir buçuk ila iki saat sürer."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Riskler ve Nasıl Önlendiği",
+          "paragraphs": [
+            "Olası riskler şunları içerir: şekerleri hızla tüketirken ortaya çıkan atılım sendromu (Dumping Syndrome) veya vitaminlerin ciddi eksikliği.",
+            "Hekanlarımız, hastayı yemeklerini nasıl düzenleyeceğini öğreterek bunu önler ve kemik ve kas sağlığını korumak için ömür boyu takviye ve vitamin programı uygular."
+          ]
+        }
+      ]
+    },
+    "gastric-balloon": {
+      "title": "Mide Balonu",
+      "tagline": "Türkiye'de mide balonu | Cerrahi olmadan ve genel anestezi olmadan kilo verin",
+      "intro": "15 ila 30 kilo arasında kilo problemi yaşıyorsanız ve cerrahi müdahalelerden korkuyorsanız, mide balonu sindirim sisteminizde kalıcı bir değişiklik yapmadan alışkanlıklarınızı değiştirmenize ve iştahınızı kontrol etmenize yardımcı olan tıbbi güvenli ve geçici bir çözüm sunar.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Çalışma Mekanizması ve Tıbbi Bileşenler",
+          "paragraphs": [
+            "Balonun mantığı, mide içindeki alanı doldurmaya dayanır; yüksek kaliteli silikondan yapılmış yumuşak tıbbi bir balon, mide içine yerleştirilir ve 500 ila 700 ml arasında bir alana sahip dezenfekte edilmiş tıbbi sıvı (mavimsel tuzlu çözelti) ile doldurulur. Bu balon, mide hacminin yaklaşık üçte ikisini kaplar, bu da çok küçük miktarlarda yiyecek yedikten sonra tokluk ve doygunluk hissetmenizi sağlar."
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Klinikteki Mide Balonu Teknikleri",
+          "blocks": [
+            {
+              "title": "Programlanmış Akıllı Kapsül (Elipse Balloon)",
+              "text": "Dünyada en yeni teknoloji, laparoskop veya anestezi olmadan; hasta, klinikte küçük bir kapsülü ince bir tüple birlikte bir bardak suyla yutar, midede yerleştiğinde (röntgenle doğrulanır), sıvıyla doldurulur ve sonra tüp çekilir. Bu balon, 4 ay sonra kendiliğinden çözünür ve vücuttan doğal olarak çıkar."
+            },
+            {
+              "title": "Klasik Mide Balonu (Laparoskopik Yöntem)",
+              "text": "Laparoskopik tıbbi cihaz kullanılarak 6 ay veya bir yıl (balon türüne bağlı olarak) takılır ve çıkarılır. Hafif bir sedasyon (15 dakikalık geçici derin uyku) altında ve ağrısız yapılır."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Yan Etkiler ve Nasıl Önlenir",
+          "paragraphs": [
+            "Balon takıldıktan sonraki ilk üç gün boyunca, midenin balonu sindirmeye çalışması nedeniyle vücudun savunma tepkisi olan bulantı, kusma veya mide krampları olması çok normaldir."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Nasıl Önlenir?",
+              "text": "Orec Clinic'te, hastaya prosedür öncesi ve ilk günlerde bulantı önleyici ilaçlar, güçlü asit baskılayıcılar ve kas gevşeticiler içeren yoğun bir tedavi protokolü vererek hasta bu aşamayı sorunsuz ve tam bir rahatlıkla geçmesini sağlarız."
+            }
+          ]
+        }
+      ]
+    },
+    "gastric-botox": {
+      "title": "Mide Botoksu",
+      "tagline": "Mide botoksu Türkiye'de | Açlık hissini azaltmak ve sindirimi yavaşlatmak için en basit tıbbi kilo mücadelesi prosedürü",
+      "intro": "Mide botoksu, hafif ve orta derecede kilo problemi yaşayan (BMI 27-35 arası) veya sürekli açlık hisi nedeniyle diyet programına uymakta zorlanan bireyler için tasarlanan en yeni cerrahi olmayan prosedürlerden biridir.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Mide içindeki botoksun tıbbi çalışma mekanizması",
+          "paragraphs": [
+            "Mide duvarına enjekte edildiğinde botoks, iki fizyolojik eksen üzerinde çalışır:"
+          ],
+          "blocks": [
+            {
+              "title": "Mide kaslarını geçici olarak felç etme",
+              "text": "Botoks, mideden gıdanın boşalmasından sorumlu olan mide duvar kaslarına enjekte edilir, bu da kasın kasılma hareketini önemli ölçüde yavaşlatır. Sonuç olarak, gıda midede çok daha uzun süre kalır (6-8 saat yerine), bu da hastaya doluluk hissinin daha uzun sürmesini sağlar."
+            },
+            {
+              "title": "Açlık sinirine etkisi",
+              "text": "Beyne açlık sinyalleri göndermekten sorumlu olan vagus sinirini etkileyen mide tabanındaki belirli bölgelere enjeksiyon yapılır, bu da aşırı yeme isteğini azaltır."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Tıbbi prosedürler ve etkin süresi",
+          "blocks": [
+            {
+              "title": "Tedavi adımları",
+              "text": "Sadece 15-20 dakika süren son derece basit ve güvenli bir prosedür sindirim sistemi endoskopi ünitesinde yapılır. Prosedür, yerel sedatif ve hafif anestezi altında gerçekleştirilir, doktor esnek ağız içi endoskopu kullanarak mide kas duvarındaki yaklaşık 20-30 dikkatle seçilmiş noktaya botoks enjekte eder ve hasta merkezden bir saat içinde ayrılıp işine dönebilir."
+            },
+            {
+              "title": "İyileşme ve sonuçların ortaya çıkması",
+              "text": "Botoksun etkisi, enjeksiyondan sonraki 3-4 gün içinde iştah üzerinde yavaş yavaş ortaya çıkar ve mide içindeki tıbbi etkisi 5-6 ay arasında sürer (botoksun doğal olarak parçalanmadan önce geçerlilik süresi), bu da hastayı sağlıklı bir yaşam tarzı alışkanlığına kavuşturmak ve fazla kilosunu güvenli bir şekilde vermek için yeterli bir altın süredir."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

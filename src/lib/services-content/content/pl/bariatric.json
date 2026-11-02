@@ -1,0 +1,214 @@
+{
+  "title": "Chirurgia otyłości",
+  "tagline": "Kompleksowe zabiegi chirurgiczne i niechirurgiczne odchudzanie z użyciem zaawansowanej laparoskopii — pod nadzorem wyspecjalizowanego zespołu chirurgicznego i dietetycznego, z opieką aż do osiągnięcia Twojej wagi idealnej",
+  "intro": [
+    "Dział chirurgii i leczenia otyłości oferuje najnowsze rozwiązania chirurgiczne i niechirurgiczne odchudzania: od rękawiastej gastrektomii i bypassu żołądka wykonywanych za pomocą zaawansowanej laparoskopii, po balon żołądkowy i botoks żołądkowy w prostszych zabiegach bez operacji. Wszystko z użyciem najnowszego sprzętu medycznego i zatwierdzonych na całym świecie inteligentnych staplerów.",
+    "Najbardziej odpowiedni zabieg dla Twojego przypadku dobierany jest po kompleksowej ocenie wskaźnika masy ciała (BMI), ogólnego stanu zdrowia i nawyków żywieniowych, wraz ze stopniowanym planem żywieniowym, nadzorem specjalistów dietetyki i ciągłą opieką behawioralną — aż do osiągnięcia i utrzymania Twojej wagi idealnej."
+  ],
+  "services": {
+    "gastric-sleeve": {
+      "title": "Rękawiasta gastrektomia",
+      "tagline": "Rękawiasta gastrektomia w Turcji | Najskuteczniejsze i najbardziej radykalne rozwiązanie problemu otyłości olbrzymiej",
+      "intro": "Rękawiasta gastrektomia (gastrectomia rękawowa) to na świecie zabieg z pierwszego wyboru dla osób z otyłością olbrzymią, które nie udały się schudnąć metodami tradycyjnymi. W klinice Orec wykonujemy ją techniką zaawansowanej laparoskopii, co gwarantuje najszybszy powrót do sprawności i minimalny ból — pomagając Ci stracić nawet 70–80% nadwagi już w pierwszym roku.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Zmiany anatomiczne i fizjologiczne przy gastrektomii rękawowej",
+          "paragraphs": [
+            "Podczas zabiegu chirurg koncentruje się na wprowadzeniu dwóch głównych zmian w funkcjonowaniu układu pokarmowego:"
+          ],
+          "blocks": [
+            {
+              "title": "Strukturalne zmniejszenie objętości żołądka",
+              "text": "Podłużnie usuwa się około 75–80% objętości żołądka, przekształcając go w małą rurkę przypominającą banana lub rękaw ubrania, co radykalnie ogranicza ilość przyjmowanego pokarmu."
+            },
+            {
+              "title": "Modyfikacja hormonów organizmu",
+              "text": "Usuwana część (dno żołądka) zawiera komórki odpowiedzialne za wydzielanie greliny — tzw. hormonu głodu. Jej usunięcie prowadzi do gwałtownego i bezpośredniego spadku ochoty na jedzenie oraz szybkiego uczucia sytości."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Techniki medyczne stosowane w naszym centrum",
+          "blocks": [
+            {
+              "title": "Trójwymiarowa mikroskopowa chirurgia laparoskopowa (Advanced Laparoscopy)",
+              "text": "Zabieg przeprowadzany jest w całości bez otwartego cięcia chirurgicznego — przez 4–5 bardzo małych nakłuć w ścianie brzucha (nieprzekraczających 1 cm), przez które wprowadza się kamerę i precyzyjne narzędzia."
+            },
+            {
+              "title": "Inteligentne staplery z potrójnym zabezpieczeniem (Smart Staplers)",
+              "text": "W klinice Orec korzystamy z najnowszych amerykańskich staplerów medycznych (takich jak Medtronic lub Ethicon), które przecinają i zszywają tkanki trzema równoległymi rzędami drobnych tytanowych klipsów, zapewniając najwyższy poziom bezpieczeństwa."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedury i protokół pooperacyjny",
+          "blocks": [
+            {
+              "title": "Przed zabiegiem",
+              "text": "Pacjent przechodzi kompleksowe badania obejmujące (funkcję nerek i wątroby, gazometrię krwi, EKG, zdjęcie rtg klatki piersiowej oraz badanie hormonów tarczycy), a także konsultacje z anestezjologiem i endokrynologiem."
+            },
+            {
+              "title": "Podczas zabiegu",
+              "text": "Operacja trwa od 45 do 60 minut w znieczuleniu ogólnym."
+            },
+            {
+              "title": "Dieta po zabiegu",
+              "text": "Pacjent stosuje ściśle stopniowaną dietę pod nadzorem naszego dietetyka: przez pierwsze dwa tygodnie wyłącznie klarowne płyny, w trzecim i czwartym tygodniu pokarmy purre i mielone, a od drugiego miesiąca stopniowe wprowadzanie dobrze przeżutych pokarmów stałych."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Ryzyko i sposób jego unikania",
+          "paragraphs": [
+            "Historycznie do potencjalnych ryzyk należały: przeciek z linii zszywków, krwawienie lub zakrzepy w nogach."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Nasz precyzyjny protokół bezpieczeństwa",
+              "text": "Ryzyko przecieku minimalizujemy niemal do 100% dzięki podwójnemu testowi barwnikowemu przeprowadzanemu na sali operacyjnej w celu potwierdzenia pełnego zamknięcia żołądka, a następnie chirurgicznemu doszyciu linii zszywków ręcznie ponad automatycznym zsyciem dla wzmocnienia bezpieczeństwa. Pacjent otrzymuje natychmiast także leki przeciwzakrzepowe i specjalne pończochy uciskowe, aby zapobiec zakrzepom i pobudzić krążenie krwi."
+            }
+          ]
+        }
+      ]
+    },
+    "gastric-bypass": {
+      "title": "Bypass żołądka",
+      "tagline": "Bypass żołądka w Turcji | Złoty standard leczenia otyłości i pozbycia się cukrzycy",
+      "intro": "Bypass żołądka to idealna i najskuteczniejsza opcja dla pacjentów z otyłością olbrzymią połączoną z cukrzycą typu 2, cierpiących na silny refluks przełykowy (przewlekłą zgagę) lub uwielbiających objadanie się słodyczami i cukrami.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Zmiany anatomiczne i fizjologiczne przy bypassie żołądka",
+          "paragraphs": [
+            "Operacja łączy dwa mechanizmy odchudzania (zmniejszenie objętości + ograniczenie wchłaniania):"
+          ],
+          "blocks": [
+            {
+              "title": "Mały kieszonkowy żołądek (Gastric Pouch)",
+              "text": "Chirurg oddziela bardzo małą górną część żołądka (o wielkości jajka kurzego), która staje się nowym żołądkiem przyjmującym pokarm."
+            },
+            {
+              "title": "Omijanie jelit i pominięcie wchłaniania",
+              "text": "Jelito cienkie jest przecinane, a jego dolna część łączona bezpośrednio z nowym kieszonkowym żołądkiem — z pominięciem reszty starego żołądka, dwunastnicy i pierwszego odcinka jelita. To obejście sprawia, że organizm nie wchłania wszystkich spożytych kalorii i cukrów."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Nasze opcje i techniki bypassu żołądka",
+          "blocks": [
+            {
+              "title": "Klasyczny bypass żołądka (Roux-en-Y Gastric Bypass)",
+              "text": "Wykonuje się w nim dwa połączenia chirurgiczne między żołądkiem a jelitem; to radykalne i ostateczne leczenie zatwierdzone na całym świecie dla pacjentów z silnym refluksem przełykowym."
+            },
+            {
+              "title": "Mini bypass żołądka (Mini Gastric Bypass)",
+              "text": "Nowsza i szybsza technika, obejmująca tylko jedno połączenie chirurgiczne między podłużnym kieszonkowym żołądkiem a jelitem; odznacza się bardzo wysoką skutecznością w odchudzaniu i leczeniu cukrzycy."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedury medyczne i okres rekonwalescencji",
+          "blocks": [
+            {
+              "title": "Zabieg",
+              "text": "Wykonywany jest w całości laparoskopowo, w znieczuleniu ogólnym, i trwa około półtorej do dwóch godzin."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Ryzyko i sposób jego unikania",
+          "paragraphs": [
+            "Do potencjalnych ryzyk należy: zespół poposiłkowy (Dumping Syndrome) przy szybkiej konsumpcji cukrów lub poważne niedobory witamin.",
+            "Nasi lekarze zapobiegają temu, ucząc pacjenta, jak regulować posiłki, oraz zobowiązując go do dożywotniego programu suplementów i witamin, który kompensuje ograniczone wchłanianie jelitowe i utrzymuje zdrowie kości i mięśni."
+          ]
+        }
+      ]
+    },
+    "gastric-balloon": {
+      "title": "Balon żołądkowy",
+      "tagline": "Balon żołądkowy w Turcji | Odchudzanie bez operacji i bez znieczulenia ogólnego",
+      "intro": "Jeśli masz nadwagę od 15 do 30 kilogramów i obawiasz się interwencji chirurgicznych, balon żołądkowy oferuje Ci bezpieczne i tymczasowe rozwiązanie medyczne, które pomoże Ci zmienić nawyki żywieniowe i kontrolować apetyt — bez jakichkolwiek trwałych zmian w anatomii układu pokarmowego.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Mechanizm działania i komponenty medyczne",
+          "paragraphs": [
+            "Logika balonu opiera się na wypełnieniu przestrzeni wewnątrz żołądka: do żołądka wprowadza się miękki balon medyczny wykonany z wysokiej jakości silikonu i wypełnia go jałowym roztworem medycznym (solą fizjologiczną zabarwioną na niebiesko) w objętości od 500 do 700 ml. Balon zajmuje około dwóch trzecich objętości żołądka, dzięki czemu czujesz się pełny i syty po spożyciu bardzo małej ilości jedzenia."
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Rodzaje technik balonu żołądkowego w naszej klinice",
+          "blocks": [
+            {
+              "title": "Inteligentna programowalna kapsułka (Elipse Balloon)",
+              "text": "Najnowsza technika na świecie — bez endoskopii i znieczulenia. Pacjent połyka w klinice małą kapsułkę połączoną z cienką rurką, popijając szklanką wody. Gdy kapsułka ustabilizuje się w żołądku (potwierdzane zdjęciem RTG), wypełnia się ją płynem i wyjmuje rurkę. Ten balon rozpuszcza się samodzielnie i wydalany jest naturalnie z organizmu po 4 miesiącach."
+            },
+            {
+              "title": "Klasyczny balon żołądkowy (metodą endoskopową)",
+              "text": "Wprowadzany i usuwany po 6 miesiącach lub roku (w zależności od rodzaju balonu) przy użyciu endoskopu medycznego, pod wpływem lekkiej sedacji (przejściowego głębokiego snu przez 15 minut) i bez bólu."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Skutki uboczne i sposoby ich unikania",
+          "paragraphs": [
+            "W pierwszych trzech dniach po założeniu balonu zupełnie naturalne jest, że organizm reaguje obronnie: nudnościami, wymiotami lub skurczami żołądka, ponieważ żołądek próbuje strawić balon."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Jak tego unikamy?",
+              "text": "W klinice Orec przekazujemy pacjentowi intensywny protokół terapeutyczny obejmujący leki przeciwwymiotne, silne inhibitory kwasu i leki rozkurczowe — przed zabiegiem i w pierwszych dniach — aby pacjent przeszedł tę fazę gładko i w pełnym komforcie."
+            }
+          ]
+        }
+      ]
+    },
+    "gastric-botox": {
+      "title": "Botoks żołądkowy",
+      "tagline": "Botoks żołądkowy w Turcji | Stłumienie apetytu i spowolnienie trawienia najprostszym zabiegiem medycznym walki z nadwagą",
+      "intro": "Iniekcja botoksu żołądkowego to jeden z najnowszych zabiegów niechirurgicznych, przeznaczony dla osób z lekką lub umiarkowaną nadwagą (BMI między 27 a 35) lub z trudnością w przestrzeganiu diety z powodu ciągłego uczucia głodu.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Medyczny mechanizm działania botoksu w żołądku",
+          "paragraphs": [
+            "Botoks wstrzyknięty w ścianę żołądka działa na dwóch osiach fizjologicznych:"
+          ],
+          "blocks": [
+            {
+              "title": "Chwilowe porażenie mięśni żołądka",
+              "text": "Botoks wstrzykiwany jest w mięśnie ściany żołądka odpowiedzialne za opróżnianie pokarmu, co znacznie spowalnia ich kurczenie. W efekcie pokarm pozostaje w żołądku bardzo długo (od 6 do 8 godzin zamiast dwóch), dając pacjentowi przedłużone uczucie sytości."
+            },
+            {
+              "title": "Wpływ na nerw głodu",
+              "text": "Wstrzykuje się w określone miejsca dna żołądka, wpływając na nerw błędny, który przekazuje do mózgu sygnały głodu — to zmniejsza silną ochotę na jedzenie."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedury medyczne i okres skuteczności",
+          "blocks": [
+            {
+              "title": "Etapy leczenia",
+              "text": "Bardzo prosty i bezpieczny zabieg trwający zaledwie 15–20 minut w pracowni endoskopii przewodu pokarmowego. Wykonywany jest pod wpływem sedacji miejscowej i lekkiego snu: lekarz wprowadza elastyczny endoskop doustny i wstrzykuje botoks w około 20–30 przemyślanych punktach ściany mięśniowej żołądka. Pacjent może opuścić centrum i wrócić do pracy już po godzinie."
+            },
+            {
+              "title": "Rekonwalescencja i pojawianie się efektu",
+              "text": "Działanie botoksu na apetyt zaczyna stopniowo ujawniać się w ciągu 3–4 dni od iniekcji, a jego skuteczne działanie medyczne w żołądku utrzymuje się od 5 do 6 miesięcy (to okres ważności botoksu przed jego naturalnym rozkładem) — złoty czas wystarczający, aby przyzwyczaić pacjenta do zdrowego stylu życia i bezpiecznie stracić nadwagę."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

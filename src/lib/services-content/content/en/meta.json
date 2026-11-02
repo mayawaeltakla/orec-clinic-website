@@ -1,0 +1,16 @@
+{
+  "ui": {
+    "breadcrumbHome": "Home",
+    "breadcrumbServices": "Services",
+    "subServicesTitle": "Services in This Section",
+    "exploreService": "Explore Service",
+    "relatedTitle": "Other Services in the Same Section",
+    "backToServices": "Back to All Services",
+    "backToDepartment": "Back to Department",
+    "ctaTitle": "Start Your Journey with Orec Clinic",
+    "ctaText": "Our advisory team is always here to listen to you and answer all your questions with warmth. Contact us today, and take your first step towards a healthy smile and beauty that reignites your passion for life!",
+    "ctaButton": "Book a Free Consultation",
+    "notFoundTitle": "Page Not Found",
+    "notFoundText": "Sorry, the requested section or service is not available. Please visit our Services page to explore all our medical departments."
+  }
+}

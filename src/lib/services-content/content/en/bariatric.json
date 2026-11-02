@@ -1,0 +1,214 @@
+{
+  "title": "Bariatric Surgery",
+  "tagline": "Comprehensive surgical and non-surgical weight loss treatments using advanced laparoscopy — under the supervision of a specialized surgical and nutritional team with continuous follow-up until you reach your ideal weight",
+  "intro": [
+    "The Bariatric Surgery and Treatment Department includes the latest surgical and non-surgical solutions for weight loss: from gastric sleeve and gastric bypass using advanced laparoscopy, to gastric balloon and gastric botox for simpler non-surgical procedures, all performed with the latest medical devices and internationally approved smart staplers.",
+    "The most suitable procedure for your case is selected after a comprehensive assessment of your BMI, general health, and dietary habits, along with a gradual nutritional plan, supervision by nutrition specialists, and continuous behavioral follow-up until you reach and maintain your ideal weight."
+  ],
+  "services": {
+    "gastric-sleeve": {
+      "title": "Gastric Sleeve",
+      "tagline": "Gastric Sleeve Surgery in Turkey | The most successful and radical solution to get rid of morbid obesity",
+      "intro": "Gastric sleeve surgery is the first choice worldwide for individuals suffering from morbid obesity who have failed to lose weight through traditional methods. At Orec Clinic, we perform this surgery using advanced laparoscopic techniques to ensure the fastest recovery period and minimal pain, helping you lose up to 70% to 80% of your excess weight within the first year alone.",
+      "sections": [
+        {
+          "icon": "🩺",
+          "heading": "Anatomical and Physiological Changes in Sleeve Gastrectomy",
+          "paragraphs": [
+            "During the procedure, the surgeon focuses on making two main changes to the nature of the digestive system:"
+          ],
+          "blocks": [
+            {
+              "title": "Reduction of the Stomach's Structural Size",
+              "text": "Approximately 75% to 80% of the stomach's volume is removed longitudinally, converting it into a small tube resembling a banana or the sleeve of a garment, significantly reducing the amount of food that can be accommodated."
+            },
+            {
+              "title": "Modification of Body Hormones",
+              "text": "The removed portion (the gastric fundus) contains the cells responsible for secreting Ghrelin, known as the hunger hormone. Its removal leads to a sharp and direct decrease in food cravings and a feeling of rapid satiety."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Medical Techniques Used in Our Center",
+          "blocks": [
+            {
+              "title": "Three-Dimensional Microscopic Laparoscopic Surgery (Advanced Laparoscopy)",
+              "text": "The procedure is performed entirely without an open surgical incision, but through 4 to 5 very small holes in the abdominal wall (not exceeding 1 cm) to insert the camera and delicate instruments."
+            },
+            {
+              "title": "Triple-Safety Smart Staplers",
+              "text": "At Orec Clinic, we use the latest American medical staplers (such as Medtronic or Ethicon), which cut and staple tissue with 3 parallel lines of fine titanium sutures to ensure the highest levels of safety."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Procedures and Post-Operative Protocol",
+          "blocks": [
+            {
+              "title": "Before the Procedure",
+              "text": "The patient undergoes comprehensive examinations including (kidney and liver function, blood gases, ECG, chest X-ray, and thyroid hormone tests), in addition to consultations with the anesthesiologist and endocrinologist."
+            },
+            {
+              "title": "During the Procedure",
+              "text": "The surgery takes 45 to 60 minutes under general anesthesia."
+            },
+            {
+              "title": "Post-Operative Diet",
+              "text": "The patient adheres to a strictly graduated diet under the supervision of our nutritionist: The first two weeks only clear liquids, the third and fourth week pureed and ground foods, the second month gradual introduction of well-chewed solid food."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Risks and How We Avoid Them",
+          "paragraphs": [
+            "Historically, possible risks include: leakage from the staple line, bleeding, or leg clots."
+          ],
+          "blocks": [
+            {
+              "title": "💡 Our Precise Safety Protocol",
+              "text": "We avoid the risk of leakage by nearly 100% through performing a double dye test inside the operating room to ensure the stomach is completely closed, followed by a surgical wrapping step to manually suture over the automatic staple line to enhance safety. The patient is also immediately given blood thinners and specialized compression stockings to prevent clotting and activate blood circulation."
+            }
+          ]
+        }
+      ]
+    },
+    "gastric-bypass": {
+      "title": "Gastric Bypass",
+      "tagline": "Gastric Bypass Surgery in Turkey | The gold standard for treating obesity and eliminating diabetes",
+      "intro": "Gastric bypass surgery is the ideal and strongest option for patients suffering from morbid obesity accompanied by type 2 diabetes, or those suffering from severe acid reflux (chronic heartburn), or those who love consuming sweets and sugars excessively.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Anatomical and Physiological Changes in Gastric Bypass",
+          "paragraphs": [
+            "The surgery relies on combining two mechanisms for weight loss (reducing volume + reducing absorption):"
+          ],
+          "blocks": [
+            {
+              "title": "Small Gastric Pouch",
+              "text": "The surgeon separates a very small upper part of the stomach (the size of a chicken egg) to become the new stomach that receives food."
+            },
+            {
+              "title": "Intestinal Bypass and Absorption Skipping",
+              "text": "The small intestine is cut and the lower part is connected directly to the new gastric pouch, bypassing the rest of the old stomach, the duodenum, and the first part of the intestine. This bypass prevents the body from absorbing all the calories and sugars consumed."
+            }
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Our Gastric Bypass Options and Techniques",
+          "blocks": [
+            {
+              "title": "Classic Gastric Bypass (Roux-en-Y Gastric Bypass)",
+              "text": "It involves two surgical connections between the stomach and the intestine, and is the radical and definitive treatment approved worldwide for patients with severe acid reflux."
+            },
+            {
+              "title": "Mini Gastric Bypass",
+              "text": "A newer and faster technique involving only one surgical connection between the longitudinal gastric pouch and the intestine, characterized by its very high efficiency in weight loss and diabetes treatment."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Medical Procedures and Recovery Period",
+          "blocks": [
+            {
+              "title": "The Procedure",
+              "text": "It is performed entirely laparoscopically under general anesthesia and takes about one and a half to two hours."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Risks and How We Avoid Them",
+          "paragraphs": [
+            "Possible risks include: Dumping Syndrome when consuming sugars quickly, or severe vitamin deficiency.",
+            "Our physicians avoid this by teaching the patient how to regulate their meals, while requiring them to follow a lifetime program of supplements and vitamins to compensate for reduced intestinal absorption and maintain bone and muscle health."
+          ]
+        }
+      ]
+    },
+    "gastric-balloon": {
+      "title": "Gastric Balloon",
+      "tagline": "Gastric Balloon in Turkey | Lose weight without surgery and without general anesthesia",
+      "intro": "If you suffer from a weight gain of 15 to 30 kilograms and fear surgical interventions, the gastric balloon offers you a safe and temporary medical solution to help you change your eating habits and control your appetite without causing any permanent changes to your digestive anatomy.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Mechanism of Action and Medical Components",
+          "paragraphs": [
+            "The balloon's logic is based on occupying space inside the stomach; a soft, high-quality silicone medical balloon is inserted into the stomach and filled with a sterile medical solution (colored blue saline solution) with a volume ranging between 500 to 700 ml. This balloon occupies about two-thirds of the stomach's volume, making you feel full and satiated after consuming very small amounts of food."
+          ]
+        },
+        {
+          "icon": "🔬",
+          "heading": "Types of Gastric Balloon Techniques in Our Clinic",
+          "blocks": [
+            {
+              "title": "Smart Programmable Capsule (Elipse Balloon)",
+              "text": "The latest technique worldwide without endoscopy or anesthesia; the patient swallows a small capsule connected to a thin tube with a glass of water in the clinic, and once it settles in the stomach (confirmed via X-ray), it is filled with fluid and the tube is withdrawn. This balloon self-dissolves and exits the body naturally after 4 months."
+            },
+            {
+              "title": "Classic Gastric Balloon (via Endoscopy)",
+              "text": "It is inserted and removed after 6 months or a year (depending on the balloon type) using a medical endoscope under the influence of light sedation (deep sleep for 15 minutes) and without pain."
+            }
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "heading": "Side Effects and How to Avoid Them",
+          "paragraphs": [
+            "In the first three days after balloon placement, it is very normal for the body to have a defensive reaction manifested as nausea, vomiting, or stomach cramps as the stomach tries to digest the balloon."
+          ],
+          "blocks": [
+            {
+              "title": "💡 How Do We Avoid Them?",
+              "text": "At Orec Clinic, we give the patient an intensive therapeutic protocol containing anti-nausea medications, strong acid reducers, and antispasmodics before the procedure and during the first few days to help the patient pass this phase smoothly and with complete comfort."
+            }
+          ]
+        }
+      ]
+    },
+    "gastric-botox": {
+      "title": "Gastric Botox",
+      "tagline": "Gastric Botox in Turkey | Suppress appetite and slow digestion with the simplest medical weight loss procedure",
+      "intro": "Gastric Botox injection is one of the latest non-surgical procedures designed for individuals with mild to moderate weight gain (BMI between 27 and 35), or who have difficulty adhering to a diet due to constant hunger.",
+      "sections": [
+        {
+          "icon": "📐",
+          "heading": "Medical Mechanism of Botox Inside the Stomach",
+          "paragraphs": [
+            "Botox works on two physiological axes when injected into the stomach wall:"
+          ],
+          "blocks": [
+            {
+              "title": "Temporarily paralyzing the stomach muscles",
+              "text": "Botox is injected into the stomach wall muscles responsible for emptying food, which significantly slows down their contraction. As a result, food remains in the stomach for a very long time (from 6 to 8 hours instead of 2), giving the patient an extended feeling of fullness."
+            },
+            {
+              "title": "Effect on the hunger nerve",
+              "text": "Specific parts of the stomach floor are injected that affect the vagus nerve responsible for sending hunger signals to the brain, thereby reducing the intense desire to eat."
+            }
+          ]
+        },
+        {
+          "icon": "🏥",
+          "heading": "Medical Procedures and Duration of Effectiveness",
+          "blocks": [
+            {
+              "title": "Treatment Steps",
+              "text": "A very simple and safe procedure that takes only 15 to 20 minutes in the gastrointestinal endoscopy unit. The procedure is performed under the influence of local sedation and light sleep, where the doctor inserts the flexible oral endoscope and injects Botox into approximately 20 to 30 studied points in the stomach muscle wall. The patient can leave the center and return to work within just one hour."
+            },
+            {
+              "title": "Recovery and Results Appearance",
+              "text": "The effect of Botox on appetite begins to appear gradually within 3 to 4 days of the injection, and its effective medical effect inside the stomach lasts for a period ranging from 5 to 6 months (which is the validity period of Botox before it naturally dissolves), a golden period sufficient to train the patient on a healthy lifestyle and safely lose excess weight."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
