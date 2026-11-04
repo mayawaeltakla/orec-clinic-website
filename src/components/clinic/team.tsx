@@ -5,9 +5,8 @@ import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { DOCTORS } from '@/lib/team-data'
 
 export function Team() {
-  const { dict, lang, lp } = useLanguage()
+  const { lang, lp } = useLanguage()
   const L = PAGE_LABELS[lang.code]
-  const f = dict.about.founder
   const pick = (m: Partial<Record<string, string>> & { en?: string }) => m[lang.code] ?? m.en ?? ''
 
   return (
@@ -21,13 +20,6 @@ export function Team() {
         </div>
 
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          <article className="overflow-hidden rounded-3xl border border-gold/25 bg-card/80">
-            <img src="/founder-dr-alzuhaili.jpg" alt={f.role} loading="lazy" width={600} height={720} className="aspect-[5/6] w-full object-cover object-top" />
-            <div className="p-5">
-              <h2 className="text-lg font-extrabold text-gold-2">{f.role}</h2>
-            </div>
-          </article>
-
           {DOCTORS.map((d) => (
             <article key={d.id} className="overflow-hidden rounded-3xl border border-gold/25 bg-card/80">
               <img src={d.photo} alt={pick(d.name)} loading="lazy" width={600} height={720} className="aspect-[5/6] w-full object-cover object-top" />
