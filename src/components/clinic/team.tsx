@@ -22,11 +22,9 @@ export function Team() {
 
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           <article className="overflow-hidden rounded-3xl border border-gold/25 bg-card/80">
-            <img src="/founder-dr-alzuhaili.jpg" alt={f.name} loading="lazy" width={600} height={720} className="aspect-[5/6] w-full object-cover object-top" />
+            <img src="/founder-dr-alzuhaili.jpg" alt={f.role} loading="lazy" width={600} height={720} className="aspect-[5/6] w-full object-cover object-top" />
             <div className="p-5">
-              <h2 className="text-lg font-extrabold text-gold-2">{f.name}</h2>
-              <p className="text-xs text-muted-foreground" dir="auto">{f.nameEn}</p>
-              <p className="mt-2 text-sm font-semibold text-foreground/85">{f.role}</p>
+              <h2 className="text-lg font-extrabold text-gold-2">{f.role}</h2>
             </div>
           </article>
 
