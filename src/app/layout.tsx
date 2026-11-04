@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 };
 
 // Applies the saved day/night theme before first paint to avoid a flash of the wrong theme
-const themeInitScript = `try{if(localStorage.getItem('orec-theme')==='light')document.documentElement.classList.add('light')}catch(e){}`;
+const themeInitScript = `try{if(localStorage.getItem('orec-theme')!=='dark')document.documentElement.classList.add('light')}catch(e){}`;
 
 export default function RootLayout({
   children,

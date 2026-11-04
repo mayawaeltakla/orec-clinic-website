@@ -35,7 +35,7 @@ function getSnapshot(): Theme {
 }
 
 function getServerSnapshot(): Theme {
-  return 'dark'
+  return 'light'
 }
 
 function applyTheme(next: Theme) {
@@ -50,7 +50,7 @@ function applyTheme(next: Theme) {
 }
 
 const ThemeContext = createContext<ThemeContextValue>({
-  theme: 'dark',
+  theme: 'light',
   toggle: () => {},
 })
 

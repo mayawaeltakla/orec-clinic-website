@@ -133,7 +133,7 @@ function Hero({
   ui: ServicesUI
 }) {
   return (
-    <section className="relative overflow-hidden border-b border-gold/15 bg-gradient-to-b from-navy/60 to-background">
+    <section className="relative overflow-hidden border-b border-gold/15 bg-gradient-to-b from-secondary to-background">
       <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(212,175,55,0.14),transparent_55%)]" />
       <div className="relative mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-16 lg:px-8">
         <Breadcrumb items={breadcrumb} ui={ui} />

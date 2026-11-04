@@ -105,43 +105,44 @@
  * Applied via `html.light`; dark navy remains the default.
  */
 html.light {
-  --gold: #a8811d;
-  --gold-2: #8a6d1c;
-  --gold-deep: #6f5713;
+  /* Logo blue is the voice of the brand; gold is a small accent only */
+  --gold: #b8912a;
+  --gold-2: #0b3d6e;
+  --gold-deep: #8a6d1c;
   --navy: #10233c;
   --navy-2: #ffffff;
 
-  --background: #f7f3e9;
+  --background: #faf8f2;
   --foreground: #13233b;
-  --card: #fffdf6;
+  --card: #ffffff;
   --card-foreground: #13233b;
-  --popover: #fffdf6;
+  --popover: #ffffff;
   --popover-foreground: #13233b;
-  --primary: #b8912a;
+  --primary: #0b3d6e;
   --primary-foreground: #ffffff;
-  --secondary: #efe8d5;
+  --secondary: #f1eee6;
   --secondary-foreground: #13233b;
-  --muted: #f0ead9;
+  --muted: #f3f0e8;
   --muted-foreground: #55677e;
-  --accent: #ede3c8;
-  --accent-foreground: #7a5f16;
-  --border: rgba(154, 123, 30, 0.3);
-  --input: rgba(154, 123, 30, 0.38);
-  --ring: rgba(184, 145, 42, 0.55);
-  --chart-1: #a8811d;
-  --chart-2: #8a6d1c;
+  --accent: #e8f0f8;
+  --accent-foreground: #0b3d6e;
+  --border: rgba(11, 61, 110, 0.14);
+  --input: rgba(11, 61, 110, 0.22);
+  --ring: rgba(11, 61, 110, 0.45);
+  --chart-1: #0b3d6e;
+  --chart-2: #1d6fb0;
   --chart-3: #1f7a6c;
-  --chart-4: #6f5713;
+  --chart-4: #b8912a;
   --chart-5: #265c85;
-  --sidebar: #fffdf6;
+  --sidebar: #ffffff;
   --sidebar-foreground: #13233b;
-  --sidebar-primary: #b8912a;
+  --sidebar-primary: #0b3d6e;
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #ede3c8;
-  --sidebar-accent-foreground: #7a5f16;
-  --sidebar-border: rgba(154, 123, 30, 0.3);
-  --sidebar-ring: rgba(184, 145, 42, 0.55);
-  --surface-deep: #efe8d5;
+  --sidebar-accent: #e8f0f8;
+  --sidebar-accent-foreground: #0b3d6e;
+  --sidebar-border: rgba(11, 61, 110, 0.14);
+  --sidebar-ring: rgba(11, 61, 110, 0.45);
+  --surface-deep: #f1eee6;
 }
 
 @layer base {
@@ -162,16 +163,14 @@ html.light {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   html.light body {
-    background-image:
-      radial-gradient(1100px 520px at 85% -10%, rgba(184, 145, 42, 0.12), transparent 60%),
-      radial-gradient(900px 500px at -10% 30%, rgba(38, 92, 133, 0.09), transparent 55%);
+    background-image: none;
   }
   ::selection {
     background: rgba(212, 175, 55, 0.35);
     color: #fff;
   }
   html.light ::selection {
-    background: rgba(184, 145, 42, 0.3);
+    background: rgba(11, 61, 110, 0.18);
     color: #10233c;
   }
 }
@@ -198,10 +197,8 @@ html.light {
   color: transparent;
 }
 html.light .text-gold-grad {
-  background: linear-gradient(100deg, #6f5713 0%, #b8912a 45%, #96771f 70%, #c9a227 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  background: none;
+  color: #0b3d6e;
 }
 
 /* Gold gradient button */
@@ -210,6 +207,17 @@ html.light .text-gold-grad {
   color: #030d1a;
   box-shadow: 0 8px 24px -8px rgba(212, 175, 55, 0.55);
   transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+html.light .btn-gold {
+  background: #0b3d6e;
+  color: #ffffff;
+  box-shadow: 0 6px 18px -8px rgba(11, 61, 110, 0.45);
+}
+html.light .btn-gold:hover {
+  transform: none;
+  filter: none;
+  background: #0f4c87;
+  box-shadow: 0 8px 22px -8px rgba(11, 61, 110, 0.5);
 }
 .btn-gold:hover {
   transform: translateY(-2px);
@@ -243,8 +251,9 @@ html.light .glass {
   box-shadow: 0 18px 40px -18px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(212, 175, 55, 0.12);
 }
 html.light .lift:hover {
-  border-color: rgba(154, 123, 30, 0.55);
-  box-shadow: 0 18px 40px -18px rgba(16, 35, 60, 0.35), 0 0 0 1px rgba(184, 145, 42, 0.15);
+  transform: none;
+  border-color: rgba(11, 61, 110, 0.35);
+  box-shadow: 0 14px 34px -20px rgba(16, 35, 60, 0.3);
 }
 
 /* WhatsApp pulse */
@@ -295,11 +304,9 @@ html.light .lift:hover {
   animation: shimmer 5s linear infinite;
 }
 html.light .shimmer {
-  background: linear-gradient(90deg, #8a6d1c 25%, #d4af37 50%, #8a6d1c 75%);
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  background: none;
+  color: #8a6d1c;
+  animation: none;
 }
 
 /* Reveal on load */
