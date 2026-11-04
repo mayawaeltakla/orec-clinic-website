@@ -7,10 +7,11 @@ import { ThemeToggle } from './theme-toggle'
 import { whatsappLink, CLINIC } from '@/lib/i18n'
 import { DEPT_SLUG_BY_ID } from '@/lib/services-content/config'
 import { WhatsAppGlyph } from './social-icons'
+import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { Menu, X, ChevronDown, MessageCircle, Phone, Mail } from 'lucide-react'
 
 export function Header() {
-  const { dict, lp } = useLanguage()
+  const { dict, lp, lang } = useLanguage()
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [servicesOpen, setServicesOpen] = useState(false)
@@ -27,6 +28,7 @@ export function Header() {
     { href: '/services', label: dict.nav.services },
     { href: '/about', label: dict.nav.about },
     { href: '/why', label: dict.nav.why },
+    { href: '/team', label: PAGE_LABELS[lang.code].nav },
     { href: '/contact', label: dict.nav.contact },
   ]
 

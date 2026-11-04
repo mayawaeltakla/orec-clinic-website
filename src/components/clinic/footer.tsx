@@ -1,5 +1,6 @@
 'use client'
 
+import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { useLanguage } from './language-context'
 import { CLINIC } from '@/lib/i18n'
 import { DEPT_SLUG_BY_ID } from '@/lib/services-content/config'
@@ -7,7 +8,7 @@ import { Mail, Phone, MapPin } from 'lucide-react'
 import { SOCIALS } from './social-icons'
 
 export function Footer() {
-  const { dict, lp } = useLanguage()
+  const { dict, lp, lang } = useLanguage()
   const f = dict.footer
 
   const quickLinks = [
@@ -15,7 +16,10 @@ export function Footer() {
     { href: '/services', label: dict.nav.services },
     { href: '/about', label: dict.nav.about },
     { href: '/why', label: dict.nav.why },
+    { href: '/team', label: PAGE_LABELS[lang.code].nav },
     { href: '/contact', label: dict.nav.contact },
+    { href: '/privacy', label: PAGE_LABELS[lang.code].privacy },
+    { href: '/terms', label: PAGE_LABELS[lang.code].terms },
   ]
 
   const socials = SOCIALS
