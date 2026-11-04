@@ -83,7 +83,15 @@ export function Hero() {
 
             {/* Title */}
             <h1 className="rise rise-1 mt-5 text-3xl font-extrabold leading-[1.25] text-foreground sm:text-4xl md:text-5xl lg:text-[3.1rem] lg:leading-[1.2]">
-              {dict.hero.title1}
+              {dict.hero.title1.split(/(\([^)]*\))/).map((part, i) =>
+                part.startsWith('(') ? (
+                  <bdi key={i} className="whitespace-nowrap">
+                    {part}
+                  </bdi>
+                ) : (
+                  part
+                ),
+              )}
               <span className="text-gold-grad mt-2 block">{dict.hero.title2}</span>
             </h1>
 
