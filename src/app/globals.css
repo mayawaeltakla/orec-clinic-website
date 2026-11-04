@@ -335,3 +335,28 @@ html.light .shimmer {
 .rise-4 {
   animation-delay: 0.32s;
 }
+
+/* Accessibility: AA contrast for gold text on the ivory theme */
+html.light .text-gold { color: var(--gold-deep); }
+html.light .text-gold\/60, html.light .text-gold\/25 { color: var(--gold); }
+
+/* Accessibility: visible keyboard focus */
+:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+
+/* Skip link */
+.skip-link {
+  position: fixed; top: 8px; inset-inline-start: 8px; z-index: 100;
+  transform: translateY(-200%); padding: 10px 16px; border-radius: 9999px;
+  background: #0b3d6e; color: #fff; font-weight: 700; font-size: 14px;
+}
+.skip-link:focus { transform: none; }
+
+/* Accessibility: respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

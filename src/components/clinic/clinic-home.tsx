@@ -12,17 +12,19 @@ import { WhyUs } from '@/components/clinic/why-us'
 import { Contact } from '@/components/clinic/contact'
 import { Footer } from '@/components/clinic/footer'
 import { WhatsAppFloat } from '@/components/clinic/whatsapp-float'
+import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 
 function ClinicSite() {
-  const { dir } = useLanguage()
+  const { dir, lang } = useLanguage()
   return (
     <div
       dir={dir}
       style={{ fontFamily: appFontFamily(dir) }}
       className="flex min-h-screen flex-col"
     >
+      <a href="#main" className="skip-link">{PAGE_LABELS[lang.code].skip}</a>
       <Header />
-      <main className="flex-1">
+      <main id="main" tabIndex={-1} className="flex-1 outline-none">
         <Hero />
         <Services />
         <DentalDetails />

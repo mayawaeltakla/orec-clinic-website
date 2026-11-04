@@ -53,6 +53,7 @@ export function Hero() {
 
   useEffect(() => {
     if (paused) return
+    if (typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
     const t = setInterval(() => setSlide((s) => (s + 1) % SLIDES.length), 5000)
     return () => clearInterval(t)
   }, [paused, slide])
@@ -170,6 +171,8 @@ export function Hero() {
                       width={w}
                       height={h}
                       loading={i === 0 ? 'eager' : 'lazy'}
+                      fetchPriority={i === 0 ? 'high' : 'auto'}
+                      decoding="async"
                       className="absolute inset-0 h-full w-full object-cover"
                     />
                   </div>
