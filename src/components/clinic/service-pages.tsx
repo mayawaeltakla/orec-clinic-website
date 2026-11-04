@@ -8,6 +8,7 @@ import { useServicesContent, useDynamicTitle, ServicesContentProvider } from './
 import { getDepartment, getService } from '@/lib/services-content'
 import type { ServicesUI, ServiceSection, ServicesContent } from '@/lib/services-content/types'
 import type { LanguageCode } from '@/lib/i18n'
+import { CONTACT_EXTRAS } from '@/lib/i18n/contact-extras'
 import {
   ChevronLeft,
   ChevronRight,
@@ -84,8 +85,8 @@ function Breadcrumb({ items, ui }: { items: { label: string; href?: string }[]; 
   )
 }
 
-function CtaBand({ ui }: { ui: ServicesUI }) {
-  const { dir, lp } = useLanguage()
+function CtaBand({ ui, service }: { ui: ServicesUI; service?: string }) {
+  const { dir, lp, lang } = useLanguage()
   const Arrow = dir === 'rtl' ? ArrowLeft : ArrowRight
   return (
     <div className="mt-14 flex flex-col items-center justify-between gap-5 rounded-3xl border border-gold/30 bg-gradient-to-r from-gold/15 via-gold/5 to-transparent p-6 text-center sm:flex-row sm:p-8 sm:text-start">
@@ -99,10 +100,10 @@ function CtaBand({ ui }: { ui: ServicesUI }) {
         </div>
       </div>
       <a
-        href={lp('/contact')}
+        href={`${lp('/contact')}${service ? `?service=${encodeURIComponent(service)}` : ''}`}
         className="btn-gold inline-flex h-11 shrink-0 items-center gap-2 rounded-full px-6 text-sm font-bold"
       >
-        {ui.ctaButton}
+        {service ? CONTACT_EXTRAS[lang.code].bookCta : ui.ctaButton}
         <Arrow className="h-4 w-4" aria-hidden />
       </a>
     </div>
@@ -368,7 +369,7 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
             </div>
           )}
 
-          <CtaBand ui={ui} />
+          <CtaBand ui={ui} service={content.title} />
         </div>
       </section>
     </div>
@@ -435,7 +436,7 @@ export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; se
             ))}
           </div>
 
-          <CtaBand ui={ui} />
+          <CtaBand ui={ui} service={content.title} />
         </div>
       </section>
 

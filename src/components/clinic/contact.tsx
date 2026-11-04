@@ -1,8 +1,9 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useLanguage } from './language-context'
 import { CLINIC, whatsappLink } from '@/lib/i18n'
+import { CONTACT_EXTRAS } from '@/lib/i18n/contact-extras'
 import { Mail, Phone, MapPin, Quote, Send, Loader2, ShieldCheck, ChevronDown } from 'lucide-react'
 import { SOCIALS } from './social-icons'
 
@@ -15,8 +16,12 @@ function WhatsAppIcon({ className }: { className?: string }) {
 }
 
 export function Contact() {
-  const { dict, lang } = useLanguage()
+  const { dict, lang, lp } = useLanguage()
   const c = dict.contact
+  const x = CONTACT_EXTRAS[lang.code]
+  const [consent, setConsent] = useState(false)
+  const [consentErr, setConsentErr] = useState(false)
+  const [waSnapshot, setWaSnapshot] = useState('')
   const [name, setName] = useState('')
   const [phone, setPhone] = useState('')
   const [service, setService] = useState('')
@@ -32,15 +37,43 @@ export function Contact() {
     return opts
   }, [dict])
 
+  // Pre-fill the service when arriving from a service page (?service=...)
+  useEffect(() => {
+    try {
+      const s = new URLSearchParams(window.location.search).get('service')
+      if (s) setService(s)
+    } catch {}
+  }, [])
+
+  const options = useMemo(
+    () => (service && !serviceOptions.includes(service) ? [service, ...serviceOptions] : serviceOptions),
+    [service, serviceOptions],
+  )
+
+  const waText = [
+    `${x.waIntro} ${name || ''}`.trim(),
+    service ? `${x.waService}: ${service}` : '',
+    message,
+    phone ? `📞 ${phone}` : '',
+  ]
+    .filter(Boolean)
+    .join('\n')
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
     if (status === 'sending') return
+    if (!consent) {
+      setConsentErr(true)
+      return
+    }
+    setConsentErr(false)
+    setWaSnapshot(waText)
     setStatus('sending')
     try {
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, phone, service, message, lang: lang.code }),
+        body: JSON.stringify({ name, phone, service, message, lang: lang.code, consent: true }),
       })
       if (!res.ok) throw new Error('failed')
       setStatus('success')
@@ -222,7 +255,7 @@ export function Contact() {
                     className="h-11 w-full cursor-pointer appearance-none rounded-xl border border-gold/25 bg-background/60 px-4 pe-10 text-sm text-foreground focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30"
                   >
                     <option value="">{c.form.servicePlaceholder}</option>
-                    {serviceOptions.map((o) => (
+                    {options.map((o) => (
                       <option key={o} value={o} className="bg-background text-foreground">
                         {o}
                       </option>
@@ -243,6 +276,32 @@ export function Contact() {
                     className="w-full rounded-xl border border-gold/25 bg-background/60 px-4 py-3 text-sm leading-relaxed text-foreground placeholder:text-muted-foreground/60 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30"
                   />
                 </div>
+              </div>
+
+              <div className="mt-5">
+                <label className="flex items-start gap-3 text-xs leading-relaxed text-foreground/80 sm:text-sm">
+                  <input
+                    type="checkbox"
+                    checked={consent}
+                    onChange={(e) => {
+                      setConsent(e.target.checked)
+                      if (e.target.checked) setConsentErr(false)
+                    }}
+                    aria-describedby={consentErr ? 'cf-consent-err' : undefined}
+                    className="mt-1 h-4 w-4 shrink-0 accent-[var(--gold)]"
+                  />
+                  <span>
+                    {x.consent}{' '}
+                    <a href={lp('/privacy')} target="_blank" rel="noopener" className="font-bold text-gold-2 underline underline-offset-2">
+                      {x.privacyLink}
+                    </a>
+                  </span>
+                </label>
+                {consentErr && (
+                  <p id="cf-consent-err" role="alert" className="mt-2 text-xs font-semibold text-destructive">
+                    {x.consentError}
+                  </p>
+                )}
               </div>
 
               <button
@@ -267,6 +326,20 @@ export function Contact() {
                 <p role="status" className="mt-4 rounded-xl border border-wa/40 bg-wa/10 px-4 py-3 text-sm font-semibold text-wa">
                   {c.form.success}
                 </p>
+              )}
+              {(status === 'success' || status === 'error') && (
+                <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:items-center">
+                  <a
+                    href={whatsappLink(waSnapshot || waText)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex h-11 items-center justify-center gap-2 rounded-full bg-wa px-5 text-sm font-bold text-white transition hover:brightness-110"
+                  >
+                    <WhatsAppIcon className="h-5 w-5" />
+                    {x.waSend}
+                  </a>
+                  <span className="text-xs text-muted-foreground">{x.waAfter}</span>
+                </div>
               )}
               {status === 'error' && (
                 <p role="alert" className="mt-4 rounded-xl border border-destructive/40 bg-destructive/10 px-4 py-3 text-sm font-semibold text-destructive">
