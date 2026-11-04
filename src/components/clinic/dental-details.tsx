@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { useLanguage } from './language-context'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
+import { ServiceIcon } from './service-icon'
 import { UserCheck, Lightbulb, ClipboardList, ArrowLeft, ArrowRight } from 'lucide-react'
 
 const SECTION_ICONS = ['🦷', '✨', '🛠️', '⚡']
@@ -38,7 +39,7 @@ export function DentalDetails() {
                 value={String(i)}
                 className="flex-1 cursor-pointer rounded-xl border border-transparent px-4 py-2.5 text-xs font-bold text-foreground/75 transition-all data-[state=active]:border-gold/40 data-[state=active]:bg-gold/15 data-[state=active]:text-gold-2 sm:text-sm"
               >
-                <span aria-hidden className="me-1.5">{SECTION_ICONS[i]}</span>
+                <ServiceIcon emoji={SECTION_ICONS[i]} className="me-1.5 inline h-4 w-4 align-[-2px]" />
                 {s.name}
               </TabsTrigger>
             ))}
