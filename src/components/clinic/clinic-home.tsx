@@ -1,5 +1,6 @@
 'use client'
 
+import type { LanguageCode } from '@/lib/i18n'
 import { LanguageProvider, useLanguage, appFontFamily } from '@/components/clinic/language-context'
 import { ThemeProvider } from '@/components/clinic/theme-context'
 import { Header } from '@/components/clinic/header'
@@ -13,17 +14,13 @@ import { Footer } from '@/components/clinic/footer'
 import { WhatsAppFloat } from '@/components/clinic/whatsapp-float'
 
 function ClinicSite() {
-  const { dir, dict } = useLanguage()
+  const { dir } = useLanguage()
   return (
     <div
       dir={dir}
       style={{ fontFamily: appFontFamily(dir) }}
       className="flex min-h-screen flex-col"
     >
-      {/* Language-aware document head */}
-      <title>{dict.meta.title}</title>
-      <meta name="description" content={dict.meta.description} />
-
       <Header />
       <main className="flex-1">
         <Hero />
@@ -39,10 +36,10 @@ function ClinicSite() {
   )
 }
 
-export default function Page() {
+export function ClinicHome({ lang }: { lang: LanguageCode }) {
   return (
     <ThemeProvider>
-      <LanguageProvider>
+      <LanguageProvider initialLang={lang}>
         <ClinicSite />
       </LanguageProvider>
     </ThemeProvider>

@@ -13,7 +13,7 @@ const SERVICE_IMAGES: Record<string, { src: string; w: number; h: number }> = {
 }
 
 export function Services() {
-  const { dict, dir } = useLanguage()
+  const { dict, dir, lp } = useLanguage()
   const Chevron = dir === 'rtl' ? ChevronLeft : ChevronRight
 
   return (
@@ -112,7 +112,7 @@ export function Services() {
                 )}
 
                 <a
-                  href={`/services/${DEPT_SLUG_BY_ID[cat.id] ?? ''}`}
+                  href={lp(`/services/${DEPT_SLUG_BY_ID[cat.id] ?? ''}`)}
                   className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-gold-2 transition-colors hover:text-gold"
                 >
                   {dict.services.viewAll}

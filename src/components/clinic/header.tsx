@@ -10,7 +10,7 @@ import { WhatsAppGlyph } from './social-icons'
 import { Menu, X, ChevronDown, MessageCircle, Phone, Mail } from 'lucide-react'
 
 export function Header() {
-  const { dict } = useLanguage()
+  const { dict, lp } = useLanguage()
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [servicesOpen, setServicesOpen] = useState(false)
@@ -40,7 +40,7 @@ export function Header() {
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6 lg:h-20 lg:px-8">
         {/* Brand — official Orec Clinic logo */}
-        <a href="/" className="flex items-center" aria-label="Orec Clinic">
+        <a href={lp('/')} className="flex items-center" aria-label="Orec Clinic">
           <img
             src="/orec-logo.png"
             alt="Orec Clinic — عيادة أوريك"
@@ -86,7 +86,7 @@ export function Header() {
                     {dict.services.categories.map((c) => (
                       <a
                         key={c.id}
-                        href={`/services/${DEPT_SLUG_BY_ID[c.id] ?? ''}`}
+                        href={lp(`/services/${DEPT_SLUG_BY_ID[c.id] ?? ''}`)}
                         className="rounded-xl p-3 transition-colors hover:bg-accent"
                       >
                         <span className="flex items-center gap-2 text-sm font-bold text-gold-2">
@@ -102,7 +102,7 @@ export function Header() {
                     ))}
                     <div className="col-span-2 mt-1 border-t border-gold/15 pt-2">
                       <a
-                        href="/services#dental"
+                        href={lp('/services#dental')}
                         className="block rounded-xl bg-secondary/60 p-3 text-center text-sm font-semibold text-gold-2 transition-colors hover:bg-accent"
                       >
                         {dict.nav.servicesIndex} →
@@ -114,7 +114,7 @@ export function Header() {
             ) : (
               <a
                 key={l.href}
-                href={l.href}
+                href={lp(l.href)}
                 className="inline-flex h-10 items-center rounded-full px-4 text-sm font-medium text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2"
               >
                 {l.label}
@@ -147,7 +147,7 @@ export function Header() {
           <ThemeToggle />
           <LanguageSwitcher />
           <a
-            href="/contact"
+            href={lp('/contact')}
             className="btn-gold hidden h-10 items-center rounded-full px-5 text-sm font-bold lg:inline-flex"
           >
             {dict.nav.book}
@@ -171,7 +171,7 @@ export function Header() {
             {links.map((l) => (
               <a
                 key={l.href}
-                href={l.href}
+                href={lp(l.href)}
                 onClick={() => setMobileOpen(false)}
                 className="rounded-xl px-4 py-3 text-sm font-medium text-foreground/90 transition-colors hover:bg-accent hover:text-gold-2"
               >
@@ -204,7 +204,7 @@ export function Header() {
               {CLINIC.email}
             </a>
             <a
-              href="/contact"
+              href={lp('/contact')}
               onClick={() => setMobileOpen(false)}
               className="btn-gold mt-1 inline-flex items-center justify-center rounded-xl px-4 py-3 text-sm font-bold"
             >

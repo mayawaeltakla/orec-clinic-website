@@ -44,7 +44,7 @@ const SLIDES = [
 ]
 
 export function Hero() {
-  const { dict, dir } = useLanguage()
+  const { dict, dir, lp } = useLanguage()
   const Arrow = dir === 'rtl' ? ArrowLeft : ArrowRight
 
   /* Slideshow state — 5s auto-advance, paused on hover/focus, timer resets on manual nav */
@@ -106,7 +106,7 @@ export function Hero() {
             {/* CTAs */}
             <div className="rise rise-3 mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row sm:flex-wrap lg:justify-start">
               <a
-                href="/contact"
+                href={lp('/contact')}
                 className="btn-gold inline-flex h-12 items-center rounded-full px-8 text-sm font-bold sm:text-base"
               >
                 {dict.hero.ctaPrimary}
@@ -121,7 +121,7 @@ export function Hero() {
                 {dict.contact.whatsappCta}
               </a>
               <a
-                href="/services"
+                href={lp('/services')}
                 className="inline-flex h-12 items-center gap-2 rounded-full border border-gold/40 bg-transparent px-8 text-sm font-semibold text-gold-2 transition-all hover:-translate-y-0.5 hover:border-gold hover:bg-gold/10 sm:text-base"
               >
                 {dict.hero.ctaSecondary}

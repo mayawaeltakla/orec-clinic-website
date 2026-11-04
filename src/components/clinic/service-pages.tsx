@@ -4,9 +4,10 @@ import type { ReactNode } from 'react'
 import { useLanguage } from './language-context'
 import { SiteShell } from './site-shell'
 import { ServiceIcon, ServiceCover } from './service-icon'
-import { useServicesContent, useDynamicTitle } from './use-services-content'
+import { useServicesContent, useDynamicTitle, ServicesContentProvider } from './use-services-content'
 import { getDepartment, getService } from '@/lib/services-content'
-import type { ServicesUI, ServiceSection } from '@/lib/services-content/types'
+import type { ServicesUI, ServiceSection, ServicesContent } from '@/lib/services-content/types'
+import type { LanguageCode } from '@/lib/i18n'
 import {
   ChevronLeft,
   ChevronRight,
@@ -19,11 +20,19 @@ import {
   HeartHandshake,
 } from 'lucide-react'
 
-/** Client-side shell so server routes can pass a localized title callback safely */
-export function ServicesShell({ children }: { children: ReactNode }) {
+/** Client-side shell: language from the URL + the services content loaded on the server */
+export function ServicesShell({
+  lang,
+  content,
+  children,
+}: {
+  lang: LanguageCode
+  content: ServicesContent
+  children: ReactNode
+}) {
   return (
-    <SiteShell title={(d) => `${d.services.title} | Orec Clinic`}>
-      {children}
+    <SiteShell lang={lang}>
+      <ServicesContentProvider value={content}>{children}</ServicesContentProvider>
     </SiteShell>
   )
 }
@@ -51,11 +60,11 @@ function PageSkeleton() {
 }
 
 function Breadcrumb({ items, ui }: { items: { label: string; href?: string }[]; ui: ServicesUI }) {
-  const { dir } = useLanguage()
+  const { dir, lp } = useLanguage()
   const Chevron = dir === 'rtl' ? ChevronLeft : ChevronRight
   return (
     <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1.5 text-xs text-foreground/70">
-      <a href="/" className="inline-flex items-center gap-1 transition-colors hover:text-gold-2">
+      <a href={lp('/')} className="inline-flex items-center gap-1 transition-colors hover:text-gold-2">
         <Home className="h-3.5 w-3.5" aria-hidden />
         {ui.breadcrumbHome}
       </a>
@@ -63,7 +72,7 @@ function Breadcrumb({ items, ui }: { items: { label: string; href?: string }[]; 
         <span key={i} className="inline-flex items-center gap-1.5">
           <Chevron className="h-3 w-3 text-gold/60" aria-hidden />
           {item.href ? (
-            <a href={item.href} className="transition-colors hover:text-gold-2">
+            <a href={lp(item.href)} className="transition-colors hover:text-gold-2">
               {item.label}
             </a>
           ) : (
@@ -76,7 +85,7 @@ function Breadcrumb({ items, ui }: { items: { label: string; href?: string }[]; 
 }
 
 function CtaBand({ ui }: { ui: ServicesUI }) {
-  const { dir } = useLanguage()
+  const { dir, lp } = useLanguage()
   const Arrow = dir === 'rtl' ? ArrowLeft : ArrowRight
   return (
     <div className="mt-14 flex flex-col items-center justify-between gap-5 rounded-3xl border border-gold/30 bg-gradient-to-r from-gold/15 via-gold/5 to-transparent p-6 text-center sm:flex-row sm:p-8 sm:text-start">
@@ -90,7 +99,7 @@ function CtaBand({ ui }: { ui: ServicesUI }) {
         </div>
       </div>
       <a
-        href="/contact"
+        href={lp('/contact')}
         className="btn-gold inline-flex h-11 shrink-0 items-center gap-2 rounded-full px-6 text-sm font-bold"
       >
         {ui.ctaButton}
@@ -101,6 +110,7 @@ function CtaBand({ ui }: { ui: ServicesUI }) {
 }
 
 function NotFoundView({ ui, backHref, backLabel }: { ui: ServicesUI; backHref: string; backLabel: string }) {
+  const { lp } = useLanguage()
   return (
     <div className="mx-auto max-w-2xl px-4 py-24 text-center sm:px-6">
       <span className="mx-auto flex h-16 w-16 items-center justify-center rounded-3xl border border-gold/30 bg-navy-2 text-gold" aria-hidden>
@@ -108,7 +118,7 @@ function NotFoundView({ ui, backHref, backLabel }: { ui: ServicesUI; backHref: s
       </span>
       <h1 className="mt-6 text-2xl font-extrabold text-gold-2 sm:text-3xl">{ui.notFoundTitle}</h1>
       <p className="mt-3 text-sm leading-relaxed text-muted-foreground sm:text-base">{ui.notFoundText}</p>
-      <a href={backHref} className="btn-gold mt-8 inline-flex h-11 items-center rounded-full px-6 text-sm font-bold">
+      <a href={lp(backHref)} className="btn-gold mt-8 inline-flex h-11 items-center rounded-full px-6 text-sm font-bold">
         {backLabel}
       </a>
     </div>
@@ -217,6 +227,7 @@ function SectionBlock({ section }: { section: ServiceSection }) {
 
 export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
   const sc = useServicesContent()
+  const { lp } = useLanguage()
   const dept = getDepartment(deptSlug)
   const content = sc && dept ? sc.departments[dept.slug] : undefined
 
@@ -263,7 +274,7 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
           {sub.tagline}
         </p>
         <a
-          href={`/services/${dept.slug}/${def.slug}`}
+          href={lp(`/services/${dept.slug}/${def.slug}`)}
           className="relative mt-4 inline-flex items-center gap-1.5 text-sm font-bold text-gold-2 transition-colors hover:text-gold"
         >
           {ui.exploreService}
@@ -377,6 +388,7 @@ function ChevronR({ className }: { className?: string }) {
 
 export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; serviceSlug: string }) {
   const sc = useServicesContent()
+  const { lp } = useLanguage()
   const lookup = getService(deptSlug, serviceSlug)
   const content = sc && lookup ? sc.departments[lookup.department.slug]?.services[lookup.service.slug] : undefined
 
@@ -437,7 +449,7 @@ export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; se
                 {ui.relatedTitle}
               </h2>
               <a
-                href={`/services/${dept.slug}`}
+                href={lp(`/services/${dept.slug}`)}
                 className="inline-flex items-center gap-1.5 text-sm font-bold text-gold-2 transition-colors hover:text-gold"
               >
                 {ui.backToDepartment}
@@ -452,7 +464,7 @@ export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; se
                   return (
                     <a
                       key={s.slug}
-                      href={`/services/${dept.slug}/${s.slug}`}
+                      href={lp(`/services/${dept.slug}/${s.slug}`)}
                       className="lift group flex items-center gap-4 rounded-2xl border border-gold/15 bg-card/70 p-4 transition-colors hover:border-gold/40"
                     >
                       <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gold/25 bg-navy-2 text-lg" aria-hidden>
