@@ -19,23 +19,31 @@ function WhatsAppGlyph({ className }: { className?: string }) {
 export function WhatsAppFloat() {
   const { dict, dir } = useLanguage()
   const [visible, setVisible] = useState(false)
+  const [tip, setTip] = useState(true)
 
   useEffect(() => {
     const t = setTimeout(() => setVisible(true), 800)
-    return () => clearTimeout(t)
+    // The greeting bubble is shown briefly, then gets out of the way
+    const t2 = setTimeout(() => setTip(false), 7000)
+    return () => {
+      clearTimeout(t)
+      clearTimeout(t2)
+    }
   }, [])
 
   return (
     <div
-      className={`fixed bottom-5 z-50 flex items-center gap-3 transition-all duration-500 ltr:right-5 rtl:left-5 ${
+      className={`pointer-events-none fixed bottom-4 z-50 flex items-center gap-3 transition-all duration-500 ltr:right-4 rtl:left-4 sm:bottom-5 sm:ltr:right-5 sm:rtl:left-5 ${
         visible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
       }`}
-      style={{ bottom: 'max(1.25rem, env(safe-area-inset-bottom))' }}
+      style={{ bottom: 'max(1rem, env(safe-area-inset-bottom))' }}
     >
       {/* Tooltip label */}
       <span
         aria-hidden
-        className="pointer-events-none hidden max-w-56 rounded-xl border border-gold/25 bg-popover/95 px-3.5 py-2 text-xs font-medium text-foreground/90 shadow-xl backdrop-blur sm:block"
+        className={`pointer-events-none hidden max-w-56 rounded-xl border border-gold/25 bg-popover/95 px-3.5 py-2 text-xs font-medium text-foreground/90 shadow-xl backdrop-blur transition-opacity duration-500 lg:block ${
+          tip ? 'opacity-100' : 'opacity-0'
+        }`}
       >
         {dict.whatsapp.tooltip}
       </span>
@@ -46,9 +54,9 @@ export function WhatsAppFloat() {
         rel="noopener noreferrer"
         aria-label={dict.whatsapp.aria}
         title={dict.whatsapp.aria}
-        className="wa-pulse group relative flex h-14 w-14 items-center justify-center rounded-full bg-wa text-white shadow-[0_10px_30px_-6px_rgba(37,211,102,0.6)] transition-transform hover:scale-110 active:scale-95"
+        className="wa-pulse group pointer-events-auto relative flex h-12 w-12 items-center justify-center rounded-full bg-wa text-white shadow-[0_10px_30px_-6px_rgba(37,211,102,0.6)] transition-transform hover:scale-110 active:scale-95 sm:h-14 sm:w-14"
       >
-        <WhatsAppGlyph className="h-7 w-7" />
+        <WhatsAppGlyph className="h-6 w-6 sm:h-7 sm:w-7" />
         <span className="pointer-events-none absolute -top-1 end-0 flex h-3.5 w-3.5" aria-hidden>
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-gold-2 opacity-75" />
           <span className="relative inline-flex h-3.5 w-3.5 rounded-full border-2 border-navy bg-gold" />
