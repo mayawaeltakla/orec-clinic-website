@@ -3,6 +3,7 @@
 import type { ReactNode } from 'react'
 import { useLanguage } from './language-context'
 import { SiteShell } from './site-shell'
+import { ServiceIcon, ServiceCover } from './service-icon'
 import { useServicesContent, useDynamicTitle } from './use-services-content'
 import { getDepartment, getService } from '@/lib/services-content'
 import type { ServicesUI, ServiceSection } from '@/lib/services-content/types'
@@ -171,7 +172,7 @@ function SectionBlock({ section }: { section: ServiceSection }) {
           className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-gold/30 bg-navy-2 text-lg"
           aria-hidden
         >
-          {section.icon}
+          <ServiceIcon emoji={section.icon} className="h-5 w-5 text-gold-2" />
         </span>
         <h2 className="text-lg font-extrabold text-gold-2 sm:text-2xl">{section.heading}</h2>
       </div>
@@ -241,14 +242,7 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
         key={slug}
         className="lift group relative flex flex-col overflow-hidden rounded-3xl border border-gold/20 bg-card/80 p-6"
       >
-        {def.image && (
-          <img
-            src={def.image}
-            alt={sub.title}
-            className="-mx-6 -mt-6 mb-6 aspect-video w-[calc(100%+3rem)] object-cover"
-            loading="lazy"
-          />
-        )}
+        <ServiceCover emoji={def.icon} label={def.en} />
         <div
           aria-hidden
           className="absolute -top-16 end-[-15%] h-36 w-36 rounded-full bg-gold/10 blur-3xl"
@@ -258,7 +252,7 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
             className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-gold/30 bg-navy-2 text-xl"
             aria-hidden
           >
-            {def.icon}
+            <ServiceIcon emoji={def.icon} className="h-5 w-5 text-gold-2" />
           </span>
           <span className="pt-1 text-end text-[11px] font-semibold leading-snug text-muted-foreground" dir="ltr">
             {def.en}
@@ -330,7 +324,7 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
                     <div className="flex flex-wrap items-center justify-between gap-4 rounded-3xl border border-gold/20 bg-navy-2/60 p-5 sm:p-6">
                       <div className="flex items-center gap-4">
                         <span className="flex h-12 w-12 items-center justify-center rounded-2xl border border-gold/30 bg-navy text-xl" aria-hidden>
-                          {g.icon}
+                          <ServiceIcon emoji={g.icon} className="h-5 w-5 text-gold-2" />
                         </span>
                         <div>
                           <h3 className="text-lg font-extrabold text-gold-2 sm:text-xl">
@@ -403,7 +397,7 @@ export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; se
   return (
     <div>
       <Hero
-        image={def.image ?? dept.image}
+        image={dept.image}
         eyebrow={`${dept.num} · ${dept.code}`}
         title={content.title}
         en={def.en}
@@ -462,7 +456,7 @@ export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; se
                       className="lift group flex items-center gap-4 rounded-2xl border border-gold/15 bg-card/70 p-4 transition-colors hover:border-gold/40"
                     >
                       <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gold/25 bg-navy-2 text-lg" aria-hidden>
-                        {s.icon}
+                        <ServiceIcon emoji={s.icon} className="h-5 w-5 text-gold-2" />
                       </span>
                       <span className="min-w-0">
                         <span className="block truncate text-sm font-bold text-foreground group-hover:text-gold-2">
