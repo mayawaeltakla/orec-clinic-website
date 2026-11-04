@@ -7,7 +7,7 @@ import { Mail, Phone, MapPin } from 'lucide-react'
 import { SOCIALS } from './social-icons'
 
 export function Footer() {
-  const { dict } = useLanguage()
+  const { dict, lp } = useLanguage()
   const f = dict.footer
 
   const quickLinks = [
@@ -26,7 +26,7 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand — official Orec Clinic logo */}
           <div>
-            <a href="/" className="inline-flex items-center" aria-label="Orec Clinic">
+            <a href={lp('/')} className="inline-flex items-center" aria-label="Orec Clinic">
                   <img
                 src="/orec-logo.png"
                 alt="Orec Clinic — عيادة أوريك"
@@ -66,7 +66,7 @@ export function Footer() {
               {quickLinks.map((l) => (
                 <li key={l.href}>
                   <a
-                    href={l.href}
+                    href={lp(l.href)}
                     className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-gold-2"
                   >
                     <span className="h-1 w-1 rounded-full bg-gold/60" aria-hidden />
@@ -84,7 +84,7 @@ export function Footer() {
               {dict.services.categories.map((c) => (
                 <li key={c.id}>
                   <a
-                    href={`/services/${DEPT_SLUG_BY_ID[c.id] ?? ''}`}
+                    href={lp(`/services/${DEPT_SLUG_BY_ID[c.id] ?? ''}`)}
                     className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-gold-2"
                   >
                     <span className="h-1 w-1 rounded-full bg-gold/60" aria-hidden />

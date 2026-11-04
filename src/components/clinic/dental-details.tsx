@@ -9,7 +9,7 @@ import { UserCheck, Lightbulb, ClipboardList, ArrowLeft, ArrowRight } from 'luci
 const SECTION_ICONS = ['🦷', '✨', '🛠️', '⚡']
 
 export function DentalDetails() {
-  const { dict, dir } = useLanguage()
+  const { dict, dir, lp } = useLanguage()
   const [tab, setTab] = useState('0')
   const Arrow = dir === 'rtl' ? ArrowLeft : ArrowRight
 
@@ -126,7 +126,7 @@ export function DentalDetails() {
                   <div className="mt-8 flex flex-col items-center justify-between gap-4 rounded-2xl border border-gold/30 bg-gradient-to-r from-gold/15 via-gold/5 to-transparent p-5 sm:flex-row">
                     <p className="text-sm font-semibold text-foreground/90">{s.tagline}</p>
                     <a
-                      href="/contact"
+                      href={lp('/contact')}
                       className="btn-gold inline-flex h-11 shrink-0 items-center gap-2 rounded-full px-6 text-sm font-bold"
                     >
                       {dict.dental.cta}

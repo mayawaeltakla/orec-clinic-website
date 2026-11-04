@@ -1,32 +1,21 @@
 'use client'
 
 import type { ReactNode } from 'react'
+import type { LanguageCode } from '@/lib/i18n'
 import { LanguageProvider, useLanguage, appFontFamily } from './language-context'
 import { ThemeProvider } from './theme-context'
 import { Header } from './header'
 import { Footer } from './footer'
 import { WhatsAppFloat } from './whatsapp-float'
 
-type Dict = ReturnType<typeof useLanguage>['dict']
-
-function ShellInner({
-  title,
-  children,
-}: {
-  title?: (dict: Dict) => string
-  children: ReactNode
-}) {
-  const { dir, dict } = useLanguage()
+function ShellInner({ children }: { children: ReactNode }) {
+  const { dir } = useLanguage()
   return (
     <div
       dir={dir}
       style={{ fontFamily: appFontFamily(dir) }}
       className="flex min-h-screen flex-col"
     >
-      {/* Language-aware document head (per page) */}
-      <title>{title ? title(dict) : dict.meta.title}</title>
-      <meta name="description" content={dict.meta.description} />
-
       <Header />
       {/* Spacer for the fixed header — homepage handles its own padding via Hero */}
       <main className="flex-1">
@@ -40,17 +29,11 @@ function ShellInner({
 }
 
 /** Shared site shell for standalone pages — providers + header/footer/WhatsApp float */
-export function SiteShell({
-  title,
-  children,
-}: {
-  title?: (dict: Dict) => string
-  children: ReactNode
-}) {
+export function SiteShell({ lang, children }: { lang: LanguageCode; children: ReactNode }) {
   return (
     <ThemeProvider>
-      <LanguageProvider>
-        <ShellInner title={title}>{children}</ShellInner>
+      <LanguageProvider initialLang={lang}>
+        <ShellInner>{children}</ShellInner>
       </LanguageProvider>
     </ThemeProvider>
   )

@@ -43,6 +43,21 @@ export function getLanguage(code: LanguageCode | string | null | undefined): Lan
   return found ?? LANGUAGES[0]
 }
 
+/** URL segment per language (deCH → de-ch) */
+export function localeSlug(code: LanguageCode | string): string {
+  return code === 'deCH' ? 'de-ch' : String(code)
+}
+
+export function getLanguageBySlug(slug: string | null | undefined): LanguageMeta | undefined {
+  return LANGUAGES.find((l) => localeSlug(l.code) === slug)
+}
+
+/** Locale-prefixed path: localePath('en', '/services') → /en/services · localePath('ar', '/') → /ar */
+export function localePath(code: LanguageCode | string, path: string = '/'): string {
+  const rest = path === '/' ? '' : path.startsWith('/') ? path : `/${path}`
+  return `/${localeSlug(code)}${rest}`
+}
+
 export function isRTL(code: LanguageCode | string | null | undefined): boolean {
   return RTL_LANGUAGES.includes(getLanguage(code).code)
 }

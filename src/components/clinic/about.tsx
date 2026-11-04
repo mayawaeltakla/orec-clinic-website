@@ -4,7 +4,7 @@ import { useLanguage } from './language-context'
 import { Quote, BadgeCheck, Sparkles, Gem, Stethoscope } from 'lucide-react'
 
 export function About() {
-  const { dict } = useLanguage()
+  const { dict, lp } = useLanguage()
   const a = dict.about
 
   return (
@@ -97,7 +97,7 @@ export function About() {
                 <ShieldBadge />
                 <p className="mt-3 text-sm font-semibold leading-relaxed text-foreground/85">{a.license}</p>
                 <a
-                  href="/contact"
+                  href={lp('/contact')}
                   className="btn-gold mt-5 inline-flex h-11 items-center rounded-full px-7 text-sm font-bold"
                 >
                   {a.cta}
