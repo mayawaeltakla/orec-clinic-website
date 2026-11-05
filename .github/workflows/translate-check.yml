@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - 'src/lib/translate.ts'
-      - 'scripts/translate-check.ts'
+      - 'tools/translate-check.ts'
       - '.github/workflows/translate-check.yml'
 jobs:
   check:
@@ -13,4 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
-      - run: bun ./scripts/translate-check.ts
+      - run: bun ./tools/translate-check.ts
