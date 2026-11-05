@@ -1,0 +1,13 @@
+name: translate-probe
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for h in translate.fedilab.app libretranslate.com translate.argosopentech.com translate.terraprint.co lt.vern.cc translate.flossboxin.org.in translate.cutie.dev; do
+            echo "== $h"
+            echo -n "langs: "; curl -s -m 15 -o /dev/null -w "%{http_code}\n" https://$h/languages
+            echo -n "post(no UA): "; curl -s -m 20 -w " [%{http_code}]\n" -X POST https://$h/translate -H 'Content-Type: application/json' -d '{"q":"مرحبا بكم في عيادة أوريك","source":"ar","target":"en","format":"text"}' | head -c 300
+            echo -n "post(browser UA): "; curl -s -m 20 -w " [%{http_code}]\n" -A 'Mozilla/5.0 (X11; Linux x86_64) Chrome/120 Safari/537.36' -X POST https://$h/translate -H 'Content-Type: application/json' -d '{"q":"مرحبا بكم في عيادة أوريك","source":"ar","target":"en","format":"text"}' | head -c 300
+          done
