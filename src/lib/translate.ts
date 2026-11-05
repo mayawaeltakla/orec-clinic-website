@@ -1,23 +1,48 @@
 import type { BlogPost } from '@/lib/blog-db'
 
 /**
- * Automatic translation Arabic → site languages with DeepL.
- * Env: DEEPL_API_KEY (a free key ending in ":fx" uses the free endpoint).
+ * Automatic translation Arabic → site languages.
+ *
+ * Open source (preferred):  LibreTranslate — env LIBRETRANSLATE_URL (e.g. https://translate.example.com),
+ *                           optional LIBRETRANSLATE_API_KEY. Works with a self-hosted instance.
+ * Optional alternative:     DeepL — env DEEPL_API_KEY.
  * Swiss German (de-ch) reuses the German translation.
  */
-const TARGETS: Record<string, string> = {
-  en: 'EN-US',
-  es: 'ES',
-  tr: 'TR',
-  fr: 'FR',
-  de: 'DE',
-  it: 'IT',
-  ru: 'RU',
-  pl: 'PL',
+const TARGETS: Record<string, { deepl: string; libre: string }> = {
+  en: { deepl: 'EN-US', libre: 'en' },
+  es: { deepl: 'ES', libre: 'es' },
+  tr: { deepl: 'TR', libre: 'tr' },
+  fr: { deepl: 'FR', libre: 'fr' },
+  de: { deepl: 'DE', libre: 'de' },
+  it: { deepl: 'IT', libre: 'it' },
+  ru: { deepl: 'RU', libre: 'ru' },
+  pl: { deepl: 'PL', libre: 'pl' },
 }
 
 export function translationConfigured(): boolean {
-  return Boolean(process.env.DEEPL_API_KEY)
+  return Boolean(process.env.LIBRETRANSLATE_URL || process.env.DEEPL_API_KEY)
+}
+
+async function libre(texts: string[], target: string): Promise<string[]> {
+  const base = (process.env.LIBRETRANSLATE_URL as string).replace(/\/$/, '')
+  const out: string[] = []
+  for (let i = 0; i < texts.length; i += 40) {
+    const res = await fetch(`${base}/translate`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        q: texts.slice(i, i + 40),
+        source: 'ar',
+        target,
+        format: 'text',
+        ...(process.env.LIBRETRANSLATE_API_KEY ? { api_key: process.env.LIBRETRANSLATE_API_KEY } : {}),
+      }),
+    })
+    if (!res.ok) throw new Error(`LibreTranslate ${res.status}: ${(await res.text()).slice(0, 200)}`)
+    const j = (await res.json()) as { translatedText: string | string[] }
+    out.push(...(Array.isArray(j.translatedText) ? j.translatedText : [j.translatedText]))
+  }
+  return out
 }
 
 async function deepl(texts: string[], target: string): Promise<string[]> {
@@ -47,11 +72,12 @@ function parseBody(body: string): Line[] {
   })
 }
 
-async function translateOne(post: { title: string; excerpt: string; body: string }, target: string) {
+async function translateOne(post: { title: string; excerpt: string; body: string }, target: { deepl: string; libre: string }) {
   const lines = parseBody(post.body)
   const texts = [post.title, post.excerpt || '', ...lines.filter((l) => l.translate).map((l) => l.text)]
   const idx = texts.map((t, i) => (t.trim() ? i : -1)).filter((i) => i >= 0)
-  const translated = await deepl(idx.map((i) => texts[i]), target)
+  const input = idx.map((i) => texts[i])
+  const translated = process.env.LIBRETRANSLATE_URL ? await libre(input, target.libre) : await deepl(input, target.deepl)
   const result = texts.map((t) => t)
   idx.forEach((i, k) => (result[i] = translated[k]))
   let n = 2
