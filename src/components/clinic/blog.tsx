@@ -4,12 +4,13 @@ import { Newspaper } from 'lucide-react'
 import { useLanguage } from './language-context'
 import { Ornament } from './ornament'
 import { SECTION_LABELS } from '@/lib/i18n/section-labels'
-import { POSTS } from '@/lib/blog-data'
+import type { BlogPost } from '@/lib/blog-db'
 
-export function BlogList({ teaser = false }: { teaser?: boolean }) {
+/** Posts are written in Arabic and shown as-is in every language. */
+export function BlogList({ posts: all, teaser = false }: { posts: BlogPost[]; teaser?: boolean }) {
   const { lang, lp } = useLanguage()
   const L = SECTION_LABELS[lang.code]
-  const posts = teaser ? POSTS.slice(0, 3) : POSTS
+  const posts = teaser ? all.slice(0, 3) : all
   const Heading = teaser ? 'h2' : 'h1'
   return (
     <section id="blog" className={`relative ${teaser ? 'py-20 sm:py-24' : 'py-16 sm:py-20'}`}>
@@ -25,14 +26,14 @@ export function BlogList({ teaser = false }: { teaser?: boolean }) {
         {posts.length > 0 ? (
           <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-3">
             {posts.map((p) => (
-              <article key={p.slug} className="lift overflow-hidden rounded-3xl border border-gold/25 bg-card">
+              <a key={p.slug} href={lp(`/blog/${p.slug}`)} className="orec-card group block overflow-hidden">
                 {p.image && <img src={p.image} alt="" loading="lazy" className="aspect-video w-full object-cover" />}
-                <div className="p-6">
+                <article className="p-6" dir="rtl" lang="ar">
                   <time className="text-xs text-muted-foreground" dateTime={p.date}>{p.date}</time>
-                  <h3 className="mt-2 text-lg font-extrabold text-gold-2">{p.title[lang.code] ?? p.title.ar}</h3>
-                  <p className="mt-2 text-sm leading-loose text-foreground/80">{p.excerpt[lang.code] ?? p.excerpt.ar}</p>
-                </div>
-              </article>
+                  <h3 className="mt-2 text-lg font-extrabold text-gold-2">{p.title}</h3>
+                  {p.excerpt && <p className="mt-2 text-sm leading-loose text-foreground/80">{p.excerpt}</p>}
+                </article>
+              </a>
             ))}
           </div>
         ) : (
@@ -44,7 +45,7 @@ export function BlogList({ teaser = false }: { teaser?: boolean }) {
           </div>
         )}
 
-        {teaser && (
+        {teaser && posts.length > 0 && (
           <div className="mt-8 text-center">
             <a href={lp('/blog')} className="text-sm font-bold text-gold-2 underline underline-offset-4">
               {L.blogAll}

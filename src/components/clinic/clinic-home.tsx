@@ -14,8 +14,9 @@ import { BlogList } from '@/components/clinic/blog'
 import { Footer } from '@/components/clinic/footer'
 import { WhatsAppFloat } from '@/components/clinic/whatsapp-float'
 import { PAGE_LABELS } from '@/lib/i18n/page-labels'
+import type { BlogPost } from '@/lib/blog-db'
 
-function ClinicSite() {
+function ClinicSite({ posts }: { posts: BlogPost[] }) {
   const { dir, lang } = useLanguage()
   return (
     <div
@@ -31,7 +32,7 @@ function ClinicSite() {
         <div className="band-navy"><About /></div>
         <WhyUs />
         <div className="band-sky"><Trust /></div>
-        <BlogList teaser />
+        <BlogList posts={posts} teaser />
         <Contact />
       </main>
       <Footer />
@@ -40,11 +41,11 @@ function ClinicSite() {
   )
 }
 
-export function ClinicHome({ lang }: { lang: LanguageCode }) {
+export function ClinicHome({ lang, posts = [] }: { lang: LanguageCode; posts?: BlogPost[] }) {
   return (
     <ThemeProvider>
       <LanguageProvider initialLang={lang}>
-        <ClinicSite />
+        <ClinicSite posts={posts} />
       </LanguageProvider>
     </ThemeProvider>
   )
