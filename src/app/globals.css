@@ -446,3 +446,9 @@ html.light .vars-navy .text-gold-grad {
 }
 /* Hero keeps the navy look in both themes, closed by a gold line */
 .hero-navy { border-bottom: 2px solid #d4af37; box-shadow: 0 1px 0 rgba(232, 199, 102, 0.35); }
+
+/* Site header: always navy with a gold line, in both themes */
+.header-navy {
+  background: linear-gradient(180deg, #0a2038 0%, #071a2e 100%);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.55);
+}
