@@ -16,7 +16,6 @@ export function Header() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [servicesOpen, setServicesOpen] = useState(false)
-  const [aboutOpen, setAboutOpen] = useState(false)
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24)
@@ -26,28 +25,17 @@ export function Header() {
   }, [])
 
   const SL = SECTION_LABELS[lang.code]
-  const aboutChildren = [
+  const links = [
+    { href: '/', label: dict.nav.home },
+    { href: '/services', label: dict.nav.services },
     { href: '/about', label: dict.nav.about },
     { href: '/why', label: dict.nav.why },
     { href: '/team', label: PAGE_LABELS[lang.code].nav },
-  ]
-  const links: ({ href: string; label: string } | { href: string; label: string; children: { href: string; label: string }[] })[] = [
-    { href: '/', label: dict.nav.home },
-    { href: '/services', label: dict.nav.services },
-    { href: '/about', label: SL.aboutMenu, children: aboutChildren },
     { href: '/experiences', label: SL.experiences },
     { href: '/blog', label: SL.blog },
     { href: '/contact', label: dict.nav.contact },
   ]
-  // Flat list for the mobile menu
-  const mobileLinks = [
-    { href: '/', label: dict.nav.home },
-    { href: '/services', label: dict.nav.services },
-    ...aboutChildren,
-    { href: '/experiences', label: SL.experiences },
-    { href: '/blog', label: SL.blog },
-    { href: '/contact', label: dict.nav.contact },
-  ]
+  const mobileLinks = links
 
   const cosmeticGroups = dict.services.categories.find((c) => c.id === 'cosmetic')?.groups ?? []
 
@@ -57,7 +45,7 @@ export function Header() {
         scrolled ? 'glass border-b border-gold/15 shadow-[0_8px_30px_-12px_rgba(0,0,0,0.6)]' : 'bg-transparent'
       }`}
     >
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6 lg:h-20 lg:px-8">
+      <div className="mx-auto flex h-16 max-w-[1440px] items-center justify-between gap-3 px-4 sm:px-6 lg:h-20 lg:px-8">
         {/* Brand — official Orec Clinic logo */}
         <a href={lp('/')} className="flex items-center" aria-label="Orec Clinic">
           <img
@@ -70,45 +58,9 @@ export function Header() {
         </a>
 
         {/* Desktop nav */}
-        <nav className="hidden items-center gap-1 xl:flex" aria-label="Main">
+        <nav className="hidden items-center gap-0.5 xl:flex" aria-label="Main">
           {links.map((l) =>
-            'children' in l ? (
-              <div
-                key={l.href}
-                className="relative"
-                onMouseEnter={() => setAboutOpen(true)}
-                onMouseLeave={() => setAboutOpen(false)}
-                onKeyDown={(e) => e.key === 'Escape' && setAboutOpen(false)}
-              >
-                <button
-                  type="button"
-                  onClick={() => setAboutOpen((v) => !v)}
-                  aria-expanded={aboutOpen}
-                  aria-haspopup="true"
-                  className="inline-flex h-10 items-center gap-1 whitespace-nowrap rounded-full px-3 text-sm font-medium text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2"
-                >
-                  {l.label}
-                  <ChevronDown className={`h-3.5 w-3.5 transition-transform ${aboutOpen ? 'rotate-180' : ''}`} aria-hidden />
-                </button>
-                <div
-                  className={`absolute start-0 top-full z-50 w-56 transition-all duration-200 ${
-                    aboutOpen ? 'visible translate-y-0 opacity-100' : 'invisible translate-y-2 opacity-0'
-                  }`}
-                >
-                  <div className="mt-2 rounded-2xl border border-gold/25 bg-popover/95 p-2 shadow-2xl backdrop-blur">
-                    {l.children.map((c) => (
-                      <a
-                        key={c.href}
-                        href={lp(c.href)}
-                        className="block whitespace-nowrap rounded-xl px-4 py-2.5 text-sm font-medium text-foreground/90 transition-colors hover:bg-accent hover:text-gold-2"
-                      >
-                        {c.label}
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            ) : l.href === '/services' ? (
+            l.href === '/services' ? (
               <div
                 key={l.href}
                 className="relative"
@@ -121,7 +73,7 @@ export function Header() {
                   onClick={() => setServicesOpen((v) => !v)}
                   aria-expanded={servicesOpen}
                   aria-haspopup="true"
-                  className="inline-flex h-10 items-center gap-1 whitespace-nowrap rounded-full px-3 text-sm font-medium text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2"
+                  className="inline-flex h-10 items-center gap-1 whitespace-nowrap rounded-full px-2.5 text-[13px] font-medium text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2"
                 >
                   {l.label}
                   <ChevronDown
@@ -170,7 +122,7 @@ export function Header() {
               <a
                 key={l.href}
                 href={lp(l.href)}
-                className="inline-flex h-10 items-center whitespace-nowrap rounded-full px-3 text-sm font-medium text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2"
+                className="inline-flex h-10 items-center whitespace-nowrap rounded-full px-2.5 text-[13px] font-medium text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2"
               >
                 {l.label}
               </a>
