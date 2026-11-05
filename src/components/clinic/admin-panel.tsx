@@ -140,6 +140,7 @@ export function AdminPanel({ enabled, dbOk, translateOk, authed: initialAuthed }
       let tr = ''
       if (!j.translateConfigured) tr = ' (لم تُفعَّل الترجمة التلقائية بعد.)'
       else if (j.translated >= 8) tr = ' وتُرجم المقال تلقائياً إلى 9 لغات.'
+      else if (j.translated === 0) tr = ' لكن تعذّرت الترجمة الآن، فحُفظ المقال بالعربية ولم يضع منه شيء. أعد الحفظ لاحقاً لمحاولة الترجمة.'
       else tr = ` تُرجم إلى ${j.translated} من 9 لغات فقط${j.translateErrors?.length ? ` (${j.translateErrors[0]})` : ''}.`
       setMsg({ kind: j.translateConfigured && j.translated < 8 ? 'err' : 'ok', text: base + tr })
       setDraft(null)
