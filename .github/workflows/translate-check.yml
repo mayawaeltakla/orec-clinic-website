@@ -1,0 +1,16 @@
+name: translate-check
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'src/lib/translate.ts'
+      - 'scripts/translate-check.ts'
+      - '.github/workflows/translate-check.yml'
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun scripts/translate-check.ts
