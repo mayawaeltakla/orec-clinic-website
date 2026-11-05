@@ -1,6 +1,6 @@
 'use client'
 
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import type { BlogPost } from '@/lib/blog-db'
 
 type Draft = { id?: number; title: string; excerpt: string; body: string; image: string; slug: string; published: boolean }
@@ -12,18 +12,38 @@ const ERRORS: Record<string, string> = {
   image: 'رابط الصورة يجب أن يبدأ بـ https://',
   slug_taken: 'هذا الرابط مستخدم لمقال آخر، غيّره.',
   db: 'تعذّر الاتصال بقاعدة البيانات.',
+  too_large: 'الصورة كبيرة جداً.',
+  bad_type: 'نوع الصورة غير مدعوم (JPG أو PNG أو WebP).',
+}
+
+/** Resize in the browser (max 1600px, JPEG) so uploads stay small and fast. */
+async function prepareImage(file: File): Promise<{ mime: string; data: string }> {
+  const bmp = await createImageBitmap(file)
+  const scale = Math.min(1, 1600 / Math.max(bmp.width, bmp.height))
+  const w = Math.round(bmp.width * scale)
+  const h = Math.round(bmp.height * scale)
+  const canvas = document.createElement('canvas')
+  canvas.width = w
+  canvas.height = h
+  const ctx = canvas.getContext('2d')!
+  ctx.fillStyle = '#ffffff'
+  ctx.fillRect(0, 0, w, h)
+  ctx.drawImage(bmp, 0, 0, w, h)
+  const url = canvas.toDataURL('image/jpeg', 0.82)
+  return { mime: 'image/jpeg', data: url.split(',')[1] }
 }
 
 const input =
   'w-full rounded-xl border border-gold/25 bg-background/60 px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30'
 
-export function AdminPanel({ enabled, dbOk, authed: initialAuthed }: { enabled: boolean; dbOk: boolean; authed: boolean }) {
+export function AdminPanel({ enabled, dbOk, translateOk, authed: initialAuthed }: { enabled: boolean; dbOk: boolean; translateOk: boolean; authed: boolean }) {
   const [authed, setAuthed] = useState(initialAuthed)
   const [password, setPassword] = useState('')
   const [posts, setPosts] = useState<BlogPost[]>([])
   const [draft, setDraft] = useState<Draft | null>(null)
   const [msg, setMsg] = useState<{ kind: 'ok' | 'err'; text: string } | null>(null)
   const [busy, setBusy] = useState(false)
+  const bodyRef = useRef<HTMLTextAreaElement>(null)
 
   const fail = (j: { error?: string; detail?: string }) =>
     setMsg({ kind: 'err', text: (ERRORS[j.error ?? ''] ?? 'حدث خطأ.') + (j.detail ? ` (${j.detail})` : '') })
@@ -41,6 +61,48 @@ export function AdminPanel({ enabled, dbOk, authed: initialAuthed }: { enabled: 
   useEffect(() => {
     if (authed && dbOk) load()
   }, [authed, dbOk, load])
+
+  // /admin?new=1 opens the editor straight away (the "إضافة مقال" shortcut)
+  useEffect(() => {
+    if (authed && dbOk && new URLSearchParams(window.location.search).get('new') === '1') setDraft({ ...EMPTY })
+  }, [authed, dbOk])
+
+  async function upload(file: File): Promise<string | null> {
+    setBusy(true)
+    setMsg(null)
+    try {
+      const img = await prepareImage(file)
+      const res = await fetch('/api/admin/upload', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(img) })
+      const j = await res.json().catch(() => ({}))
+      if (res.ok) return j.url as string
+      fail(j)
+    } catch {
+      setMsg({ kind: 'err', text: 'تعذّر قراءة الصورة. جرّب صورة أخرى.' })
+    } finally {
+      setBusy(false)
+    }
+    return null
+  }
+
+  async function pickCover(e: React.ChangeEvent<HTMLInputElement>) {
+    const f = e.target.files?.[0]
+    e.target.value = ''
+    if (!f || !draft) return
+    const url = await upload(f)
+    if (url) setDraft({ ...draft, image: url })
+  }
+
+  async function pickInline(e: React.ChangeEvent<HTMLInputElement>) {
+    const f = e.target.files?.[0]
+    e.target.value = ''
+    if (!f || !draft) return
+    const url = await upload(f)
+    if (!url) return
+    const ta = bodyRef.current
+    const pos = ta ? ta.selectionStart : draft.body.length
+    const insert = `\n\n![](${url})\n\n`
+    setDraft({ ...draft, body: draft.body.slice(0, pos) + insert + draft.body.slice(pos) })
+  }
 
   async function login(e: React.FormEvent) {
     e.preventDefault()
@@ -74,7 +136,12 @@ export function AdminPanel({ enabled, dbOk, authed: initialAuthed }: { enabled: 
     const j = await res.json().catch(() => ({}))
     setBusy(false)
     if (res.ok) {
-      setMsg({ kind: 'ok', text: draft.published ? 'تم الحفظ والنشر.' : 'تم الحفظ كمسودة.' })
+      const base = draft.published ? 'تم الحفظ والنشر.' : 'تم الحفظ كمسودة.'
+      let tr = ''
+      if (!j.translateConfigured) tr = ' (لم تُفعَّل الترجمة التلقائية بعد.)'
+      else if (j.translated >= 8) tr = ' وتُرجم المقال تلقائياً إلى 9 لغات.'
+      else tr = ` تُرجم إلى ${j.translated} من 9 لغات فقط${j.translateErrors?.length ? ` (${j.translateErrors[0]})` : ''}.`
+      setMsg({ kind: j.translateConfigured && j.translated < 8 ? 'err' : 'ok', text: base + tr })
       setDraft(null)
       load()
     } else fail(j)
@@ -121,6 +188,11 @@ export function AdminPanel({ enabled, dbOk, authed: initialAuthed }: { enabled: 
         <button onClick={logout} className="text-sm font-bold text-foreground/70 underline underline-offset-4">خروج</button>
       </div>
 
+      {dbOk && !translateOk && (
+        <p className="mt-4 rounded-xl border border-gold/40 bg-card px-4 py-3 text-sm">
+          الترجمة التلقائية غير مفعّلة: أضف <code dir="ltr">DEEPL_API_KEY</code> في Vercel وأعد النشر، فتُترجم المقالات إلى 9 لغات عند كل حفظ.
+        </p>
+      )}
       {!dbOk && (
         <p className="mt-4 rounded-xl border border-destructive/40 bg-destructive/10 px-4 py-3 text-sm">
           قاعدة البيانات غير مربوطة بعد: من Vercel افتح Storage ثم أنشئ قاعدة Neon (Postgres) واربطها بالمشروع، ثم أعد النشر.
@@ -145,15 +217,30 @@ export function AdminPanel({ enabled, dbOk, authed: initialAuthed }: { enabled: 
           </div>
           <div>
             <label className="mb-1 block text-sm font-semibold" htmlFor="f-body">نص المقال</label>
-            <textarea id="f-body" rows={14} className={input} value={draft.body} onChange={(e) => setDraft({ ...draft, body: e.target.value })} />
+            <textarea id="f-body" ref={bodyRef} rows={14} className={input} value={draft.body} onChange={(e) => setDraft({ ...draft, body: e.target.value })} />
+            <label className="mt-2 inline-flex cursor-pointer items-center gap-2 rounded-full border border-gold/40 px-4 py-2 text-xs font-bold text-gold-2 hover:bg-accent">
+              + إدراج صورة داخل النص
+              <input type="file" accept="image/jpeg,image/png,image/webp" className="sr-only" onChange={pickInline} />
+            </label>
             <p className="mt-1 text-xs text-muted-foreground">
               فقرة جديدة: اترك سطراً فارغاً. عنوان فرعي: ابدأ السطر بـ <code dir="ltr">## </code>. قائمة: ابدأ كل سطر بـ <code dir="ltr">- </code>. نص عريض: <code dir="ltr">**نص**</code>.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
-              <label className="mb-1 block text-sm font-semibold" htmlFor="f-img">رابط صورة الغلاف (اختياري)</label>
-              <input id="f-img" dir="ltr" placeholder="https://..." className={input} value={draft.image} onChange={(e) => setDraft({ ...draft, image: e.target.value })} />
+              <span className="mb-1 block text-sm font-semibold">صورة الغلاف (اختياري)</span>
+              {draft.image && <img src={draft.image} alt="" className="mb-2 aspect-video w-full rounded-xl object-cover" />}
+              <div className="flex flex-wrap gap-2">
+                <label className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-gold/40 px-4 py-2 text-xs font-bold text-gold-2 hover:bg-accent">
+                  {draft.image ? 'تغيير الصورة' : 'رفع صورة من الجهاز'}
+                  <input type="file" accept="image/jpeg,image/png,image/webp" className="sr-only" onChange={pickCover} />
+                </label>
+                {draft.image && (
+                  <button type="button" onClick={() => setDraft({ ...draft, image: '' })} className="rounded-full px-3 py-2 text-xs font-bold text-destructive">
+                    إزالة
+                  </button>
+                )}
+              </div>
             </div>
             <div>
               <label className="mb-1 block text-sm font-semibold" htmlFor="f-slug">رابط المقال بالإنكليزية (اختياري)</label>

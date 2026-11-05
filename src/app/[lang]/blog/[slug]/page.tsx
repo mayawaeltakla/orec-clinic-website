@@ -3,7 +3,7 @@ import { SiteShell } from '@/components/clinic/site-shell'
 import { BlogArticle } from '@/components/clinic/blog-article'
 import { getLanguageBySlug } from '@/lib/i18n'
 import { buildMetadata, SITE_URL } from '@/lib/seo'
-import { getPublished } from '@/lib/blog-db'
+import { getPublished, localizePost } from '@/lib/blog-db'
 
 export const revalidate = 60
 export const dynamicParams = true
@@ -19,11 +19,12 @@ export async function generateMetadata({ params }: Props) {
   const meta = getLanguageBySlug(lang)
   const post = await getPublished(slug)
   if (!meta || !post) return {}
+  const loc = localizePost(post, meta.code)
   return buildMetadata({
     lang: meta.code,
     path: `/blog/${post.slug}`,
-    title: `${post.title} | Orec Clinic`,
-    description: post.excerpt || post.title,
+    title: `${loc.title} | Orec Clinic`,
+    description: loc.excerpt || loc.title,
     image: post.image && post.image.startsWith('http') ? post.image : undefined,
   })
 }
@@ -37,9 +38,9 @@ export default async function Page({ params }: Props) {
   const ld = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
-    headline: post.title,
+    headline: localizePost(post, meta.code).title,
     datePublished: post.date,
-    inLanguage: 'ar',
+    inLanguage: localizePost(post, meta.code).lang,
     image: post.image ? (post.image.startsWith('http') ? post.image : `${SITE_URL}${post.image}`) : undefined,
     publisher: { '@type': 'Organization', name: 'Orec Clinic' },
   }

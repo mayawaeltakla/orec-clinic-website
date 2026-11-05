@@ -2,9 +2,11 @@ import { NextResponse } from 'next/server'
 import { revalidatePath } from 'next/cache'
 import { z } from 'zod'
 import { isAdmin } from '@/lib/admin-auth'
-import { deletePost, listAll, savePost } from '@/lib/blog-db'
+import { deletePost, listAll, savePost, saveTranslations } from '@/lib/blog-db'
+import { translatePost, translationConfigured } from '@/lib/translate'
 
 export const runtime = 'nodejs'
+export const maxDuration = 60
 
 const PostSchema = z.object({
   id: z.number().int().positive().optional(),
@@ -46,8 +48,23 @@ export async function POST(req: Request) {
   const slug = slugify(d.slug) || `post-${Date.now().toString(36)}`
   try {
     const post = await savePost({ id: d.id, slug, title: d.title, excerpt: d.excerpt, body: d.body, image, published: d.published })
+    let translated = 0
+    let translateErrors: string[] = []
+    if (translationConfigured() && d.published !== undefined) {
+      try {
+        const { translations, errors } = await translatePost({ title: d.title, excerpt: d.excerpt, body: d.body })
+        translated = Object.keys(translations).length
+        translateErrors = errors
+        if (translated) {
+          await saveTranslations(post.id, translations)
+          post.translations = translations
+        }
+      } catch (e) {
+        translateErrors = [(e as Error).message]
+      }
+    }
     revalidatePath('/', 'layout')
-    return NextResponse.json({ ok: true, post })
+    return NextResponse.json({ ok: true, post, translated, translateConfigured: translationConfigured(), translateErrors })
   } catch (e) {
     const msg = (e as Error).message
     if (/duplicate key|unique/i.test(msg)) return fail('slug_taken', 409)
