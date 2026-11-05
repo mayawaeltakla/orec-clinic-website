@@ -452,3 +452,46 @@ html.light .vars-navy .text-gold-grad {
   background: linear-gradient(180deg, #0a2038 0%, #071a2e 100%);
   border-bottom: 1px solid rgba(212, 175, 55, 0.55);
 }
+
+/* ------------------------------------------------------------------ */
+/* Orec signature card — asymmetric corners, double gold frame,        */
+/* gold sweep on hover. Reusable: add class `orec-card`.               */
+/* ------------------------------------------------------------------ */
+.orec-card {
+  position: relative;
+  background: var(--card);
+  border: 1px solid rgba(184, 145, 42, 0.6);
+  border-start-start-radius: 44px;
+  border-end-end-radius: 44px;
+  border-start-end-radius: 6px;
+  border-end-start-radius: 6px;
+  transition: transform 0.35s ease, border-color 0.35s ease;
+}
+.orec-card::before {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border: 1px solid rgba(184, 145, 42, 0.3);
+  border-start-start-radius: 38px;
+  border-end-end-radius: 38px;
+  border-start-end-radius: 2px;
+  border-end-start-radius: 2px;
+  pointer-events: none;
+  z-index: 3;
+}
+.orec-card::after {
+  content: '';
+  position: absolute;
+  inset-inline: 18%;
+  bottom: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #d4af37, transparent);
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+  z-index: 3;
+}
+.orec-card:hover { transform: translateY(-4px); border-color: #d4af37; }
+.orec-card:hover::after { transform: scaleX(1); }
+@media (prefers-reduced-motion: reduce) {
+  .orec-card:hover { transform: none; }
+}

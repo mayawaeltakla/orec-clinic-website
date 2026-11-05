@@ -41,7 +41,7 @@ export function Services() {
             return (
             <article
               key={cat.id}
-              className="lift group relative overflow-hidden rounded-3xl border border-gold/20 bg-card/80"
+              className="orec-card group relative overflow-hidden"
             >
               {/* corner glow */}
               <div
@@ -72,8 +72,9 @@ export function Services() {
                     </span>
                     <h3 className="mt-2 text-xl font-extrabold text-gold-2 sm:text-2xl">{cat.title}</h3>
                   </div>
-                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-gold/30 bg-navy-2 text-2xl font-extrabold text-gold" aria-hidden>
-                    {cat.num}
+                  <span className="relative flex h-14 w-14 shrink-0 items-center justify-center" aria-hidden>
+                    <span className="absolute inset-1.5 rotate-45 rounded-[6px] border border-gold/70 bg-gold/10" />
+                    <span className="relative text-lg font-extrabold text-gold">{cat.num}</span>
                   </span>
                 </div>
 
