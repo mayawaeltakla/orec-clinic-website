@@ -1,24 +1,20 @@
 'use client'
 
-import { useEffect, useState } from 'react'
 import { Plus } from 'lucide-react'
 import { useLanguage } from './language-context'
+import { SECTION_LABELS } from '@/lib/i18n/section-labels'
 
-/** Shown only to a logged-in admin: quick shortcut to the article editor. */
+/** Visible to everyone; the editor behind it is protected by the admin password. */
 export function AdminAddButton() {
-  const { lp } = useLanguage()
-  const [ok, setOk] = useState(false)
-  useEffect(() => {
-    fetch('/api/admin/me', { cache: 'no-store' })
-      .then((r) => r.json())
-      .then((j) => setOk(Boolean(j?.ok)))
-      .catch(() => {})
-  }, [])
-  if (!ok) return null
+  const { lp, lang } = useLanguage()
   return (
-    <a href={lp('/admin?new=1')} className="btn-gold inline-flex h-11 items-center gap-2 rounded-full px-6 text-sm font-bold">
+    <a
+      href={lp('/admin?new=1')}
+      rel="nofollow"
+      className="btn-gold inline-flex h-11 items-center gap-2 rounded-full px-6 text-sm font-bold"
+    >
       <Plus className="h-4 w-4" aria-hidden />
-      <span dir="rtl" lang="ar">إضافة مقال</span>
+      {SECTION_LABELS[lang.code].addPost}
     </a>
   )
 }
