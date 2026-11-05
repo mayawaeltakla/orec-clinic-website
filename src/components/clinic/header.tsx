@@ -11,7 +11,7 @@ import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { SECTION_LABELS } from '@/lib/i18n/section-labels'
 import { Menu, X, ChevronDown, MessageCircle, Phone, Mail } from 'lucide-react'
 
-export function Header({ overHero = false }: { overHero?: boolean }) {
+export function Header() {
   const { dict, lp, lang } = useLanguage()
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -41,8 +41,8 @@ export function Header({ overHero = false }: { overHero?: boolean }) {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${overHero && !scrolled ? 'vars-navy' : ''} ${
-        scrolled ? 'glass border-b border-gold/15 shadow-[0_8px_30px_-12px_rgba(0,0,0,0.6)]' : 'bg-transparent'
+      className={`vars-navy header-navy fixed inset-x-0 top-0 z-50 transition-shadow duration-300 ${
+        scrolled ? 'shadow-[0_8px_30px_-12px_rgba(0,0,0,0.6)]' : ''
       }`}
     >
       <div className="mx-auto flex h-16 max-w-[1440px] items-center justify-between gap-3 px-4 sm:px-6 lg:h-20 lg:px-8">
