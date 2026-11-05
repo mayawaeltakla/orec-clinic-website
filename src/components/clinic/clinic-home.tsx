@@ -24,9 +24,9 @@ function ClinicSite() {
       className="flex min-h-screen flex-col"
     >
       <a href="#main" className="skip-link">{PAGE_LABELS[lang.code].skip}</a>
-      <Header />
+      <Header overHero />
       <main id="main" tabIndex={-1} className="flex-1 outline-none">
-        <Hero />
+        <div className="band-navy hero-navy"><Hero /></div>
         <Services />
         <div className="band-navy"><About /></div>
         <WhyUs />

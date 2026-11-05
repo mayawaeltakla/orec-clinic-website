@@ -376,7 +376,8 @@ html:not(.light) .band-sky {
 }
 
 /* Luxury navy band with gold touches — keeps dark tokens inside the light theme */
-.band-navy {
+.band-navy,
+.vars-navy {
   --background: #08182b;
   --foreground: #f3efe4;
   --card: #0c2036;
@@ -395,6 +396,8 @@ html:not(.light) .band-sky {
   --navy: #030d1a;
   --navy-2: #0c2036;
   color: var(--foreground);
+}
+.band-navy {
   background:
     radial-gradient(800px 360px at 85% 0%, rgba(212, 175, 55, 0.10), transparent 60%),
     linear-gradient(180deg, #0a2038 0%, #071524 100%);
@@ -423,3 +426,23 @@ html.light .band-navy .btn-gold {
 /* Light-theme cards: faint gold hairline + gold on hover */
 html.light .lift { border-color: rgba(184, 145, 42, 0.28); }
 html.light .lift:hover { border-color: rgba(184, 145, 42, 0.75); }
+
+/* Navy-scoped overrides must also win inside the light theme */
+html.light .band-navy .shimmer,
+html.light .vars-navy .shimmer {
+  background: linear-gradient(100deg, #b8912a 0%, #e8c766 45%, #d4af37 70%, #f4e3a1 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 5s linear infinite;
+}
+html.light .vars-navy .text-gold { color: #e8c766; }
+html.light .vars-navy .text-gold-grad {
+  background: linear-gradient(100deg, #b8912a 0%, #e8c766 45%, #d4af37 70%, #f4e3a1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/* Hero keeps the navy look in both themes, closed by a gold line */
+.hero-navy { border-bottom: 2px solid #d4af37; box-shadow: 0 1px 0 rgba(232, 199, 102, 0.35); }
