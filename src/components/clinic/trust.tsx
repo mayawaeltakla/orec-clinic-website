@@ -4,6 +4,7 @@ import { ShieldCheck, Stethoscope, MessageSquareQuote } from 'lucide-react'
 import { useLanguage } from './language-context'
 import { Ornament } from './ornament'
 import { TRUST_LABELS } from '@/lib/i18n/trust-labels'
+import { SECTION_LABELS } from '@/lib/i18n/section-labels'
 
 /** Trust block: real facts from the client's file + clearly-marked slots for content still to come. */
 export function Trust() {
@@ -15,7 +16,7 @@ export function Trust() {
   const cards = [
     { icon: ShieldCheck, title: T.licenseTitle, text: license, soon: false },
     { icon: Stethoscope, title: T.doctorsTitle, text: T.doctorsText, soon: true, href: lp('/team'), cta: T.seeTeam },
-    { icon: MessageSquareQuote, title: T.reviewsTitle, text: T.reviewsText, soon: true },
+    { icon: MessageSquareQuote, title: T.reviewsTitle, text: T.reviewsText, soon: true, href: lp('/experiences'), cta: SECTION_LABELS[lang.code].experiences },
   ]
 
   return (
