@@ -12,5 +12,8 @@ Allow: /
 
 User-agent: *
 Allow: /
+Disallow: /ar/admin
+Disallow: /en/admin
+Disallow: /api/
 
 Sitemap: https://orec-clinic-website.vercel.app/sitemap.xml

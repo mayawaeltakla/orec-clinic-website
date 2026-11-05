@@ -4,6 +4,9 @@ import { BlogList } from '@/components/clinic/blog'
 import { getLanguageBySlug } from '@/lib/i18n'
 import { SECTION_LABELS } from '@/lib/i18n/section-labels'
 import { buildMetadata } from '@/lib/seo'
+import { listPublished } from '@/lib/blog-db'
+
+export const revalidate = 60
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
@@ -19,7 +22,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
   if (!meta) notFound()
   return (
     <SiteShell lang={meta.code}>
-      <BlogList />
+      <BlogList posts={await listPublished()} />
     </SiteShell>
   )
 }

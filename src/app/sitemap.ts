@@ -2,8 +2,11 @@ import type { MetadataRoute } from 'next'
 import { LANGUAGES, localePath } from '@/lib/i18n'
 import { DEPARTMENTS } from '@/lib/services-content/config'
 import { SITE_URL, languageAlternates } from '@/lib/seo'
+import { listPublished } from '@/lib/blog-db'
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export const revalidate = 3600
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const paths: { path: string; priority: number }[] = [
     { path: '/', priority: 1 },
     { path: '/services', priority: 0.9 },
@@ -20,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     paths.push({ path: `/services/${d.slug}`, priority: 0.8 })
     for (const s of d.services) paths.push({ path: `/services/${d.slug}/${s.slug}`, priority: 0.6 })
   }
+  for (const post of await listPublished()) paths.push({ path: `/blog/${post.slug}`, priority: 0.6 })
   const now = new Date()
   const out: MetadataRoute.Sitemap = []
   for (const { path, priority } of paths) {
