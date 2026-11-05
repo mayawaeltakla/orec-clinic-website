@@ -10,6 +10,7 @@ import { DentalDetails } from '@/components/clinic/dental-details'
 import { About } from '@/components/clinic/about'
 import { WhyUs } from '@/components/clinic/why-us'
 import { Contact } from '@/components/clinic/contact'
+import { Trust } from '@/components/clinic/trust'
 import { Footer } from '@/components/clinic/footer'
 import { WhatsAppFloat } from '@/components/clinic/whatsapp-float'
 import { PAGE_LABELS } from '@/lib/i18n/page-labels'
@@ -27,9 +28,10 @@ function ClinicSite() {
       <main id="main" tabIndex={-1} className="flex-1 outline-none">
         <Hero />
         <Services />
-        <DentalDetails />
-        <About />
+        <div className="band-sky"><DentalDetails /></div>
+        <div className="band-navy"><About /></div>
         <WhyUs />
+        <div className="band-sky"><Trust /></div>
         <Contact />
       </main>
       <Footer />

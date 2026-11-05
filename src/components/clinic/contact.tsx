@@ -6,6 +6,7 @@ import { CLINIC, whatsappLink } from '@/lib/i18n'
 import { CONTACT_EXTRAS } from '@/lib/i18n/contact-extras'
 import { Mail, Phone, MapPin, Quote, Send, Loader2, ShieldCheck, ChevronDown } from 'lucide-react'
 import { SOCIALS } from './social-icons'
+import { Ornament } from './ornament'
 
 function WhatsAppIcon({ className }: { className?: string }) {
   return (
@@ -122,6 +123,7 @@ export function Contact() {
           <h2 className="mt-3 text-3xl font-extrabold text-foreground sm:text-4xl">
             <span className="text-gold-grad">{c.title}</span>
           </h2>
+          <Ornament />
         </div>
 
         {/* Quote */}

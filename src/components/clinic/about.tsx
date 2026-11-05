@@ -2,6 +2,7 @@
 
 import { useLanguage } from './language-context'
 import { Quote, BadgeCheck, Sparkles, Gem, Stethoscope } from 'lucide-react'
+import { Ornament } from './ornament'
 
 export function About() {
   const { dict, lp } = useLanguage()
@@ -20,6 +21,7 @@ export function About() {
             <h2 className="mt-3 text-3xl font-extrabold text-foreground sm:text-4xl">
               <span className="text-gold-grad">{a.title}</span>
             </h2>
+          <Ornament className="!mx-0 !justify-start" />
 
             <div className="mt-8 space-y-6">
               <div>
