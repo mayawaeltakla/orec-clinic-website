@@ -6,7 +6,6 @@ import { ThemeProvider } from '@/components/clinic/theme-context'
 import { Header } from '@/components/clinic/header'
 import { Hero } from '@/components/clinic/hero'
 import { Services } from '@/components/clinic/services'
-import { DentalDetails } from '@/components/clinic/dental-details'
 import { About } from '@/components/clinic/about'
 import { WhyUs } from '@/components/clinic/why-us'
 import { Contact } from '@/components/clinic/contact'
@@ -29,7 +28,6 @@ function ClinicSite() {
       <main id="main" tabIndex={-1} className="flex-1 outline-none">
         <Hero />
         <Services />
-        <div className="band-sky"><DentalDetails /></div>
         <div className="band-navy"><About /></div>
         <WhyUs />
         <div className="band-sky"><Trust /></div>
