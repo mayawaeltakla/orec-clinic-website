@@ -68,7 +68,7 @@ export function Header() {
                   onClick={() => setServicesOpen((v) => !v)}
                   aria-expanded={servicesOpen}
                   aria-haspopup="true"
-                  className="inline-flex h-10 items-center gap-1 rounded-full px-4 text-sm font-medium text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2"
+                  className="inline-flex h-10 items-center gap-1 whitespace-nowrap rounded-full px-3 text-sm font-medium text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2"
                 >
                   {l.label}
                   <ChevronDown
@@ -117,7 +117,7 @@ export function Header() {
               <a
                 key={l.href}
                 href={lp(l.href)}
-                className="inline-flex h-10 items-center rounded-full px-4 text-sm font-medium text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2"
+                className="inline-flex h-10 items-center whitespace-nowrap rounded-full px-3 text-sm font-medium text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2"
               >
                 {l.label}
               </a>
@@ -127,15 +127,6 @@ export function Header() {
 
         {/* Actions — live contacts: tap to call, chat or book */}
         <div className="flex items-center gap-2">
-          <a
-            href={`tel:${CLINIC.phoneRaw}`}
-            dir="ltr"
-            className="hidden h-10 items-center gap-2 whitespace-nowrap rounded-full border border-gold/30 bg-secondary/60 px-4 text-sm font-bold text-foreground transition-colors hover:bg-accent hover:text-gold-2 xl:inline-flex"
-            aria-label={`${dict.contact.phone}: ${CLINIC.phoneDisplay}`}
-          >
-            <Phone className="h-4 w-4 text-gold" aria-hidden />
-            {CLINIC.phoneDisplay}
-          </a>
           <a
             href={whatsappLink(dict.whatsapp.prefill)}
             target="_blank"
@@ -150,7 +141,7 @@ export function Header() {
           <LanguageSwitcher />
           <a
             href={lp('/contact')}
-            className="btn-gold hidden h-10 items-center rounded-full px-5 text-sm font-bold lg:inline-flex"
+            className="btn-gold hidden h-10 items-center whitespace-nowrap rounded-full px-5 text-sm font-bold lg:inline-flex"
           >
             {dict.nav.book}
           </a>

@@ -2,6 +2,7 @@
 
 import { useLanguage } from './language-context'
 import { HeartHandshake, Crown, Cpu, Infinity as InfinityIcon } from 'lucide-react'
+import { Ornament } from './ornament'
 
 const ICONS = [HeartHandshake, Crown, Cpu, InfinityIcon]
 
@@ -19,6 +20,7 @@ export function WhyUs() {
           <h2 className="mt-3 text-3xl font-extrabold text-foreground sm:text-4xl">
             <span className="text-gold-grad">{dict.why.title}</span>
           </h2>
+          <Ornament />
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground sm:text-base">
             {dict.why.intro}
           </p>

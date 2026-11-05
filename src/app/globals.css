@@ -360,3 +360,66 @@ html.light .text-gold\/60, html.light .text-gold\/25 { color: var(--gold); }
     scroll-behavior: auto !important;
   }
 }
+
+/* ------------------------------------------------------------------ */
+/* Orec gold identity — section bands                                  */
+/* ------------------------------------------------------------------ */
+
+/* Soft sky-blue band (logo blue, very light) */
+.band-sky {
+  background: linear-gradient(180deg, #eaf1f8 0%, #dfeaf5 100%);
+  border-block: 1px solid rgba(11, 61, 110, 0.08);
+}
+html:not(.light) .band-sky {
+  background: linear-gradient(180deg, #071a2e 0%, #0a2038 100%);
+  border-block-color: rgba(212, 175, 55, 0.12);
+}
+
+/* Luxury navy band with gold touches — keeps dark tokens inside the light theme */
+.band-navy {
+  --background: #08182b;
+  --foreground: #f3efe4;
+  --card: #0c2036;
+  --card-foreground: #f3efe4;
+  --popover: #0c2036;
+  --popover-foreground: #f3efe4;
+  --secondary: #0f2740;
+  --muted: #0c2032;
+  --muted-foreground: #a9b7c9;
+  --accent: #14293e;
+  --accent-foreground: #e8c766;
+  --border: rgba(212, 175, 55, 0.22);
+  --gold: #d4af37;
+  --gold-2: #e8c766;
+  --gold-deep: #9a7b1e;
+  --navy: #030d1a;
+  --navy-2: #0c2036;
+  color: var(--foreground);
+  background:
+    radial-gradient(800px 360px at 85% 0%, rgba(212, 175, 55, 0.10), transparent 60%),
+    linear-gradient(180deg, #0a2038 0%, #071524 100%);
+  border-block: 1px solid rgba(212, 175, 55, 0.35);
+}
+html.light .band-navy .text-gold-grad {
+  background: linear-gradient(100deg, #b8912a 0%, #e8c766 45%, #d4af37 70%, #f4e3a1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+html.light .band-navy .text-gold { color: #e8c766; }
+html.light .band-navy .btn-gold {
+  background: linear-gradient(135deg, #b8912a 0%, #e8c766 50%, #c9a227 100%);
+  color: #030d1a;
+}
+
+/* Gold-ringed icon holder */
+.gold-ring {
+  border: 1px solid rgba(184, 145, 42, 0.55);
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.16), rgba(212, 175, 55, 0.03));
+  color: var(--gold-deep);
+}
+.band-navy .gold-ring, html:not(.light) .gold-ring { color: #e8c766; }
+
+/* Light-theme cards: faint gold hairline + gold on hover */
+html.light .lift { border-color: rgba(184, 145, 42, 0.28); }
+html.light .lift:hover { border-color: rgba(184, 145, 42, 0.75); }

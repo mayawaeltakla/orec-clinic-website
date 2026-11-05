@@ -3,6 +3,7 @@
 import { useLanguage } from './language-context'
 import { DEPT_SLUG_BY_ID } from '@/lib/services-content/config'
 import { Sparkle, ChevronLeft, ChevronRight } from 'lucide-react'
+import { Ornament } from './ornament'
 
 /** Real photos for each main service — clinic-provided photos (all four departments) */
 const SERVICE_IMAGES: Record<string, { src: string; w: number; h: number }> = {
@@ -27,6 +28,7 @@ export function Services() {
           <h2 className="mt-3 text-3xl font-extrabold text-foreground sm:text-4xl">
             <span className="text-gold-grad">{dict.services.title}</span>
           </h2>
+          <Ornament />
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground sm:text-base">
             {dict.services.subtitle}
           </p>

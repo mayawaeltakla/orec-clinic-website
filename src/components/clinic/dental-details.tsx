@@ -5,6 +5,7 @@ import { useLanguage } from './language-context'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { ServiceIcon } from './service-icon'
 import { UserCheck, Lightbulb, ClipboardList, ArrowLeft, ArrowRight } from 'lucide-react'
+import { Ornament } from './ornament'
 
 const SECTION_ICONS = ['🦷', '✨', '🛠️', '⚡']
 
@@ -25,6 +26,7 @@ export function DentalDetails() {
           <h2 className="mt-3 text-3xl font-extrabold text-foreground sm:text-4xl">
             <span className="text-gold-grad">{dict.dental.title}</span>
           </h2>
+          <Ornament />
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground sm:text-base">
             {dict.dental.subtitle}
           </p>
