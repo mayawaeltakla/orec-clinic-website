@@ -190,7 +190,7 @@ export function AdminPanel({ enabled, dbOk, translateOk, authed: initialAuthed }
 
       {dbOk && !translateOk && (
         <p className="mt-4 rounded-xl border border-gold/40 bg-card px-4 py-3 text-sm">
-          الترجمة التلقائية غير مفعّلة: أضف <code dir="ltr">DEEPL_API_KEY</code> في Vercel وأعد النشر، فتُترجم المقالات إلى 9 لغات عند كل حفظ.
+          الترجمة التلقائية غير مفعّلة: أضف <code dir="ltr">LIBRETRANSLATE_URL</code> في Vercel وأعد النشر، فتُترجم المقالات إلى 9 لغات عند كل حفظ.
         </p>
       )}
       {!dbOk && (
