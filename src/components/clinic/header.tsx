@@ -11,7 +11,7 @@ import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { SECTION_LABELS } from '@/lib/i18n/section-labels'
 import { Menu, X, ChevronDown, MessageCircle, Phone, Mail } from 'lucide-react'
 
-export function Header() {
+export function Header({ overHero = false }: { overHero?: boolean }) {
   const { dict, lp, lang } = useLanguage()
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -41,7 +41,7 @@ export function Header() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
+      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${overHero && !scrolled ? 'vars-navy' : ''} ${
         scrolled ? 'glass border-b border-gold/15 shadow-[0_8px_30px_-12px_rgba(0,0,0,0.6)]' : 'bg-transparent'
       }`}
     >
