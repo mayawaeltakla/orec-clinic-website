@@ -15,6 +15,8 @@ export interface BlogPost {
   image: string | null
   published: boolean
   date: string // YYYY-MM-DD
+  /** Machine translations of title/excerpt/body, keyed by language code (en, tr, ...). */
+  translations: Record<string, { title: string; excerpt: string; body: string }>
 }
 
 function connectionString(): string | null {
@@ -63,7 +65,17 @@ function ensureTable(): Promise<void> {
         created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
         updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
       )`,
-    ).then(() => undefined)
+    )
+      .then(() => run(`ALTER TABLE blog_posts ADD COLUMN IF NOT EXISTS translations TEXT NOT NULL DEFAULT '{}'`))
+      .then(() =>
+        run(`CREATE TABLE IF NOT EXISTS blog_images (
+          id SERIAL PRIMARY KEY,
+          mime TEXT NOT NULL,
+          data TEXT NOT NULL,
+          created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+        )`),
+      )
+      .then(() => undefined)
     ready.catch(() => {
       ready = null
     })
@@ -71,7 +83,7 @@ function ensureTable(): Promise<void> {
   return ready
 }
 
-const COLS = `id::text AS id, slug, title, excerpt, body, image, published::text AS published, to_char(created_at, 'YYYY-MM-DD') AS date`
+const COLS = `id::text AS id, slug, title, excerpt, body, image, published::text AS published, to_char(created_at, 'YYYY-MM-DD') AS date, translations`
 
 function map(r: Record<string, string | null>): BlogPost {
   return {
@@ -83,6 +95,16 @@ function map(r: Record<string, string | null>): BlogPost {
     image: r.image || null,
     published: r.published === 'true' || r.published === 't',
     date: String(r.date ?? ''),
+    translations: parseTranslations(r.translations),
+  }
+}
+
+function parseTranslations(raw: string | null | undefined): BlogPost['translations'] {
+  try {
+    const v = JSON.parse(raw || '{}')
+    return v && typeof v === 'object' ? v : {}
+  } catch {
+    return {}
   }
 }
 
@@ -145,4 +167,38 @@ export async function savePost(p: {
 export async function deletePost(id: number): Promise<void> {
   await ensureTable()
   await run(`DELETE FROM blog_posts WHERE id = $1`, [id])
+}
+
+export async function saveTranslations(id: number, t: BlogPost['translations']): Promise<void> {
+  await ensureTable()
+  await run(`UPDATE blog_posts SET translations = $1 WHERE id = $2`, [JSON.stringify(t), id])
+}
+
+const MAX_IMAGE_BYTES = 3 * 1024 * 1024
+
+export async function saveImage(mime: string, base64: string): Promise<number> {
+  if (!/^image\/(jpeg|png|webp)$/.test(mime)) throw new Error('BAD_MIME')
+  if (base64.length * 0.75 > MAX_IMAGE_BYTES) throw new Error('TOO_LARGE')
+  await ensureTable()
+  const rows = await run(`INSERT INTO blog_images (mime, data) VALUES ($1, $2) RETURNING id::text AS id`, [mime, base64])
+  return Number(rows[0].id)
+}
+
+export async function getImage(id: number): Promise<{ mime: string; data: Buffer } | null> {
+  if (!dbConfigured()) return null
+  try {
+    await ensureTable()
+    const rows = await run(`SELECT mime, data FROM blog_images WHERE id = $1`, [id])
+    return rows[0] ? { mime: String(rows[0].mime), data: Buffer.from(String(rows[0].data), 'base64') } : null
+  } catch {
+    return null
+  }
+}
+
+/** Language fallback: German-Swiss uses the German translation; Arabic is the source. */
+export function localizePost(post: BlogPost, code: string): { title: string; excerpt: string; body: string; lang: string } {
+  const key = code === 'deCH' ? 'de' : code
+  const t = key !== 'ar' ? post.translations[key] : undefined
+  if (t && t.title) return { ...t, lang: key }
+  return { title: post.title, excerpt: post.excerpt, body: post.body, lang: 'ar' }
 }

@@ -4,9 +4,10 @@ import { Newspaper } from 'lucide-react'
 import { useLanguage } from './language-context'
 import { Ornament } from './ornament'
 import { SECTION_LABELS } from '@/lib/i18n/section-labels'
-import type { BlogPost } from '@/lib/blog-db'
+import { localizePost, type BlogPost } from '@/lib/blog-db'
+import { AdminAddButton } from './admin-add-button'
 
-/** Posts are written in Arabic and shown as-is in every language. */
+/** Posts are written in Arabic and auto-translated; falls back to Arabic when a translation is missing. */
 export function BlogList({ posts: all, teaser = false }: { posts: BlogPost[]; teaser?: boolean }) {
   const { lang, lp } = useLanguage()
   const L = SECTION_LABELS[lang.code]
@@ -25,16 +26,19 @@ export function BlogList({ posts: all, teaser = false }: { posts: BlogPost[]; te
 
         {posts.length > 0 ? (
           <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-3">
-            {posts.map((p) => (
-              <a key={p.slug} href={lp(`/blog/${p.slug}`)} className="orec-card group block overflow-hidden">
-                {p.image && <img src={p.image} alt="" loading="lazy" className="aspect-video w-full object-cover" />}
-                <article className="p-6" dir="rtl" lang="ar">
-                  <time className="text-xs text-muted-foreground" dateTime={p.date}>{p.date}</time>
-                  <h3 className="mt-2 text-lg font-extrabold text-gold-2">{p.title}</h3>
-                  {p.excerpt && <p className="mt-2 text-sm leading-loose text-foreground/80">{p.excerpt}</p>}
-                </article>
-              </a>
-            ))}
+            {posts.map((p) => {
+              const loc = localizePost(p, lang.code)
+              return (
+                <a key={p.slug} href={lp(`/blog/${p.slug}`)} className="orec-card group block overflow-hidden">
+                  {p.image && <img src={p.image} alt="" loading="lazy" className="aspect-video w-full object-cover" />}
+                  <article className="p-6" dir={loc.lang === 'ar' ? 'rtl' : 'ltr'} lang={loc.lang}>
+                    <time className="text-xs text-muted-foreground" dateTime={p.date}>{p.date}</time>
+                    <h3 className="mt-2 text-lg font-extrabold text-gold-2">{loc.title}</h3>
+                    {loc.excerpt && <p className="mt-2 text-sm leading-loose text-foreground/80">{loc.excerpt}</p>}
+                  </article>
+                </a>
+              )
+            })}
           </div>
         ) : (
           <div className="mx-auto mt-12 max-w-2xl rounded-3xl border border-gold/30 bg-card p-8 text-center">
@@ -44,6 +48,10 @@ export function BlogList({ posts: all, teaser = false }: { posts: BlogPost[]; te
             <p className="mt-4 text-sm leading-loose text-foreground/85 sm:text-base">{L.blogEmpty}</p>
           </div>
         )}
+
+        <div className="mt-8 text-center">
+          <AdminAddButton />
+        </div>
 
         {teaser && posts.length > 0 && (
           <div className="mt-8 text-center">

@@ -157,6 +157,9 @@ export function Footer() {
             <MapPin className="h-3.5 w-3.5" aria-hidden />
             {f.location}
           </p>
+          <a href={lp('/admin')} rel="nofollow" className="text-[11px] text-muted-foreground/60 transition-colors hover:text-gold-2">
+            Admin
+          </a>
         </div>
       </div>
     </footer>
