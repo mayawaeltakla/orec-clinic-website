@@ -114,6 +114,46 @@ async function libre(texts: string[], target: string): Promise<string[]> {
   }
 }
 
+
+// Fallback: MyMemory (free, no key, no account). Limit ~500 chars per request, so split on sentences.
+function splitForMyMemory(text: string, max = 450): string[] {
+  const parts = text.match(/[^.!?؟۔\n]+[.!?؟۔]*\s*/g) || [text]
+  const out: string[] = []
+  let cur = ''
+  for (const p of parts) {
+    if ((cur + p).length > max && cur) {
+      out.push(cur.trim())
+      cur = ''
+    }
+    if (p.length > max) {
+      for (let i = 0; i < p.length; i += max) out.push(p.slice(i, i + max).trim())
+    } else cur += p
+  }
+  if (cur.trim()) out.push(cur.trim())
+  return out
+}
+
+async function myMemoryOne(text: string, target: string): Promise<string> {
+  const pieces = splitForMyMemory(text)
+  const out: string[] = []
+  for (const piece of pieces) {
+    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(piece)}&langpair=ar|${target}`
+    const res = await fetch(url, { signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) })
+    if (!res.ok) throw new Error(`MyMemory HTTP ${res.status}`)
+    const j = (await res.json()) as { responseData?: { translatedText?: string }; quotaFinished?: boolean; responseStatus?: number | string }
+    const t = j.responseData?.translatedText
+    if (j.quotaFinished || !t || Number(j.responseStatus) !== 200 || /MYMEMORY WARNING/i.test(t)) throw new Error('MyMemory quota/err')
+    out.push(t)
+  }
+  return out.join(' ')
+}
+
+async function myMemory(texts: string[], target: string): Promise<string[]> {
+  const res: string[] = []
+  for (const t of texts) res.push(await myMemoryOne(t, target))
+  return res
+}
+
 async function deepl(texts: string[], target: string): Promise<string[]> {
   const key = process.env.DEEPL_API_KEY as string
   const base = key.endsWith(':fx') ? 'https://api-free.deepl.com' : 'https://api.deepl.com'
@@ -146,7 +186,16 @@ async function translateOne(post: { title: string; excerpt: string; body: string
   const texts = [post.title, post.excerpt || '', ...lines.filter((l) => l.translate).map((l) => l.text)]
   const idx = texts.map((t, i) => (t.trim() ? i : -1)).filter((i) => i >= 0)
   const input = idx.map((i) => texts[i])
-  const translated = useDeepl() ? await deepl(input, target.deepl) : await libre(input, target.libre)
+  let translated: string[]
+  if (useDeepl()) translated = await deepl(input, target.deepl)
+  else {
+    try {
+      translated = await libre(input, target.libre)
+    } catch (e) {
+      if (process.env.LIBRETRANSLATE_URL) throw e
+      translated = await myMemory(input, target.libre)
+    }
+  }
   const result = texts.map((t) => t)
   idx.forEach((i, k) => (result[i] = translated[k]))
   let n = 2
