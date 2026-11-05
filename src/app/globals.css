@@ -461,10 +461,7 @@ html.light .vars-navy .text-gold-grad {
   position: relative;
   background: var(--card);
   border: 1px solid rgba(184, 145, 42, 0.6);
-  border-start-start-radius: 44px;
-  border-end-end-radius: 44px;
-  border-start-end-radius: 6px;
-  border-end-start-radius: 6px;
+  border-radius: 26px;
   transition: transform 0.35s ease, border-color 0.35s ease;
 }
 .orec-card::before {
@@ -472,10 +469,7 @@ html.light .vars-navy .text-gold-grad {
   position: absolute;
   inset: 6px;
   border: 1px solid rgba(184, 145, 42, 0.3);
-  border-start-start-radius: 38px;
-  border-end-end-radius: 38px;
-  border-start-end-radius: 2px;
-  border-end-start-radius: 2px;
+  border-radius: 21px;
   pointer-events: none;
   z-index: 3;
 }
