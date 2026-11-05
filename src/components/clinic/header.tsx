@@ -58,7 +58,7 @@ export function Header() {
         </a>
 
         {/* Desktop nav */}
-        <nav className="hidden items-center gap-0.5 xl:flex" aria-label="Main">
+        <nav className="hidden items-center gap-0 lg:flex" aria-label="Main">
           {links.map((l) =>
             l.href === '/services' ? (
               <div
@@ -73,7 +73,7 @@ export function Header() {
                   onClick={() => setServicesOpen((v) => !v)}
                   aria-expanded={servicesOpen}
                   aria-haspopup="true"
-                  className="inline-flex h-10 items-center gap-1 whitespace-nowrap rounded-full px-2.5 text-[13px] font-medium text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2"
+                  className="inline-flex h-10 items-center gap-1 whitespace-nowrap rounded-full px-2 text-[13px] font-medium xl:px-2.5 text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2"
                 >
                   {l.label}
                   <ChevronDown
@@ -122,7 +122,7 @@ export function Header() {
               <a
                 key={l.href}
                 href={lp(l.href)}
-                className="inline-flex h-10 items-center whitespace-nowrap rounded-full px-2.5 text-[13px] font-medium text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2"
+                className="inline-flex h-10 items-center whitespace-nowrap rounded-full px-2 text-[13px] font-medium xl:px-2.5 text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2"
               >
                 {l.label}
               </a>
@@ -155,7 +155,7 @@ export function Header() {
             onClick={() => setMobileOpen((v) => !v)}
             aria-expanded={mobileOpen}
             aria-label={mobileOpen ? dict.nav.menuClose : dict.nav.menuOpen}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-gold/30 bg-secondary/60 text-foreground transition-colors hover:bg-accent xl:hidden"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-gold/30 bg-secondary/60 text-foreground transition-colors hover:bg-accent lg:hidden"
           >
             {mobileOpen ? <X className="h-5 w-5" aria-hidden /> : <Menu className="h-5 w-5" aria-hidden />}
           </button>
@@ -164,7 +164,7 @@ export function Header() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="border-t border-gold/15 bg-background/95 shadow-2xl backdrop-blur-xl xl:hidden">
+        <div className="border-t border-gold/15 bg-background/95 shadow-2xl backdrop-blur-xl lg:hidden">
           <nav className="mx-auto flex max-w-7xl flex-col gap-1 px-4 py-4 sm:px-6" aria-label="Mobile">
             {mobileLinks.map((l) => (
               <a
