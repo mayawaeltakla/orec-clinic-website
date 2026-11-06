@@ -146,7 +146,7 @@ function Hero({
 }) {
   return (
     <section className="relative overflow-hidden border-b border-border bg-gradient-to-b from-secondary to-background">
-      <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(212,175,55,0.14),transparent_55%)]" />
+      <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,color-mix(in_srgb,var(--gold)_12%,transparent),transparent_55%)]" />
       <div className="relative mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-16 lg:px-8">
         <Breadcrumb items={breadcrumb} ui={ui} />
         <div className="mt-8 grid items-center gap-8 lg:grid-cols-2 lg:gap-12">
@@ -364,7 +364,7 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
               })}
             </div>
           ) : (
-            <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+            <div className="mt-14 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
               {dept.services.map((s) => serviceCard(s.slug))}
             </div>
           )}

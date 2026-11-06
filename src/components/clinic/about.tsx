@@ -9,7 +9,7 @@ export function About() {
   const a = dict.about
 
   return (
-    <section id="about" className="relative py-20 sm:py-24">
+    <section id="about" className="relative py-24 sm:py-28 lg:py-32">
       <div className="gold-line absolute inset-x-0 top-0" aria-hidden />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-10 lg:grid-cols-5 lg:gap-14">
@@ -22,6 +22,10 @@ export function About() {
               <span className="text-gold-grad">{a.title}</span>
             </h2>
           <Ornament className="!mx-0 !justify-start" />
+
+            <figure className="mt-8 overflow-hidden rounded-3xl border border-border shadow-[0_24px_60px_-34px_rgba(10,46,77,0.5)]">
+              <img src="/orec-lobby.jpg" alt="Orec Clinic — عيادة أوريك" width={1400} height={788} loading="lazy" className="aspect-[16/9] w-full object-cover" />
+            </figure>
 
             <div className="mt-8 space-y-6">
               <div>
