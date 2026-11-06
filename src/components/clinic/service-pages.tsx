@@ -166,7 +166,7 @@ function Hero({
           </div>
           {/* Full, clear photo — no overlay, no blur, never cropped (16:9 source) */}
           <div className="overflow-hidden rounded-2xl border border-border shadow-xl">
-            <img src={image} alt={`${title} — Orec Clinic`} className="aspect-video h-auto w-full object-contain bg-navy-2" loading="eager" />
+            <img src={image} alt={`${title} — Orec Clinic`} width={image.startsWith('/service-images/') ? 1200 : 1000} height={image.startsWith('/service-images/') ? 800 : 563} className={`h-auto w-full bg-navy-2 ${image.startsWith('/service-images/') ? 'aspect-[3/2] object-cover' : 'aspect-video object-contain'}`} loading="eager" />
           </div>
         </div>
       </div>
