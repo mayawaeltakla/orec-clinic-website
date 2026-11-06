@@ -21,7 +21,7 @@ for (const [name, path, theme, w, h] of jobs) {
   await p.waitForTimeout(800)
   const overflow = await p.evaluate(() => document.documentElement.scrollWidth > window.innerWidth + 1)
   console.log(name, 'overflowX:', overflow, 'errors:', errs.length)
-  await p.screenshot({ path: `shots/${name}.png`, fullPage: true })
+  await p.screenshot({ path: `shots/${name}.jpg`, type: 'jpeg', quality: 72, fullPage: true })
   await ctx.close()
 }
 await b.close()
