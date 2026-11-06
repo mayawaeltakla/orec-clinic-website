@@ -177,7 +177,8 @@ html.light {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   html.light body {
-    background-image: none;
+    background-image: linear-gradient(180deg, #ffffff 0%, #f3f7fb 40%, #eaf1f8 100%);
+    background-attachment: scroll;
   }
   ::selection {
     background: rgba(70, 196, 204, 0.35);
@@ -315,9 +316,12 @@ html.light .text-gold\/25 { color: var(--gold-deep); }
 /* Surfaces                                                            */
 /* ------------------------------------------------------------------ */
 
-/* Soft cool-grey band */
+/* Soft cool-grey band with a faint leaf watermark */
 .band-sky {
-  background: linear-gradient(180deg, #eef3f8 0%, #e6eef5 100%);
+  position: relative;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240' fill='none' stroke-width='1.4' stroke-linecap='round'%3E%3Cpath d='M10 235C20 120 90 35 230 10C215 120 150 215 10 235Z' fill='%230a2e4d' fill-opacity='0.05' stroke='%230a2e4d' stroke-opacity='0.14'/%3E%3Cpath d='M10 235C70 150 140 85 225 14' stroke='%230a2e4d' stroke-opacity='0.14'/%3E%3Cpath d='M60 180C95 175 130 160 160 138M95 135C125 130 155 112 178 88M35 205C55 205 75 198 95 188' stroke='%230a2e4d' stroke-opacity='0.14'/%3E%3C/svg%3E") no-repeat left bottom -40px / 300px,
+    linear-gradient(180deg, #eef4fa 0%, #e3edf6 100%);
   border-block: 1px solid rgba(10, 46, 77, 0.07);
 }
 html:not(.light) .band-sky {
@@ -353,6 +357,14 @@ html:not(.light) .band-sky {
 .band-navy {
   background: linear-gradient(180deg, #0c3556 0%, #0a2e4d 100%);
 }
+/* Faint leaf watermark on navy surfaces (stats band, footer) */
+.leaf-navy {
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240' fill='none' stroke-width='1.4' stroke-linecap='round'%3E%3Cpath d='M10 235C20 120 90 35 230 10C215 120 150 215 10 235Z' fill='%23ffffff' fill-opacity='0.05' stroke='%23ffffff' stroke-opacity='0.16'/%3E%3Cpath d='M10 235C70 150 140 85 225 14' stroke='%23ffffff' stroke-opacity='0.16'/%3E%3Cpath d='M60 180C95 175 130 160 160 138M95 135C125 130 155 112 178 88M35 205C55 205 75 198 95 188' stroke='%23ffffff' stroke-opacity='0.16'/%3E%3C/svg%3E") no-repeat left -30px bottom -50px / 260px,
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240' fill='none' stroke-width='1.4' stroke-linecap='round'%3E%3Cpath d='M10 235C20 120 90 35 230 10C215 120 150 215 10 235Z' fill='%23ffffff' fill-opacity='0.05' stroke='%23ffffff' stroke-opacity='0.16'/%3E%3Cpath d='M10 235C70 150 140 85 225 14' stroke='%23ffffff' stroke-opacity='0.16'/%3E%3Cpath d='M60 180C95 175 130 160 160 138M95 135C125 130 155 112 178 88M35 205C55 205 75 198 95 188' stroke='%23ffffff' stroke-opacity='0.16'/%3E%3C/svg%3E") no-repeat right -40px top -60px / 220px,
+    linear-gradient(180deg, #0c3556, #0a2e4d);
+}
+.leaf-navy::before { content: none; }
 html.light .band-navy .text-gold,
 html.light .vars-navy .text-gold,
 html.light .vars-navy .text-gold\/60,
@@ -417,18 +429,18 @@ html.light .gold-ring { color: var(--gold-deep); }
 .hero-fade {
   background: linear-gradient(
     90deg,
-    rgba(var(--hero-fade), 0.95) 0%,
-    rgba(var(--hero-fade), 0.88) 38%,
-    rgba(var(--hero-fade), 0.25) 72%,
+    rgba(var(--hero-fade), 0.9) 0%,
+    rgba(var(--hero-fade), 0.74) 36%,
+    rgba(var(--hero-fade), 0.08) 70%,
     transparent 100%
   );
 }
 [dir='rtl'] .hero-fade {
   background: linear-gradient(
     270deg,
-    rgba(var(--hero-fade), 0.95) 0%,
-    rgba(var(--hero-fade), 0.88) 38%,
-    rgba(var(--hero-fade), 0.25) 72%,
+    rgba(var(--hero-fade), 0.9) 0%,
+    rgba(var(--hero-fade), 0.74) 36%,
+    rgba(var(--hero-fade), 0.08) 70%,
     transparent 100%
   );
 }
@@ -438,3 +450,20 @@ html.light .gold-ring { color: var(--gold-deep); }
     background: linear-gradient(180deg, rgba(var(--hero-fade), 0.93), rgba(var(--hero-fade), 0.84));
   }
 }
+
+/* Leaf watermarks stay very faint */
+
+/* Hero: brighter photo, leaf accent at the bottom start corner */
+.hero-leaf {
+  position: absolute;
+  inset-inline-start: -30px;
+  bottom: -40px;
+  width: 280px;
+  height: 280px;
+  opacity: 1;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240' fill='none' stroke-width='1.4' stroke-linecap='round'%3E%3Cpath d='M10 235C20 120 90 35 230 10C215 120 150 215 10 235Z' fill='%230a2e4d' fill-opacity='0.05' stroke='%230a2e4d' stroke-opacity='0.14'/%3E%3Cpath d='M10 235C70 150 140 85 225 14' stroke='%230a2e4d' stroke-opacity='0.14'/%3E%3Cpath d='M60 180C95 175 130 160 160 138M95 135C125 130 155 112 178 88M35 205C55 205 75 198 95 188' stroke='%230a2e4d' stroke-opacity='0.14'/%3E%3C/svg%3E") no-repeat center / contain;
+  pointer-events: none;
+}
+[dir='rtl'] .hero-leaf { transform: scaleX(-1); }
+/* Lighter, airier cards */
+.orec-card, .lift { background: color-mix(in srgb, var(--card) 94%, transparent); }

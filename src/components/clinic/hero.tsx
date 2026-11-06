@@ -97,6 +97,7 @@ export function Hero() {
         ))}
         {/* Readability fade from the text side */}
         <div aria-hidden className="hero-fade absolute inset-0" />
+        <div aria-hidden className="hero-leaf" />
 
         <div className="relative mx-auto flex min-h-[620px] w-full max-w-7xl items-center px-4 py-20 sm:px-6 lg:min-h-[720px] lg:px-8 lg:py-28">
           <div className="max-w-xl text-start">
@@ -104,7 +105,7 @@ export function Hero() {
               {dict.hero.eyebrow}
             </p>
 
-            <h1 className="rise rise-1 mt-6 text-3xl font-extrabold leading-[1.3] text-foreground sm:text-4xl md:text-5xl lg:leading-[1.25]">
+            <h1 className="rise rise-1 mt-6 text-3xl font-extrabold leading-[1.3] text-foreground sm:text-4xl lg:text-[2.6rem] lg:leading-[1.3]">
               {dict.hero.title1.split(/(\([^)]*\))/).map((part, i) =>
                 part.startsWith('(') ? (
                   <bdi key={i} className="whitespace-nowrap">
@@ -216,7 +217,7 @@ export function Hero() {
       </div>
 
       {/* Stats — full-width deep navy band */}
-      <div className="vars-navy relative" style={{ background: 'linear-gradient(180deg, #0c3556, #0a2e4d)' }}>
+      <div className="vars-navy leaf-navy relative overflow-hidden">
         <div className="mx-auto grid max-w-5xl grid-cols-1 px-4 sm:grid-cols-3 sm:px-6">
           {dict.hero.stats.map((s, i) => {
             const StatIcon = [CalendarDays, Globe, Stethoscope][i % 3]

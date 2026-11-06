@@ -28,7 +28,7 @@ export function Footer() {
   const socials = SOCIALS
 
   return (
-    <footer className="vars-navy relative mt-auto border-t border-[var(--champagne)]/40 bg-background text-foreground">
+    <footer className="vars-navy leaf-navy relative mt-auto overflow-hidden border-t border-[var(--champagne)]/40 bg-background text-foreground">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand — official Orec Clinic logo */}
