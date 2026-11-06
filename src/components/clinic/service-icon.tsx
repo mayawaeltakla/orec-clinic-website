@@ -39,8 +39,8 @@ export function ServiceIcon({
 export function ServiceCover({ emoji, label, image }: { emoji: string; label: string; image?: string }) {
   if (image) {
     return (
-      <div aria-hidden className="-mx-6 -mt-6 mb-6 aspect-video w-[calc(100%+3rem)] overflow-hidden border-b border-border">
-        <img src={image} alt="" width={1000} height={563} loading="lazy" className="h-full w-full object-cover" />
+      <div aria-hidden className="-mx-6 -mt-6 mb-6 aspect-[3/2] w-[calc(100%+3rem)] overflow-hidden border-b border-border">
+        <img src={image} alt="" width={1200} height={800} loading="lazy" className="h-full w-full object-cover" />
       </div>
     )
   }
