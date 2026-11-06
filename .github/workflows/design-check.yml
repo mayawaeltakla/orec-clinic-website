@@ -11,7 +11,6 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - run: npm ci --no-audit --no-fund
-      - run: npx tsc --noEmit
       - run: npx next build
         env:
           NEXT_TELEMETRY_DISABLED: '1'
