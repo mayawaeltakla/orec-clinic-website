@@ -288,7 +288,7 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
   return (
     <div>
       <Hero
-        image={def.image ?? dept.image}
+        image={dept.image}
         eyebrow={`${dept.num} · ${dept.code}`}
         title={content.title}
         en={dept.en}
