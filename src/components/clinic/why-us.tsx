@@ -32,7 +32,7 @@ export function WhyUs() {
             return (
               <article
                 key={item.num}
-                className="lift group relative overflow-hidden rounded-3xl border border-gold/20 bg-card/80 p-6"
+                className="lift group relative overflow-hidden rounded-2xl border border-border bg-card/80 p-6"
               >
                 <span
                   aria-hidden
@@ -42,7 +42,7 @@ export function WhyUs() {
                   {item.num}
                 </span>
                 <div className="relative">
-                  <span className="flex h-12 w-12 items-center justify-center rounded-2xl border border-gold/30 bg-navy-2 text-gold">
+                  <span className="flex h-12 w-12 items-center justify-center rounded-2xl border border-border bg-navy-2 text-gold">
                     <Icon className="h-6 w-6" aria-hidden />
                   </span>
                   <span className="mt-4 block text-xs font-bold tracking-widest text-gold/70" dir="ltr">

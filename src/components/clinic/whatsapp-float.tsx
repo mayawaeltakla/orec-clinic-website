@@ -41,7 +41,7 @@ export function WhatsAppFloat() {
       {/* Tooltip label */}
       <span
         aria-hidden
-        className={`pointer-events-none hidden max-w-56 rounded-xl border border-gold/25 bg-popover/95 px-3.5 py-2 text-xs font-medium text-foreground/90 shadow-xl backdrop-blur transition-opacity duration-500 lg:block ${
+        className={`pointer-events-none hidden max-w-56 rounded-xl border border-border bg-popover/95 px-3.5 py-2 text-xs font-medium text-foreground/90 shadow-xl backdrop-blur transition-opacity duration-500 lg:block ${
           tip ? 'opacity-100' : 'opacity-0'
         }`}
       >

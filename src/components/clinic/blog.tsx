@@ -41,7 +41,7 @@ export function BlogList({ posts: all, teaser = false }: { posts: BlogPost[]; te
             })}
           </div>
         ) : (
-          <div className="mx-auto mt-12 max-w-2xl rounded-3xl border border-gold/30 bg-card p-8 text-center">
+          <div className="mx-auto mt-12 max-w-2xl rounded-2xl border border-border bg-card p-8 text-center">
             <span className="gold-ring mx-auto flex h-14 w-14 items-center justify-center rounded-full" aria-hidden>
               <Newspaper className="h-6 w-6" />
             </span>

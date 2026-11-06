@@ -24,7 +24,7 @@ export function Experiences() {
         {REVIEWS.length > 0 ? (
           <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-2">
             {REVIEWS.map((r) => (
-              <figure key={r.id} className="lift rounded-3xl border border-gold/25 bg-card p-6 sm:p-7">
+              <figure key={r.id} className="lift rounded-2xl border border-border bg-card p-6 sm:p-7">
                 <MessageSquareQuote className="h-7 w-7 text-gold/60" aria-hidden />
                 <blockquote className="mt-3 text-sm leading-loose text-foreground/90">{r.text[lang.code] ?? r.text.ar}</blockquote>
                 <figcaption className="mt-4 text-xs font-bold text-gold-2">
@@ -36,7 +36,7 @@ export function Experiences() {
             ))}
           </div>
         ) : (
-          <div className="mx-auto mt-12 max-w-2xl rounded-3xl border border-gold/30 bg-card p-8 text-center">
+          <div className="mx-auto mt-12 max-w-2xl rounded-2xl border border-border bg-card p-8 text-center">
             <span className="gold-ring mx-auto flex h-14 w-14 items-center justify-center rounded-full" aria-hidden>
               <Hourglass className="h-6 w-6" />
             </span>

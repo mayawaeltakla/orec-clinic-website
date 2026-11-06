@@ -16,7 +16,7 @@ export function ThemeToggle() {
       aria-label={dict.nav.themeToggle}
       title={dict.nav.themeToggle}
       aria-pressed={isLight}
-      className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-gold/30 bg-secondary/60 text-gold transition-colors hover:bg-accent hover:text-gold-2"
+      className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-border bg-secondary/60 text-gold transition-colors hover:bg-accent hover:text-gold-2"
     >
       {isLight ? (
         <Moon className="h-[18px] w-[18px]" aria-hidden />

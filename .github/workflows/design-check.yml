@@ -1,0 +1,26 @@
+name: design-check
+on:
+  workflow_dispatch:
+  push:
+    branches: [design/premium-medical]
+jobs:
+  shots:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm ci --no-audit --no-fund
+      - run: npx next build
+        env:
+          NEXT_TELEMETRY_DISABLED: '1'
+      - run: |
+          npx next start &
+          for i in $(seq 1 30); do curl -sf localhost:3000/ar >/dev/null && break; sleep 2; done
+          npm i --no-save playwright@1 >/dev/null 2>&1
+          npx playwright install --with-deps chromium >/dev/null 2>&1
+          mkdir -p shots
+          node tools/shots.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: shots, path: shots }

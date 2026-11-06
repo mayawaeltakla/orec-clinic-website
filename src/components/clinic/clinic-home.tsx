@@ -29,7 +29,7 @@ function ClinicSite({ posts }: { posts: BlogPost[] }) {
       <main id="main" tabIndex={-1} className="flex-1 outline-none">
         <Hero />
         <Services />
-        <div className="band-navy"><About /></div>
+        <div className="band-sky"><About /></div>
         <WhyUs />
         <div className="band-sky"><Trust /></div>
         <BlogList posts={posts} teaser />

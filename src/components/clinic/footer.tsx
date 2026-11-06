@@ -28,7 +28,7 @@ export function Footer() {
   const socials = SOCIALS
 
   return (
-    <footer className="relative mt-auto border-t border-gold/20 bg-deep">
+    <footer className="vars-navy relative mt-auto border-t border-[var(--champagne)]/40 bg-background text-foreground">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand — official Orec Clinic logo */}
@@ -57,7 +57,7 @@ export function Footer() {
                     rel="noopener noreferrer"
                     aria-label={label}
                     title={label}
-                    className="flex h-10 w-10 items-center justify-center rounded-full border border-gold/25 bg-card text-foreground/80 transition-all hover:-translate-y-0.5 hover:border-gold hover:bg-gold hover:text-navy"
+                    className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-white/5 text-foreground/85 transition-all hover:border-gold hover:bg-gold hover:text-navy"
                   >
                     <Icon className="h-4.5 w-4.5" />
                   </a>
@@ -149,7 +149,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-gold/15 pt-6 text-center sm:flex-row sm:text-start">
+        <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-white/15 pt-6 text-center sm:flex-row sm:text-start">
           <p className="text-xs text-muted-foreground">
             © {new Date().getFullYear()} Orec Clinic — عيادة أوريك. {f.rights}
           </p>

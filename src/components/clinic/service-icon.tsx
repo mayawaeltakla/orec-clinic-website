@@ -40,7 +40,7 @@ export function ServiceCover({ emoji, label }: { emoji: string; label: string })
   return (
     <div
       aria-hidden
-      className="-mx-6 -mt-6 mb-6 flex aspect-video w-[calc(100%+3rem)] flex-col items-center justify-center gap-3 border-b border-gold/20 bg-gradient-to-br from-accent to-secondary"
+      className="-mx-6 -mt-6 mb-6 flex aspect-video w-[calc(100%+3rem)] flex-col items-center justify-center gap-3 border-b border-border bg-gradient-to-br from-accent to-secondary"
     >
       <span className="flex h-16 w-16 items-center justify-center rounded-full border border-gold/50 bg-card text-gold-2 shadow-sm">
         <ServiceIcon emoji={emoji} className="h-7 w-7" />

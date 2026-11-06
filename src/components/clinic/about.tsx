@@ -52,7 +52,7 @@ export function About() {
                 <p className="mt-2 text-sm leading-loose text-muted-foreground">{a.specialty.text}</p>
                 <ul className="mt-4 space-y-3">
                   {a.specialty.items.map((it, i) => (
-                    <li key={i} className="flex items-start gap-3 rounded-2xl border border-gold/15 bg-navy-2/50 p-4">
+                    <li key={i} className="flex items-start gap-3 rounded-2xl border border-border bg-navy-2/50 p-4">
                       <BadgeCheck className="mt-0.5 h-5 w-5 shrink-0 text-gold" aria-hidden />
                       <div>
                         <span className="block text-sm font-bold text-foreground">{it.title}</span>
@@ -68,7 +68,7 @@ export function About() {
           {/* Founder + license column */}
           <div className="lg:col-span-2">
             <div className="sticky top-28 space-y-5">
-              <figure className="relative overflow-hidden rounded-3xl border border-gold/30 bg-gradient-to-b from-gold/12 via-card to-card p-6 sm:p-7">
+              <figure className="relative overflow-hidden rounded-2xl border border-border bg-gradient-to-b from-gold/12 via-card to-card p-6 sm:p-7">
                 <Quote className="absolute end-4 top-4 h-10 w-10 text-gold/20" aria-hidden />
                 <figcaption className="text-sm font-bold tracking-wide text-gold" dir="auto">
                   {a.founder.title}
@@ -76,7 +76,7 @@ export function About() {
                 <blockquote className="mt-4 text-sm leading-loose text-foreground/90">
                   {a.founder.quote}
                 </blockquote>
-                <div className="mt-5 flex items-center gap-4 border-t border-gold/20 pt-4">
+                <div className="mt-5 flex items-center gap-4 border-t border-border pt-4">
                   <img
                     src="/founder-dr-alzuhaili.jpg"
                     alt={a.founder.name}
@@ -95,7 +95,7 @@ export function About() {
                 </div>
               </figure>
 
-              <div className="rounded-3xl border border-gold/25 bg-navy-2/60 p-6 text-center">
+              <div className="rounded-2xl border border-border bg-navy-2/60 p-6 text-center">
                 <ShieldBadge />
                 <p className="mt-3 text-sm font-semibold leading-relaxed text-foreground/85">{a.license}</p>
                 <a

@@ -17,7 +17,7 @@ export function LegalPage({ kind }: { kind: 'privacy' | 'terms' }) {
         {L.updated}: <time dateTime={LEGAL_UPDATED}>{LEGAL_UPDATED}</time>
       </p>
       {fallback && L.legalNote && (
-        <p className="mt-4 rounded-xl border border-gold/25 bg-card/70 px-4 py-3 text-xs text-muted-foreground" lang="en" dir="ltr">
+        <p className="mt-4 rounded-xl border border-border bg-card/70 px-4 py-3 text-xs text-muted-foreground" lang="en" dir="ltr">
           {L.legalNote}
         </p>
       )}

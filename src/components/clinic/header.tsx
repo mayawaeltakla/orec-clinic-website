@@ -89,7 +89,7 @@ export function Header() {
                       : 'invisible translate-y-2 opacity-0'
                   }`}
                 >
-                  <div className="mt-2 grid grid-cols-2 gap-1 rounded-2xl border border-gold/25 bg-popover/95 p-3 shadow-2xl backdrop-blur">
+                  <div className="mt-2 grid grid-cols-2 gap-1 rounded-2xl border border-border bg-popover/95 p-3 shadow-2xl backdrop-blur">
                     {dict.services.categories.map((c) => (
                       <a
                         key={c.id}
@@ -107,7 +107,7 @@ export function Header() {
                         </span>
                       </a>
                     ))}
-                    <div className="col-span-2 mt-1 border-t border-gold/15 pt-2">
+                    <div className="col-span-2 mt-1 border-t border-border pt-2">
                       <a
                         href={lp('/services#dental')}
                         className="block rounded-xl bg-secondary/60 p-3 text-center text-sm font-semibold text-gold-2 transition-colors hover:bg-accent"
@@ -155,7 +155,7 @@ export function Header() {
             onClick={() => setMobileOpen((v) => !v)}
             aria-expanded={mobileOpen}
             aria-label={mobileOpen ? dict.nav.menuClose : dict.nav.menuOpen}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-gold/30 bg-secondary/60 text-foreground transition-colors hover:bg-accent lg:hidden"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border bg-secondary/60 text-foreground transition-colors hover:bg-accent lg:hidden"
           >
             {mobileOpen ? <X className="h-5 w-5" aria-hidden /> : <Menu className="h-5 w-5" aria-hidden />}
           </button>
@@ -164,7 +164,7 @@ export function Header() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="border-t border-gold/15 bg-background/95 shadow-2xl backdrop-blur-xl lg:hidden">
+        <div className="border-t border-border bg-background/95 shadow-2xl backdrop-blur-xl lg:hidden">
           <nav className="mx-auto flex max-w-7xl flex-col gap-1 px-4 py-4 sm:px-6" aria-label="Mobile">
             {mobileLinks.map((l) => (
               <a
@@ -187,7 +187,7 @@ export function Header() {
             </a>
             <a
               href={`tel:${CLINIC.phoneRaw}`}
-              className="mt-1 inline-flex items-center justify-center gap-2 rounded-xl border border-gold/30 px-4 py-3 text-sm font-bold text-foreground transition-colors hover:bg-accent"
+              className="mt-1 inline-flex items-center justify-center gap-2 rounded-xl border border-border px-4 py-3 text-sm font-bold text-foreground transition-colors hover:bg-accent"
               dir="ltr"
             >
               <Phone className="h-4 w-4 text-gold" aria-hidden />
@@ -195,7 +195,7 @@ export function Header() {
             </a>
             <a
               href={`mailto:${CLINIC.email}`}
-              className="mt-1 inline-flex items-center justify-center gap-2 rounded-xl border border-gold/25 px-4 py-3 text-sm font-semibold text-foreground/90 transition-colors hover:bg-accent"
+              className="mt-1 inline-flex items-center justify-center gap-2 rounded-xl border border-border px-4 py-3 text-sm font-semibold text-foreground/90 transition-colors hover:bg-accent"
               dir="ltr"
             >
               <Mail className="h-4 w-4 text-gold" aria-hidden />
