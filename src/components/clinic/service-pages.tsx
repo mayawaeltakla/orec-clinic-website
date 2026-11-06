@@ -254,7 +254,7 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
         key={slug}
         className="lift group relative flex flex-col overflow-hidden rounded-2xl border border-border bg-card/80 p-6"
       >
-        <ServiceCover emoji={def.icon} label={def.en} />
+        <ServiceCover emoji={def.icon} label={def.en} image={def.image} />
         <div
           aria-hidden
           className="absolute -top-16 end-[-15%] h-36 w-36 rounded-full bg-gold/10 blur-3xl"
@@ -288,7 +288,7 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
   return (
     <div>
       <Hero
-        image={dept.image}
+        image={def.image ?? dept.image}
         eyebrow={`${dept.num} · ${dept.code}`}
         title={content.title}
         en={dept.en}
@@ -410,7 +410,7 @@ export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; se
   return (
     <div>
       <Hero
-        image={dept.image}
+        image={def.image ?? dept.image}
         eyebrow={`${dept.num} · ${dept.code}`}
         title={content.title}
         en={def.en}

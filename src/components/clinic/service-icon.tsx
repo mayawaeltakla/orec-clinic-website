@@ -36,7 +36,14 @@ export function ServiceIcon({
 }
 
 /** Branded cover for a service card: a calm panel with one line icon instead of a stock photo */
-export function ServiceCover({ emoji, label }: { emoji: string; label: string }) {
+export function ServiceCover({ emoji, label, image }: { emoji: string; label: string; image?: string }) {
+  if (image) {
+    return (
+      <div aria-hidden className="-mx-6 -mt-6 mb-6 aspect-video w-[calc(100%+3rem)] overflow-hidden border-b border-border">
+        <img src={image} alt="" width={1000} height={563} loading="lazy" className="h-full w-full object-cover" />
+      </div>
+    )
+  }
   return (
     <div
       aria-hidden
