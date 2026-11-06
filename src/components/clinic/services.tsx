@@ -18,7 +18,7 @@ export function Services() {
   const Chevron = dir === 'rtl' ? ChevronLeft : ChevronRight
 
   return (
-    <section id="services" className="relative py-20 sm:py-24">
+    <section id="services" className="relative py-24 sm:py-28 lg:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="mx-auto max-w-3xl text-center">
@@ -35,7 +35,7 @@ export function Services() {
         </div>
 
         {/* Category cards */}
-        <div className="mt-12 grid gap-6 md:grid-cols-2">
+        <div className="mt-14 grid gap-8 md:grid-cols-2">
           {dict.services.categories.map((cat) => {
             const img = SERVICE_IMAGES[cat.id]
             return (

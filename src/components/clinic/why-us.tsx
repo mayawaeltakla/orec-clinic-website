@@ -10,7 +10,7 @@ export function WhyUs() {
   const { dict } = useLanguage()
 
   return (
-    <section id="why" className="relative py-20 sm:py-24">
+    <section id="why" className="relative py-24 sm:py-28 lg:py-32">
       <div className="gold-line absolute inset-x-0 top-0" aria-hidden />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
@@ -26,7 +26,7 @@ export function WhyUs() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-14 grid gap-6 rounded-3xl bg-accent/60 p-6 sm:grid-cols-2 sm:p-8 lg:grid-cols-4 lg:gap-8 lg:p-10">
           {dict.why.items.map((item, i) => {
             const Icon = ICONS[i % ICONS.length]
             return (

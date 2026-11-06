@@ -15,7 +15,7 @@ export function DentalDetails() {
   const Arrow = dir === 'rtl' ? ArrowLeft : ArrowRight
 
   return (
-    <section id="dental" className="relative py-20 sm:py-24">
+    <section id="dental" className="relative py-24 sm:py-28 lg:py-32">
       <div className="gold-line absolute inset-x-0 top-0" aria-hidden />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}

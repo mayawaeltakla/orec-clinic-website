@@ -20,7 +20,7 @@ export function Trust() {
   ]
 
   return (
-    <section id="trust" className="relative py-20 sm:py-24">
+    <section id="trust" className="relative py-24 sm:py-28 lg:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs font-bold tracking-[0.3em] text-gold" dir="ltr">{T.eyebrow}</p>

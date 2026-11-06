@@ -1,8 +1,8 @@
 import { chromium } from 'playwright'
 const base = 'http://localhost:3000'
 const jobs = [
-  ['home-ar-light', '/ar', 'light', 1366, 900],
-  ['home-ar-dark', '/ar', 'dark', 1366, 900],
+  ['home-ar-light', '/ar', 'light', 1280, 800],
+  ['home-ar-dark', '/ar', 'dark', 1280, 800],
   ['home-en-light', '/en', 'light', 1366, 900],
   ['home-ar-mobile', '/ar', 'light', 390, 844],
   ['dental-ar', '/ar/services/dental', 'light', 1366, 900],
@@ -21,7 +21,8 @@ for (const [name, path, theme, w, h] of jobs) {
   await p.waitForTimeout(800)
   const overflow = await p.evaluate(() => document.documentElement.scrollWidth > window.innerWidth + 1)
   console.log(name, 'overflowX:', overflow, 'errors:', errs.length)
-  await p.screenshot({ path: `shots/${name}.jpg`, type: 'jpeg', quality: 72, fullPage: true })
+  const buf = await p.screenshot({ type: 'jpeg', quality: 42, fullPage: true })
+  console.log('SHOT ' + name + ' ' + buf.toString('base64'))
   await ctx.close()
 }
 await b.close()

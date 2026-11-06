@@ -11,7 +11,7 @@ export function Experiences() {
   const { lang } = useLanguage()
   const L = SECTION_LABELS[lang.code]
   return (
-    <section className="relative py-16 sm:py-20">
+    <section className="relative py-20 sm:py-24">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="text-3xl font-extrabold sm:text-4xl">
@@ -22,7 +22,7 @@ export function Experiences() {
         </div>
 
         {REVIEWS.length > 0 ? (
-          <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-2">
+          <div className="mt-14 grid grid-cols-1 gap-7 md:grid-cols-2">
             {REVIEWS.map((r) => (
               <figure key={r.id} className="lift rounded-2xl border border-border bg-card p-6 sm:p-7">
                 <MessageSquareQuote className="h-7 w-7 text-gold/60" aria-hidden />
