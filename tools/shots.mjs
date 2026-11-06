@@ -22,7 +22,8 @@ for (const [name, path, theme, w, h] of jobs) {
   const overflow = await p.evaluate(() => document.documentElement.scrollWidth > window.innerWidth + 1)
   console.log(name, 'overflowX:', overflow, 'errors:', errs.length)
   const buf = await p.screenshot({ type: 'jpeg', quality: 42, fullPage: true })
-  console.log('SHOT ' + name + ' ' + buf.toString('base64'))
+  const b64 = buf.toString('base64')
+  for (let i = 0, k = 0; i < b64.length; i += 3000, k++) console.log('SHOT ' + name + ' ' + k + ' ' + b64.slice(i, i + 3000))
   await ctx.close()
 }
 await b.close()
