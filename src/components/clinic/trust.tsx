@@ -32,7 +32,7 @@ export function Trust() {
         </div>
 
         {/* Facts strip */}
-        <dl className="mx-auto mt-10 grid max-w-4xl grid-cols-1 gap-px overflow-hidden rounded-3xl border border-gold/30 bg-gold/20 sm:grid-cols-3">
+        <dl className="mx-auto mt-10 grid max-w-4xl grid-cols-1 gap-px overflow-hidden rounded-2xl border border-border bg-gold/20 sm:grid-cols-3">
           {stats.map((s) => (
             <div key={s.label} className="bg-card px-6 py-7 text-center">
               <dt className="text-3xl font-extrabold text-gold-2" dir="ltr">{s.value}</dt>
@@ -43,7 +43,7 @@ export function Trust() {
 
         <div className="mt-8 grid grid-cols-1 gap-5 md:grid-cols-3">
           {cards.map(({ icon: Icon, title, text, soon, href, cta }) => (
-            <article key={title} className="lift relative flex flex-col rounded-3xl border border-gold/25 bg-card p-6 sm:p-7">
+            <article key={title} className="lift relative flex flex-col rounded-2xl border border-border bg-card p-6 sm:p-7">
               {soon && (
                 <span className="absolute end-5 top-5 rounded-full border border-gold/40 px-3 py-0.5 text-[11px] font-bold text-gold">
                   {T.soon}

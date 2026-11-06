@@ -34,7 +34,7 @@ export function DentalDetails() {
 
         {/* Tabs */}
         <Tabs value={tab} onValueChange={setTab} className="mt-12">
-          <TabsList className="mx-auto flex h-auto w-full max-w-3xl flex-wrap justify-center gap-2 rounded-2xl border border-gold/20 bg-card/70 p-2">
+          <TabsList className="mx-auto flex h-auto w-full max-w-3xl flex-wrap justify-center gap-2 rounded-2xl border border-border bg-card/70 p-2">
             {dict.dental.sections.map((s, i) => (
               <TabsTrigger
                 key={i}
@@ -49,9 +49,9 @@ export function DentalDetails() {
 
           {dict.dental.sections.map((s, i) => (
             <TabsContent key={i} value={String(i)} className="mt-8">
-              <article className="overflow-hidden rounded-3xl border border-gold/20 bg-card/80">
+              <article className="overflow-hidden rounded-2xl border border-border bg-card/80">
                 {/* Header band */}
-                <div className="relative border-b border-gold/15 bg-navy-2/70 p-6 sm:p-8">
+                <div className="relative border-b border-border bg-navy-2/70 p-6 sm:p-8">
                   <div
                     aria-hidden
                     className="absolute -top-16 end-[10%] h-40 w-40 rounded-full bg-gold/10 blur-3xl"
@@ -78,7 +78,7 @@ export function DentalDetails() {
                     {s.blocks.map((b, bi) => (
                       <div
                         key={bi}
-                        className="lift rounded-2xl border border-gold/15 bg-navy-2/50 p-5"
+                        className="lift rounded-2xl border border-border bg-navy-2/50 p-5"
                       >
                         <h4 className="flex items-start gap-2 text-sm font-bold text-gold-2 sm:text-base">
                           <ClipboardList className="mt-0.5 h-4 w-4 shrink-0 text-gold" aria-hidden />
@@ -91,7 +91,7 @@ export function DentalDetails() {
 
                   {/* Candidates + tips */}
                   <div className="mt-8 grid gap-4 md:grid-cols-2">
-                    <div className="rounded-2xl border border-gold/25 bg-gold/5 p-5">
+                    <div className="rounded-2xl border border-border bg-gold/5 p-5">
                       <h4 className="flex items-center gap-2 text-sm font-bold text-gold-2 sm:text-base">
                         <UserCheck className="h-4 w-4 text-gold" aria-hidden />
                         {s.candidatesTitle}
@@ -107,7 +107,7 @@ export function DentalDetails() {
                     </div>
 
                     {s.tipsTitle && s.tips && (
-                      <div className="rounded-2xl border border-gold/25 bg-gold/5 p-5">
+                      <div className="rounded-2xl border border-border bg-gold/5 p-5">
                         <h4 className="flex items-center gap-2 text-sm font-bold text-gold-2 sm:text-base">
                           <Lightbulb className="h-4 w-4 text-gold" aria-hidden />
                           {s.tipsTitle}
@@ -125,7 +125,7 @@ export function DentalDetails() {
                   </div>
 
                   {/* CTA */}
-                  <div className="mt-8 flex flex-col items-center justify-between gap-4 rounded-2xl border border-gold/30 bg-gradient-to-r from-gold/15 via-gold/5 to-transparent p-5 sm:flex-row">
+                  <div className="mt-8 flex flex-col items-center justify-between gap-4 rounded-2xl border border-border bg-gradient-to-r from-gold/15 via-gold/5 to-transparent p-5 sm:flex-row">
                     <p className="text-sm font-semibold text-foreground/90">{s.tagline}</p>
                     <a
                       href={lp('/contact')}

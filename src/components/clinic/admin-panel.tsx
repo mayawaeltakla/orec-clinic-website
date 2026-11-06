@@ -34,7 +34,7 @@ async function prepareImage(file: File): Promise<{ mime: string; data: string }>
 }
 
 const input =
-  'w-full rounded-xl border border-gold/25 bg-background/60 px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30'
+  'w-full rounded-xl border border-border bg-background/60 px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30'
 
 export function AdminPanel({ enabled, dbOk, translateOk, authed: initialAuthed }: { enabled: boolean; dbOk: boolean; translateOk: boolean; authed: boolean }) {
   const [authed, setAuthed] = useState(initialAuthed)
@@ -172,7 +172,7 @@ export function AdminPanel({ enabled, dbOk, translateOk, authed: initialAuthed }
   if (!authed)
     return (
       <div className={wrap} dir="rtl" lang="ar">
-        <form onSubmit={login} className="mx-auto max-w-sm rounded-3xl border border-gold/30 bg-card p-8">
+        <form onSubmit={login} className="mx-auto max-w-sm rounded-2xl border border-border bg-card p-8">
           <h1 className="text-xl font-extrabold text-gold-2">لوحة التحكم</h1>
           <label htmlFor="ad-pw" className="mt-5 block text-sm font-semibold">كلمة المرور</label>
           <input id="ad-pw" type="password" value={password} onChange={(e) => setPassword(e.target.value)} className={`${input} mt-1.5`} autoComplete="current-password" required />
@@ -206,7 +206,7 @@ export function AdminPanel({ enabled, dbOk, translateOk, authed: initialAuthed }
       )}
 
       {draft ? (
-        <form onSubmit={save} className="mt-6 space-y-4 rounded-3xl border border-gold/30 bg-card p-6">
+        <form onSubmit={save} className="mt-6 space-y-4 rounded-2xl border border-border bg-card p-6">
           <h2 className="text-lg font-extrabold text-gold-2">{draft.id ? 'تعديل مقال' : 'مقال جديد'}</h2>
           <div>
             <label className="mb-1 block text-sm font-semibold" htmlFor="f-title">العنوان *</label>
@@ -254,7 +254,7 @@ export function AdminPanel({ enabled, dbOk, translateOk, authed: initialAuthed }
           </label>
           <div className="flex gap-3">
             <button disabled={busy} className="btn-gold h-11 rounded-full px-7 text-sm font-bold disabled:opacity-60">حفظ</button>
-            <button type="button" onClick={() => setDraft(null)} className="h-11 rounded-full border border-gold/30 px-6 text-sm font-bold">إلغاء</button>
+            <button type="button" onClick={() => setDraft(null)} className="h-11 rounded-full border border-border px-6 text-sm font-bold">إلغاء</button>
           </div>
         </form>
       ) : (
@@ -264,7 +264,7 @@ export function AdminPanel({ enabled, dbOk, translateOk, authed: initialAuthed }
           </button>
           <ul className="mt-6 space-y-3">
             {posts.map((p) => (
-              <li key={p.id} className="flex items-center justify-between gap-3 rounded-2xl border border-gold/25 bg-card p-4">
+              <li key={p.id} className="flex items-center justify-between gap-3 rounded-2xl border border-border bg-card p-4">
                 <div className="min-w-0">
                   <p className="truncate font-bold text-foreground">{p.title}</p>
                   <p className="mt-0.5 text-xs text-muted-foreground">

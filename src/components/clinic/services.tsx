@@ -51,7 +51,7 @@ export function Services() {
 
               {/* Service photo header — full 16:9 photo, logo never cropped */}
               {img && (
-                <div className="relative aspect-video overflow-hidden border-b border-gold/15">
+                <div className="relative aspect-video overflow-hidden border-b border-border">
                   <img
                     src={img.src}
                     alt={`${cat.title} — Orec Clinic`}
@@ -99,7 +99,7 @@ export function Services() {
                 {cat.groups && (
                   <div className="mt-5 space-y-4">
                     {cat.groups.map((g) => (
-                      <div key={g.name} className="rounded-2xl border border-gold/15 bg-navy-2/60 p-4">
+                      <div key={g.name} className="rounded-2xl border border-border bg-navy-2/60 p-4">
                         <h4 className="text-sm font-bold text-gold-2">{g.name}</h4>
                         <ul className="mt-2 grid gap-x-4 gap-y-1.5 text-xs text-foreground/75 sm:grid-cols-2">
                           {g.items.map((it) => (

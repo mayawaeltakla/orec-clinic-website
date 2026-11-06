@@ -39,8 +39,8 @@ export function generateStaticParams() {
   return LANGUAGES.map((l) => ({ lang: localeSlug(l.code) }))
 }
 
-// Applies the saved day/night theme before first paint (dark navy is the default)
-const themeInitScript = `try{if(localStorage.getItem('orec-theme')==='light')document.documentElement.classList.add('light')}catch(e){}`
+// Applies the saved day/night theme before first paint (light is the default; night when saved)
+const themeInitScript = `try{if(localStorage.getItem('orec-theme')!=='dark')document.documentElement.classList.add('light')}catch(e){document.documentElement.classList.add('light')}`
 
 export default async function LangLayout({
   children,

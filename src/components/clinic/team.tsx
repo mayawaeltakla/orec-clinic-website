@@ -21,7 +21,7 @@ export function Team() {
 
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {DOCTORS.map((d) => (
-            <article key={d.id} className="overflow-hidden rounded-3xl border border-gold/25 bg-card/80">
+            <article key={d.id} className="overflow-hidden rounded-2xl border border-border bg-card/80">
               <img src={d.photo} alt={pick(d.name)} loading="lazy" width={600} height={720} className="aspect-[5/6] w-full object-cover object-top" />
               <div className="p-5">
                 <h2 className="text-lg font-extrabold text-gold-2">{pick(d.name)}</h2>

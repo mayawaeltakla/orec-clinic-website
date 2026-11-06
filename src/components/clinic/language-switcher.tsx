@@ -37,7 +37,7 @@ export function LanguageSwitcher({ compact = false }: { compact?: boolean }) {
     <DropdownMenu dir={dir}>
       <DropdownMenuTrigger
         aria-label={`${lang.dict.nav.menuOpen} — ${lang.label}`}
-        className="inline-flex h-10 items-center gap-2 rounded-full border border-gold/30 bg-secondary/60 px-3 text-sm font-medium text-foreground/90 transition-colors hover:border-gold/60 hover:bg-accent"
+        className="inline-flex h-10 items-center gap-2 rounded-full border border-border bg-secondary/60 px-3 text-sm font-medium text-foreground/90 transition-colors hover:border-gold/60 hover:bg-accent"
       >
         <Globe className="h-4 w-4 text-gold" aria-hidden />
         <span aria-hidden>{lang.flag}</span>
@@ -48,7 +48,7 @@ export function LanguageSwitcher({ compact = false }: { compact?: boolean }) {
         align="end"
         sideOffset={8}
         collisionPadding={12}
-        className="max-h-96 w-56 overflow-y-auto border-gold/25 bg-popover/95 backdrop-blur"
+        className="max-h-96 w-56 overflow-y-auto border-border bg-popover/95 backdrop-blur"
       >
         {LANGUAGES.map((l) => (
           <DropdownMenuItem

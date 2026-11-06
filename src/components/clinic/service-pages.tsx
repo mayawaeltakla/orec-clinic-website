@@ -53,7 +53,7 @@ function PageSkeleton() {
       </div>
       <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {[0, 1, 2, 3, 4, 5].map((i) => (
-          <div key={i} className="h-48 animate-pulse rounded-3xl border border-gold/10 bg-card/50" />
+          <div key={i} className="h-48 animate-pulse rounded-2xl border border-border bg-card/50" />
         ))}
       </div>
     </div>
@@ -89,7 +89,7 @@ function CtaBand({ ui, service }: { ui: ServicesUI; service?: string }) {
   const { dir, lp, lang } = useLanguage()
   const Arrow = dir === 'rtl' ? ArrowLeft : ArrowRight
   return (
-    <div className="mt-14 flex flex-col items-center justify-between gap-5 rounded-3xl border border-gold/30 bg-gradient-to-r from-gold/15 via-gold/5 to-transparent p-6 text-center sm:flex-row sm:p-8 sm:text-start">
+    <div className="mt-14 flex flex-col items-center justify-between gap-5 rounded-2xl border border-border bg-gradient-to-r from-gold/15 via-gold/5 to-transparent p-6 text-center sm:flex-row sm:p-8 sm:text-start">
       <div className="flex items-center gap-4">
         <span className="hidden h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-gold/40 bg-navy text-gold sm:flex" aria-hidden>
           <HeartHandshake className="h-7 w-7" />
@@ -114,7 +114,7 @@ function NotFoundView({ ui, backHref, backLabel }: { ui: ServicesUI; backHref: s
   const { lp } = useLanguage()
   return (
     <div className="mx-auto max-w-2xl px-4 py-24 text-center sm:px-6">
-      <span className="mx-auto flex h-16 w-16 items-center justify-center rounded-3xl border border-gold/30 bg-navy-2 text-gold" aria-hidden>
+      <span className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl border border-border bg-navy-2 text-gold" aria-hidden>
         <SearchX className="h-8 w-8" />
       </span>
       <h1 className="mt-6 text-2xl font-extrabold text-gold-2 sm:text-3xl">{ui.notFoundTitle}</h1>
@@ -145,7 +145,7 @@ function Hero({
   ui: ServicesUI
 }) {
   return (
-    <section className="relative overflow-hidden border-b border-gold/15 bg-gradient-to-b from-secondary to-background">
+    <section className="relative overflow-hidden border-b border-border bg-gradient-to-b from-secondary to-background">
       <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(212,175,55,0.14),transparent_55%)]" />
       <div className="relative mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-16 lg:px-8">
         <Breadcrumb items={breadcrumb} ui={ui} />
@@ -165,7 +165,7 @@ function Hero({
             </p>
           </div>
           {/* Full, clear photo — no overlay, no blur, never cropped (16:9 source) */}
-          <div className="overflow-hidden rounded-3xl border border-gold/25 shadow-xl">
+          <div className="overflow-hidden rounded-2xl border border-border shadow-xl">
             <img src={image} alt={`${title} — Orec Clinic`} className="aspect-video h-auto w-full object-contain bg-navy-2" loading="eager" />
           </div>
         </div>
@@ -177,10 +177,10 @@ function Hero({
 /** One medical section: icon + heading + paragraphs / titled blocks / bullet list */
 function SectionBlock({ section }: { section: ServiceSection }) {
   return (
-    <section className="rounded-3xl border border-gold/15 bg-card/60 p-6 sm:p-8">
+    <section className="rounded-2xl border border-border bg-card/60 p-6 sm:p-8">
       <div className="flex items-center gap-3">
         <span
-          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-gold/30 bg-navy-2 text-lg"
+          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-border bg-navy-2 text-lg"
           aria-hidden
         >
           <ServiceIcon emoji={section.icon} className="h-5 w-5 text-gold-2" />
@@ -197,7 +197,7 @@ function SectionBlock({ section }: { section: ServiceSection }) {
       {section.blocks && (
         <div className="mt-6 grid gap-4 md:grid-cols-2">
           {section.blocks.map((b, bi) => (
-            <div key={bi} className="lift rounded-2xl border border-gold/15 bg-navy-2/50 p-5">
+            <div key={bi} className="lift rounded-2xl border border-border bg-navy-2/50 p-5">
               <h3 className="flex items-start gap-2 text-sm font-bold text-gold-2 sm:text-base">
                 <ClipboardList className="mt-0.5 h-4 w-4 shrink-0 text-gold" aria-hidden />
                 {b.title}
@@ -252,7 +252,7 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
     return (
       <article
         key={slug}
-        className="lift group relative flex flex-col overflow-hidden rounded-3xl border border-gold/20 bg-card/80 p-6"
+        className="lift group relative flex flex-col overflow-hidden rounded-2xl border border-border bg-card/80 p-6"
       >
         <ServiceCover emoji={def.icon} label={def.en} />
         <div
@@ -261,7 +261,7 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
         />
         <div className="relative flex items-start justify-between gap-3">
           <span
-            className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-gold/30 bg-navy-2 text-xl"
+            className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-border bg-navy-2 text-xl"
             aria-hidden
           >
             <ServiceIcon emoji={def.icon} className="h-5 w-5 text-gold-2" />
@@ -333,9 +333,9 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
                 const items = dept.services.filter((s) => s.group === g.slug).map((s) => s.slug)
                 return (
                   <div key={g.slug}>
-                    <div className="flex flex-wrap items-center justify-between gap-4 rounded-3xl border border-gold/20 bg-navy-2/60 p-5 sm:p-6">
+                    <div className="flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-border bg-navy-2/60 p-5 sm:p-6">
                       <div className="flex items-center gap-4">
-                        <span className="flex h-12 w-12 items-center justify-center rounded-2xl border border-gold/30 bg-navy text-xl" aria-hidden>
+                        <span className="flex h-12 w-12 items-center justify-center rounded-2xl border border-border bg-navy text-xl" aria-hidden>
                           <ServiceIcon emoji={g.icon} className="h-5 w-5 text-gold-2" />
                         </span>
                         <div>
@@ -442,7 +442,7 @@ export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; se
 
       {/* Related services in the same department */}
       {dept.services.length > 1 && (
-        <section className="relative border-t border-gold/15 py-14 sm:py-16">
+        <section className="relative border-t border-border py-14 sm:py-16">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <h2 className="flex items-center gap-2 text-xl font-extrabold text-gold-2 sm:text-2xl">
@@ -466,9 +466,9 @@ export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; se
                     <a
                       key={s.slug}
                       href={lp(`/services/${dept.slug}/${s.slug}`)}
-                      className="lift group flex items-center gap-4 rounded-2xl border border-gold/15 bg-card/70 p-4 transition-colors hover:border-gold/40"
+                      className="lift group flex items-center gap-4 rounded-2xl border border-border bg-card/70 p-4 transition-colors hover:border-gold/40"
                     >
-                      <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gold/25 bg-navy-2 text-lg" aria-hidden>
+                      <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-border bg-navy-2 text-lg" aria-hidden>
                         <ServiceIcon emoji={s.icon} className="h-5 w-5 text-gold-2" />
                       </span>
                       <span className="min-w-0">

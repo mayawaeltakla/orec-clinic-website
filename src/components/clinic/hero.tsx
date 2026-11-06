@@ -63,16 +63,15 @@ export function Hero() {
   const NextIcon = dir === 'rtl' ? ChevronLeft : ChevronRight
 
   return (
-    <section id="top" className="relative flex min-h-[100svh] items-center overflow-hidden pt-24 pb-16">
-      {/* Ambient ornaments */}
-      <div aria-hidden className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-32 end-[-10%] h-[420px] w-[420px] rounded-full bg-gold/10 blur-[120px]" />
-        <div className="absolute bottom-[-20%] start-[-8%] h-[380px] w-[380px] rounded-full bg-[#265c85]/15 blur-[110px]" />
-        <div className="floaty absolute top-[12%] start-[42%] hidden h-24 w-24 rounded-full border border-gold/25 lg:block" />
-        <div className="floaty absolute bottom-[18%] start-[4%] hidden h-16 w-16 rounded-full border border-gold/20 lg:block" style={{ animationDelay: '2s' }} />
-      </div>
+    <section id="top" className="relative overflow-hidden">
+      {/* Soft clinical wash */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0"
+        style={{ background: 'radial-gradient(900px 420px at 85% 0%, color-mix(in srgb, var(--gold) 10%, transparent), transparent 65%), linear-gradient(180deg, var(--background), var(--muted))' }}
+      />
 
-      <div className="relative mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="relative mx-auto w-full max-w-7xl px-4 pb-16 pt-28 sm:px-6 lg:px-8 lg:pb-20 lg:pt-36">
         <div className="grid items-center gap-12 lg:grid-cols-[0.95fr_1.05fr] lg:gap-14">
           {/* Copy column */}
           <div className="text-center lg:text-start">
@@ -104,7 +103,7 @@ export function Hero() {
               ].map(({ icon: Icon, text }, i) => (
                 <span
                   key={i}
-                  className="inline-flex items-center gap-2 rounded-full border border-gold/25 bg-card/70 px-4 py-2 text-xs font-medium text-foreground/90 sm:text-sm"
+                  className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-xs font-medium text-foreground/90 shadow-sm sm:text-sm"
                 >
                   <Icon className="h-4 w-4 shrink-0 text-gold" aria-hidden />
                   {text}
@@ -124,14 +123,14 @@ export function Hero() {
                 href={whatsappLink(dict.whatsapp.prefill)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex h-12 items-center gap-2 rounded-full bg-wa px-7 text-sm font-bold text-white shadow-[0_12px_30px_-12px_rgba(37,211,102,0.65)] transition-all hover:-translate-y-0.5 hover:brightness-110 sm:text-base"
+                className="inline-flex h-12 items-center gap-2 rounded-full bg-wa px-7 text-sm font-bold text-white shadow-[0_10px_24px_-12px_rgba(37,211,102,0.6)] transition-all hover:brightness-110 sm:text-base"
               >
                 <WhatsAppGlyph className="h-5 w-5" aria-hidden />
                 {dict.contact.whatsappCta}
               </a>
               <a
                 href={lp('/services')}
-                className="inline-flex h-12 items-center gap-2 rounded-full border border-gold/40 bg-transparent px-8 text-sm font-semibold text-gold-2 transition-all hover:-translate-y-0.5 hover:border-gold hover:bg-gold/10 sm:text-base"
+                className="inline-flex h-12 items-center gap-2 rounded-full border border-foreground/25 bg-transparent px-8 text-sm font-semibold text-gold-2 transition-all hover:border-gold hover:bg-gold/10 sm:text-base"
               >
                 {dict.hero.ctaSecondary}
                 <Arrow className="h-4 w-4" aria-hidden />
@@ -139,7 +138,7 @@ export function Hero() {
               {/* Live direct contacts — one tap to call or email */}
               <a
                 href={`tel:${CLINIC.phoneRaw}`}
-                className="inline-flex h-12 items-center gap-2 rounded-full border border-gold/30 px-6 text-sm font-semibold text-foreground/90 transition-all hover:-translate-y-0.5 hover:border-gold hover:text-gold-2 sm:text-base"
+                className="inline-flex h-12 items-center gap-2 rounded-full border border-border bg-card px-6 text-sm font-semibold text-foreground/90 transition-all hover:border-gold hover:text-gold-2 sm:text-base"
               >
                 <Phone className="h-4 w-4 text-gold" aria-hidden />
                 <span dir="ltr">+90 555 262 22 25</span>
@@ -149,8 +148,6 @@ export function Hero() {
 
           {/* Photo slideshow column — clinic photos, auto every 5s */}
           <div className="rise rise-2 relative mx-auto w-full max-w-2xl lg:max-w-none">
-            <div aria-hidden className="absolute -top-10 end-[-8%] h-56 w-56 rounded-full bg-gold/15 blur-[90px]" />
-
             <div
               onMouseEnter={() => setPaused(true)}
               onMouseLeave={() => setPaused(false)}
@@ -158,7 +155,7 @@ export function Hero() {
               onBlur={() => setPaused(false)}
             >
               <figure
-                className="relative aspect-[3/2] w-full overflow-hidden rounded-[2rem] border border-gold/30 bg-navy shadow-[0_30px_80px_-30px_rgba(0,0,0,0.8)]"
+                className="relative aspect-[3/2] w-full overflow-hidden rounded-3xl border border-border bg-navy p-0 shadow-[0_30px_70px_-34px_rgba(10,46,77,0.55)] ring-1 ring-black/5"
                 role="group"
                 aria-roledescription="carousel"
               >
@@ -190,12 +187,12 @@ export function Hero() {
               {/* Slider controls + location badge — BELOW the photos, never covering them.
                   flex-wrap: the badge wraps to its own line on narrow screens. */}
               <div className="mt-5 flex flex-wrap items-center justify-center gap-3">
-                <div className="flex items-center gap-2 rounded-full border border-gold/25 bg-navy/70 px-2.5 py-1.5 shadow-xl backdrop-blur-md">
+                <div className="flex items-center gap-2 rounded-full border border-border bg-card px-2.5 py-1.5 shadow-sm">
                   <button
                     type="button"
                     onClick={() => go(-1)}
                     aria-label={dict.hero.prevSlide}
-                    className="flex h-7 w-7 items-center justify-center rounded-full text-foreground/80 transition-colors hover:bg-gold hover:text-navy"
+                    className="flex h-7 w-7 items-center justify-center rounded-full text-foreground/80 transition-colors hover:bg-primary hover:text-primary-foreground"
                   >
                     <PrevIcon className="h-4 w-4" aria-hidden />
                   </button>
@@ -210,7 +207,7 @@ export function Hero() {
                         aria-label={alt}
                         onClick={() => setSlide(i)}
                         className={`h-2 rounded-full transition-all duration-300 ${
-                          i === slide ? 'w-6 bg-gold' : 'w-2 bg-white/40 hover:bg-white/70'
+                          i === slide ? 'w-6 bg-gold' : 'w-2 bg-foreground/25 hover:bg-foreground/45'
                         }`}
                       />
                     ))}
@@ -220,15 +217,15 @@ export function Hero() {
                     type="button"
                     onClick={() => go(1)}
                     aria-label={dict.hero.nextSlide}
-                    className="flex h-7 w-7 items-center justify-center rounded-full text-foreground/80 transition-colors hover:bg-gold hover:text-navy"
+                    className="flex h-7 w-7 items-center justify-center rounded-full text-foreground/80 transition-colors hover:bg-primary hover:text-primary-foreground"
                   >
                     <NextIcon className="h-4 w-4" aria-hidden />
                   </button>
                 </div>
 
                 {/* Location badge — now static below the photos (was floating on top of them) */}
-                <div className="flex items-center gap-3 rounded-2xl border border-gold/35 bg-card/90 px-4 py-2.5 shadow-xl backdrop-blur">
-                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gold/30 bg-gold/15 text-gold">
+                <div className="flex items-center gap-3 rounded-2xl border border-border bg-card px-4 py-2.5 shadow-sm">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-border bg-gold/15 text-gold">
                     <MapPin className="h-5 w-5" aria-hidden />
                   </span>
                   <span className="flex flex-col leading-tight">
@@ -243,30 +240,23 @@ export function Hero() {
               </div>
             </div>
 
-            {/* Floating ring ornament */}
-            <div
-              aria-hidden
-              className="floaty absolute -top-7 -start-7 hidden h-20 w-20 rounded-full border border-gold/30 lg:block"
-              style={{ animationDelay: '1.2s' }}
-            />
           </div>
         </div>
+      </div>
 
-        {/* Stats */}
-        <div className="rise rise-4 mx-auto mt-14 grid max-w-3xl grid-cols-3 divide-x divide-gold/15 rounded-2xl border border-gold/20 bg-card/60 backdrop-blur rtl:divide-x-reverse">
+      {/* Stats — full-width deep navy band */}
+      <div className="vars-navy header-navy relative border-y-0" style={{ background: 'linear-gradient(180deg, #0c3556, #0a2e4d)' }}>
+        <div className="mx-auto grid max-w-5xl grid-cols-3 divide-x divide-white/15 px-4 rtl:divide-x-reverse sm:px-6">
           {dict.hero.stats.map((s, i) => (
-            <div key={i} className="px-2 py-5 text-center sm:px-4">
-              <div className="text-xl font-extrabold text-gold-grad sm:text-2xl lg:text-3xl" dir="ltr">
+            <div key={i} className="px-2 py-6 text-center sm:px-4 sm:py-7">
+              <div className="text-xl font-extrabold text-white sm:text-2xl lg:text-3xl" dir="ltr">
                 {s.value}
               </div>
-              <div className="mt-1 text-[10px] font-medium text-muted-foreground sm:text-xs">{s.label}</div>
+              <div className="mt-1 text-[10px] font-medium text-white/75 sm:text-xs">{s.label}</div>
             </div>
           ))}
         </div>
       </div>
-
-      {/* Bottom hairline */}
-      <div className="gold-line absolute inset-x-0 bottom-0" aria-hidden />
     </section>
   )
 }

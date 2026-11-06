@@ -127,7 +127,7 @@ export function Contact() {
         </div>
 
         {/* Quote */}
-        <div className="relative mx-auto mt-8 max-w-4xl rounded-3xl border border-gold/25 bg-card/70 p-6 sm:p-8">
+        <div className="relative mx-auto mt-8 max-w-4xl rounded-2xl border border-border bg-card/70 p-6 sm:p-8">
           <Quote className="absolute start-5 top-5 h-8 w-8 text-gold/25" aria-hidden />
           <p className="text-center text-sm leading-loose text-foreground/90 sm:text-base">
             {c.quote}
@@ -148,9 +148,9 @@ export function Contact() {
                 href={href}
                 target={href.startsWith('http') ? '_blank' : undefined}
                 rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                className="lift flex items-center gap-4 rounded-2xl border border-gold/20 bg-card/80 p-4"
+                className="lift flex items-center gap-4 rounded-2xl border border-border bg-card/80 p-4"
               >
-                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-gold/30 bg-navy-2 text-gold">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-border bg-navy-2 text-gold">
                   <Icon className="h-5 w-5" aria-hidden />
                 </span>
                 <span className="min-w-0">
@@ -191,7 +191,7 @@ export function Contact() {
             </a>
 
             {/* Social profiles */}
-            <div className="rounded-2xl border border-gold/20 bg-card/80 p-4">
+            <div className="rounded-2xl border border-border bg-card/80 p-4">
               <span className="block text-xs font-medium text-muted-foreground">{dict.footer.follow}</span>
               <div className="mt-3 flex flex-wrap gap-2">
                 {SOCIALS.map(({ href, Icon, label }) => (
@@ -202,7 +202,7 @@ export function Contact() {
                     rel="noopener noreferrer"
                     aria-label={label}
                     title={label}
-                    className="flex h-9 w-9 items-center justify-center rounded-full border border-gold/25 bg-background/60 text-foreground/75 transition-all hover:-translate-y-0.5 hover:border-gold hover:bg-gold hover:text-navy"
+                    className="flex h-9 w-9 items-center justify-center rounded-full border border-border bg-background/60 text-foreground/75 transition-all hover:-translate-y-0.5 hover:border-gold hover:bg-gold hover:text-navy"
                   >
                     <Icon className="h-4 w-4" />
                   </a>
@@ -215,7 +215,7 @@ export function Contact() {
           <div className="lg:col-span-3">
             <form
               onSubmit={handleSubmit}
-              className="rounded-3xl border border-gold/25 bg-card/80 p-6 sm:p-8"
+              className="rounded-2xl border border-border bg-card/80 p-6 sm:p-8"
               noValidate={false}
             >
               <h3 className="text-lg font-extrabold text-gold-2">{c.formTitle}</h3>
@@ -229,7 +229,7 @@ export function Contact() {
                     required
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    className="h-11 w-full rounded-xl border border-gold/25 bg-background/60 px-4 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30"
+                    className="h-11 w-full rounded-xl border border-border bg-background/60 px-4 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30"
                   />
                 </div>
                 <div>
@@ -243,7 +243,7 @@ export function Contact() {
                     dir="ltr"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
-                    className="h-11 w-full rounded-xl border border-gold/25 bg-background/60 px-4 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30"
+                    className="h-11 w-full rounded-xl border border-border bg-background/60 px-4 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30"
                   />
                 </div>
                 <div className="relative sm:col-span-2">
@@ -254,7 +254,7 @@ export function Contact() {
                     id="cf-service"
                     value={service}
                     onChange={(e) => setService(e.target.value)}
-                    className="h-11 w-full cursor-pointer appearance-none rounded-xl border border-gold/25 bg-background/60 px-4 pe-10 text-sm text-foreground focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30"
+                    className="h-11 w-full cursor-pointer appearance-none rounded-xl border border-border bg-background/60 px-4 pe-10 text-sm text-foreground focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30"
                   >
                     <option value="">{c.form.servicePlaceholder}</option>
                     {options.map((o) => (
@@ -275,7 +275,7 @@ export function Contact() {
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     placeholder={c.form.messagePlaceholder}
-                    className="w-full rounded-xl border border-gold/25 bg-background/60 px-4 py-3 text-sm leading-relaxed text-foreground placeholder:text-muted-foreground/60 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30"
+                    className="w-full rounded-xl border border-border bg-background/60 px-4 py-3 text-sm leading-relaxed text-foreground placeholder:text-muted-foreground/60 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30"
                   />
                 </div>
               </div>
