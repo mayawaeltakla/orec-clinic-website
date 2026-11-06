@@ -2,7 +2,7 @@ name: design-check
 on:
   workflow_dispatch:
   push:
-    branches: [design/premium-medical]
+    branches: ['design/**']
 jobs:
   shots:
     runs-on: ubuntu-latest
