@@ -2,13 +2,10 @@
 
 import { useEffect, useState } from 'react'
 import { useLanguage } from './language-context'
-import { CLINIC, whatsappLink } from '@/lib/i18n'
-import { WhatsAppGlyph } from './social-icons'
 import {
   MapPin,
   CalendarCheck,
   ShieldCheck,
-  Phone,
   ChevronLeft,
   ChevronRight,
   ArrowLeft,
@@ -148,34 +145,6 @@ export function Hero() {
                 {dict.hero.ctaSecondary}
                 <Arrow className="h-4 w-4" aria-hidden />
               </a>
-              <a
-                href={whatsappLink(dict.whatsapp.prefill)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex h-12 items-center gap-2 rounded-full bg-wa px-7 text-sm font-bold text-white shadow-[0_10px_24px_-12px_rgba(37,211,102,0.6)] transition-all hover:brightness-110 sm:text-base"
-              >
-                <WhatsAppGlyph className="h-5 w-5" aria-hidden />
-                {dict.contact.whatsappCta}
-              </a>
-              <a
-                href={`tel:${CLINIC.phoneRaw}`}
-                className="inline-flex h-12 items-center gap-2 rounded-full border border-border bg-card/90 px-6 text-sm font-semibold text-foreground/90 transition-all hover:border-gold hover:text-gold-2 sm:text-base"
-              >
-                <Phone className="h-4 w-4 text-gold" aria-hidden />
-                <span dir="ltr">+90 555 262 22 25</span>
-              </a>
-            </div>
-
-            <div className="rise rise-4 mt-8 inline-flex items-center gap-3 rounded-2xl border border-border bg-card/90 px-4 py-2.5 shadow-sm">
-              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gold/30 bg-gold/15 text-gold">
-                <MapPin className="h-5 w-5" aria-hidden />
-              </span>
-              <span className="flex flex-col leading-tight">
-                <span className="text-xs font-bold tracking-[0.18em] text-gold-2" dir="ltr">
-                  {dict.hero.location}
-                </span>
-                <span className="mt-0.5 text-[11px] font-medium text-muted-foreground">{dict.hero.badges[0]}</span>
-              </span>
             </div>
           </div>
         </div>
