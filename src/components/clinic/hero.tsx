@@ -13,6 +13,9 @@ import {
   ChevronRight,
   ArrowLeft,
   ArrowRight,
+  CalendarDays,
+  Globe,
+  Stethoscope,
 } from 'lucide-react'
 
 /** Hero slideshow — real Orec Clinic photos, auto-advancing every 5s */
@@ -214,15 +217,26 @@ export function Hero() {
 
       {/* Stats — full-width deep navy band */}
       <div className="vars-navy relative" style={{ background: 'linear-gradient(180deg, #0c3556, #0a2e4d)' }}>
-        <div className="mx-auto grid max-w-5xl grid-cols-3 divide-x divide-white/15 px-4 rtl:divide-x-reverse sm:px-6">
-          {dict.hero.stats.map((s, i) => (
-            <div key={i} className="px-2 py-7 text-center sm:px-4 sm:py-9">
-              <div className="text-xl font-extrabold text-white sm:text-2xl lg:text-3xl" dir="ltr">
-                {s.value}
+        <div className="mx-auto grid max-w-5xl grid-cols-1 px-4 sm:grid-cols-3 sm:px-6">
+          {dict.hero.stats.map((s, i) => {
+            const StatIcon = [CalendarDays, Globe, Stethoscope][i % 3]
+            return (
+              <div
+                key={i}
+                className={`flex items-center justify-center gap-4 px-4 py-6 sm:py-9 ${i > 0 ? 'border-t border-white/15 sm:border-s sm:border-t-0' : ''}`}
+              >
+                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-white/25 text-white/90" aria-hidden>
+                  <StatIcon className="h-6 w-6" />
+                </span>
+                <div className="text-start">
+                  <div className="text-2xl font-extrabold leading-none text-white sm:text-3xl" dir="ltr">
+                    {s.value}
+                  </div>
+                  <div className="mt-1.5 text-xs font-medium text-white/80 sm:text-sm">{s.label}</div>
+                </div>
               </div>
-              <div className="mt-1.5 text-[10px] font-medium text-white/75 sm:text-xs">{s.label}</div>
-            </div>
-          ))}
+            )
+          })}
         </div>
       </div>
     </section>
