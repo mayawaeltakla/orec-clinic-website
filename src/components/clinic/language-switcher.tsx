@@ -29,12 +29,17 @@ function nameIn(current: string, target: string, fallback: string) {
 }
 
 export function LanguageSwitcher({ compact = false }: { compact?: boolean }) {
-  const { lang, setLang, dir } = useLanguage()
+  const { lang, setLang, prefetchLang, dir } = useLanguage()
 
   return (
     /* dir is required so Radix positions the menu correctly in RTL (otherwise it
        aligns as LTR and part of the menu drifts off-screen toward the edge) */
-    <DropdownMenu dir={dir}>
+    <DropdownMenu
+      dir={dir}
+      onOpenChange={(open) => {
+        if (open) LANGUAGES.forEach((l) => l.code !== lang.code && prefetchLang(l.code))
+      }}
+    >
       <DropdownMenuTrigger
         aria-label={`${lang.dict.nav.menuOpen} — ${lang.label}`}
         className="inline-flex h-10 items-center gap-2 rounded-full border border-border bg-secondary/60 px-3 text-sm font-medium text-foreground/90 transition-colors hover:border-gold/60 hover:bg-accent"

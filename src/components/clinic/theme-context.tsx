@@ -1,6 +1,6 @@
 'use client'
 
-import { createContext, useCallback, useContext, useSyncExternalStore } from 'react'
+import { createContext, useCallback, useContext, useLayoutEffect, useSyncExternalStore } from 'react'
 
 export type Theme = 'dark' | 'light'
 
@@ -56,6 +56,20 @@ const ThemeContext = createContext<ThemeContextValue>({
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const theme = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot)
+
+  /* Language switches are client-side navigations that re-mount this provider.
+     Re-apply the saved theme before paint so it can never flash back to night. */
+  useLayoutEffect(() => {
+    let saved: string | null = null
+    try {
+      saved = window.localStorage.getItem(STORAGE_KEY)
+    } catch {
+      /* ignore */
+    }
+    cached = saved === 'dark' ? 'dark' : 'light'
+    document.documentElement.classList.toggle('light', cached === 'light')
+    listeners.forEach((notify) => notify())
+  }, [])
 
   const toggle = useCallback(() => {
     applyTheme(getSnapshot() === 'light' ? 'dark' : 'light')

@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useLanguage } from './language-context'
 import {
   MapPin,
@@ -47,18 +47,35 @@ export function Hero() {
   const { dict, dir, lp } = useLanguage()
   const Arrow = dir === 'rtl' ? ArrowLeft : ArrowRight
 
-  /* Slideshow state — 5s auto-advance, paused on hover/focus, timer resets on manual nav */
+  /* Slideshow — 5s auto-advance, paused on hover/focus, timer resets on manual nav.
+     The incoming photo fades in (1s) ON TOP of the outgoing one, which stays opaque
+     underneath until the fade ends, so there is never a dip to the page background. */
   const [slide, setSlide] = useState(0)
+  const [prev, setPrev] = useState<number | null>(null)
   const [paused, setPaused] = useState(false)
+  const current = useRef(0)
+
+  const show = (next: number) => {
+    if (next === current.current) return
+    setPrev(current.current)
+    current.current = next
+    setSlide(next)
+  }
+
+  useEffect(() => {
+    if (prev === null) return
+    const t = setTimeout(() => setPrev(null), 1100)
+    return () => clearTimeout(t)
+  }, [prev])
 
   useEffect(() => {
     if (paused) return
     if (typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
-    const t = setInterval(() => setSlide((s) => (s + 1) % SLIDES.length), 5000)
+    const t = setInterval(() => show((current.current + 1) % SLIDES.length), 5000)
     return () => clearInterval(t)
   }, [paused, slide])
 
-  const go = (delta: number) => setSlide((s) => (s + delta + SLIDES.length) % SLIDES.length)
+  const go = (delta: number) => show((current.current + delta + SLIDES.length) % SLIDES.length)
   const PrevIcon = dir === 'rtl' ? ChevronRight : ChevronLeft
   const NextIcon = dir === 'rtl' ? ChevronLeft : ChevronRight
 
@@ -73,12 +90,19 @@ export function Hero() {
         role="group"
         aria-roledescription="carousel"
       >
-        {/* Full-bleed clinic photography, crossfading */}
+        {/* Full-bleed clinic photography, crossfading (own stacking context so the overlays stay on top) */}
+        <div aria-hidden={false} className="absolute inset-0 z-0 isolate">
         {SLIDES.map(({ src, w, h, alt }, i) => (
           <div
             key={src}
             aria-hidden={i !== slide}
-            className={`absolute inset-0 transition-opacity duration-1000 ease-out ${i === slide ? 'opacity-100' : 'opacity-0'}`}
+            className={`absolute inset-0 ${
+              i === slide
+                ? 'z-20 opacity-100 transition-opacity duration-1000 ease-in-out'
+                : i === prev
+                  ? 'z-10 opacity-100'
+                  : 'z-0 opacity-0'
+            }`}
           >
             <img
               src={src}
@@ -92,6 +116,7 @@ export function Hero() {
             />
           </div>
         ))}
+        </div>
         {/* Readability fade from the text side */}
         <div aria-hidden className="hero-fade absolute inset-0" />
         <div aria-hidden className="hero-leaf" />
@@ -149,40 +174,23 @@ export function Hero() {
           </div>
         </div>
 
-        {/* Slider controls — bottom corner of the photo */}
-        <div className="absolute bottom-5 end-4 flex items-center gap-2 rounded-full border border-border bg-card/95 px-2.5 py-1.5 shadow-sm sm:end-6">
-          <button
-            type="button"
-            onClick={() => go(-1)}
-            aria-label={dict.hero.prevSlide}
-            className="flex h-7 w-7 items-center justify-center rounded-full text-foreground/80 transition-colors hover:bg-primary hover:text-primary-foreground"
-          >
-            <PrevIcon className="h-4 w-4" aria-hidden />
-          </button>
-          <div className="flex items-center gap-1.5" role="tablist" aria-label="Slides">
-            {SLIDES.map(({ src, alt }, i) => (
-              <button
-                key={src}
-                type="button"
-                role="tab"
-                aria-selected={i === slide}
-                aria-label={alt}
-                onClick={() => setSlide(i)}
-                className={`h-2 rounded-full transition-all duration-300 ${
-                  i === slide ? 'w-6 bg-gold' : 'w-2 bg-foreground/25 hover:bg-foreground/45'
-                }`}
-              />
-            ))}
-          </div>
-          <button
-            type="button"
-            onClick={() => go(1)}
-            aria-label={dict.hero.nextSlide}
-            className="flex h-7 w-7 items-center justify-center rounded-full text-foreground/80 transition-colors hover:bg-primary hover:text-primary-foreground"
-          >
-            <NextIcon className="h-4 w-4" aria-hidden />
-          </button>
-        </div>
+        {/* Slider arrows — faint, transparent, on the photo edges (no dots, no bar) */}
+        <button
+          type="button"
+          onClick={() => go(-1)}
+          aria-label={dict.hero.prevSlide}
+          className="absolute start-1 top-1/2 z-30 flex h-14 w-10 -translate-y-1/2 items-center justify-center text-white/40 drop-shadow-[0_1px_3px_rgba(0,0,0,0.5)] transition-colors hover:text-white/90 focus-visible:text-white sm:start-3"
+        >
+          <PrevIcon className="h-8 w-8" strokeWidth={1.5} aria-hidden />
+        </button>
+        <button
+          type="button"
+          onClick={() => go(1)}
+          aria-label={dict.hero.nextSlide}
+          className="absolute end-1 top-1/2 z-30 flex h-14 w-10 -translate-y-1/2 items-center justify-center text-white/40 drop-shadow-[0_1px_3px_rgba(0,0,0,0.5)] transition-colors hover:text-white/90 focus-visible:text-white sm:end-3"
+        >
+          <NextIcon className="h-8 w-8" strokeWidth={1.5} aria-hidden />
+        </button>
       </div>
 
       {/* Stats — full-width deep navy band */}
