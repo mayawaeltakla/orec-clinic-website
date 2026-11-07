@@ -38,19 +38,21 @@ export function Experiences() {
           </div>
         )}
 
-        <div className="mt-10 text-center">
-          <p className="text-sm font-semibold text-foreground/85">{L.expShare}</p>
+      </div>
+    </section>
+      <section className="band-navy vars-navy py-14 sm:py-16">
+        <div className="mx-auto max-w-3xl px-4 text-center sm:px-6">
+          <p className="text-xl font-extrabold text-gold-2 sm:text-2xl">{L.expShare}</p>
           <a
             href={whatsappLink(L.expSharePrefill)}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-gold mt-3 inline-flex h-11 items-center rounded-full px-7 text-sm font-bold"
+            className="btn-gold mt-6 inline-flex h-12 items-center rounded-full px-8 text-sm font-bold"
           >
             {L.expShareCta}
           </a>
         </div>
-      </div>
-    </section>
+      </section>
     </>
   )
 }
