@@ -1,14 +1,17 @@
 'use client'
 
 import { createContext, useContext, useCallback } from 'react'
+import { usePathname, useRouter } from 'next/navigation'
 import { DEFAULT_LANGUAGE, getLanguage, localePath, localeSlug, type LanguageMeta, type LanguageCode, type Dictionary } from '@/lib/i18n'
 
 interface LanguageContextValue {
   lang: LanguageMeta
   dict: Dictionary
   dir: 'rtl' | 'ltr'
-  /** Navigates to the same page in another language (each language has its own URL) */
+  /** Switches to the same page in another language (client-side, no full reload) */
   setLang: (code: LanguageCode) => void
+  /** Warms the other language's page so the switch is instant */
+  prefetchLang: (code: LanguageCode) => void
   /** Locale-aware internal link: lp('/contact') → /en/contact */
   lp: (path?: string) => string
 }
@@ -28,17 +31,33 @@ export function LanguageProvider({
 }) {
   const lang = getLanguage(initialLang)
 
-  const setLang = useCallback((c: LanguageCode) => {
-    if (typeof window === 'undefined') return
-    const parts = window.location.pathname.split('/')
-    parts[1] = localeSlug(c)
-    window.location.assign(parts.join('/') + window.location.search + window.location.hash)
-  }, [])
+  const router = useRouter()
+  const pathname = usePathname()
+
+  const targetUrl = useCallback(
+    (c: LanguageCode) => {
+      const parts = pathname.split('/')
+      parts[1] = localeSlug(c)
+      return parts.join('/')
+    },
+    [pathname],
+  )
+
+  // Soft navigation: the page content swaps in place, keeping scroll position and theme
+  const setLang = useCallback(
+    (c: LanguageCode) => {
+      const hash = typeof window !== 'undefined' ? window.location.search + window.location.hash : ''
+      router.push(targetUrl(c) + hash, { scroll: false })
+    },
+    [router, targetUrl],
+  )
+
+  const prefetchLang = useCallback((c: LanguageCode) => router.prefetch(targetUrl(c)), [router, targetUrl])
 
   const lp = useCallback((path: string = '/') => localePath(lang.code, path), [lang.code])
 
   return (
-    <LanguageContext.Provider value={{ lang, dict: lang.dict, dir: lang.dir, setLang, lp }}>
+    <LanguageContext.Provider value={{ lang, dict: lang.dict, dir: lang.dir, setLang, prefetchLang, lp }}>
       {children}
     </LanguageContext.Provider>
   )
