@@ -1,6 +1,8 @@
 'use client'
 
 import { PageBanner } from './page-banner'
+import { CtaBand } from './cta-band'
+import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { useLanguage } from './language-context'
 import { DEPT_SLUG_BY_ID } from '@/lib/services-content/config'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
@@ -15,7 +17,7 @@ const SERVICE_IMAGES: Record<string, { src: string; w: number; h: number }> = {
 }
 
 export function Services({ standalone = false }: { standalone?: boolean }) {
-  const { dict, dir, lp } = useLanguage()
+  const { dict, dir, lp, lang } = useLanguage()
   const Chevron = dir === 'rtl' ? ChevronLeft : ChevronRight
 
   return (
@@ -80,6 +82,7 @@ export function Services({ standalone = false }: { standalone?: boolean }) {
         </div>
       </div>
     </section>
+      {standalone && <CtaBand title={PAGE_LABELS[lang.code].contactDoctor} />}
     </>
   )
 }

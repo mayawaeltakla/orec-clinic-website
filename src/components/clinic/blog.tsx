@@ -1,6 +1,8 @@
 'use client'
 
 import { PageBanner } from './page-banner'
+import { CtaBand } from './cta-band'
+import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { Newspaper } from 'lucide-react'
 import { useLanguage } from './language-context'
 import { Ornament } from './ornament'
@@ -68,6 +70,7 @@ export function BlogList({ posts: all, teaser = false }: { posts: BlogPost[]; te
         )}
       </div>
     </section>
+      {!teaser && <CtaBand title={PAGE_LABELS[lang.code].contactDoctor} />}
     </>
   )
 }

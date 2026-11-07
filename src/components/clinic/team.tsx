@@ -1,12 +1,13 @@
 'use client'
 
 import { PageBanner } from './page-banner'
+import { CtaBand } from './cta-band'
 import { useLanguage } from './language-context'
 import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { DOCTORS } from '@/lib/team-data'
 
 export function Team() {
-  const { lang, lp } = useLanguage()
+  const { lang } = useLanguage()
   const L = PAGE_LABELS[lang.code]
   const pick = (m: Partial<Record<string, string>> & { en?: string }) => m[lang.code] ?? m.en ?? ''
 
@@ -14,8 +15,8 @@ export function Team() {
     <>
       <PageBanner image="/orec-lobby.jpg" title={L.teamTitle} subtitle={L.teamSubtitle} crumbs={[{ label: L.teamTitle }]} />
     <section className="relative py-14 sm:py-16">
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {DOCTORS.map((d) => (
             <article key={d.id} className="overflow-hidden rounded-2xl border border-border bg-card/80">
               <img src={d.photo} alt={pick(d.name)} loading="lazy" width={600} height={720} className="aspect-[5/6] w-full object-cover object-top" />
@@ -30,13 +31,9 @@ export function Team() {
 
         {DOCTORS.length === 0 && <p className="mt-10 text-center text-sm text-muted-foreground">{L.teamSoon}</p>}
 
-        <div className="mt-10 text-center">
-          <a href={lp('/contact')} className="btn-gold inline-flex h-11 items-center rounded-full px-7 text-sm font-bold">
-            {L.contactDoctor}
-          </a>
-        </div>
       </div>
     </section>
+      <CtaBand title={L.contactDoctor} />
     </>
   )
 }

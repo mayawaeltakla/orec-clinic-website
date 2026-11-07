@@ -1,6 +1,8 @@
 'use client'
 
 import { PageBanner } from './page-banner'
+import { CtaBand } from './cta-band'
+import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { useLanguage } from './language-context'
 import { HeartHandshake, Crown, Cpu, Infinity as InfinityIcon } from 'lucide-react'
 import { Ornament } from './ornament'
@@ -8,7 +10,7 @@ import { Ornament } from './ornament'
 const ICONS = [HeartHandshake, Crown, Cpu, InfinityIcon]
 
 export function WhyUs({ standalone = false }: { standalone?: boolean }) {
-  const { dict } = useLanguage()
+  const { dict, lang } = useLanguage()
 
   return (
     <>
@@ -63,6 +65,7 @@ export function WhyUs({ standalone = false }: { standalone?: boolean }) {
         </div>
       </div>
     </section>
+      {standalone && <CtaBand title={PAGE_LABELS[lang.code].contactDoctor} />}
     </>
   )
 }
