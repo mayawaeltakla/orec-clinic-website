@@ -1,6 +1,7 @@
 'use client'
 
 import { PageBanner } from './page-banner'
+import { FaqTeaser } from './faq-teaser'
 import { CtaBand } from './cta-band'
 import { useLanguage } from './language-context'
 import { PAGE_LABELS } from '@/lib/i18n/page-labels'
@@ -33,6 +34,7 @@ export function Team() {
 
       </div>
     </section>
+      <FaqTeaser />
       <CtaBand title={L.contactDoctor} />
     </>
   )
