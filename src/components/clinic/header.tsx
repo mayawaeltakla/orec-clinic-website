@@ -7,6 +7,7 @@ import { ThemeToggle } from './theme-toggle'
 import { whatsappLink, CLINIC } from '@/lib/i18n'
 import { DEPT_SLUG_BY_ID } from '@/lib/services-content/config'
 import { WhatsAppGlyph } from './social-icons'
+import { FAQ } from '@/lib/i18n/faq'
 import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { SECTION_LABELS } from '@/lib/i18n/section-labels'
 import { Menu, X, ChevronDown, MessageCircle, Phone, Mail } from 'lucide-react'
@@ -33,6 +34,7 @@ export function Header() {
     { href: '/team', label: PAGE_LABELS[lang.code].nav },
     { href: '/experiences', label: SL.experiences },
     { href: '/blog', label: SL.blog },
+    { href: '/faq', label: FAQ[lang.code].nav },
     { href: '/contact', label: dict.nav.contact },
   ]
   const mobileLinks = links
@@ -122,7 +124,7 @@ export function Header() {
               <a
                 key={l.href}
                 href={lp(l.href)}
-                className="inline-flex h-10 items-center whitespace-nowrap rounded-full px-2 text-[13px] font-medium xl:px-2.5 text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2"
+                className={`${l.href === '/faq' ? 'hidden xl:inline-flex' : 'inline-flex'} h-10 items-center whitespace-nowrap rounded-full px-2 text-[13px] font-medium xl:px-2.5 text-foreground/85 transition-colors hover:bg-accent hover:text-gold-2`}
               >
                 {l.label}
               </a>
