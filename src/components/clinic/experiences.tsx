@@ -1,8 +1,8 @@
 'use client'
 
+import { PageBanner } from './page-banner'
 import { MessageSquareQuote, Hourglass } from 'lucide-react'
 import { useLanguage } from './language-context'
-import { Ornament } from './ornament'
 import { SECTION_LABELS } from '@/lib/i18n/section-labels'
 import { whatsappLink } from '@/lib/i18n'
 import { REVIEWS } from '@/lib/reviews-data'
@@ -11,18 +11,12 @@ export function Experiences() {
   const { lang } = useLanguage()
   const L = SECTION_LABELS[lang.code]
   return (
-    <section className="relative py-20 sm:py-24">
+    <>
+      <PageBanner image="/orec-reception.jpg" title={L.expTitle} subtitle={L.expSubtitle} crumbs={[{ label: L.expTitle }]} />
+    <section className="relative py-14 sm:py-16">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl text-center">
-          <h1 className="text-3xl font-extrabold sm:text-4xl">
-            <span className="text-gold-grad">{L.expTitle}</span>
-          </h1>
-          <Ornament />
-          <p className="mt-5 text-sm leading-loose text-muted-foreground sm:text-base">{L.expSubtitle}</p>
-        </div>
-
         {REVIEWS.length > 0 ? (
-          <div className="mt-14 grid grid-cols-1 gap-7 md:grid-cols-2">
+          <div className="grid grid-cols-1 gap-7 md:grid-cols-2">
             {REVIEWS.map((r) => (
               <figure key={r.id} className="lift rounded-2xl border border-border bg-card p-6 sm:p-7">
                 <MessageSquareQuote className="h-7 w-7 text-gold/60" aria-hidden />
@@ -36,7 +30,7 @@ export function Experiences() {
             ))}
           </div>
         ) : (
-          <div className="mx-auto mt-12 max-w-2xl rounded-2xl border border-border bg-card p-8 text-center">
+          <div className="mx-auto max-w-2xl rounded-2xl border border-border bg-card p-8 text-center">
             <span className="gold-ring mx-auto flex h-14 w-14 items-center justify-center rounded-full" aria-hidden>
               <Hourglass className="h-6 w-6" />
             </span>
@@ -57,5 +51,6 @@ export function Experiences() {
         </div>
       </div>
     </section>
+    </>
   )
 }

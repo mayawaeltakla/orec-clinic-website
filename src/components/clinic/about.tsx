@@ -1,20 +1,25 @@
 'use client'
 
+import { PageBanner } from './page-banner'
 import { useLanguage } from './language-context'
 import { Quote, BadgeCheck, Sparkles, Gem, Stethoscope } from 'lucide-react'
 import { Ornament } from './ornament'
 
-export function About() {
+export function About({ standalone = false }: { standalone?: boolean }) {
   const { dict, lp } = useLanguage()
   const a = dict.about
 
   return (
-    <section id="about" className="relative py-24 sm:py-28 lg:py-32">
+    <>
+      {standalone && <PageBanner image="/orec-exterior.jpg" eyebrow={a.eyebrow} title={a.title} crumbs={[{ label: a.title }]} />}
+    <section id="about" className={`relative ${standalone ? 'py-14 sm:py-16' : 'py-24 sm:py-28 lg:py-32'}`}>
       <div className="gold-line absolute inset-x-0 top-0" aria-hidden />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-10 lg:grid-cols-5 lg:gap-14">
           {/* Text column */}
           <div className="lg:col-span-3">
+            {!standalone && (
+              <>
             <p className="text-xs font-bold tracking-[0.3em] text-gold" dir="ltr">
               {a.eyebrow}
             </p>
@@ -23,7 +28,10 @@ export function About() {
             </h2>
           <Ornament className="!mx-0 !justify-start" />
 
-            <figure className="mt-8 overflow-hidden rounded-3xl border border-border shadow-[0_24px_60px_-34px_rgba(10,46,77,0.5)]">
+              </>
+            )}
+
+            <figure className={`${standalone ? '' : 'mt-8'} overflow-hidden rounded-3xl border border-border shadow-[0_24px_60px_-34px_rgba(10,46,77,0.5)]`}>
               <img src="/orec-lobby.jpg" alt="Orec Clinic — عيادة أوريك" width={1400} height={788} loading="lazy" className="aspect-[16/9] w-full object-cover" />
             </figure>
 
@@ -114,6 +122,7 @@ export function About() {
         </div>
       </div>
     </section>
+    </>
   )
 }
 

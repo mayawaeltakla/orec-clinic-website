@@ -1,18 +1,22 @@
 'use client'
 
+import { PageBanner } from './page-banner'
 import { useLanguage } from './language-context'
 import { HeartHandshake, Crown, Cpu, Infinity as InfinityIcon } from 'lucide-react'
 import { Ornament } from './ornament'
 
 const ICONS = [HeartHandshake, Crown, Cpu, InfinityIcon]
 
-export function WhyUs() {
+export function WhyUs({ standalone = false }: { standalone?: boolean }) {
   const { dict } = useLanguage()
 
   return (
-    <section id="why" className="relative py-24 sm:py-28 lg:py-32">
+    <>
+      {standalone && <PageBanner image="/orec-reception.jpg" eyebrow={dict.why.eyebrow} title={dict.why.title} subtitle={dict.why.intro} crumbs={[{ label: dict.why.title }]} />}
+    <section id="why" className={`relative ${standalone ? 'py-14 sm:py-16' : 'py-24 sm:py-28 lg:py-32'}`}>
       <div className="gold-line absolute inset-x-0 top-0" aria-hidden />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        {!standalone && (
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs font-bold tracking-[0.3em] text-gold" dir="ltr">
             {dict.why.eyebrow}
@@ -26,7 +30,9 @@ export function WhyUs() {
           </p>
         </div>
 
-        <div className="mt-14 grid gap-6 rounded-3xl bg-accent/60 p-6 sm:grid-cols-2 sm:p-8 lg:grid-cols-4 lg:gap-8 lg:p-10">
+        )}
+
+        <div className={`${standalone ? '' : 'mt-14'} grid gap-6 rounded-3xl bg-accent/60 p-6 sm:grid-cols-2 sm:p-8 lg:grid-cols-4 lg:gap-8 lg:p-10`}>
           {dict.why.items.map((item, i) => {
             const Icon = ICONS[i % ICONS.length]
             return (
@@ -57,5 +63,6 @@ export function WhyUs() {
         </div>
       </div>
     </section>
+    </>
   )
 }

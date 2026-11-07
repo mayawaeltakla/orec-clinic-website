@@ -1,5 +1,6 @@
 'use client'
 
+import { PageBanner } from './page-banner'
 import { Newspaper } from 'lucide-react'
 import { useLanguage } from './language-context'
 import { Ornament } from './ornament'
@@ -12,10 +13,13 @@ export function BlogList({ posts: all, teaser = false }: { posts: BlogPost[]; te
   const { lang, lp } = useLanguage()
   const L = SECTION_LABELS[lang.code]
   const posts = teaser ? all.slice(0, 3) : all
-  const Heading = teaser ? 'h2' : 'h1'
+  const Heading = 'h2'
   return (
-    <section id="blog" className={`relative ${teaser ? 'py-24 sm:py-28 lg:py-32' : 'py-20 sm:py-24'}`}>
+    <>
+      {!teaser && <PageBanner image="/orec-exterior.jpg" title={L.blogTitle} subtitle={L.blogSubtitle} crumbs={[{ label: L.blogTitle }]} />}
+    <section id="blog" className={`relative ${teaser ? 'py-24 sm:py-28 lg:py-32' : 'py-14 sm:py-16'}`}>
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        {teaser && (
         <div className="mx-auto max-w-3xl text-center">
           <Heading className="text-3xl font-extrabold sm:text-4xl">
             <span className="text-gold-grad">{L.blogTitle}</span>
@@ -24,8 +28,10 @@ export function BlogList({ posts: all, teaser = false }: { posts: BlogPost[]; te
           <p className="mt-5 text-sm leading-loose text-muted-foreground sm:text-base">{L.blogSubtitle}</p>
         </div>
 
+        )}
+
         {posts.length > 0 ? (
-          <div className="mt-14 grid grid-cols-1 gap-7 md:grid-cols-3">
+          <div className={`${teaser ? 'mt-14' : ''} grid grid-cols-1 gap-7 md:grid-cols-3`}>
             {posts.map((p) => {
               const loc = localizePost(p, lang.code)
               return (
@@ -62,5 +68,6 @@ export function BlogList({ posts: all, teaser = false }: { posts: BlogPost[]; te
         )}
       </div>
     </section>
+    </>
   )
 }

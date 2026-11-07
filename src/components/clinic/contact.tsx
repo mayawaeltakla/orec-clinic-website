@@ -1,5 +1,6 @@
 'use client'
 
+import { PageBanner } from './page-banner'
 import { useEffect, useMemo, useState } from 'react'
 import { useLanguage } from './language-context'
 import { CLINIC, whatsappLink } from '@/lib/i18n'
@@ -16,7 +17,7 @@ function WhatsAppIcon({ className }: { className?: string }) {
   )
 }
 
-export function Contact() {
+export function Contact({ standalone = false }: { standalone?: boolean }) {
   const { dict, lang, lp } = useLanguage()
   const c = dict.contact
   const x = CONTACT_EXTRAS[lang.code]
@@ -112,10 +113,12 @@ export function Contact() {
   ]
 
   return (
-    <section id="contact" className="relative py-24 sm:py-28 lg:py-32">
+    <>
+      {standalone && <PageBanner image="/orec-exterior.jpg" eyebrow={c.eyebrow} title={c.title} subtitle={c.subtitle} crumbs={[{ label: c.title }]} />}
+    <section id="contact" className={`relative ${standalone ? 'py-14 sm:py-16' : 'py-24 sm:py-28 lg:py-32'}`}>
       <div className="gold-line absolute inset-x-0 top-0" aria-hidden />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* Heading */}
+        {!standalone && (
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs font-bold tracking-[0.3em] text-gold" dir="ltr">
             {c.eyebrow}
@@ -126,8 +129,10 @@ export function Contact() {
           <Ornament />
         </div>
 
+        )}
+
         {/* Quote */}
-        <div className="relative mx-auto mt-8 max-w-4xl rounded-2xl border border-border bg-card/70 p-6 sm:p-8">
+        <div className={`relative mx-auto ${standalone ? '' : 'mt-8'} max-w-4xl rounded-2xl border border-border bg-card/70 p-6 sm:p-8`}>
           <Quote className="absolute start-5 top-5 h-8 w-8 text-gold/25" aria-hidden />
           <p className="text-center text-sm leading-loose text-foreground/90 sm:text-base">
             {c.quote}
@@ -353,5 +358,6 @@ export function Contact() {
         </div>
       </div>
     </section>
+    </>
   )
 }

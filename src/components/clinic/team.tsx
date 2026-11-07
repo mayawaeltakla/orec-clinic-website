@@ -1,5 +1,6 @@
 'use client'
 
+import { PageBanner } from './page-banner'
 import { useLanguage } from './language-context'
 import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { DOCTORS } from '@/lib/team-data'
@@ -10,16 +11,11 @@ export function Team() {
   const pick = (m: Partial<Record<string, string>> & { en?: string }) => m[lang.code] ?? m.en ?? ''
 
   return (
-    <section className="relative py-20 sm:py-24">
+    <>
+      <PageBanner image="/orec-lobby.jpg" title={L.teamTitle} subtitle={L.teamSubtitle} crumbs={[{ label: L.teamTitle }]} />
+    <section className="relative py-14 sm:py-16">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl text-center">
-          <h1 className="text-3xl font-extrabold sm:text-4xl">
-            <span className="text-gold-grad">{L.teamTitle}</span>
-          </h1>
-          <p className="mt-3 text-sm leading-loose text-muted-foreground sm:text-base">{L.teamSubtitle}</p>
-        </div>
-
-        <div className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {DOCTORS.map((d) => (
             <article key={d.id} className="overflow-hidden rounded-2xl border border-border bg-card/80">
               <img src={d.photo} alt={pick(d.name)} loading="lazy" width={600} height={720} className="aspect-[5/6] w-full object-cover object-top" />
@@ -41,5 +37,6 @@ export function Team() {
         </div>
       </div>
     </section>
+    </>
   )
 }

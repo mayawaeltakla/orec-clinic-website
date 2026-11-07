@@ -1,8 +1,8 @@
 'use client'
 
+import { PageBanner } from './page-banner'
 import { ChevronDown, MessageCircle } from 'lucide-react'
 import { useLanguage } from './language-context'
-import { Ornament } from './ornament'
 import { FAQ } from '@/lib/i18n/faq'
 import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { whatsappLink } from '@/lib/i18n'
@@ -12,21 +12,11 @@ export function FaqSection() {
   const c = FAQ[lang.code]
 
   return (
-    <section id="faq" className="relative py-20 sm:py-24 lg:py-28">
-      <div className="gold-line absolute inset-x-0 top-0" aria-hidden />
+    <>
+      <PageBanner image="/orec-entrance.jpg" eyebrow={c.eyebrow} title={c.title} subtitle={c.intro} crumbs={[{ label: c.title }]} />
+    <section id="faq" className="relative py-14 sm:py-16">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
-          <p className="text-xs font-bold tracking-[0.3em] text-gold" dir="ltr">
-            {c.eyebrow}
-          </p>
-          <h1 className="mt-3 text-3xl font-extrabold text-foreground sm:text-4xl">
-            <span className="text-gold-grad">{c.title}</span>
-          </h1>
-          <Ornament />
-          <p className="mt-4 text-sm leading-relaxed text-muted-foreground sm:text-base">{c.intro}</p>
-        </div>
-
-        <div className="mt-12 space-y-3">
+        <div className="space-y-3">
           {c.items.map((item, i) => (
             <details
               key={i}
@@ -67,5 +57,6 @@ export function FaqSection() {
         </div>
       </div>
     </section>
+    </>
   )
 }
