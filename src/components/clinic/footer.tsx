@@ -1,5 +1,6 @@
 'use client'
 
+import { FAQ } from '@/lib/i18n/faq'
 import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { SECTION_LABELS } from '@/lib/i18n/section-labels'
 import { useLanguage } from './language-context'
@@ -20,6 +21,7 @@ export function Footer() {
     { href: '/team', label: PAGE_LABELS[lang.code].nav },
     { href: '/experiences', label: SECTION_LABELS[lang.code].experiences },
     { href: '/blog', label: SECTION_LABELS[lang.code].blog },
+    { href: '/faq', label: FAQ[lang.code].nav },
     { href: '/contact', label: dict.nav.contact },
     { href: '/privacy', label: PAGE_LABELS[lang.code].privacy },
     { href: '/terms', label: PAGE_LABELS[lang.code].terms },

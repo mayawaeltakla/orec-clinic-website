@@ -17,6 +17,7 @@ const nextConfig: NextConfig = {
       { source: "/team", destination: "/ar/team", permanent: true },
       { source: "/experiences", destination: "/ar/experiences", permanent: true },
       { source: "/blog", destination: "/ar/blog", permanent: true },
+      { source: "/faq", destination: "/ar/faq", permanent: true },
       { source: "/services", destination: "/ar/services", permanent: true },
       // Only page routes — never static files such as /services/dental.jpg
       { source: "/services/:dept(dental|cosmetic|hair|bariatric)", destination: "/ar/services/:dept", permanent: true },
