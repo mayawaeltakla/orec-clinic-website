@@ -111,10 +111,10 @@ export const DEPARTMENTS: DepartmentDef[] = [
     icon: '⚖️',
     image: '/services/obesity.jpg',
     services: [
-      { slug: 'gastric-sleeve', en: 'Gastric Sleeve / Sleeve Gastrectomy', icon: '🩺' },
-      { slug: 'gastric-bypass', en: 'Gastric Bypass Surgery', icon: '🔁' },
-      { slug: 'gastric-balloon', en: 'Gastric Balloon', icon: '🎈' },
-      { slug: 'gastric-botox', en: 'Gastric Botox Injection', icon: '💉' },
+      { slug: 'gastric-sleeve', en: 'Gastric Sleeve / Sleeve Gastrectomy', icon: '🩺', image: '/service-images/bariatric/gastric-sleeve.jpg' },
+      { slug: 'gastric-bypass', en: 'Gastric Bypass Surgery', icon: '🔁', image: '/service-images/bariatric/gastric-bypass.jpg' },
+      { slug: 'gastric-balloon', en: 'Gastric Balloon', icon: '🎈', image: '/service-images/bariatric/gastric-balloon.jpg' },
+      { slug: 'gastric-botox', en: 'Gastric Botox Injection', icon: '💉', image: '/service-images/bariatric/gastric-botox.jpg' },
     ],
   },
 ]
