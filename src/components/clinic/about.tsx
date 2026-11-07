@@ -1,17 +1,17 @@
 'use client'
 
-import { PageBanner } from './page-banner'
 import { useLanguage } from './language-context'
 import { Quote, BadgeCheck, Sparkles, Gem, Stethoscope } from 'lucide-react'
 import { Ornament } from './ornament'
+import { ChevronLeft, ChevronRight, Home } from 'lucide-react'
 
 export function About({ standalone = false }: { standalone?: boolean }) {
   const { dict, lp } = useLanguage()
   const a = dict.about
+  if (standalone) return <AboutPage />
 
   return (
     <>
-      {standalone && <PageBanner image="/orec-exterior.jpg" eyebrow={a.eyebrow} title={a.title} crumbs={[{ label: a.title }]} />}
     <section id="about" className={`relative ${standalone ? 'py-14 sm:py-16' : 'py-24 sm:py-28 lg:py-32'}`}>
       <div className="gold-line absolute inset-x-0 top-0" aria-hidden />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -134,5 +134,120 @@ function ShieldBadge() {
         <path d="M9 12l2 2 4-4" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     </span>
+  )
+}
+
+/** Full "About" page: hero split, three pillars, standards grid, founder, license + CTA. Uses only the clinic's own About content. */
+function AboutPage() {
+  const { dict, dir, lp } = useLanguage()
+  const a = dict.about
+  const Chevron = dir === 'rtl' ? ChevronLeft : ChevronRight
+  const pillars = [
+    { icon: Stethoscope, title: a.intro.title, text: a.intro.text, dark: false },
+    { icon: Gem, title: a.vision.title, text: a.vision.text, dark: true },
+    { icon: Sparkles, title: a.specialty.title, text: a.specialty.text, dark: false },
+  ]
+  return (
+    <>
+      {/* 1. Hero split */}
+      <section className="relative overflow-hidden border-b border-border">
+        <div className="mx-auto max-w-7xl px-4 pb-12 pt-6 sm:px-6 lg:px-8 lg:pb-16">
+          <nav aria-label="breadcrumb" className="flex items-center gap-1.5 text-xs text-muted-foreground">
+            <a href={lp('/')} className="inline-flex items-center gap-1 hover:text-gold-2">
+              <Home className="h-3.5 w-3.5" aria-hidden />
+              {dict.nav.home}
+            </a>
+            <Chevron className="h-3.5 w-3.5" aria-hidden />
+            <span className="font-semibold text-foreground">{a.title}</span>
+          </nav>
+          <div className="mt-8 grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
+            <div className="rise">
+              <p className="inline-flex rounded-full border border-gold/40 bg-gold/10 px-4 py-1.5 text-xs font-bold tracking-[0.2em] text-gold" dir="ltr">
+                {a.eyebrow}
+              </p>
+              <h1 className="mt-5 text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl">
+                <span className="text-gold-grad">{a.title}</span>
+              </h1>
+              <p className="mt-5 text-sm leading-loose text-muted-foreground sm:text-base">{a.intro.text}</p>
+              <div className="mt-7 flex flex-wrap gap-3">
+                <a href={lp('/contact')} className="btn-gold inline-flex h-12 items-center rounded-full px-8 text-sm font-bold">
+                  {a.cta}
+                </a>
+                <a href={lp('/services')} className="inline-flex h-12 items-center rounded-full border border-border bg-card px-8 text-sm font-bold text-foreground transition-colors hover:border-gold/50">
+                  {dict.nav.services}
+                </a>
+              </div>
+            </div>
+            <figure className="overflow-hidden rounded-3xl border border-border shadow-[0_24px_60px_-34px_rgba(10,46,77,0.5)]">
+              <img src="/orec-lobby.jpg" alt="Orec Clinic — عيادة أوريك" width={1400} height={788} fetchPriority="high" className="aspect-[4/3] w-full object-cover" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      {/* 2. Three pillars */}
+      <section className="py-14 sm:py-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-6 md:grid-cols-3">
+            {pillars.map((p) => (
+              <article key={p.title} className={`lift rounded-3xl border p-7 ${p.dark ? 'band-navy border-transparent' : 'orec-card border-border bg-card'}`}>
+                <span className="gold-ring flex h-12 w-12 items-center justify-center rounded-full" aria-hidden>
+                  <p.icon className="h-5 w-5" />
+                </span>
+                <h2 className="mt-5 text-xl font-extrabold text-gold-2">{p.title}</h2>
+                <p className="mt-3 text-sm leading-loose text-muted-foreground">{p.text}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 3. Standards grid */}
+      <section className="band-sky border-y border-border py-14 sm:py-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-center text-2xl font-extrabold sm:text-3xl">
+            <span className="text-gold-grad">{a.specialty.title}</span>
+          </h2>
+          <Ornament />
+          <ul className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {a.specialty.items.map((it, i) => (
+              <li key={i} className="lift flex flex-col rounded-2xl border border-border bg-card p-6">
+                <BadgeCheck className="h-6 w-6 text-gold" aria-hidden />
+                <span className="mt-4 block text-base font-bold text-foreground">{it.title}</span>
+                <span className="mt-2 block text-sm leading-relaxed text-muted-foreground">{it.text}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* 4. Founder */}
+      <section className="py-14 sm:py-16">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <figure className="relative grid items-center gap-8 overflow-hidden rounded-3xl border border-border bg-gradient-to-b from-gold/12 via-card to-card p-7 sm:p-10 md:grid-cols-[auto_1fr]">
+            <Quote className="absolute end-6 top-6 h-12 w-12 text-gold/20" aria-hidden />
+            <img src="/founder-dr-alzuhaili.jpg" alt={a.founder.name} className="mx-auto h-44 w-44 rounded-3xl border border-gold/40 object-cover sm:h-52 sm:w-52" loading="lazy" />
+            <div>
+              <figcaption className="text-sm font-bold tracking-wide text-gold" dir="auto">{a.founder.title}</figcaption>
+              <blockquote className="mt-4 text-sm leading-loose text-foreground/90 sm:text-base">{a.founder.quote}</blockquote>
+              <p className="mt-5 text-lg font-extrabold text-gold-grad" dir="auto">{a.founder.name}</p>
+              <p className="text-xs text-muted-foreground" dir="ltr">{a.founder.nameEn}</p>
+              <p className="mt-1 text-sm font-semibold text-foreground/85">{a.founder.role}</p>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      {/* 5. License + CTA band */}
+      <section className="band-navy vars-navy py-14 sm:py-16">
+        <div className="mx-auto max-w-3xl px-4 text-center sm:px-6">
+          <ShieldBadge />
+          <p className="mt-4 text-base font-semibold leading-relaxed text-foreground/90">{a.license}</p>
+          <a href={lp('/contact')} className="btn-gold mt-7 inline-flex h-12 items-center rounded-full px-9 text-sm font-bold">
+            {a.cta}
+          </a>
+        </div>
+      </section>
+    </>
   )
 }
