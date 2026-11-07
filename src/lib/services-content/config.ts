@@ -97,9 +97,9 @@ export const DEPARTMENTS: DepartmentDef[] = [
     icon: '💇',
     image: '/services/hair.jpg',
     services: [
-      { slug: 'scalp-hair-transplant', en: 'Scalp Hair Transplantation', icon: '🌱' },
-      { slug: 'beard-transplant', en: 'Beard & Mustache Transplantation', icon: '🧔' },
-      { slug: 'eyebrow-transplant', en: 'Eyebrow Transplantation', icon: '🪶' },
+      { slug: 'scalp-hair-transplant', en: 'Scalp Hair Transplantation', icon: '🌱', image: '/service-images/hair/scalp-hair-transplant.jpg' },
+      { slug: 'beard-transplant', en: 'Beard & Mustache Transplantation', icon: '🧔', image: '/service-images/hair/beard-transplant.jpg' },
+      { slug: 'eyebrow-transplant', en: 'Eyebrow Transplantation', icon: '🪶', image: '/service-images/hair/eyebrow-transplant.jpg' },
     ],
   },
   {
