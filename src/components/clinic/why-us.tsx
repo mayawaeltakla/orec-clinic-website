@@ -1,6 +1,7 @@
 'use client'
 
 import { PageBanner } from './page-banner'
+import { FaqTeaser } from './faq-teaser'
 import { CtaBand } from './cta-band'
 import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { useLanguage } from './language-context'
@@ -65,6 +66,7 @@ export function WhyUs({ standalone = false }: { standalone?: boolean }) {
         </div>
       </div>
     </section>
+      {standalone && <FaqTeaser />}
       {standalone && <CtaBand title={PAGE_LABELS[lang.code].contactDoctor} />}
     </>
   )
