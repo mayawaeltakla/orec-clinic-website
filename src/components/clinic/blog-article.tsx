@@ -2,7 +2,7 @@
 
 import type { ReactNode } from 'react'
 import { useLanguage } from './language-context'
-import { Ornament } from './ornament'
+import { PageBanner } from './page-banner'
 import { SECTION_LABELS } from '@/lib/i18n/section-labels'
 import { localizePost, type BlogPost } from '@/lib/blog-db'
 
@@ -47,21 +47,20 @@ export function renderBody(body: string): ReactNode[] {
 }
 
 export function BlogArticle({ post }: { post: BlogPost }) {
-  const { lang, lp } = useLanguage()
+  const { lang } = useLanguage()
   const L = SECTION_LABELS[lang.code]
   const loc = localizePost(post, lang.code)
   return (
-    <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 sm:py-20" dir={loc.lang === 'ar' ? 'rtl' : 'ltr'} lang={loc.lang}>
-      <a href={lp('/blog')} className="text-sm font-bold text-gold-2 underline underline-offset-4">
-        {L.blogTitle}
-      </a>
-      <h1 className="mt-4 text-3xl font-extrabold leading-snug sm:text-4xl">
+    <>
+      <PageBanner image="/orec-exterior.jpg" title={L.blogTitle} titleAs="p" crumbs={[{ label: L.blogTitle, href: '/blog' }]} />
+    <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-14" dir={loc.lang === 'ar' ? 'rtl' : 'ltr'} lang={loc.lang}>
+      <h1 className="text-3xl font-extrabold leading-snug sm:text-4xl">
         <span className="text-gold-grad">{loc.title}</span>
       </h1>
       <time className="mt-2 block text-xs text-muted-foreground" dateTime={post.date}>{post.date}</time>
-      <Ornament className="!mx-0 !justify-start" />
       {post.image && <img src={post.image} alt="" className="mt-6 aspect-video w-full rounded-2xl object-cover" />}
       <div className="mt-6 text-sm sm:text-base">{renderBody(loc.body)}</div>
     </article>
+    </>
   )
 }

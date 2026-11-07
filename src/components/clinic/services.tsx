@@ -1,5 +1,6 @@
 'use client'
 
+import { PageBanner } from './page-banner'
 import { useLanguage } from './language-context'
 import { DEPT_SLUG_BY_ID } from '@/lib/services-content/config'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
@@ -13,14 +14,16 @@ const SERVICE_IMAGES: Record<string, { src: string; w: number; h: number }> = {
   obesity: { src: '/services/obesity.jpg', w: 1000, h: 563 },
 }
 
-export function Services() {
+export function Services({ standalone = false }: { standalone?: boolean }) {
   const { dict, dir, lp } = useLanguage()
   const Chevron = dir === 'rtl' ? ChevronLeft : ChevronRight
 
   return (
-    <section id="services" className="relative py-24 sm:py-28 lg:py-32">
+    <>
+      {standalone && <PageBanner image="/orec-lobby.jpg" eyebrow={dict.services.eyebrow} title={dict.services.title} subtitle={dict.services.subtitle} crumbs={[{ label: dict.services.title }]} />}
+    <section id="services" className={`relative ${standalone ? 'py-14 sm:py-16' : 'py-24 sm:py-28 lg:py-32'}`}>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* Heading */}
+        {!standalone && (
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs font-bold tracking-[0.3em] text-gold" dir="ltr">
             {dict.services.eyebrow}
@@ -34,8 +37,10 @@ export function Services() {
           </p>
         </div>
 
+        )}
+
         {/* Category cards — compact, one row on wide screens. Full service lists live on each department page. */}
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
+        <div className={`${standalone ? '' : 'mt-14'} grid gap-6 sm:grid-cols-2 xl:grid-cols-4`}>
           {dict.services.categories.map((cat) => {
             const img = SERVICE_IMAGES[cat.id]
             const href = lp(`/services/${DEPT_SLUG_BY_ID[cat.id] ?? ''}`)
@@ -75,5 +80,6 @@ export function Services() {
         </div>
       </div>
     </section>
+    </>
   )
 }

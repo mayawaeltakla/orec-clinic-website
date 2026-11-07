@@ -23,7 +23,7 @@ export default async function Page({ params }: { params: Promise<{ lang: string 
   if (!meta) notFound()
   return (
     <SiteShell lang={meta.code}>
-      <About />
+      <About standalone />
     </SiteShell>
   )
 }
