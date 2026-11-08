@@ -171,16 +171,22 @@ function AboutPage() {
               <h1 className="mt-5 text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl">
                 <span className="text-gold-grad">{a.title}</span>
               </h1>
-              <p className="mt-5 text-sm leading-loose text-muted-foreground sm:text-base">{a.intro.text}</p>
-              <div className="mt-7 flex flex-wrap gap-3">
-                <a href={lp('/contact')} className="btn-gold inline-flex h-12 items-center rounded-full px-8 text-sm font-bold">
-                  {a.cta}
-                </a>
-                <a href={lp('/services')} className="inline-flex h-12 items-center rounded-full border border-border bg-card px-8 text-sm font-bold text-foreground transition-colors hover:border-gold/50">
-                  {dict.nav.services}
-                </a>
-              </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Intro text + actions, under the hero */}
+      <section className="pt-12 sm:pt-14">
+        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
+          <p className="text-sm leading-loose text-muted-foreground sm:text-lg">{a.intro.text}</p>
+          <div className="mt-7 flex flex-wrap justify-center gap-3">
+            <a href={lp('/contact')} className="btn-gold inline-flex h-12 items-center rounded-full px-8 text-sm font-bold">
+              {a.cta}
+            </a>
+            <a href={lp('/services')} className="inline-flex h-12 items-center rounded-full border border-border bg-card px-8 text-sm font-bold text-foreground transition-colors hover:border-gold/50">
+              {dict.nav.services}
+            </a>
           </div>
         </div>
       </section>
