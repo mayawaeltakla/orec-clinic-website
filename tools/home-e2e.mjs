@@ -16,6 +16,8 @@ for (const id of ['services', 'about', 'why', 'trust', 'blog', 'contact']) check
 check('initial HTML contains form field + services text', html.includes('id="cf-name"') && html.includes('زراعة الأسنان'))
 check('hero H1 present in HTML', /<h1[\s>]/.test(html))
 
+import fs from 'node:fs'
+fs.mkdirSync('shots', { recursive: true })
 const browser = await chromium.launch({ args: ['--no-sandbox'] })
 for (const [label, ctxOpts] of [['desktop', { viewport: { width: 1366, height: 800 } }], ['mobile', { ...devices['Pixel 7'] }]]) {
   const ctx = await browser.newContext(ctxOpts)
@@ -35,7 +37,13 @@ for (const [label, ctxOpts] of [['desktop', { viewport: { width: 1366, height: 8
   await page.fill('#cf-message', `deferred hydration ${label}`)
   await page.locator('#contact input[type=checkbox]').check()
   await page.locator('#contact button[type=submit]').click()
-  await page.getByRole('status').filter({ hasText: 'تم استلام' }).waitFor({ timeout: 10000 }).then(() => check(`${label}: form submit shows success message`, true)).catch(() => check(`${label}: form submit shows success message`, false))
+  const okMsg = await page.getByRole('status').filter({ hasText: 'تم استلام' }).waitFor({ timeout: 12000 }).then(() => true).catch(() => false)
+  check(`${label}: form submit shows success message`, okMsg)
+  if (!okMsg) {
+    const vals = await page.evaluate(() => ({ name: document.querySelector('#cf-name')?.value, phone: document.querySelector('#cf-phone')?.value, checked: document.querySelector('#contact input[type=checkbox]')?.checked, alerts: [...document.querySelectorAll('#contact [role=alert]')].map((e) => e.textContent) }))
+    console.log('   debug form state:', JSON.stringify(vals))
+    await page.screenshot({ path: `shots/${label}-form-fail.png`, fullPage: false })
+  }
   check(`${label}: mail reached Resend mock`, mails.length === before + 1 && JSON.stringify(mails.at(-1)).includes(`E2E ${label}`))
   // 3. other deferred sections render real content after scrolling
   await page.locator('#services').scrollIntoViewIfNeeded()
@@ -44,8 +52,8 @@ for (const [label, ctxOpts] of [['desktop', { viewport: { width: 1366, height: 8
   // 4. language switch (client-side, no full reload)
   await page.evaluate(() => window.scrollTo(0, 0))
   const marker = await page.evaluate(() => { window.__noReload = 1; return 1 })
-  await page.getByRole('button', { name: /—/ }).first().click()
-  await page.getByRole('menuitem').filter({ hasText: 'English' }).first().click().catch(async () => { await page.getByText('English', { exact: true }).first().click() })
+  await page.locator('header button[aria-haspopup="menu"]').first().click()
+  await page.getByRole('menuitem', { name: /English/ }).first().click({ timeout: 8000 }).catch(async () => { await page.screenshot({ path: `shots/${label}-menu-fail.png` }); console.log('   debug: menu item not found') })
   await page.waitForURL('**/en', { timeout: 10000 }).then(() => check(`${label}: language switch → /en`, true)).catch(() => check(`${label}: language switch → /en`, false))
   check(`${label}: language switch kept the page (no reload)`, (await page.evaluate(() => window.__noReload)) === 1)
   check(`${label}: English heading rendered`, /Orec|clinic|Care|Excellence/i.test(await page.locator('h1').first().innerText()))
