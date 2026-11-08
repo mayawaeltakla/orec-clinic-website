@@ -22,6 +22,13 @@ jobs:
       - name: Contact form end-to-end
         run: |
           if [ -f tools/contact-e2e.mjs ]; then node tools/contact-e2e.mjs http://localhost:3000 4010; else echo "no contact e2e on this branch"; fi
+      - name: Home page browser e2e (Playwright)
+        run: |
+          if [ -f tools/home-e2e.mjs ]; then
+            npm i --no-save playwright@1 >/dev/null 2>&1
+            npx playwright install --with-deps chromium >/dev/null 2>&1
+            node tools/home-e2e.mjs http://localhost:3000 4010; echo "home-e2e exit code: $?"
+          else echo "no home e2e on this branch"; fi
       - name: Home JS + Lighthouse x5 (median)
         run: |
           node -e "
