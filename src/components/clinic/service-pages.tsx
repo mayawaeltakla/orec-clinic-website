@@ -9,10 +9,10 @@ import { getDepartment, getService } from '@/lib/services-content'
 import type { ServicesUI, ServiceSection, ServicesContent } from '@/lib/services-content/types'
 import type { LanguageCode } from '@/lib/i18n'
 import { CONTACT_EXTRAS } from '@/lib/i18n/contact-extras'
+import { whatsappLink } from '@/lib/i18n'
 import {
   ChevronLeft,
   ChevronRight,
-  ClipboardList,
   Sparkle,
   ArrowLeft,
   ArrowRight,
@@ -135,7 +135,11 @@ function Hero({
   tagline,
   breadcrumb,
   ui,
+  intro,
+  actions,
 }: {
+  intro?: string
+  actions?: ReactNode
   image: string
   eyebrow: string
   title: string
@@ -163,6 +167,8 @@ function Hero({
             <p className="mt-4 text-sm font-medium leading-relaxed text-foreground/85 sm:text-base">
               {tagline}
             </p>
+            {intro && <p className="mt-4 text-sm leading-loose text-muted-foreground sm:text-base">{intro}</p>}
+            {actions && <div className="mt-6 flex flex-wrap gap-3">{actions}</div>}
           </div>
           {/* Full, clear photo — no overlay, no blur, never cropped (16:9 source) */}
           <div className="overflow-hidden rounded-2xl border border-border shadow-xl">
@@ -195,11 +201,13 @@ function SectionBlock({ section }: { section: ServiceSection }) {
       ))}
 
       {section.blocks && (
-        <div className="mt-6 grid gap-4 md:grid-cols-2">
+        <div className={`mt-6 grid gap-4 md:grid-cols-2 ${section.blocks.length >= 3 ? 'lg:grid-cols-3' : ''}`}>
           {section.blocks.map((b, bi) => (
             <div key={bi} className="lift rounded-2xl border border-border bg-navy-2/50 p-5">
-              <h3 className="flex items-start gap-2 text-sm font-bold text-gold-2 sm:text-base">
-                <ClipboardList className="mt-0.5 h-4 w-4 shrink-0 text-gold" aria-hidden />
+              <span className="gold-ring flex h-9 w-9 items-center justify-center rounded-full text-xs font-extrabold" dir="ltr" aria-hidden>
+                {String(bi + 1).padStart(2, '0')}
+              </span>
+              <h3 className="mt-3 text-sm font-bold text-gold-2 sm:text-base">
                 {b.title}
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{b.text}</p>
@@ -389,7 +397,7 @@ function ChevronR({ className }: { className?: string }) {
 
 export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; serviceSlug: string }) {
   const sc = useServicesContent()
-  const { lp } = useLanguage()
+  const { lp, dict, lang } = useLanguage()
   const lookup = getService(deptSlug, serviceSlug)
   const content = sc && lookup ? sc.departments[lookup.department.slug]?.services[lookup.service.slug] : undefined
 
@@ -421,6 +429,25 @@ export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; se
           { label: deptContent.title, href: `/services/${dept.slug}` },
           { label: content.title },
         ]}
+        intro={content.intro}
+        actions={
+          <>
+            <a
+              href={`${lp('/contact')}?service=${encodeURIComponent(content.title)}`}
+              className="btn-gold inline-flex h-11 items-center rounded-full px-6 text-sm font-bold"
+            >
+              {CONTACT_EXTRAS[lang.code].bookCta}
+            </a>
+            <a
+              href={whatsappLink(dict.whatsapp.prefill)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex h-11 items-center rounded-full border border-border bg-card px-6 text-sm font-bold text-gold-2 transition-colors hover:border-gold/50"
+            >
+              {dict.contact.whatsapp}
+            </a>
+          </>
+        }
       />
 
       {/* Body */}
@@ -428,12 +455,17 @@ export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; se
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="gold-line mb-10" aria-hidden />
 
-          <p className="text-base leading-loose text-foreground/90 sm:text-lg">{content.intro}</p>
-
-          <div className="mt-12 space-y-12">
-            {content.sections.map((section, si) => (
-              <SectionBlock key={si} section={section} />
+          <div className="space-y-8">
+            {content.sections.filter((x) => x.blocks).map((section, si) => (
+              <SectionBlock key={`b${si}`} section={section} />
             ))}
+            <div className="grid gap-8 md:grid-cols-2">
+              {content.sections.filter((x) => !x.blocks).map((section, si) => (
+                <div key={`r${si}`} className={section.list ? '' : 'md:col-span-2'}>
+                  <SectionBlock section={section} />
+                </div>
+              ))}
+            </div>
           </div>
 
           <CtaBand ui={ui} service={content.title} />
@@ -457,7 +489,7 @@ export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; se
                 <ChevronR className="h-4 w-4" />
               </a>
             </div>
-            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-4">
               {dept.services
                 .filter((s) => s.slug !== def.slug)
                 .map((s) => {
@@ -466,18 +498,12 @@ export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; se
                     <a
                       key={s.slug}
                       href={lp(`/services/${dept.slug}/${s.slug}`)}
-                      className="lift group flex items-center gap-4 rounded-2xl border border-border bg-card/70 p-4 transition-colors hover:border-gold/40"
+                      className="orec-card lift group flex h-full flex-col overflow-hidden"
                     >
-                      <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-border bg-navy-2 text-lg" aria-hidden>
-                        <ServiceIcon emoji={s.icon} className="h-5 w-5 text-gold-2" />
-                      </span>
-                      <span className="min-w-0">
-                        <span className="block truncate text-sm font-bold text-foreground group-hover:text-gold-2">
-                          {sub?.title ?? s.en}
-                        </span>
-                        <span className="block truncate text-xs text-muted-foreground" dir="ltr">
-                          {s.en}
-                        </span>
+                      {s.image && <img src={s.image} alt="" loading="lazy" width={600} height={400} className="aspect-[3/2] w-full object-cover transition-transform duration-500 group-hover:scale-105" />}
+                      <span className="block p-3">
+                        <span className="block text-sm font-bold text-foreground group-hover:text-gold-2">{sub?.title ?? s.en}</span>
+                        <span className="mt-0.5 block text-[11px] text-muted-foreground" dir="ltr">{s.en}</span>
                       </span>
                     </a>
                   )
