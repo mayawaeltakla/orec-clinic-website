@@ -1,14 +1,4 @@
 import type { Dictionary, LanguageCode } from './types'
-import { ar } from './ar'
-import { en } from './en'
-import { es } from './es'
-import { tr } from './tr'
-import { fr } from './fr'
-import { de } from './de'
-import { it } from './it'
-import { ru } from './ru'
-import { pl } from './pl'
-import { deCH } from './deCH'
 
 export type { Dictionary, LanguageCode } from './types'
 
@@ -19,20 +9,19 @@ export interface LanguageMeta {
   flag: string
   dir: 'rtl' | 'ltr'
   htmlLang: string
-  dict: Dictionary
 }
 
 export const LANGUAGES: LanguageMeta[] = [
-  { code: 'ar', label: 'العربية', native: 'العربية', flag: '🇸🇦', dir: 'rtl', htmlLang: 'ar', dict: ar },
-  { code: 'en', label: 'English', native: 'English', flag: '🇬🇧', dir: 'ltr', htmlLang: 'en', dict: en },
-  { code: 'es', label: 'Español', native: 'Español', flag: '🇪🇸', dir: 'ltr', htmlLang: 'es', dict: es },
-  { code: 'tr', label: 'Türkçe', native: 'Türkçe', flag: '🇹🇷', dir: 'ltr', htmlLang: 'tr', dict: tr },
-  { code: 'fr', label: 'Français', native: 'Français', flag: '🇫🇷', dir: 'ltr', htmlLang: 'fr', dict: fr },
-  { code: 'de', label: 'Deutsch', native: 'Deutsch', flag: '🇩🇪', dir: 'ltr', htmlLang: 'de', dict: de },
-  { code: 'it', label: 'Italiano', native: 'Italiano', flag: '🇮🇹', dir: 'ltr', htmlLang: 'it', dict: it },
-  { code: 'ru', label: 'Русский', native: 'Русский', flag: '🇷🇺', dir: 'ltr', htmlLang: 'ru', dict: ru },
-  { code: 'pl', label: 'Polski', native: 'Polski', flag: '🇵🇱', dir: 'ltr', htmlLang: 'pl', dict: pl },
-  { code: 'deCH', label: 'Schweizerdeutsch', native: 'Schweizerdeutsch', flag: '🇨🇭', dir: 'ltr', htmlLang: 'de-CH', dict: deCH },
+  { code: 'ar', label: 'العربية', native: 'العربية', flag: '🇸🇦', dir: 'rtl', htmlLang: 'ar' },
+  { code: 'en', label: 'English', native: 'English', flag: '🇬🇧', dir: 'ltr', htmlLang: 'en' },
+  { code: 'es', label: 'Español', native: 'Español', flag: '🇪🇸', dir: 'ltr', htmlLang: 'es' },
+  { code: 'tr', label: 'Türkçe', native: 'Türkçe', flag: '🇹🇷', dir: 'ltr', htmlLang: 'tr' },
+  { code: 'fr', label: 'Français', native: 'Français', flag: '🇫🇷', dir: 'ltr', htmlLang: 'fr' },
+  { code: 'de', label: 'Deutsch', native: 'Deutsch', flag: '🇩🇪', dir: 'ltr', htmlLang: 'de' },
+  { code: 'it', label: 'Italiano', native: 'Italiano', flag: '🇮🇹', dir: 'ltr', htmlLang: 'it' },
+  { code: 'ru', label: 'Русский', native: 'Русский', flag: '🇷🇺', dir: 'ltr', htmlLang: 'ru' },
+  { code: 'pl', label: 'Polski', native: 'Polski', flag: '🇵🇱', dir: 'ltr', htmlLang: 'pl' },
+  { code: 'deCH', label: 'Schweizerdeutsch', native: 'Schweizerdeutsch', flag: '🇨🇭', dir: 'ltr', htmlLang: 'de-CH' },
 ]
 
 export const DEFAULT_LANGUAGE: LanguageCode = 'ar'
