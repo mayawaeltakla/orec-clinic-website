@@ -134,7 +134,6 @@ export function Contact({ standalone = false, formOnly = false, defaultService }
         )}
 
         {!formOnly && (
-        {/* Quote */}
         <div className={`relative mx-auto ${standalone ? '' : 'mt-8'} max-w-4xl rounded-2xl border border-border bg-card/70 p-6 sm:p-8`}>
           <Quote className="absolute start-5 top-5 h-8 w-8 text-gold/25" aria-hidden />
           <p className="text-center text-sm leading-loose text-foreground/90 sm:text-base">
@@ -150,7 +149,6 @@ export function Contact({ standalone = false, formOnly = false, defaultService }
 
         <div className={`${formOnly ? '' : 'mt-10'} grid grid-cols-1 gap-6 ${single ? '' : 'lg:grid-cols-5'}`}>
           {!formOnly && (
-          {/* Contact info */}
           <div className={standalone ? 'grid gap-4 sm:grid-cols-2 lg:grid-cols-4' : 'space-y-4 lg:col-span-2'}>
             {!standalone && <h3 className="text-lg font-extrabold text-gold-2">{c.infoTitle}</h3>}
             {infoCards.map(({ icon: Icon, label, value, href, ltr }) => (
