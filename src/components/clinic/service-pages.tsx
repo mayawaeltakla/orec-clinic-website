@@ -11,7 +11,7 @@ import type { LanguageCode } from '@/lib/i18n'
 import { CONTACT_EXTRAS } from '@/lib/i18n/contact-extras'
 import { whatsappLink } from '@/lib/i18n'
 import { Contact } from './contact'
-import { Quote } from 'lucide-react'
+import { FREE_CONSULT } from '@/lib/i18n/availability'
 import {
   ChevronLeft,
   ChevronRight,
@@ -402,7 +402,6 @@ function ChevronR({ className }: { className?: string }) {
 export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; serviceSlug: string }) {
   const sc = useServicesContent()
   const { lp, dict, lang } = useLanguage()
-  const founder = dict.about.founder
   const lookup = getService(deptSlug, serviceSlug)
   const content = sc && lookup ? sc.departments[lookup.department.slug]?.services[lookup.service.slug] : undefined
 
@@ -476,25 +475,11 @@ export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; se
         </div>
       </section>
 
-      {/* Lead doctor — the clinic's real founder (from the About page content) */}
-      <section className="border-t border-border py-12 sm:py-14">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-          <figure className="relative grid items-center gap-6 overflow-hidden rounded-3xl border border-border bg-gradient-to-b from-gold/12 via-card to-card p-6 sm:p-8 md:grid-cols-[auto_1fr]">
-            <Quote className="absolute end-5 top-5 h-10 w-10 text-gold/20" aria-hidden />
-            <img src="/founder-dr-alzuhaili.jpg" alt={founder.name} loading="lazy" className="mx-auto h-40 w-40 rounded-3xl border border-gold/40 object-cover sm:h-48 sm:w-48" />
-            <div>
-              <figcaption className="text-sm font-bold tracking-wide text-gold" dir="auto">{founder.title}</figcaption>
-              <p className="mt-2 text-xl font-extrabold text-gold-grad" dir="auto">{founder.name}</p>
-              <p className="text-xs text-muted-foreground" dir="ltr">{founder.nameEn}</p>
-              <p className="mt-1 text-sm font-semibold text-foreground/85">{founder.role}</p>
-              <blockquote className="mt-4 text-sm leading-loose text-foreground/90">{founder.quote}</blockquote>
-            </div>
-          </figure>
-        </div>
-      </section>
-
       {/* Free consultation form, service pre-selected */}
-      <div className="band-sky border-y border-border">
+      <div className="band-sky border-y border-border pt-14 sm:pt-16">
+        <h2 className="px-4 text-center text-2xl font-extrabold sm:text-3xl">
+          <span className="text-gold-grad">{FREE_CONSULT[lang.code]}</span>
+        </h2>
         <Contact formOnly defaultService={content.title} />
       </div>
 
