@@ -75,8 +75,8 @@ export const CLINIC = {
   tiktok: 'https://www.tiktok.com/@orec.clinic',
   x: 'https://x.com/orec_clinic',
   linkedin: 'https://www.linkedin.com/company/orec-clinic',
-  /** Google reviews link — the «Rate us» button stays hidden until this is filled */
-  reviewUrl: '' as string,
+  /** «Rate us» target: the clinic's Google Maps listing (replace with the direct review link when available) */
+  reviewUrl: 'https://www.google.com/maps/search/?api=1&query=Orec+Clinic+Ba%C4%9Fc%C4%B1lar+%C4%B0stanbul' as string,
 } as const
 
 export function whatsappLink(prefill: string): string {
