@@ -151,7 +151,10 @@ function AboutPage() {
     <>
       {/* 1. Hero split */}
       <section className="relative overflow-hidden border-b border-border">
-        <div className="mx-auto max-w-7xl px-4 pb-12 pt-6 sm:px-6 lg:px-8 lg:pb-16">
+        <img src="/orec-lobby.jpg" alt="Orec Clinic — عيادة أوريك" aria-hidden width={1400} height={788} fetchPriority="high" className="absolute inset-0 h-full w-full object-cover object-[50%_40%]" />
+        <div aria-hidden className="hero-fade absolute inset-0" />
+        <div aria-hidden className="hero-leaf" />
+        <div className="relative mx-auto max-w-7xl px-4 pb-12 pt-6 sm:px-6 lg:px-8 lg:pb-20">
           <nav aria-label="breadcrumb" className="flex items-center gap-1.5 text-xs text-muted-foreground">
             <a href={lp('/')} className="inline-flex items-center gap-1 hover:text-gold-2">
               <Home className="h-3.5 w-3.5" aria-hidden />
@@ -160,8 +163,8 @@ function AboutPage() {
             <Chevron className="h-3.5 w-3.5" aria-hidden />
             <span className="font-semibold text-foreground">{a.title}</span>
           </nav>
-          <div className="mt-8 grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
-            <div className="rise">
+          <div className="mt-8">
+            <div className="rise max-w-xl lg:max-w-2xl">
               <p className="inline-flex rounded-full border border-gold/40 bg-gold/10 px-4 py-1.5 text-xs font-bold tracking-[0.2em] text-gold" dir="ltr">
                 {a.eyebrow}
               </p>
@@ -178,9 +181,6 @@ function AboutPage() {
                 </a>
               </div>
             </div>
-            <figure className="overflow-hidden rounded-3xl border border-border shadow-[0_24px_60px_-34px_rgba(10,46,77,0.5)]">
-              <img src="/orec-lobby.jpg" alt="Orec Clinic — عيادة أوريك" width={1400} height={788} fetchPriority="high" className="aspect-[4/3] w-full object-cover" />
-            </figure>
           </div>
         </div>
       </section>
