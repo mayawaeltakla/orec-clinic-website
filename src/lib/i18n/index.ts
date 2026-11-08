@@ -75,6 +75,8 @@ export const CLINIC = {
   tiktok: 'https://www.tiktok.com/@orec.clinic',
   x: 'https://x.com/orec_clinic',
   linkedin: 'https://www.linkedin.com/company/orec-clinic',
+  /** Google reviews link — the «Rate us» button stays hidden until this is filled */
+  reviewUrl: '' as string,
 } as const
 
 export function whatsappLink(prefill: string): string {
