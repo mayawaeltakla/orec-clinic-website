@@ -26,3 +26,16 @@ export const RATE_US: Record<LanguageCode, string> = {
   pl: 'Oceń nas',
   deCH: 'Bewerten Sie uns',
 }
+
+export const FREE_CONSULT: Record<LanguageCode, string> = {
+  ar: 'استشارة مجانية أو حجز موعد',
+  en: 'Free consultation or book an appointment',
+  es: 'Consulta gratuita o reserva de cita',
+  tr: 'Ücretsiz danışmanlık veya randevu',
+  fr: 'Consultation gratuite ou prise de rendez-vous',
+  de: 'Kostenlose Beratung oder Terminbuchung',
+  it: 'Consulenza gratuita o prenotazione',
+  ru: 'Бесплатная консультация или запись на приём',
+  pl: 'Bezpłatna konsultacja lub rezerwacja terminu',
+  deCH: 'Kostenlose Beratung oder Terminbuchung',
+}
