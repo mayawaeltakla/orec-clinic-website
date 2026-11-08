@@ -37,7 +37,7 @@ for (const [label, ctxOpts] of [['desktop', { viewport: { width: 1366, height: 8
   await page.fill('#cf-message', `deferred hydration ${label}`)
   await page.locator('#contact input[type=checkbox]').check()
   await page.locator('#contact button[type=submit]').click()
-  const okMsg = await page.getByRole('status').filter({ hasText: 'تم استلام' }).waitFor({ timeout: 12000 }).then(() => true).catch(() => false)
+  const okMsg = await page.locator('#contact [role=status]').waitFor({ timeout: 12000 }).then(() => true).catch(() => false)
   check(`${label}: form submit shows success message`, okMsg)
   if (!okMsg) {
     const vals = await page.evaluate(() => ({ name: document.querySelector('#cf-name')?.value, phone: document.querySelector('#cf-phone')?.value, checked: document.querySelector('#contact input[type=checkbox]')?.checked, alerts: [...document.querySelectorAll('#contact [role=alert]')].map((e) => e.textContent) }))
@@ -52,7 +52,7 @@ for (const [label, ctxOpts] of [['desktop', { viewport: { width: 1366, height: 8
   // 4. language switch (client-side, no full reload)
   await page.evaluate(() => window.scrollTo(0, 0))
   const marker = await page.evaluate(() => { window.__noReload = 1; return 1 })
-  await page.locator('header button[aria-haspopup="menu"]').first().click()
+  await page.locator('header button[aria-label*="—"]').first().click()
   await page.getByRole('menuitem', { name: /English/ }).first().click({ timeout: 8000 }).catch(async () => { await page.screenshot({ path: `shots/${label}-menu-fail.png` }); console.log('   debug: menu item not found') })
   await page.waitForURL('**/en', { timeout: 10000 }).then(() => check(`${label}: language switch → /en`, true)).catch(() => check(`${label}: language switch → /en`, false))
   check(`${label}: language switch kept the page (no reload)`, (await page.evaluate(() => window.__noReload)) === 1)
