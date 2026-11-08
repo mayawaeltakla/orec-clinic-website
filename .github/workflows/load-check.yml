@@ -1,0 +1,51 @@
+name: load-check
+on:
+  workflow_dispatch:
+  push:
+    branches: ['load/**']
+jobs:
+  load:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm ci --no-audit --no-fund
+      - name: Build (route sizes)
+        run: npx next build 2>&1 | tee build.log
+        env: { NEXT_TELEMETRY_DISABLED: '1' }
+      - name: Start production server
+        run: |
+          cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/
+          PORT=3000 node .next/standalone/server.js > server.log 2>&1 &
+          for i in $(seq 1 40); do curl -sf localhost:3000/ar >/dev/null && break; sleep 2; done
+      - name: Home page JS (gzip) and Lighthouse
+        run: |
+          node -e "
+          const fs=require('fs'),zlib=require('zlib');
+          const html=fs.readFileSync('.next/server/app/ar.html','utf8');
+          const srcs=[...html.matchAll(/src=\"(\/_next\/static\/[^\"]+\.js)\"/g)].map(m=>m[1]);
+          let raw=0,gz=0;
+          for(const s of new Set(srcs)){const f='.next'+s.replace('/_next','');if(fs.existsSync(f)){const b=fs.readFileSync(f);raw+=b.length;gz+=zlib.gzipSync(b).length}}
+          console.log('home /ar initial JS: raw',Math.round(raw/1024),'KiB, gzip',Math.round(gz/1024),'KiB,',new Set(srcs).size,'scripts');
+          console.log('home html size',Math.round(html.length/1024),'KiB');
+          "
+          for page in /ar /ar/services /ar/services/dental/hollywood-smile; do
+            for preset in mobile desktop; do
+              if [ $preset = desktop ]; then P="--preset=desktop"; else P=""; fi
+              npx --yes lighthouse@12 "http://localhost:3000$page" $P --quiet --chrome-flags="--headless=new --no-sandbox" --only-categories=performance,accessibility --output=json --output-path=lh.json >/dev/null 2>&1 || echo "lighthouse failed $page"
+              node -e "
+              const r=require('./lh.json');const c=r.categories;const a=r.audits;const f=k=>a[k]?a[k].displayValue:'-';
+              console.log('$preset $page | perf',Math.round(c.performance.score*100),'a11y',Math.round(c.accessibility.score*100),'| FCP',f('first-contentful-paint'),'LCP',f('largest-contentful-paint'),'TBT',f('total-blocking-time'),'CLS',f('cumulative-layout-shift'),'| bytes',f('total-byte-weight'));
+              const cc=a['color-contrast']&&a['color-contrast'].details&&a['color-contrast'].details.items||[];
+              cc.slice(0,5).forEach(i=>console.log('   contrast:',(i.node&&i.node.snippet||'').slice(0,90),i.node&&i.node.explanation&&i.node.explanation.slice(0,140)));
+              "
+            done
+          done
+      - name: Load test
+        run: |
+          npm i --no-save autocannon@8 >/dev/null 2>&1
+          node tools/loadtest.mjs http://localhost:3000
+      - name: Server log tail
+        if: always()
+        run: tail -30 server.log || true

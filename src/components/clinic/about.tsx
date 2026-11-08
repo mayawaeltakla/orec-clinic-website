@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useLanguage } from './language-context'
 import { Quote, BadgeCheck, Sparkles, Gem, Stethoscope } from 'lucide-react'
 import { Ornament } from './ornament'
@@ -151,7 +152,7 @@ function AboutPage() {
     <>
       {/* 1. Hero split */}
       <section className="relative overflow-hidden border-b border-border">
-        <img src="/orec-lobby.jpg" alt="Orec Clinic — عيادة أوريك" aria-hidden width={1400} height={788} fetchPriority="high" className="absolute inset-0 h-full w-full object-cover object-[50%_40%]" />
+        <Image src="/orec-lobby.jpg" alt="" aria-hidden fill sizes="100vw" priority quality={70} className="object-cover object-[50%_40%]" />
         <div aria-hidden className="hero-fade absolute inset-0" />
         <div aria-hidden className="hero-leaf" />
         <div className="relative mx-auto max-w-7xl px-4 pb-12 pt-6 sm:px-6 lg:px-8 lg:pb-20">

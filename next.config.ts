@@ -8,12 +8,26 @@ const nextConfig: NextConfig = {
   },
   reactStrictMode: false,
   poweredByHeader: false,
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [420, 640, 828, 1080, 1280, 1600, 1920],
+    minimumCacheTTL: 31536000,
+  },
   compress: true,
   async headers() {
     // Static photos never change under the same name: cache hard in the browser and on Vercel's edge
     const immutable = [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }];
     const daily = [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }];
     return [
+      {
+        source: "/:path*",
+        headers: [
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "X-Frame-Options", value: "SAMEORIGIN" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
+        ],
+      },
       { source: "/service-images/:path*", headers: immutable },
       { source: "/services/:file(.*\\.(?:jpg|jpeg|png|webp|avif))", headers: immutable },
       { source: "/:file(.*\\.(?:jpg|jpeg|png|webp|svg))", headers: daily },

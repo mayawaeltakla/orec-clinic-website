@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
 import { useLanguage } from './language-context'
 import {
@@ -109,7 +110,7 @@ export function Hero() {
       >
         {/* Full-bleed clinic photography, crossfading (own stacking context so the overlays stay on top) */}
         <div aria-hidden={false} className="absolute inset-0 z-0 isolate">
-        {SLIDES.map(({ src, w, h, alt }, i) => (i === 0 || ready) && (
+        {SLIDES.map(({ src, alt }, i) => (i === 0 || ready) && (
           <div
             key={src}
             aria-hidden={i !== slide}
@@ -121,15 +122,15 @@ export function Hero() {
                   : 'z-0 opacity-0'
             }`}
           >
-            <img
+            <Image
               src={src}
               alt={i === slide ? alt : ''}
-              width={w}
-              height={h}
+              fill
+              sizes="100vw"
+              priority={i === 0}
               loading="eager"
-              fetchPriority={i === 0 ? 'high' : 'low'}
-              decoding="async"
-              className={`absolute inset-0 h-full w-full object-cover object-[50%_40%] ${
+              quality={70}
+              className={`object-cover object-[50%_40%] ${
                 i === slide ? 'scale-100 transition-transform duration-[7000ms] ease-out' : 'scale-[1.06]'
               }`}
             />
