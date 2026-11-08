@@ -18,7 +18,8 @@ function WhatsAppIcon({ className }: { className?: string }) {
   )
 }
 
-export function Contact({ standalone = false }: { standalone?: boolean }) {
+export function Contact({ standalone = false, formOnly = false, defaultService }: { standalone?: boolean; formOnly?: boolean; defaultService?: string }) {
+  const single = standalone || formOnly
   const { dict, lang, lp } = useLanguage()
   const c = dict.contact
   const x = CONTACT_EXTRAS[lang.code]
@@ -27,7 +28,7 @@ export function Contact({ standalone = false }: { standalone?: boolean }) {
   const [waSnapshot, setWaSnapshot] = useState('')
   const [name, setName] = useState('')
   const [phone, setPhone] = useState('')
-  const [service, setService] = useState('')
+  const [service, setService] = useState(defaultService ?? '')
   const [message, setMessage] = useState('')
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')
 
@@ -44,7 +45,7 @@ export function Contact({ standalone = false }: { standalone?: boolean }) {
   useEffect(() => {
     try {
       const s = new URLSearchParams(window.location.search).get('service')
-      if (s) setService(s)
+      if (s && !defaultService) setService(s)
     } catch {}
   }, [])
 
@@ -116,10 +117,10 @@ export function Contact({ standalone = false }: { standalone?: boolean }) {
   return (
     <>
       {standalone && <PageBanner image="/orec-exterior.jpg" eyebrow={c.eyebrow} title={c.title} subtitle={c.subtitle} crumbs={[{ label: c.title }]} />}
-    <section id="contact" className={`relative ${standalone ? 'py-14 sm:py-16' : 'py-24 sm:py-28 lg:py-32'}`}>
+    <section id={formOnly ? 'consult' : 'contact'} className={`relative ${single ? 'py-14 sm:py-16' : 'py-24 sm:py-28 lg:py-32'}`}>
       <div className="gold-line absolute inset-x-0 top-0" aria-hidden />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {!standalone && (
+        {!standalone && !formOnly && (
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs font-bold tracking-[0.3em] text-gold" dir="ltr">
             {c.eyebrow}
@@ -132,6 +133,7 @@ export function Contact({ standalone = false }: { standalone?: boolean }) {
 
         )}
 
+        {!formOnly && (
         {/* Quote */}
         <div className={`relative mx-auto ${standalone ? '' : 'mt-8'} max-w-4xl rounded-2xl border border-border bg-card/70 p-6 sm:p-8`}>
           <Quote className="absolute start-5 top-5 h-8 w-8 text-gold/25" aria-hidden />
@@ -144,7 +146,10 @@ export function Contact({ standalone = false }: { standalone?: boolean }) {
           </p>
         </div>
 
-        <div className={`mt-10 grid grid-cols-1 gap-6 ${standalone ? '' : 'lg:grid-cols-5'}`}>
+        )}
+
+        <div className={`${formOnly ? '' : 'mt-10'} grid grid-cols-1 gap-6 ${single ? '' : 'lg:grid-cols-5'}`}>
+          {!formOnly && (
           {/* Contact info */}
           <div className={standalone ? 'grid gap-4 sm:grid-cols-2 lg:grid-cols-4' : 'space-y-4 lg:col-span-2'}>
             {!standalone && <h3 className="text-lg font-extrabold text-gold-2">{c.infoTitle}</h3>}
@@ -217,8 +222,10 @@ export function Contact({ standalone = false }: { standalone?: boolean }) {
             </div>
           </div>
 
+          )}
+
           {/* Form */}
-          <div className={standalone ? 'mx-auto w-full max-w-3xl' : 'lg:col-span-3'}>
+          <div className={single ? 'mx-auto w-full max-w-3xl' : 'lg:col-span-3'}>
             <form
               onSubmit={handleSubmit}
               className="rounded-2xl border border-border bg-card/80 p-6 sm:p-8"
