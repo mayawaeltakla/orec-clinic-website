@@ -204,10 +204,12 @@ function SectionBlock({ section }: { section: ServiceSection }) {
         <div className={`mt-6 grid gap-4 md:grid-cols-2 ${section.blocks.length >= 3 ? 'lg:grid-cols-3' : ''}`}>
           {section.blocks.map((b, bi) => (
             <div key={bi} className="lift rounded-2xl border border-border bg-navy-2/50 p-5">
-              <span className="gold-ring flex h-9 w-9 items-center justify-center rounded-full text-xs font-extrabold" dir="ltr" aria-hidden>
-                {String(bi + 1).padStart(2, '0')}
-              </span>
-              <h3 className="mt-3 text-sm font-bold text-gold-2 sm:text-base">
+              {section.blocks && section.blocks.length >= 3 && (
+                <span className="gold-ring mb-3 flex h-9 w-9 items-center justify-center rounded-full text-xs font-extrabold" dir="ltr" aria-hidden>
+                  {String(bi + 1).padStart(2, '0')}
+                </span>
+              )}
+              <h3 className="text-sm font-bold text-gold-2 sm:text-base">
                 {b.title}
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{b.text}</p>
