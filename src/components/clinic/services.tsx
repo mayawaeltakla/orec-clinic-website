@@ -4,7 +4,8 @@ import { PageBanner } from './page-banner'
 import { CtaBand } from './cta-band'
 import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { useLanguage } from './language-context'
-import { DEPT_SLUG_BY_ID } from '@/lib/services-content/config'
+import { DEPT_SLUG_BY_ID, DEPARTMENTS } from '@/lib/services-content/config'
+import { useServicesContent } from './use-services-content'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { Ornament } from './ornament'
 
@@ -19,6 +20,8 @@ const SERVICE_IMAGES: Record<string, { src: string; w: number; h: number }> = {
 export function Services({ standalone = false }: { standalone?: boolean }) {
   const { dict, dir, lp, lang } = useLanguage()
   const Chevron = dir === 'rtl' ? ChevronLeft : ChevronRight
+  const content = useServicesContent()
+  const panels = standalone && content
 
   return (
     <>
@@ -42,6 +45,46 @@ export function Services({ standalone = false }: { standalone?: boolean }) {
         )}
 
         {/* Category cards — compact, one row on wide screens. Full service lists live on each department page. */}
+        {panels && (
+          <div className="space-y-10">
+            {DEPARTMENTS.map((d) => {
+              const dc = content.departments[d.slug]
+              if (!dc) return null
+              return (
+                <div key={d.slug} className="rounded-3xl border border-border bg-card/60 p-5 shadow-sm sm:p-8">
+                  <div className="flex flex-wrap items-end justify-between gap-3">
+                    <h2 className="text-xl font-extrabold text-gold-2 sm:text-2xl">
+                      <a href={lp(`/services/${d.slug}`)} className="hover:text-gold">{dc.title}</a>
+                    </h2>
+                    <a href={lp(`/services/${d.slug}`)} className="inline-flex items-center gap-1 text-sm font-bold text-gold hover:text-gold-2">
+                      {dict.services.viewAll}
+                      <Chevron className="h-4 w-4" aria-hidden />
+                    </a>
+                  </div>
+                  <p className="mt-2 max-w-3xl text-sm leading-relaxed text-muted-foreground">{dc.tagline}</p>
+                  <ul className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-4">
+                    {d.services.map((sv) => {
+                      const sc = dc.services[sv.slug]
+                      return (
+                        <li key={sv.slug}>
+                          <a href={lp(`/services/${d.slug}/${sv.slug}`)} className="orec-card lift group flex h-full flex-col overflow-hidden">
+                            {sv.image && <img src={sv.image} alt="" loading="lazy" width={600} height={400} className="aspect-[3/2] w-full object-cover transition-transform duration-500 group-hover:scale-105" />}
+                            <span className="block p-3">
+                              <span className="block text-sm font-bold text-foreground group-hover:text-gold-2">{sc?.title ?? sv.en}</span>
+                              <span className="mt-0.5 block text-[11px] text-muted-foreground" dir="ltr">{sv.en}</span>
+                            </span>
+                          </a>
+                        </li>
+                      )
+                    })}
+                  </ul>
+                </div>
+              )
+            })}
+          </div>
+        )}
+
+        {!panels && (
         <div className={`${standalone ? '' : 'mt-14'} grid gap-6 sm:grid-cols-2 xl:grid-cols-4`}>
           {dict.services.categories.map((cat) => {
             const img = SERVICE_IMAGES[cat.id]
@@ -80,6 +123,7 @@ export function Services({ standalone = false }: { standalone?: boolean }) {
             )
           })}
         </div>
+        )}
       </div>
     </section>
       {standalone && <CtaBand title={PAGE_LABELS[lang.code].contactDoctor} />}
