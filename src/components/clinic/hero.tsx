@@ -53,6 +53,9 @@ export function Hero() {
   const [slide, setSlide] = useState(0)
   const [prev, setPrev] = useState<number | null>(null)
   const [paused, setPaused] = useState(false)
+  /* Slides 2..n are only mounted after the page has loaded, so they never compete with the first photo (LCP),
+     and are already decoded by the time the first crossfade starts (no blank flash on large screens). */
+  const [ready, setReady] = useState(false)
   const current = useRef(0)
 
   const show = (next: number) => {
@@ -63,17 +66,31 @@ export function Hero() {
   }
 
   useEffect(() => {
+    const go = () => setReady(true)
+    if (document.readyState === 'complete') {
+      const t = setTimeout(go, 300)
+      return () => clearTimeout(t)
+    }
+    window.addEventListener('load', go, { once: true })
+    const t = setTimeout(go, 3500)
+    return () => {
+      window.removeEventListener('load', go)
+      clearTimeout(t)
+    }
+  }, [])
+
+  useEffect(() => {
     if (prev === null) return
-    const t = setTimeout(() => setPrev(null), 1100)
+    const t = setTimeout(() => setPrev(null), 1900)
     return () => clearTimeout(t)
   }, [prev])
 
   useEffect(() => {
-    if (paused) return
+    if (paused || !ready) return
     if (typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
     const t = setInterval(() => show((current.current + 1) % SLIDES.length), 5000)
     return () => clearInterval(t)
-  }, [paused, slide])
+  }, [paused, slide, ready])
 
   const go = (delta: number) => show((current.current + delta + SLIDES.length) % SLIDES.length)
   const PrevIcon = dir === 'rtl' ? ChevronRight : ChevronLeft
@@ -82,7 +99,7 @@ export function Hero() {
   return (
     <section id="top" className="relative overflow-hidden pt-16 lg:pt-20">
       <div
-        className="relative min-h-[620px] lg:min-h-[720px]"
+        className="relative min-h-[620px] lg:min-h-[720px] 2xl:min-h-[800px]"
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
         onFocus={() => setPaused(true)}
@@ -92,13 +109,13 @@ export function Hero() {
       >
         {/* Full-bleed clinic photography, crossfading (own stacking context so the overlays stay on top) */}
         <div aria-hidden={false} className="absolute inset-0 z-0 isolate">
-        {SLIDES.map(({ src, w, h, alt }, i) => (
+        {SLIDES.map(({ src, w, h, alt }, i) => (i === 0 || ready) && (
           <div
             key={src}
             aria-hidden={i !== slide}
-            className={`absolute inset-0 ${
+            className={`absolute inset-0 will-change-[opacity] ${
               i === slide
-                ? 'z-20 opacity-100 transition-opacity duration-1000 ease-in-out'
+                ? 'z-20 opacity-100 transition-opacity duration-[1600ms] ease-in-out'
                 : i === prev
                   ? 'z-10 opacity-100'
                   : 'z-0 opacity-0'
@@ -109,10 +126,12 @@ export function Hero() {
               alt={i === slide ? alt : ''}
               width={w}
               height={h}
-              loading={i === 0 ? 'eager' : 'lazy'}
-              fetchPriority={i === 0 ? 'high' : 'auto'}
+              loading="eager"
+              fetchPriority={i === 0 ? 'high' : 'low'}
               decoding="async"
-              className="absolute inset-0 h-full w-full object-cover"
+              className={`absolute inset-0 h-full w-full object-cover object-[50%_40%] ${
+                i === slide ? 'scale-100 transition-transform duration-[7000ms] ease-out' : 'scale-[1.06]'
+              }`}
             />
           </div>
         ))}
@@ -120,6 +139,7 @@ export function Hero() {
         {/* Readability fade from the text side */}
         <div aria-hidden className="hero-fade absolute inset-0" />
         <div aria-hidden className="hero-leaf" />
+        <div aria-hidden className="hero-base absolute inset-x-0 bottom-0 h-28" />
 
         <div className="relative mx-auto flex min-h-[620px] w-full max-w-7xl items-center px-4 py-20 sm:px-6 lg:min-h-[720px] lg:px-8 lg:py-28">
           <div className="max-w-xl text-start">

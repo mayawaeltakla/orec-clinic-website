@@ -467,3 +467,33 @@ html.light .gold-ring { color: var(--gold-deep); }
 [dir='rtl'] .hero-leaf { transform: scaleX(-1); }
 /* Lighter, airier cards */
 .orec-card, .lift { background: color-mix(in srgb, var(--card) 94%, transparent); }
+
+/* Large screens: keep the text side dense longer and melt into the photo more softly */
+.hero-base {
+  background: linear-gradient(0deg, rgba(var(--hero-fade), 0.28), transparent);
+}
+@media (min-width: 1536px) {
+  .hero-fade {
+    background: linear-gradient(
+      90deg,
+      rgba(var(--hero-fade), 0.92) 0%,
+      rgba(var(--hero-fade), 0.84) 34%,
+      rgba(var(--hero-fade), 0.4) 52%,
+      rgba(var(--hero-fade), 0.06) 72%,
+      transparent 100%
+    );
+  }
+  [dir='rtl'] .hero-fade {
+    background: linear-gradient(
+      270deg,
+      rgba(var(--hero-fade), 0.92) 0%,
+      rgba(var(--hero-fade), 0.84) 34%,
+      rgba(var(--hero-fade), 0.4) 52%,
+      rgba(var(--hero-fade), 0.06) 72%,
+      transparent 100%
+    );
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-base { display: none; }
+}

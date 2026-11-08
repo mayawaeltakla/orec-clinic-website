@@ -7,6 +7,18 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   reactStrictMode: false,
+  poweredByHeader: false,
+  compress: true,
+  async headers() {
+    // Static photos never change under the same name: cache hard in the browser and on Vercel's edge
+    const immutable = [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }];
+    const daily = [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }];
+    return [
+      { source: "/service-images/:path*", headers: immutable },
+      { source: "/services/:file(.*\\.(?:jpg|jpeg|png|webp|avif))", headers: immutable },
+      { source: "/:file(.*\\.(?:jpg|jpeg|png|webp|svg))", headers: daily },
+    ];
+  },
   async redirects() {
     // Legacy un-prefixed URLs → Arabic (default) locale
     return [
