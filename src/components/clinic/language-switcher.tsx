@@ -29,7 +29,7 @@ function nameIn(current: string, target: string, fallback: string) {
 }
 
 export function LanguageSwitcher({ compact = false }: { compact?: boolean }) {
-  const { lang, setLang, prefetchLang, dir } = useLanguage()
+  const { lang, dict, setLang, prefetchLang, dir } = useLanguage()
 
   return (
     /* dir is required so Radix positions the menu correctly in RTL (otherwise it
@@ -41,7 +41,7 @@ export function LanguageSwitcher({ compact = false }: { compact?: boolean }) {
       }}
     >
       <DropdownMenuTrigger
-        aria-label={`${lang.dict.nav.menuOpen} — ${lang.label}`}
+        aria-label={`${dict.nav.menuOpen} — ${lang.label}`}
         className="inline-flex h-10 items-center gap-2 rounded-full border border-border bg-secondary/60 px-3 text-sm font-medium text-foreground/90 transition-colors hover:border-gold/60 hover:bg-accent"
       >
         <Globe className="h-4 w-4 text-gold" aria-hidden />

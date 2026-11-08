@@ -1,6 +1,7 @@
 'use client'
 
 import { createContext, useContext, useCallback } from 'react'
+import { useDict } from './dict-context'
 import { usePathname, useRouter } from 'next/navigation'
 import { DEFAULT_LANGUAGE, getLanguage, localePath, localeSlug, type LanguageMeta, type LanguageCode, type Dictionary } from '@/lib/i18n'
 
@@ -30,6 +31,7 @@ export function LanguageProvider({
   children: React.ReactNode
 }) {
   const lang = getLanguage(initialLang)
+  const dict = useDict()
 
   const router = useRouter()
   const pathname = usePathname()
@@ -57,7 +59,7 @@ export function LanguageProvider({
   const lp = useCallback((path: string = '/') => localePath(lang.code, path), [lang.code])
 
   return (
-    <LanguageContext.Provider value={{ lang, dict: lang.dict, dir: lang.dir, setLang, prefetchLang, lp }}>
+    <LanguageContext.Provider value={{ lang, dict, dir: lang.dir, setLang, prefetchLang, lp }}>
       {children}
     </LanguageContext.Provider>
   )

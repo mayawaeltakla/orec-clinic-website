@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { ChevronLeft, ChevronRight, Home } from 'lucide-react'
 import { useLanguage } from './language-context'
 
@@ -32,15 +33,7 @@ export function PageBanner({
 
   return (
     <section className="relative overflow-hidden border-b border-border">
-      <img
-        src={image}
-        alt=""
-        aria-hidden
-        width={1400}
-        height={788}
-        fetchPriority="high"
-        className="absolute inset-0 h-full w-full object-cover object-[50%_40%]"
-      />
+      <Image src={image} alt="" aria-hidden fill sizes="100vw" priority quality={70} className="object-cover object-[50%_40%]" />
       <div aria-hidden className="hero-fade absolute inset-0" />
       <div aria-hidden className="hero-leaf" />
 

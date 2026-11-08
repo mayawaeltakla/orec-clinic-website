@@ -30,6 +30,7 @@ export function Contact({ standalone = false, formOnly = false, defaultService }
   const [phone, setPhone] = useState('')
   const [service, setService] = useState(defaultService ?? '')
   const [message, setMessage] = useState('')
+  const [website, setWebsite] = useState('') // honeypot
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')
 
   const serviceOptions = useMemo(() => {
@@ -77,7 +78,7 @@ export function Contact({ standalone = false, formOnly = false, defaultService }
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, phone, service, message, lang: lang.code, consent: true }),
+        body: JSON.stringify({ name, phone, service, message, lang: lang.code, consent: true, website }),
       })
       if (!res.ok) throw new Error('failed')
       setStatus('success')
@@ -193,7 +194,7 @@ export function Contact({ standalone = false, formOnly = false, defaultService }
                   </span>
                 </span>
               </span>
-              <span className="relative inline-flex h-11 items-center justify-center gap-2 rounded-xl bg-wa px-5 text-sm font-bold text-white transition group-hover:brightness-110">
+              <span className="relative inline-flex h-11 items-center justify-center gap-2 rounded-xl bg-wa-dark px-5 text-sm font-bold text-white transition group-hover:brightness-110">
                 <WhatsAppIcon className="h-5 w-5" />
                 {c.whatsappCta}
               </span>
@@ -229,6 +230,12 @@ export function Contact({ standalone = false, formOnly = false, defaultService }
               className="rounded-2xl border border-border bg-card/80 p-6 sm:p-8"
               noValidate={false}
             >
+              <div aria-hidden className="absolute -start-[9999px] h-0 w-0 overflow-hidden">
+                <label>
+                  Website
+                  <input tabIndex={-1} autoComplete="off" value={website} onChange={(e) => setWebsite(e.target.value)} />
+                </label>
+              </div>
               <h3 className="text-lg font-extrabold text-gold-2">{c.formTitle}</h3>
               <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2">
                 <div>
@@ -346,7 +353,7 @@ export function Contact({ standalone = false, formOnly = false, defaultService }
                     href={whatsappLink(waSnapshot || waText)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex h-11 items-center justify-center gap-2 rounded-full bg-wa px-5 text-sm font-bold text-white transition hover:brightness-110"
+                    className="inline-flex h-11 items-center justify-center gap-2 rounded-full bg-wa-dark px-5 text-sm font-bold text-white transition hover:brightness-110"
                   >
                     <WhatsAppIcon className="h-5 w-5" />
                     {x.waSend}

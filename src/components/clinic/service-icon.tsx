@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import type { ComponentType } from 'react'
 import {
   Activity, Building2, Circle, Dna, Dumbbell, Ear, Eye, Feather, Flower2, Footprints, Gem,
@@ -40,7 +41,7 @@ export function ServiceCover({ emoji, label, image }: { emoji: string; label: st
   if (image) {
     return (
       <div aria-hidden className="-mx-6 -mt-6 mb-6 aspect-[3/2] w-[calc(100%+3rem)] overflow-hidden border-b border-border">
-        <img src={image} alt="" width={1200} height={800} loading="lazy" className="h-full w-full object-cover" />
+        <Image src={image} alt="" width={1200} height={800} sizes="(min-width:1024px) 33vw, 100vw" className="h-full w-full object-cover" />
       </div>
     )
   }

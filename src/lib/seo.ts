@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { getDict } from '@/lib/i18n/dicts'
 import { CLINIC, LANGUAGES, localePath, localeSlug, getLanguage, type LanguageCode } from '@/lib/i18n'
 
 /** Set NEXT_PUBLIC_SITE_URL (e.g. https://www.orecclinic.com) once the real domain is connected. */
@@ -67,7 +68,7 @@ export function clinicJsonLd(lang: LanguageCode) {
     url: `${SITE_URL}${localePath(lang)}`,
     logo: `${SITE_URL}/orec-logo.png`,
     image: `${SITE_URL}/orec-exterior.jpg`,
-    description: meta.dict.meta.description,
+    description: getDict(lang).meta.description,
     telephone: CLINIC.phoneRaw,
     email: CLINIC.email,
     foundingDate: '2015',

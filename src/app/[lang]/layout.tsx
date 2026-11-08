@@ -4,6 +4,8 @@ import { Tajawal, Manrope } from 'next/font/google'
 import '../globals.css'
 import { LANGUAGES, getLanguageBySlug, localeSlug } from '@/lib/i18n'
 import { SITE_URL, clinicJsonLd } from '@/lib/seo'
+import { getDict } from '@/lib/i18n/dicts'
+import { DictProvider } from '@/components/clinic/dict-context'
 
 const tajawal = Tajawal({
   variable: '--font-tajawal',
@@ -61,7 +63,7 @@ export default async function LangLayout({
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
       <body className={`${tajawal.variable} ${manrope.variable} antialiased bg-background text-foreground`}>
-        {children}
+        <DictProvider dict={getDict(meta.code)}>{children}</DictProvider>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
       </body>
     </html>
