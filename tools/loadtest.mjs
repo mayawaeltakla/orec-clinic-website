@@ -3,11 +3,11 @@ import autocannon from 'autocannon'
 
 const base = process.argv[2] || 'http://localhost:3000'
 const targets = [
-  { name: 'home /ar', path: '/ar' },
-  { name: 'services /ar/services', path: '/ar/services' },
-  { name: 'sub-service page', path: '/ar/services/dental/hollywood-smile' },
-  { name: 'blog /ar/blog', path: '/ar/blog' },
-  { name: 'static image', path: '/orec-lobby.jpg' },
+  { name: 'home /ar', path: '/ar', method: 'GET' },
+  { name: 'services /ar/services', path: '/ar/services', method: 'GET' },
+  { name: 'sub-service page', path: '/ar/services/dental/hollywood-smile', method: 'GET' },
+  { name: 'blog /ar/blog', path: '/ar/blog', method: 'GET' },
+  { name: 'static image', path: '/orec-lobby.jpg', method: 'GET' },
   {
     name: 'POST /api/contact (valid body)',
     path: '/api/contact',
