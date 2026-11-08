@@ -1,6 +1,7 @@
 'use client'
 
 import { PageBanner } from './page-banner'
+import { FaqTeaser } from './faq-teaser'
 import { useEffect, useMemo, useState } from 'react'
 import { useLanguage } from './language-context'
 import { CLINIC, whatsappLink } from '@/lib/i18n'
@@ -143,10 +144,10 @@ export function Contact({ standalone = false }: { standalone?: boolean }) {
           </p>
         </div>
 
-        <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-5">
+        <div className={`mt-10 grid grid-cols-1 gap-6 ${standalone ? '' : 'lg:grid-cols-5'}`}>
           {/* Contact info */}
-          <div className="space-y-4 lg:col-span-2">
-            <h3 className="text-lg font-extrabold text-gold-2">{c.infoTitle}</h3>
+          <div className={standalone ? 'grid gap-4 sm:grid-cols-2 lg:grid-cols-4' : 'space-y-4 lg:col-span-2'}>
+            {!standalone && <h3 className="text-lg font-extrabold text-gold-2">{c.infoTitle}</h3>}
             {infoCards.map(({ icon: Icon, label, value, href, ltr }) => (
               <a
                 key={label}
@@ -217,7 +218,7 @@ export function Contact({ standalone = false }: { standalone?: boolean }) {
           </div>
 
           {/* Form */}
-          <div className="lg:col-span-3">
+          <div className={standalone ? 'mx-auto w-full max-w-3xl' : 'lg:col-span-3'}>
             <form
               onSubmit={handleSubmit}
               className="rounded-2xl border border-border bg-card/80 p-6 sm:p-8"
@@ -358,6 +359,22 @@ export function Contact({ standalone = false }: { standalone?: boolean }) {
         </div>
       </div>
     </section>
+      {standalone && (
+        <section className="pb-14 sm:pb-16">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="overflow-hidden rounded-3xl border border-border shadow-[0_24px_60px_-34px_rgba(10,46,77,0.5)]">
+              <iframe
+                title={c.address}
+                src={`https://maps.google.com/maps?q=${encodeURIComponent(CLINIC.address)}&output=embed`}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="h-[320px] w-full border-0 sm:h-[400px]"
+              />
+            </div>
+          </div>
+        </section>
+      )}
+      {standalone && <FaqTeaser />}
     </>
   )
 }
