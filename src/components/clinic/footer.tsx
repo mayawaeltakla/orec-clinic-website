@@ -6,7 +6,8 @@ import { SECTION_LABELS } from '@/lib/i18n/section-labels'
 import { useLanguage } from './language-context'
 import { CLINIC } from '@/lib/i18n'
 import { DEPT_SLUG_BY_ID } from '@/lib/services-content/config'
-import { Mail, Phone, MapPin } from 'lucide-react'
+import { Mail, Phone, MapPin, Clock, Star } from 'lucide-react'
+import { AVAILABLE_247, RATE_US } from '@/lib/i18n/availability'
 import { SOCIALS } from './social-icons'
 
 export function Footer() {
@@ -147,6 +148,18 @@ export function Footer() {
                   <span dir="ltr">{CLINIC.address}</span>
                 </a>
               </li>
+              <li className="flex items-center gap-2 font-bold text-gold-2">
+                <Clock className="h-4 w-4 text-gold" aria-hidden />
+                {AVAILABLE_247[lang.code]}
+              </li>
+              {CLINIC.reviewUrl && (
+                <li>
+                  <a href={CLINIC.reviewUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full border border-gold/50 px-4 py-1.5 text-xs font-bold text-gold-2 transition-colors hover:border-gold">
+                    <Star className="h-3.5 w-3.5" aria-hidden />
+                    {RATE_US[lang.code]}
+                  </a>
+                </li>
+              )}
             </ul>
           </div>
         </div>
