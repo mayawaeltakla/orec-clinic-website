@@ -1,0 +1,42 @@
+name: load-check
+on:
+  workflow_dispatch:
+  push:
+    branches: ['load/**']
+jobs:
+  load:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm ci --no-audit --no-fund
+      - name: Build (route sizes)
+        run: npx next build 2>&1 | tee build.log
+        env: { NEXT_TELEMETRY_DISABLED: '1' }
+      - name: Start production server
+        run: |
+          npx next start -p 3000 > server.log 2>&1 &
+          for i in $(seq 1 40); do curl -sf localhost:3000/ar >/dev/null && break; sleep 2; done
+      - name: Lighthouse (mobile + desktop)
+        run: |
+          for page in /ar /ar/services /ar/services/dental/hollywood-smile /ar/contact; do
+            for preset in mobile desktop; do
+              if [ $preset = desktop ]; then P="--preset=desktop"; else P=""; fi
+              npx --yes lighthouse@12 "http://localhost:3000$page" $P --quiet --chrome-flags="--headless=new --no-sandbox" --only-categories=performance,accessibility,best-practices,seo --output=json --output-path=lh.json >/dev/null 2>&1 || echo "lighthouse failed $page"
+              node -e "
+              const r=require('./lh.json');const c=r.categories;const a=r.audits;
+              const f=k=>a[k]?a[k].displayValue:'-';
+              console.log('$preset $page | perf',Math.round(c.performance.score*100),'a11y',Math.round(c.accessibility.score*100),'bp',Math.round(c['best-practices'].score*100),'seo',Math.round(c.seo.score*100),'| FCP',f('first-contentful-paint'),'LCP',f('largest-contentful-paint'),'TBT',f('total-blocking-time'),'CLS',f('cumulative-layout-shift'),'SI',f('speed-index'),'| bytes',f('total-byte-weight'));
+              const bad=Object.values(a).filter(x=>x.score!==null&&x.score<0.9&&x.scoreDisplayMode!=='notApplicable'&&x.scoreDisplayMode!=='informative').map(x=>x.id);
+              console.log('   failing:',bad.slice(0,14).join(', '));
+              "
+            done
+          done
+      - name: Load test
+        run: |
+          npm i --no-save autocannon@8 >/dev/null 2>&1
+          node tools/loadtest.mjs http://localhost:3000
+      - name: Server log tail
+        if: always()
+        run: tail -30 server.log || true
