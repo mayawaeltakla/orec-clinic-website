@@ -194,7 +194,7 @@ export function Contact({ standalone = false, formOnly = false, defaultService }
                   </span>
                 </span>
               </span>
-              <span className="relative inline-flex h-11 items-center justify-center gap-2 rounded-xl bg-wa px-5 text-sm font-bold text-white transition group-hover:brightness-110">
+              <span className="relative inline-flex h-11 items-center justify-center gap-2 rounded-xl bg-wa-dark px-5 text-sm font-bold text-white transition group-hover:brightness-110">
                 <WhatsAppIcon className="h-5 w-5" />
                 {c.whatsappCta}
               </span>
@@ -353,7 +353,7 @@ export function Contact({ standalone = false, formOnly = false, defaultService }
                     href={whatsappLink(waSnapshot || waText)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex h-11 items-center justify-center gap-2 rounded-full bg-wa px-5 text-sm font-bold text-white transition hover:brightness-110"
+                    className="inline-flex h-11 items-center justify-center gap-2 rounded-full bg-wa-dark px-5 text-sm font-bold text-white transition hover:brightness-110"
                   >
                     <WhatsAppIcon className="h-5 w-5" />
                     {x.waSend}
