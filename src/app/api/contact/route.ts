@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
-import { LANGUAGES, CLINIC } from '@/lib/i18n'
+import { LANGUAGES } from '@/lib/i18n'
+import { sendContactEmail } from '@/lib/contact-mail'
+import { contactDbConfigured, saveContactMessage } from '@/lib/contact-db'
 import { rateLimit, clientIp } from '@/lib/rate-limit'
 
 export const runtime = 'nodejs'
@@ -15,42 +17,20 @@ const ContactSchema = z.object({
   website: z.string().max(200).optional().nullable(), // honeypot — real visitors never fill it
 })
 
-const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!)
-
-/** Email via Resend (set RESEND_API_KEY; optional CONTACT_TO_EMAIL, CONTACT_FROM_EMAIL). */
-async function sendEmail(d: { name: string; phone: string; service?: string | null; message?: string | null; lang: string }) {
-  const key = process.env.RESEND_API_KEY
-  if (!key) return false
-  const res = await fetch('https://api.resend.com/emails', {
-    method: 'POST',
-    headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      from: process.env.CONTACT_FROM_EMAIL || 'Orec Clinic Website <onboarding@resend.dev>',
-      to: [process.env.CONTACT_TO_EMAIL || CLINIC.email],
-      subject: `طلب جديد من الموقع — ${d.name}${d.service ? ` — ${d.service}` : ''}`,
-      html: `<div dir="rtl" style="font-family:Arial,sans-serif;line-height:1.8">
-        <h2>طلب تواصل جديد</h2>
-        <p><b>الاسم:</b> ${esc(d.name)}</p>
-        <p><b>الهاتف / واتساب:</b> <span dir="ltr">${esc(d.phone)}</span></p>
-        <p><b>الخدمة:</b> ${esc(d.service || '—')}</p>
-        <p><b>الرسالة:</b> ${esc(d.message || '—')}</p>
-        <p><b>لغة الزائر:</b> ${esc(d.lang)}</p></div>`,
-    }),
-  })
-  if (!res.ok) console.error('[contact] email failed', res.status, await res.text().catch(() => ''))
-  return res.ok
-}
-
-/** Optional DB copy — never allowed to fail the request (SQLite is read-only on Vercel). */
-async function saveToDb(d: { name: string; phone: string; service?: string | null; message?: string | null; lang: string }) {
+/** Saves to Neon Postgres in production; Prisma/SQLite only as a local-dev fallback. Never fails the request. */
+async function saveToDb(d: { name: string; phone: string; service?: string | null; message?: string | null; lang: string }, emailed: boolean) {
   try {
+    if (contactDbConfigured()) {
+      await saveContactMessage(d, emailed)
+      return true
+    }
     const { db } = await import('@/lib/db')
     await db.contactMessage.create({
       data: { name: d.name, phone: d.phone, service: d.service ?? null, message: d.message ?? null, lang: d.lang },
     })
     return true
   } catch (err) {
-    console.warn('[contact] db save skipped:', (err as Error)?.message)
+    console.error('[contact] db save failed:', (err as Error)?.message?.slice(0, 300))
     return false
   }
 }
@@ -89,7 +69,11 @@ export async function POST(req: Request) {
   const lang = LANGUAGES.some((l) => l.code === parsed.data.lang) ? (parsed.data.lang as string) : 'ar'
   const data = { ...parsed.data, lang }
 
-  const [emailed, saved] = await Promise.all([sendEmail(data).catch(() => false), saveToDb(data)])
+  // E-mail first so the stored row records whether the clinic was actually notified
+  const mail = await sendContactEmail(data)
+  if (!mail.ok) console.error('[contact] email failed', mail.status, mail.error)
+  const emailed = mail.ok
+  const saved = await saveToDb(data, emailed)
   if (!emailed && !saved) {
     console.error('[contact] no delivery channel succeeded', { name: data.name, service: data.service })
     return NextResponse.json({ ok: false, error: 'delivery' }, { status: 502 })

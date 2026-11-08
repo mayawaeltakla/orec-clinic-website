@@ -1,0 +1,65 @@
+name: verify
+on:
+  workflow_dispatch:
+  push:
+    branches: ['verify/**']
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm ci --no-audit --no-fund
+      - name: Build
+        run: npx next build 2>&1 | tail -25
+        env: { NEXT_TELEMETRY_DISABLED: '1' }
+      - name: Start production server (standalone) with a mock Resend
+        run: |
+          cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/
+          RESEND_API_KEY=test_key CONTACT_TO_EMAIL=clinic@example.test CONTACT_FROM_EMAIL="Orec <noreply@example.test>" RESEND_API_URL=http://127.0.0.1:4010 PORT=3000 node .next/standalone/server.js > server.log 2>&1 &
+          for i in $(seq 1 40); do curl -sf localhost:3000/ar >/dev/null && break; sleep 2; done
+      - name: Contact form end-to-end
+        run: |
+          if [ -f tools/contact-e2e.mjs ]; then node tools/contact-e2e.mjs http://localhost:3000 4010; else echo "no contact e2e on this branch"; fi
+      - name: Home page browser e2e (Playwright)
+        run: |
+          if [ -f tools/home-e2e.mjs ]; then
+            npm i --no-save playwright@1 >/dev/null 2>&1
+            npx playwright install --with-deps chromium >/dev/null 2>&1
+            node tools/home-e2e.mjs http://localhost:3000 4010; echo "home-e2e exit code: $?"
+          else echo "no home e2e on this branch"; fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: e2e-shots, path: shots, if-no-files-found: ignore }
+      - name: Home JS + Lighthouse x5 (median)
+        run: |
+          node -e "
+          const fs=require('fs'),zlib=require('zlib');
+          const html=fs.readFileSync('.next/server/app/ar.html','utf8');
+          const srcs=[...new Set([...html.matchAll(/src=\"(\/_next\/static\/[^\"]+\.js)\"/g)].map(m=>m[1]))];
+          let raw=0,gz=0;for(const s of srcs){const f='.next'+s.replace('/_next','');if(fs.existsSync(f)){const b=fs.readFileSync(f);raw+=b.length;gz+=zlib.gzipSync(b).length}}
+          console.log('HOME initial <script src> JS: raw',Math.round(raw/1024),'KiB | gzip',Math.round(gz/1024),'KiB |',srcs.length,'scripts | html',Math.round(html.length/1024),'KiB');
+          "
+          cat > med.js <<'JS'
+          const fs=require('fs');
+          const files=process.argv.slice(2);
+          const med=a=>{a=[...a].sort((x,y)=>x-y);const m=a.length>>1;return a.length%2?a[m]:(a[m-1]+a[m])/2};
+          const rows=files.map(f=>{const r=JSON.parse(fs.readFileSync(f));const a=r.audits;
+            const rs=a['resource-summary'].details.items;const get=t=>(rs.find(i=>i.resourceType===t)||{}).transferSize||0;
+            return {perf:r.categories.performance.score*100,fcp:a['first-contentful-paint'].numericValue,lcp:a['largest-contentful-paint'].numericValue,tbt:a['total-blocking-time'].numericValue,cls:a['cumulative-layout-shift'].numericValue,si:a['speed-index'].numericValue,total:get('total'),js:get('script'),img:get('image'),reqs:(rs.find(i=>i.resourceType==='total')||{}).requestCount}});
+          const k=x=>med(rows.map(r=>r[x]));
+          console.log('  runs',rows.length,'| perf',Math.round(k('perf')),'(',rows.map(r=>Math.round(r.perf)).join('/'),') | FCP',(k('fcp')/1000).toFixed(2)+'s','| LCP',(k('lcp')/1000).toFixed(2)+'s','| TBT',Math.round(k('tbt'))+'ms (',rows.map(r=>Math.round(r.tbt)).join('/'),') | CLS',k('cls').toFixed(3),'| SI',(k('si')/1000).toFixed(2)+'s | total',Math.round(k('total')/1024)+'KiB | JS',Math.round(k('js')/1024)+'KiB | img',Math.round(k('img')/1024)+'KiB | reqs',k('reqs'));
+          JS
+          for combo in "/ar mobile" "/ar desktop" "/ar/services mobile" "/ar/services/dental/hollywood-smile mobile"; do
+            set -- $combo; page=$1; preset=$2
+            if [ $preset = desktop ]; then P="--preset=desktop"; else P=""; fi
+            rm -f lh-*.json
+            for n in 1 2 3 4 5; do
+              npx --yes lighthouse@12 "http://localhost:3000$page" $P --quiet --chrome-flags="--headless=new --no-sandbox" --only-categories=performance --output=json --output-path=lh-$n.json >/dev/null 2>&1 || echo "run $n failed"
+            done
+            echo "== $preset $page"; node med.js lh-*.json
+          done
+      - name: Server log (errors only)
+        if: always()
+        run: grep -i "error\|\[contact\]" server.log | head -20 || true

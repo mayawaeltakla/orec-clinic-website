@@ -26,6 +26,9 @@ function connectionString(): string | null {
   return null
 }
 
+/** Shared Neon SQL-over-HTTP runner (also used for contact messages). */
+export { run as neonQuery }
+
 export function dbConfigured(): boolean {
   return connectionString() !== null
 }

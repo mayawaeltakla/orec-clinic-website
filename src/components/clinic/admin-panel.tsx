@@ -1,5 +1,6 @@
 'use client'
 
+import { ContactCheck } from './contact-check'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import type { BlogPost } from '@/lib/blog-db'
 
@@ -188,6 +189,8 @@ export function AdminPanel({ enabled, dbOk, translateOk, authed: initialAuthed }
         <h1 className="text-2xl font-extrabold text-gold-2">إدارة المدونة</h1>
         <button onClick={logout} className="text-sm font-bold text-foreground/70 underline underline-offset-4">خروج</button>
       </div>
+
+      <ContactCheck />
 
       {dbOk && !translateOk && (
         <p className="mt-4 rounded-xl border border-gold/40 bg-card px-4 py-3 text-sm">
