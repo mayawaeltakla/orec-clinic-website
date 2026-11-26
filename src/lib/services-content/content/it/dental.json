@@ -2,91 +2,132 @@
   "title": "Estetica e Cura Dentale",
   "tagline": "La tua famiglia medica nel viaggio per ritrovare la fiducia nel tuo sorriso — la nostra specialità fin dal primo giorno nel cuore di Istanbul",
   "intro": [
-    "Perché il sorriso è ciò che ci collega per primi agli altri, nella Clinica Orec abbiamo dedicato una sezione completa e molto avanzata all'odontoiatria, che comprende una selezione dei migliori medici e consulenti per offrirti le ultime soluzioni di estetica e cura dentale con le più precise tecnologie digitali mondiali.",
-    "Uniamo per te la precisione della medicina avanzata e la calore delle cure familiari, in base alle nostre licenze ufficiali dal Ministero della Salute e dal Ministero del Turismo della Turchia per il turismo medico, dalla progettazione digitale del sorriso agli impianti immediati, alle terapie integrate e alle protesi estetiche con materiali in zirconio e E-Max internazionali."
+    "Presso Orec Clinic La accompagniamo lungo tutto il percorso: dalla prima consulenza alla progettazione digitale del sorriso, fino al trattamento e al follow-up. Il nostro reparto di odontoiatria riunisce medici e consulenti che si avvalgono di moderne tecnologie digitali, il tutto con le autorizzazioni ufficiali del Ministero della Salute e del Ministero del Turismo turchi per il turismo sanitario.",
+    "Uniamo la precisione della medicina avanzata al calore di un'assistenza familiare e predisponiamo per ogni paziente un piano di trattamento scritto, adatto alle condizioni dei suoi denti e al risultato che desidera."
   ],
   "services": {
     "dental-implants": {
       "title": "Impianti dentali",
       "tagline": "Impianti dentali in Turchia | La soluzione ottimale e definitiva per sostituire i denti mancanti",
-      "intro": "Gli impianti dentali rappresentano l'ultima rivoluzione in odontoiatria moderna, l'alternativa medica più duratura per sostituire un dente mancante o deteriorato senza danneggiare i denti circostanti. In Clinica Orec, uniamo la tecnologia digitale avanzata ai migliori medici turchi per garantire tassi di successo a livello mondiale e un'esperienza di trattamento senza dolore.",
+      "intro": "L'impianto dentale è una soluzione fissa per sostituire un dente mancante: un impianto in titanio viene fissato nell'osso mascellare per fungere da radice, e su di esso viene poi applicata una corona che somiglia al dente naturale per forma e funzione, senza bisogno di limare i denti vicini. Da Orec iniziamo con una visita, un'imaging 3D e un piano digitale, poi definiamo con Lei l'opzione più adatta al Suo caso.",
       "sections": [
         {
+          "icon": "👤",
+          "heading": "L'impianto dentale fa per Lei?",
+          "lead": true,
+          "list": [
+            "Ha perso uno o più denti e cerca una soluzione fissa",
+            "Ha difficoltà a masticare o a parlare a causa della perdita dei denti",
+            "Non vuole limare i denti sani adiacenti per applicare un ponte",
+            "Ha più di 18 anni e la Sua mandibola ha completato la crescita",
+            "Il Suo osso è sufficiente, oppure la carenza può essere compensata con un intervento aggiuntivo stabilito dal medico dopo le radiografie"
+          ]
+        },
+        {
           "icon": "📐",
-          "heading": "Componenti essenziali di un impianto dentale",
-          "paragraphs": [
-            "Un dente impiantato è composto da tre parti principali che si uniscono per dare l'aspetto e la sensazione di un dente naturale:"
-          ],
+          "heading": "I componenti dell'impianto",
           "blocks": [
             {
-              "title": "L'impianto (Fixture)",
-              "text": "Una vite piccola fatta di titanio puro, inserita nell'osso mascellare per sostituire la radice naturale. Il titanio biocompatibile viene scelto perché si fonde facilmente con le ossa (osteointegrazione) senza essere rifiutato dal corpo o causare allergie o tumori."
+              "title": "L'impianto (radice artificiale)",
+              "text": "Una piccola vite in titanio fissata nell'osso mascellare. Si usa il titanio perché l'osso vi si salda per lo più molto bene, fenomeno noto come osteointegrazione."
             },
             {
-              "title": "L'abutment",
-              "text": "La componente di collegamento che viene fissata sopra l'impianto per connetterlo alla corona esterna."
+              "title": "Il moncone",
+              "text": "Il pezzo che collega l'impianto alla corona."
             },
             {
-              "title": "La corona (Crown)",
-              "text": "Il dente artificiale visibile, realizzato con materiali di alta qualità e durata come lo zirconio o l'E-Max per fondersi naturalmente con i denti rimanenti in termini di forza e lucentezza."
+              "title": "La corona",
+              "text": "Il dente visibile, realizzato con materiali di alta qualità come zirconia o E-max, per armonizzarsi con il colore e la forma dei Suoi denti."
             }
           ]
         },
         {
           "icon": "🔬",
-          "heading": "Tipi di tecniche di impianto dentale nella nostra clinica",
+          "heading": "I tipi di impianto nella nostra clinica",
           "blocks": [
             {
-              "title": "Impianti tradizionali o standard (Standard Implants)",
-              "text": "Meccanismo: Vengono inserite le radici nell'osso mascellare, poi si attende un periodo di 3-4 mesi perché l'osme si adatti perfettamente all'impianto. Una volta stabilizzato, viene fissato il dente definitivo."
+              "title": "L'impianto tradizionale",
+              "text": "L'impianto viene inserito, poi si attendono in genere da tre a quattro mesi perché l'osso si saldi, e infine si applica la corona definitiva. È adatto ai casi che richiedono tempo per la guarigione dell'osso."
             },
             {
-              "title": "Impianti immediati (Immediate Implants)",
-              "text": "Meccanismo: Tecnica avanzata in cui l'impianto viene inserito direttamente nell'osso mascellare o facciale (saltando lunghi periodi di attesa, di solito subito dopo l'estrazione del dente danneggiato) e si conclude in una o due sessioni. A chi si adatta? È la scelta ideale per casi urgenti per motivi di viaggio, o per pazienti con eccellente densità ossea, ed è adatta anche per pazienti con coagulopatie o diabete sotto stretta supervisione medica e pianificazione attenta."
+              "title": "L'impianto immediato",
+              "text": "L'impianto viene per lo più inserito subito dopo l'estrazione del dente compromesso, e ciò può ridurre notevolmente la durata del trattamento. Dipende dalla qualità dell'osso e dall'infiammazione dell'area; dopo la visita il medico decide se è adatto a Lei, ed è un'opzione comune per chi ha poco tempo a disposizione per il viaggio."
             },
             {
-              "title": "Impianto fisso mascellare (All-on-4 & All-on-6)",
-              "text": "Meccanismo: In caso di perdita totale di denti e recessione gengivale, vengono impiantate solo 4 o 6 radici direttamente nell'osso mascellare. Di queste, due vengono impiantate con un'inclinazione fino a 65 gradi per fornire il massimo contatto e stabilità con l'osso e evitare le zone dei seni paranasali. Successivamente, una protesi dentale completa viene fissata permanentemente su queste radici."
+              "title": "All-on-4 / All-on-6",
+              "text": "Per chi ha perso la maggior parte dei denti o tutti. Viene fissato un numero limitato di impianti (quattro o sei) che sorreggono una protesi completa fissa, e spesso ciò riduce la necessità di innesti ossei. Dopo le radiografie, il medico stabilisce la posizione e l'angolazione più adatte per ciascun impianto."
             }
           ]
         },
         {
-          "icon": "👤",
-          "heading": "Candidati ideali per impianti dentali",
-          "list": [
-            "Persone sopra i 17-18 anni, perché al di sotto di questa età la mascella è ancora in fase di crescita.",
-            "Casi di perdita di denti dovuti a incidenti, malattie o sport violenti.",
-            "Persone che soffrono di problemi nella masticazione del cibo o nella pronuncia dovuti alla perdita di denti."
-          ]
-        },
-        {
           "icon": "🏥",
-          "heading": "Procedure del tuo percorso di trattamento",
+          "heading": "Come si svolge il percorso di cura",
           "blocks": [
             {
-              "title": "Procedure pre-impianto (pianificazione digitale)",
-              "text": "Il paziente deve informare il medico se ha malattie croniche come coagulopatie, diabete o ipertensione (i pazienti diabetici devono avere un livello di glicata stabile per lungo periodo). L'odontoiatra esegue una scansione tridimensionale (3D CT Scan) dei denti per determinare lo spessore e la densità dell'osso, individuare le terminazioni nervose e conoscere la posizione dei seni paranasali, per determinare con precisione assoluta i punti di perforazione."
+              "title": "La consulenza",
+              "text": "Ci invia le foto dei Suoi denti o le Sue radiografie su WhatsApp e Le forniamo una valutazione preliminare."
             },
             {
-              "title": "Procedure dell'intervento",
-              "text": "L'intervento viene eseguito sotto anestesia locale (o sedazione cosciente secondo la preferenza del paziente) senza dolore. Gli impianti (un dente, più denti o l'intera mascella) vengono posizionati in base al piano digitale predefinito."
+              "title": "La visita e la pianificazione digitale",
+              "text": "Imaging 3D per valutare spessore e densità dell'osso, la posizione dei nervi e dei seni mascellari. La preghiamo di informare il medico di eventuali malattie croniche o farmaci che assume: i pazienti diabetici, ad esempio, necessitano di una glicemia stabile."
+            },
+            {
+              "title": "L'intervento chirurgico",
+              "text": "Si svolge per lo più in anestesia locale, oppure in sedazione cosciente a seconda del caso e dell'accordo con il medico, secondo il piano digitale concordato."
+            },
+            {
+              "title": "Il periodo di osteointegrazione",
+              "text": "Può essere breve oppure richiedere alcuni mesi a seconda del tipo di impianto, e durante questo tempo viene applicata una protesi provvisoria, se necessario."
+            },
+            {
+              "title": "La corona definitiva",
+              "text": "Applicazione del dente definitivo e regolazione dell'occlusione."
+            },
+            {
+              "title": "Il follow-up",
+              "text": "Istruzioni di cura dopo l'intervento, visite di controllo periodiche; ci contatti se nota qualcosa di insolito."
             }
           ]
         },
         {
           "icon": "⚠️",
-          "heading": "Rischi degli impianti dentali e come evitarli",
+          "heading": "I possibili rischi",
           "paragraphs": [
-            "Come ogni procedura chirurgica, gli impianti possono presentare alcuni rischi potenziali come: danni ai nervi, recessione gengivale adiacente all'impianto, emorragia acuta, rigetto dell'impianto attraverso il gonfiore, rottura dei tessuti ossei o fallimento della guarigione della ferita."
-          ],
-          "blocks": [
-            {
-              "title": "💡 Il segreto del successo",
-              "text": "La maggior parte di questi rischi viene completamente evitata grazie all'esperienza dell'chirurgo odontoiatra e alla pianificazione digitale precisa. In Clinica Orec, mettiamo a tua disposizione i migliori medici turchi per impianti dentali, evitando il fallimento dell'impianto e i suoi rischi."
-            }
+            "Come per qualsiasi intervento chirurgico, possono verificarsi infezioni, sanguinamento, gonfiore, coinvolgimento dei nervi vicini o mancata osteointegrazione, e alcuni rischi aumentano con il fumo, con malattie non controllate o con una scarsa igiene orale. Riduciamo questi rischi con una visita accurata, la pianificazione digitale e la supervisione del chirurgo, e Le spieghiamo tutto ciò che riguarda il Suo caso prima che approvi il piano."
+          ]
+        },
+        {
+          "icon": "✅",
+          "heading": "Cosa favorisce il successo dell'impianto",
+          "list": [
+            "Smettere di fumare o ridurre il fumo",
+            "Tenere sotto controllo la glicemia e le malattie croniche prima dell'intervento",
+            "Igiene orale e rispetto delle indicazioni del medico",
+            "Presentarsi alle visite di controllo"
           ]
         }
-      ]
+      ],
+      "faq": {
+        "heading": "Domande frequenti",
+        "items": [
+          {
+            "q": "Quanto dura l'inserimento di un impianto?",
+            "a": "Dipende dal tipo. In alcuni casi possono bastare da una a due visite, in altri di più, e il medico lo stabilisce in un piano scritto."
+          },
+          {
+            "q": "L'impianto è doloroso?",
+            "a": "Viene eseguito in anestesia; dopo la fine dell'effetto possono comparire fastidio o gonfiore, e il medico prescrive ciò che li allevia."
+          },
+          {
+            "q": "Qual è l'età adatta?",
+            "a": "In genere dopo il completamento della crescita della mandibola, cioè intorno ai 18 anni e oltre."
+          },
+          {
+            "q": "Una persona con diabete o ipertensione può sottoporsi all'impianto?",
+            "a": "Molti casi stabili possono farlo dopo la valutazione del medico, che potrebbe richiedere referti o esami prima di iniziare."
+          }
+        ]
+      }
     },
     "hollywood-smile": {
       "title": "Sorriso Hollywood",
@@ -233,6 +274,145 @@
           ]
         }
       ]
+    }
+  },
+  "extras": {
+    "servicesHeading": "I servizi di questo reparto",
+    "serviceBlurbs": {
+      "dental-implants": "Sostituzione dei denti mancanti con radici fissate nell'osso mascellare, che sorreggono la protesi e preservano la forma del viso. Dopo la visita e le radiografie, il medico stabilisce se l'impianto immediato è adatto o se è necessaria una preparazione preliminare.",
+      "hollywood-smile": "Modifica di forma, colore e armonia dei denti con faccette o corone in zirconia o E-max. Si parte da una progettazione digitale del sorriso, che Lei vede e approva prima dell'inizio del trattamento.",
+      "restorative-dentistry": "Cura di carie, devitalizzazioni, otturazioni e corone. La salute dei denti è la base su cui poggia qualsiasi intervento estetico.",
+      "teeth-whitening": "Procedura non chirurgica che attenua le macchie e schiarisce il colore dei denti, adatta a chi ha denti sani e desidera un colore più luminoso."
+    },
+    "guide": {
+      "heading": "Quale servizio fa per me?",
+      "rows": [
+        {
+          "need": "Ha perso uno o più denti",
+          "slug": "dental-implants"
+        },
+        {
+          "need": "La forma, il colore o la spaziatura dei Suoi denti non Le piacciono",
+          "slug": "hollywood-smile"
+        },
+        {
+          "need": "Soffre di dolore, carie o vecchie otturazioni",
+          "slug": "restorative-dentistry"
+        },
+        {
+          "need": "I Suoi denti sono sani, ma il colore è scuro",
+          "slug": "teeth-whitening"
+        }
+      ],
+      "note": "Non è sicuro/a? Ci invii le foto dei Suoi denti su WhatsApp e il nostro team Le proporrà il servizio più adatto dopo una valutazione preliminare.",
+      "noteCta": "Invii le foto dei Suoi denti su WhatsApp"
+    },
+    "packages": {
+      "heading": "I nostri pacchetti di trattamento",
+      "intro": "Scelga il pacchetto più vicino alle Sue esigenze; dopo la visita il medico confermerà ciò che è davvero adatto al Suo caso.",
+      "rowLabels": [
+        "Adatto a",
+        "Comprende",
+        "Alloggio e trasporto",
+        "Garanzia"
+      ],
+      "plans": [
+        {
+          "name": "Pacchetto Argento",
+          "cells": [
+            "Chi desidera solo il trattamento",
+            "I servizi di cura di base",
+            "Non incluso",
+            "20 anni per impianti e denti"
+          ]
+        },
+        {
+          "name": "Pacchetto Oro",
+          "badge": "Il più richiesto",
+          "cells": [
+            "Chi desidera trattamento, accoglienza e trasporti",
+            "Servizi di base + accoglienza e trasporti",
+            "Solo spostamenti",
+            "20 anni per impianti e denti"
+          ]
+        },
+        {
+          "name": "Pacchetto Diamante",
+          "cells": [
+            "Chi desidera tutti i servizi: biglietto, accoglienza, trasporti, hotel e trattamento",
+            "Servizi di base + accoglienza e trasporti + hotel + biglietto aereo",
+            "Alloggio e spostamenti inclusi",
+            "20 anni per impianti e denti"
+          ]
+        }
+      ],
+      "cta": "Ottenga la Sua offerta personalizzata"
+    },
+    "journey": {
+      "heading": "Come si svolge il Suo percorso con noi",
+      "steps": [
+        {
+          "title": "Consulenza gratuita",
+          "text": "Ci invii le foto dei Suoi denti o le Sue radiografie su WhatsApp e Le daremo una valutazione preliminare."
+        },
+        {
+          "title": "Piano di trattamento scritto",
+          "text": "Comprende gli interventi, la durata, il numero di visite e il prezzo."
+        },
+        {
+          "title": "Visita e progettazione digitale",
+          "text": "La visitiamo in clinica, progettiamo il sorriso e lo concordiamo con Lei prima di iniziare."
+        },
+        {
+          "title": "Trattamento",
+          "text": "Eseguiamo gli interventi secondo il calendario concordato durante il Suo soggiorno a Istanbul."
+        },
+        {
+          "title": "Follow-up dopo il rientro",
+          "text": "Riceve le istruzioni per la cura e il nostro team resta in contatto con Lei."
+        }
+      ]
+    },
+    "why": {
+      "heading": "Perché Orec?",
+      "items": [
+        "Autorizzazione ufficiale del Ministero della Salute e del Ministero del Turismo turchi per il turismo sanitario.",
+        "Progettazione digitale del sorriso prima del trattamento, per conoscere in anticipo il risultato atteso.",
+        "Materiali di livello internazionale per i restauri estetici, come zirconia ed E-max.",
+        "Un piano scritto e prezzi chiari prima di iniziare.",
+        "Disponibili su WhatsApp 24 ore su 24 per rispondere alle Sue domande."
+      ]
+    },
+    "faq": {
+      "heading": "Domande frequenti",
+      "items": [
+        {
+          "q": "Quanto dura il trattamento e di quante visite ho bisogno?",
+          "a": "Dipende dall'intervento. Lo sbiancamento e le otturazioni possono essere completati in una sola visita, mentre l'Hollywood Smile e gli impianti richiedono un calendario più lungo, stabilito dal medico dopo la visita e riportato nel piano di trattamento."
+        },
+        {
+          "q": "L'intervento è doloroso?",
+          "a": "Gli interventi vengono eseguiti in anestesia locale. Dopo la fine dell'effetto può comparire una lieve sensibilità, e il medico prescrive quanto serve per alleviarla."
+        },
+        {
+          "q": "Con l'Hollywood Smile i denti vengono limati?",
+          "a": "Per lo più sì, perché è necessaria una preparazione limitata dei denti per fissare le faccette o le corone. Il medico Le spiega l'entità prima che approvi il piano."
+        },
+        {
+          "q": "Posso concludere il trattamento in un solo viaggio?",
+          "a": "In molti casi sì; in alcuni è necessaria una seconda visita per completare il trattamento. Lo comunichiamo in anticipo al momento di definire il piano."
+        },
+        {
+          "q": "Cosa devo fare dopo il rientro nel mio Paese?",
+          "a": "Le inviamo le istruzioni per la cura e seguiamo il Suo caso a distanza; ci contatti subito se nota qualcosa di fastidioso."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Inizi il Suo percorso con Orec Clinic",
+      "text": "Il nostro team di consulenza è sempre disponibile per ascoltarLa e rispondere alle Sue domande. Ci contatti oggi stesso per farLe proporre il piano più adatto.",
+      "primary": "Prenoti una consulenza gratuita",
+      "secondary": "Ci scriva su WhatsApp"
     }
   }
 }

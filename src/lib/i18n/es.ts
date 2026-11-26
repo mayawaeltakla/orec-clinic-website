@@ -27,7 +27,7 @@ export const es: Dictionary = {
   hero: {
     eyebrow: 'CUIDADO • PRECISIÓN • EXCELENCIA',
     title1: 'Clínica Orec..',
-    title2: 'Su familia médica en el camino para recuperar la confianza en su sonrisa y belleza',
+    title2: 'Empieza hoy tu camino hacia una imagen más luminosa y una sonrisa que te dé confianza.',
     badges: ['En el corazón de Estambul', 'Desde 2015', 'Con licencia oficial del Ministerio de Salud y de Turismo'],
     ctaPrimary: 'Contáctenos hoy',
     ctaSecondary: 'Descubra nuestros servicios',

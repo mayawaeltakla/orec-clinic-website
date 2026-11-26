@@ -27,7 +27,7 @@ export const tr: Dictionary = {
   hero: {
     eyebrow: 'ÖZEN • HASSASİYET • MÜKEMMELLİK',
     title1: 'Orec Clinic..',
-    title2: 'Gülüşünüze ve güzelliğinize olan güveninizi geri kazanma yolculuğunuzda tıbbi aileniz',
+    title2: 'Bugün daha parlak bir görünüme ve size özgüven veren bir gülüşe doğru yolculuğunuza başlayın.',
     badges: ['İstanbul’un kalbinde', '2015’ten beri', 'Sağlık ve Turizm Bakanlıklarının resmi lisanslarıyla'],
     ctaPrimary: 'Bugün Bize Ulaşın',
     ctaSecondary: 'Hizmetlerimizi Keşfedin',

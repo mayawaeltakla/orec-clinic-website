@@ -2,91 +2,132 @@
   "title": "Estética y Tratamiento Dental",
   "tagline": "Tu familia médica en el viaje para recuperar tu confianza en tu sonrisa — nuestra especialidad principal desde el primer día en el corazón de Estambul",
   "intro": [
-    "Porque la sonrisa es lo primero que nos conecta con los demás, en Orec Clinic hemos dedicado un departamento completo y muy avanzado para la odontología, que cuenta con la élite de los médicos y consultores para ofrecerte las últimas soluciones en estética y tratamiento dental con las técnicas digitales más precisas del mundo.",
-    "Combinamos para ti la precisión de la medicina avanzada con el calor de la atención familiar, bajo nuestras licencias oficiales del Ministerio de Salud y el Ministerio de Turismo de Turquía para el turismo médico, desde el diseño digital de la sonrisa hasta la implantación inmediata, los tratamientos integrales y las prótesis cosméticas con materiales de circonio y E-Max mundiales."
+    "En Orec Clinic te acompañamos durante todo el proceso: desde la primera consulta hasta el diseño digital de tu sonrisa, y después el tratamiento y el seguimiento. Nuestro departamento de odontología cuenta con médicos y especialistas que utilizan tecnologías digitales modernas, todo ello con las licencias oficiales del Ministerio de Sanidad y del Ministerio de Turismo de Turquía para el turismo médico.",
+    "Combinamos la precisión de la medicina avanzada con la calidez de un trato cercano, y elaboramos para cada paciente un plan de tratamiento por escrito, adaptado al estado de sus dientes y al resultado que desea."
   ],
   "services": {
     "dental-implants": {
       "title": "Implantes dentales",
       "tagline": "Implantes dentales en Turquía | La solución óptima y definitiva para reemplazar los dientes perdidos",
-      "intro": "Los implantes dentales son la última revolución en la odontología moderna, siendo la alternativa médica más duradera para reemplazar un diente perdido o desgastado sin causar daño a los dientes circundantes. En Orec Clinic, combinamos para ti la tecnología digital avanzada con los cirujanos dentales más hábiles de Turquía para garantizar tasas de éxito mundiales y una experiencia de tratamiento libre de dolor.",
+      "intro": "El implante dental es una solución fija para reponer un diente perdido: se coloca un implante de titanio en el hueso maxilar que hace las veces de raíz, y sobre él se monta una corona que se asemeja al diente natural en forma y función, sin necesidad de tallar los dientes vecinos. En Orec empezamos con una exploración, imágenes en tres dimensiones y un plan digital, y después acordamos contigo la opción más adecuada para tu caso.",
       "sections": [
         {
+          "icon": "👤",
+          "heading": "¿Es adecuado para ti el implante dental?",
+          "lead": true,
+          "list": [
+            "Has perdido uno o varios dientes y buscas una solución fija",
+            "Tienes dificultad para masticar o hablar debido a la pérdida de dientes",
+            "No quieres tallar los dientes sanos de al lado para colocar un puente",
+            "Tienes más de 18 años y tu mandíbula ha terminado de crecer",
+            "Tu hueso es suficiente, o su falta se puede compensar con un procedimiento adicional que el médico determina tras las radiografías"
+          ]
+        },
+        {
           "icon": "📐",
-          "heading": "Componentes básicos de un implante dental",
-          "paragraphs": [
-            "Un diente implantado consta de tres partes principales que se unen para dar la apariencia y sensación de un diente natural:"
-          ],
+          "heading": "Componentes del implante",
           "blocks": [
             {
-              "title": "El implante o fixture",
-              "text": "Un pequeño tornillo hecho de titanio puro, que se inserta en el hueso de la mandíbula para reemplazar la raíz natural. El titanio biocompatible se elige porque se fusiona fácilmente con el hueso (osteointegración) sin ser rechazado por el cuerpo o causar alergias o tumores."
+              "title": "El implante (raíz artificial)",
+              "text": "Un pequeño tornillo de titanio que se fija en el hueso maxilar. Se usa titanio porque el hueso suele unirse bien a él, lo que se conoce como osteointegración."
             },
             {
-              "title": "El pilar o abutment",
-              "text": "La pieza de unión que se coloca sobre el implante para conectarlo con la corona externa."
+              "title": "El pilar",
+              "text": "La pieza que conecta el implante con la corona."
             },
             {
               "title": "La corona",
-              "text": "El diente artificial visible, fabricado con materiales de alta calidad y durabilidad como el zirconio o el E-Max para fusionarse naturalmente con el resto de tus dientes en cuanto a fuerza y brillo."
+              "text": "El diente visible, fabricado con materiales de alta calidad como el circonio o el e.max para que combine con el color y la forma de tus dientes."
             }
           ]
         },
         {
           "icon": "🔬",
-          "heading": "Tipos de técnicas de implantes dentales en nuestra clínica",
+          "heading": "Tipos de implantes en nuestra clínica",
           "blocks": [
             {
-              "title": "Implantes tradicionales o estándar",
-              "text": "Mecanismo: Se insertan las raíces en el hueso de la mandíbula, luego esperamos un período de 3 a 4 meses para que el hueso se adapte completamente al implante, y una vez estabilizado se coloca el diente final."
+              "title": "Implante convencional",
+              "text": "Se coloca el implante y se espera normalmente de tres a cuatro meses a que el hueso se una a él; después se monta la corona definitiva. Es adecuado para los casos que requieren tiempo para la cicatrización del hueso."
             },
             {
-              "title": "Implantes inmediatos",
-              "text": "Mecanismo: Técnica avanzada en la que el implante se inserta directamente en el hueso de la mandíbula o la cara (omitiendo largos períodos de espera, generalmente justo después de extraer el diente dañado), y se completa en una o dos sesiones. ¿Para quién es? Es la opción ideal para casos urgentes por motivos de viaje, o para pacientes que tienen una densidad ósea excelente, también es adecuada para pacientes con trastornos de coagulación o diabetes bajo supervisión médica cuidadosa y planificación meticulosa."
+              "title": "Implante inmediato",
+              "text": "El implante se coloca con frecuencia justo después de extraer el diente dañado y puede acortar mucho la duración del tratamiento. Depende de la calidad del hueso y de la inflamación de la zona, y el médico decide tras la exploración si es adecuado para ti. Es una opción habitual para quien dispone de poco tiempo de viaje."
             },
             {
-              "title": "Implantes de mandíbula fija (All-on-4 & All-on-6)",
-              "text": "Mecanismo: En casos de pérdida total de dientes y reflujo de encías, se plantan solo 4 o 6 raíces directamente dentro del hueso de la mandíbula. Dos de estos implantes se colocan con un ángulo de inclinación de hasta 65 grados para proporcionar el máximo contacto y estabilidad con el hueso y evitar las áreas de los senos paranasales, luego se fija el denture completo permanentemente sobre estas raíces."
+              "title": "All-on-4 / All-on-6",
+              "text": "Para quien ha perdido la mayoría de sus dientes o todos. Se fija un número limitado de implantes (cuatro o seis) que sostienen una prótesis completa fija, y con frecuencia esto reduce la necesidad de injertos de hueso. Tras las radiografías, el médico determina la posición y la angulación más adecuadas para cada implante."
             }
           ]
         },
         {
-          "icon": "👤",
-          "heading": "Casos candidatos para implantes dentales",
-          "list": [
-            "Personas mayores de 17-18 años, porque por debajo de esa edad el hueso de la mandíbula aún está en crecimiento.",
-            "Casos de pérdida de dientes debido a accidentes, enfermedades, o deportes violentos.",
-            "Personas que sufren problemas para masticar alimentos o pronunciar sonidos debido a la pérdida de dientes."
-          ]
-        },
-        {
           "icon": "🏥",
-          "heading": "Procedimientos de tu viaje de tratamiento",
+          "heading": "Cómo es el recorrido del tratamiento",
           "blocks": [
             {
-              "title": "Procedimientos pre-implantación (planificación digital)",
-              "text": "El paciente debe informar al médico si tiene alguna enfermedad crónica como trastornos de coagulación, diabetes o hipertensión (especialmente los pacientes diabéticos deben tener su nivel de hemoglobina glicosina estable durante mucho tiempo). El cirujano dental realiza un escaneo tridimensional (3D CT Scan) de los dientes para conocer el grosor y densidad del hueso, la ubicación de los nervios terminales, y la ubicación de los senos paranasales para determinar con precisión exacta los lugares de perforación."
+              "title": "La consulta",
+              "text": "Nos envías fotos de tus dientes o tus radiografías por WhatsApp y te damos una valoración inicial."
             },
             {
-              "title": "Procedimiento de la cirugía",
-              "text": "El procedimiento se realiza bajo anestesia local (o sedación consciente según el deseo del paciente) sin dolor, y se colocan los implantes (un diente, múltiples dientes, o mandíbula completa) según el plan digital preestablecido."
+              "title": "Exploración y planificación digital",
+              "text": "Imágenes en tres dimensiones para evaluar el grosor y la densidad del hueso y la posición de los nervios y los senos nasales. Te rogamos que informes al médico de cualquier enfermedad crónica o medicamento que tomes; por ejemplo, las personas con diabetes necesitan un nivel de azúcar estable."
+            },
+            {
+              "title": "La cirugía",
+              "text": "Se realiza normalmente con anestesia local, o con sedación consciente según el caso y lo acordado con el médico, siguiendo el plan digital acordado."
+            },
+            {
+              "title": "El periodo de osteointegración",
+              "text": "Puede ser corto o requerir varios meses según el tipo de implante, y durante él se coloca una prótesis provisional si es necesario."
+            },
+            {
+              "title": "La corona definitiva",
+              "text": "Colocación del diente definitivo y ajuste de la mordida."
+            },
+            {
+              "title": "El seguimiento",
+              "text": "Indicaciones de cuidado tras la cirugía, revisiones periódicas y contacto con nosotros si notas algo fuera de lo habitual."
             }
           ]
         },
         {
           "icon": "⚠️",
-          "heading": "Riesgos de los implantes dentales y cómo evitarlos",
+          "heading": "Posibles riesgos",
           "paragraphs": [
-            "Como cualquier procedimiento quirúrgico, la implantación puede incluir algunos riesgos potenciales como: daño a los nervios, retracción de las encías adyacentes al implante, sangrado severo, rechazo del cuerpo al implante a través de hinchazón, desgarro del tejido óseo, o falla en la cicatrización de la herida."
-          ],
-          "blocks": [
-            {
-              "title": "💡 El secreto del éxito",
-              "text": "La mayoría de estos riesgos se evitan por completo basándose en la experiencia del cirujano dental y la planificación digital detallada. En Orec Clinic, ponemos a tu disposición a los cirujanos dentales más hábiles de Turquía para que obtienes implantes dentales evitando la falla del implante o sus riesgos."
-            }
+            "Como en cualquier procedimiento quirúrgico, pueden producirse infecciones, sangrado, hinchazón, afectación de los nervios cercanos o falta de unión del hueso con el implante, y algunos riesgos aumentan con el tabaco, las enfermedades no controladas o una higiene bucal deficiente. Reducimos estos riesgos mediante una exploración minuciosa, la planificación digital y la supervisión del cirujano, y te explicamos todo lo relativo a tu caso antes de que apruebes el plan."
+          ]
+        },
+        {
+          "icon": "✅",
+          "heading": "¿Qué ayuda al éxito del implante?",
+          "list": [
+            "Dejar de fumar o reducirlo",
+            "Controlar el azúcar y las enfermedades crónicas antes de la cirugía",
+            "Mantener la higiene bucal y seguir las indicaciones del médico",
+            "Acudir a las revisiones de seguimiento"
           ]
         }
-      ]
+      ],
+      "faq": {
+        "heading": "Preguntas frecuentes",
+        "items": [
+          {
+            "q": "¿Cuánto dura el implante?",
+            "a": "Depende del tipo. En algunos casos pueden bastar una o dos visitas, y en otros hacen falta más; el médico lo determina en un plan por escrito."
+          },
+          {
+            "q": "¿El implante es doloroso?",
+            "a": "Se realiza con anestesia, y cuando pasa el efecto puede haber molestias o hinchazón; el médico te indica lo que las alivia."
+          },
+          {
+            "q": "¿Cuál es la edad adecuada?",
+            "a": "Normalmente, cuando la mandíbula ha terminado de crecer, es decir, a partir de unos 18 años."
+          },
+          {
+            "q": "¿Pueden hacerse un implante las personas con diabetes o hipertensión?",
+            "a": "Muchos casos estables pueden hacerlo tras la valoración del médico, que puede pedirte informes o pruebas antes de empezar."
+          }
+        ]
+      }
     },
     "hollywood-smile": {
       "title": "Sonrisa de Hollywood",
@@ -233,6 +274,145 @@
           ]
         }
       ]
+    }
+  },
+  "extras": {
+    "servicesHeading": "Servicios de esta sección",
+    "serviceBlurbs": {
+      "dental-implants": "Reposición de los dientes perdidos con raíces que se fijan en el hueso maxilar para sostener la prótesis y conservar la forma del rostro. Tras la exploración y las radiografías, el médico determina si te conviene un implante inmediato o si necesitas una preparación previa.",
+      "hollywood-smile": "Cambio de la forma, el color y la armonía de los dientes con carillas o coronas de circonio o e.max. Empezamos con un diseño digital de la sonrisa que ves y apruebas antes de iniciar el tratamiento.",
+      "restorative-dentistry": "Tratamiento de caries, endodoncias, empastes y coronas. La salud de los dientes es la base sobre la que se construye cualquier procedimiento estético.",
+      "teeth-whitening": "Procedimiento no quirúrgico que atenúa las manchas y aclara el color de los dientes; es adecuado para quien tiene los dientes sanos y desea un tono más luminoso."
+    },
+    "guide": {
+      "heading": "¿Qué servicio me conviene?",
+      "rows": [
+        {
+          "need": "Has perdido uno o varios dientes",
+          "slug": "dental-implants"
+        },
+        {
+          "need": "No te gusta la forma, el color o la separación de tus dientes",
+          "slug": "hollywood-smile"
+        },
+        {
+          "need": "Tienes dolor, caries o empastes antiguos",
+          "slug": "restorative-dentistry"
+        },
+        {
+          "need": "Tus dientes están sanos, pero su color es oscuro",
+          "slug": "teeth-whitening"
+        }
+      ],
+      "note": "¿No estás seguro? Envía fotos de tus dientes por WhatsApp y nuestro equipo te sugerirá la opción más adecuada tras una valoración inicial.",
+      "noteCta": "Envía fotos de tus dientes por WhatsApp"
+    },
+    "packages": {
+      "heading": "Nuestros paquetes de tratamiento",
+      "intro": "Elige el paquete más cercano a lo que necesitas; tras la exploración, el médico confirmará qué se ajusta realmente a tu caso.",
+      "rowLabels": [
+        "Ideal para",
+        "Incluye",
+        "Alojamiento y traslados",
+        "Garantía"
+      ],
+      "plans": [
+        {
+          "name": "Paquete Plata",
+          "cells": [
+            "Quien solo desea el tratamiento",
+            "Servicios de tratamiento básicos",
+            "No incluye",
+            "20 años para implantes y dientes"
+          ]
+        },
+        {
+          "name": "Paquete Oro",
+          "badge": "El más solicitado",
+          "cells": [
+            "Quien desea tratamiento, recepción y transporte",
+            "Servicios básicos + recepción y transporte",
+            "Solo traslados",
+            "20 años para implantes y dientes"
+          ]
+        },
+        {
+          "name": "Paquete Diamante",
+          "cells": [
+            "Quien desea todos los servicios: billete, recepción, transporte, hotel y tratamiento",
+            "Servicios básicos + recepción y transporte + hotel + billete de avión",
+            "Incluye alojamiento y traslados",
+            "20 años para implantes y dientes"
+          ]
+        }
+      ],
+      "cta": "Recibe tu oferta personalizada"
+    },
+    "journey": {
+      "heading": "Cómo es tu recorrido con nosotros",
+      "steps": [
+        {
+          "title": "Consulta gratuita",
+          "text": "Envía fotos de tus dientes o tus radiografías por WhatsApp y te damos una valoración inicial."
+        },
+        {
+          "title": "Plan de tratamiento por escrito",
+          "text": "Incluye los procedimientos, la duración, el número de visitas y el precio."
+        },
+        {
+          "title": "Exploración y diseño digital",
+          "text": "Te exploramos en la clínica, diseñamos la sonrisa y la acordamos contigo antes de empezar."
+        },
+        {
+          "title": "Tratamiento",
+          "text": "Realizamos los procedimientos según el calendario acordado durante tu estancia en Estambul."
+        },
+        {
+          "title": "Seguimiento tras tu regreso",
+          "text": "Recibes las indicaciones de cuidado y nuestro equipo sigue en contacto contigo."
+        }
+      ]
+    },
+    "why": {
+      "heading": "¿Por qué Orec?",
+      "items": [
+        "Licencia oficial del Ministerio de Sanidad y del Ministerio de Turismo de Turquía para el turismo médico.",
+        "Diseño digital de la sonrisa antes del tratamiento, para que conozcas de antemano el aspecto previsto.",
+        "Materiales de calidad internacional para las restauraciones estéticas, como el circonio y el e.max.",
+        "Un plan por escrito y precios claros antes de empezar.",
+        "Disponibles en WhatsApp a cualquier hora para resolver tus dudas."
+      ]
+    },
+    "faq": {
+      "heading": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Cuánto dura el tratamiento y cuántas visitas necesito?",
+          "a": "Depende del procedimiento. El blanqueamiento y los empastes pueden hacerse en una sola visita, mientras que la sonrisa de Hollywood y los implantes requieren un calendario más largo que el médico determina tras la exploración y que se recoge en el plan de tratamiento."
+        },
+        {
+          "q": "¿El procedimiento es doloroso?",
+          "a": "Los procedimientos se realizan con anestesia local. Es posible que notes una ligera sensibilidad cuando pase el efecto, y el médico te indicará lo necesario para aliviarla."
+        },
+        {
+          "q": "¿Se tallan los dientes en la sonrisa de Hollywood?",
+          "a": "Normalmente sí: es necesario preparar los dientes de forma limitada para fijar las carillas o las coronas. El médico te explica cuánto antes de que apruebes el plan."
+        },
+        {
+          "q": "¿Puedo terminar el tratamiento en un solo viaje?",
+          "a": "En muchos casos sí; en otros se necesita una segunda visita para completarlo. Te lo comunicamos de antemano al elaborar el plan."
+        },
+        {
+          "q": "¿Qué hago al volver a mi país?",
+          "a": "Te enviamos las indicaciones de cuidado, seguimos tu caso a distancia y puedes contactarnos de inmediato si notas cualquier molestia."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Empieza tu camino con Orec Clinic",
+      "text": "Nuestro equipo de asesores está siempre disponible para escucharte y responder a tus preguntas. Contáctanos hoy y te propondremos el plan adecuado.",
+      "primary": "Reserva una consulta gratuita",
+      "secondary": "Escríbenos por WhatsApp"
     }
   }
 }
