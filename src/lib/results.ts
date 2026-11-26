@@ -7,6 +7,8 @@ export interface ResultItem {
   after: string
   /** Short caption in Arabic, e.g. «ابتسامة هوليود» */
   label?: string
+  /** Department slug (dental / hair / bariatric / cosmetic) — omit to show on the home page only */
+  dept?: string
 }
 export const RESULTS: ResultItem[] = []
 
