@@ -8,14 +8,15 @@ import { clientHome } from '@/lib/i18n/client-home'
 import { RESULTS } from '@/lib/results'
 
 /** «نتائج تتحدث عن نفسها» — before/after slider. Hidden until the clinic supplies real photos (lib/results.ts). */
-export function ResultsGallery() {
+export function ResultsGallery({ dept }: { dept?: string } = {}) {
   const { lang, dir } = useLanguage()
   const T = clientHome(lang.code)
   const [i, setI] = useState(0)
   const [reveal, setReveal] = useState(50)
-  if (RESULTS.length === 0) return null
-  const r = RESULTS[i]
-  const go = (d: number) => { setI((i + d + RESULTS.length) % RESULTS.length); setReveal(50) }
+  const items = RESULTS.filter((x) => (dept ? x.dept === dept : true))
+  if (items.length === 0) return null
+  const r = items[i % items.length]
+  const go = (d: number) => { setI((i + d + items.length) % items.length); setReveal(50) }
   return (
     <section id="results" className="band-sky relative py-20 sm:py-24">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
@@ -38,7 +39,7 @@ export function ResultsGallery() {
               aria-label="Before / After" className="absolute inset-0 h-full w-full cursor-ew-resize opacity-0"
             />
           </div>
-          {RESULTS.length > 1 && (
+          {items.length > 1 && (
             <>
               <button type="button" onClick={() => go(-1)} aria-label="Previous" className="absolute start-3 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-navy shadow"><ChevronLeft className="h-5 w-5" /></button>
               <button type="button" onClick={() => go(1)} aria-label="Next" className="absolute end-3 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-navy shadow"><ChevronRight className="h-5 w-5" /></button>

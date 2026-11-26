@@ -29,6 +29,26 @@ export interface ServiceSection {
   blocks?: ContentBlock[]
   /** Plain bullet list — candidates, tips, recovery notes… */
   list?: string[]
+  /** Render before the other sections (e.g. «is this treatment right for you?») */
+  lead?: boolean
+}
+
+export interface FaqItem {
+  q: string
+  a: string
+}
+
+/** Extra blocks of a department page (client's department template). Optional — other languages may omit it. */
+export interface DepartmentExtras {
+  servicesHeading: string
+  /** Longer card text per sub-service slug (replaces the tagline on the cards) */
+  serviceBlurbs: Record<string, string>
+  guide: { heading: string; rows: { need: string; slug: string }[]; note: string; noteCta: string }
+  packages: { heading: string; intro: string; rowLabels: string[]; plans: { name: string; badge?: string; cells: string[] }[]; cta: string }
+  journey: { heading: string; steps: { title: string; text: string }[] }
+  why: { heading: string; items: string[] }
+  faq: { heading: string; items: FaqItem[] }
+  cta: { title: string; text: string; primary: string; secondary: string }
 }
 
 /** Content of one standalone sub-service page */
@@ -41,6 +61,8 @@ export interface SubServiceContent {
   intro: string
   /** Medical sections (anatomy, techniques, candidates, procedure, risks, tips…) */
   sections: ServiceSection[]
+  /** Frequently asked questions (optional) */
+  faq?: { heading: string; items: FaqItem[] }
 }
 
 /** A sub-group of a department (cosmetic surgery: face / body / intimate) */
@@ -60,6 +82,7 @@ export interface DepartmentContent {
   groups?: Record<string, GroupContent>
   /** Keyed by sub-service slug — must cover every slug in config.ts */
   services: Record<string, SubServiceContent>
+  extras?: DepartmentExtras
 }
 
 /** Shared UI labels for the new pages */

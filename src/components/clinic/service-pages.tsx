@@ -12,6 +12,7 @@ import type { LanguageCode } from '@/lib/i18n'
 import { CONTACT_EXTRAS } from '@/lib/i18n/contact-extras'
 import { whatsappLink } from '@/lib/i18n'
 import { Contact } from './contact'
+import { DepartmentExtrasView, FaqList } from './dept-extras'
 import { FREE_CONSULT } from '@/lib/i18n/availability'
 import {
   ChevronLeft,
@@ -284,8 +285,8 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
           </span>
         </div>
         <h3 className="relative mt-4 text-lg font-extrabold text-gold-2">{sub.title}</h3>
-        <p className="relative mt-2 line-clamp-3 flex-1 text-sm leading-relaxed text-muted-foreground">
-          {sub.tagline}
+        <p className={`relative mt-2 flex-1 text-sm leading-relaxed text-muted-foreground ${content.extras?.serviceBlurbs[slug] ? '' : 'line-clamp-3'}`}>
+          {content.extras?.serviceBlurbs[slug] ?? sub.tagline}
         </p>
         <a
           href={lp(`/services/${dept.slug}/${def.slug}`)}
@@ -335,7 +336,7 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
               {dept.code}
             </p>
             <h2 className="mt-3 text-2xl font-extrabold sm:text-3xl">
-              <span className="text-gold-grad">{ui.subServicesTitle}</span>
+              <span className="text-gold-grad">{content.extras?.servicesHeading ?? ui.subServicesTitle}</span>
             </h2>
           </div>
 
@@ -382,7 +383,11 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
             </div>
           )}
 
-          <CtaBand ui={ui} service={content.title} />
+          {content.extras ? (
+            <DepartmentExtrasView extras={content.extras} deptSlug={dept.slug} title={content.title} />
+          ) : (
+            <CtaBand ui={ui} service={content.title} />
+          )}
         </div>
       </section>
     </div>
@@ -461,18 +466,21 @@ export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; se
           <div className="gold-line mb-10" aria-hidden />
 
           <div className="space-y-8">
-            {content.sections.filter((x) => x.blocks).map((section, si) => (
+            {content.sections.filter((x) => x.lead).map((section, si) => (
+              <SectionBlock key={`l${si}`} section={section} />
+            ))}
+            {content.sections.filter((x) => x.blocks && !x.lead).map((section, si) => (
               <SectionBlock key={`b${si}`} section={section} />
             ))}
             <div className="grid gap-8 md:grid-cols-2">
-              {content.sections.filter((x) => !x.blocks).map((section, si) => (
+              {content.sections.filter((x) => !x.blocks && !x.lead).map((section, si) => (
                 <div key={`r${si}`} className={section.list ? '' : 'md:col-span-2'}>
                   <SectionBlock section={section} />
                 </div>
               ))}
             </div>
           </div>
-
+          {content.faq && <FaqList heading={content.faq.heading} items={content.faq.items} />}
         </div>
       </section>
 
