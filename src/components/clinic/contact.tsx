@@ -1,6 +1,7 @@
 'use client'
 
-import { PageBanner } from './page-banner'
+import { BANNERS } from '@/lib/banners'
+import { ImageBanner } from './page-banner'
 import { FaqTeaser } from './faq-teaser'
 import { useEffect, useMemo, useState } from 'react'
 import { useLanguage } from './language-context'
@@ -117,7 +118,7 @@ export function Contact({ standalone = false, formOnly = false, defaultService }
 
   return (
     <>
-      {standalone && <PageBanner image="/orec-exterior.jpg" eyebrow={c.eyebrow} title={c.title} subtitle={c.subtitle} crumbs={[{ label: c.title }]} />}
+      {standalone && <ImageBanner art={BANNERS.contact} eyebrow={c.eyebrow} title={c.title} subtitle={c.subtitle} crumbs={[{ label: c.title }]} />}
     <section id={formOnly ? 'consult' : 'contact'} className={`relative ${single ? 'py-14 sm:py-16' : 'py-24 sm:py-28 lg:py-32'}`}>
       <div className="gold-line absolute inset-x-0 top-0" aria-hidden />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

@@ -1,6 +1,7 @@
 'use client'
 
-import { PageBanner } from './page-banner'
+import { BANNERS } from '@/lib/banners'
+import { ImageBanner } from './page-banner'
 import { CtaBand } from './cta-band'
 import { PAGE_LABELS } from '@/lib/i18n/page-labels'
 import { Newspaper } from 'lucide-react'
@@ -18,7 +19,7 @@ export function BlogList({ posts: all, teaser = false }: { posts: BlogPost[]; te
   const Heading = 'h2'
   return (
     <>
-      {!teaser && <PageBanner image="/orec-exterior.jpg" title={L.blogTitle} subtitle={L.blogSubtitle} crumbs={[{ label: L.blogTitle }]} />}
+      {!teaser && <ImageBanner art={BANNERS.blog} title={L.blogTitle} subtitle={L.blogSubtitle} crumbs={[{ label: L.blogTitle }]} />}
     <section id="blog" className={`relative ${teaser ? 'py-24 sm:py-28 lg:py-32' : 'py-14 sm:py-16'}`}>
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         {teaser && (

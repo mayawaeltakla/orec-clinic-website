@@ -1,6 +1,7 @@
 'use client'
 
-import { PageBanner } from './page-banner'
+import { BANNERS } from '@/lib/banners'
+import { ImageBanner } from './page-banner'
 import { MessageSquareQuote, Hourglass } from 'lucide-react'
 import { useLanguage } from './language-context'
 import { SECTION_LABELS } from '@/lib/i18n/section-labels'
@@ -12,7 +13,7 @@ export function Experiences() {
   const L = SECTION_LABELS[lang.code]
   return (
     <>
-      <PageBanner image="/orec-reception.jpg" title={L.expTitle} subtitle={L.expSubtitle} crumbs={[{ label: L.expTitle }]} />
+      <ImageBanner art={BANNERS.experiences} title={L.expTitle} subtitle={L.expSubtitle} crumbs={[{ label: L.expTitle }]} />
     <section className="relative py-14 sm:py-16">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         {REVIEWS.length > 0 ? (

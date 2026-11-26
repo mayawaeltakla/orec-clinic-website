@@ -74,3 +74,74 @@ export function PageBanner({
     </section>
   )
 }
+
+
+export interface BannerArt {
+  src: string
+  width: number
+  height: number
+}
+
+/**
+ * Inner-page banner made of the clinic's own finished banner artwork (logo + page title are part of the picture).
+ * The artwork is shown whole — never cropped — and the page title, subtitle and breadcrumb sit below it
+ * as real text, so the page keeps its H1, its language and its SEO.
+ */
+export function ImageBanner({
+  art,
+  eyebrow,
+  title,
+  subtitle,
+  crumbs = [],
+  titleAs: Title = 'h1',
+}: {
+  art: BannerArt
+  eyebrow?: string
+  title: string
+  subtitle?: string
+  crumbs?: Crumb[]
+  titleAs?: 'h1' | 'p'
+}) {
+  const { dict, dir, lp } = useLanguage()
+  const Chevron = dir === 'rtl' ? ChevronLeft : ChevronRight
+  return (
+    <section className="border-b border-border">
+      <Image
+        src={art.src}
+        alt=""
+        aria-hidden
+        width={art.width}
+        height={art.height}
+        priority
+        quality={75}
+        sizes="100vw"
+        className="h-auto w-full bg-navy-2"
+      />
+      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
+        <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1.5 text-xs text-foreground/75">
+          <a href={lp('/')} className="inline-flex items-center gap-1 transition-colors hover:text-gold-2">
+            <Home className="h-3.5 w-3.5" aria-hidden />
+            {dict.nav.home}
+          </a>
+          {crumbs.map((c, i) => (
+            <span key={i} className="inline-flex items-center gap-1.5">
+              <Chevron className="h-3 w-3 text-gold/60" aria-hidden />
+              {c.href ? (
+                <a href={lp(c.href)} className="transition-colors hover:text-gold-2">{c.label}</a>
+              ) : (
+                <span className="font-semibold text-gold-2">{c.label}</span>
+              )}
+            </span>
+          ))}
+        </nav>
+        {eyebrow && (
+          <p className="mt-4 text-xs font-bold tracking-[0.3em] text-gold" dir="ltr">{eyebrow}</p>
+        )}
+        <Title className={`text-2xl font-extrabold leading-tight sm:text-3xl lg:text-4xl ${eyebrow ? 'mt-1' : 'mt-4'}`}>
+          <span className="text-gold-grad">{title}</span>
+        </Title>
+        {subtitle && <p className="mt-2 max-w-3xl text-sm leading-relaxed text-foreground/80 sm:text-base">{subtitle}</p>}
+      </div>
+    </section>
+  )
+}

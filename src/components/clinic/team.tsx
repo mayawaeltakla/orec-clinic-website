@@ -1,7 +1,8 @@
 'use client'
 
 import Image from 'next/image'
-import { PageBanner } from './page-banner'
+import { BANNERS } from '@/lib/banners'
+import { ImageBanner } from './page-banner'
 import { FaqTeaser } from './faq-teaser'
 import { CtaBand } from './cta-band'
 import { useLanguage } from './language-context'
@@ -15,7 +16,7 @@ export function Team() {
 
   return (
     <>
-      <PageBanner image="/orec-lobby.jpg" title={L.teamTitle} subtitle={L.teamSubtitle} crumbs={[{ label: L.teamTitle }]} />
+      <ImageBanner art={BANNERS.team} title={L.teamTitle} subtitle={L.teamSubtitle} crumbs={[{ label: L.teamTitle }]} />
     <section className="relative py-14 sm:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
