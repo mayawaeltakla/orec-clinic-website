@@ -40,7 +40,7 @@ export function ServiceIcon({
 export function ServiceCover({ emoji, label, image }: { emoji: string; label: string; image?: string }) {
   if (image) {
     return (
-      <div aria-hidden className="-mx-6 -mt-6 mb-6 aspect-[3/2] w-[calc(100%+3rem)] overflow-hidden border-b border-border">
+      <div aria-hidden className={`-mx-6 -mt-6 mb-6 ${image.startsWith('/service-images/') ? 'aspect-[3/2]' : 'aspect-video'} w-[calc(100%+3rem)] overflow-hidden border-b border-border`}>
         <Image src={image} alt="" width={1200} height={800} sizes="(min-width:1024px) 33vw, 100vw" className="h-full w-full object-cover" />
       </div>
     )

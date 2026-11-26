@@ -520,7 +520,7 @@ export function SubServicePage({ deptSlug, serviceSlug }: { deptSlug: string; se
                       href={lp(`/services/${dept.slug}/${s.slug}`)}
                       className="orec-card lift group flex h-full flex-col overflow-hidden"
                     >
-                      {s.image && <Image src={s.image} alt="" width={600} height={400} sizes="(min-width:1280px) 22vw, (min-width:768px) 30vw, 46vw" className="aspect-[3/2] w-full object-cover transition-transform duration-500 group-hover:scale-105" />}
+                      {s.image && <Image src={s.image} alt="" width={600} height={400} sizes="(min-width:1280px) 22vw, (min-width:768px) 30vw, 46vw" className={`${s.image.startsWith('/service-images/') ? 'aspect-[3/2]' : 'aspect-video'} w-full object-cover transition-transform duration-500 group-hover:scale-105`} />}
                       <span className="block p-3">
                         <span className="block text-sm font-bold text-foreground group-hover:text-gold-2">{sub?.title ?? s.en}</span>
                         <span className="mt-0.5 block text-[11px] text-muted-foreground" dir="ltr">{s.en}</span>
