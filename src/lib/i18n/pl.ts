@@ -27,7 +27,7 @@ export const pl: Dictionary = {
   hero: {
     eyebrow: 'OPIEKA • PRECYZJA • EKSELENJCJA',
     title1: 'Klinika Orec..',
-    title2: 'Twoja medyczna rodzina w podróży do odzyskania pewności uśmiechu i piękna',
+    title2: 'Rozpocznij już dziś swoją podróż ku jaśniejszemu wyglądowi i uśmiechowi, który daje pewność siebie.',
     badges: ['W sercu Stambułu', 'Od 2015 roku', 'Oficjalne licencje ministerstw zdrowia i turystyki'],
     ctaPrimary: 'Skontaktuj się z nami',
     ctaSecondary: 'Poznaj nasze usługi',

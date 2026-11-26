@@ -2,91 +2,132 @@
   "title": "Dental Aesthetics & Treatment",
   "tagline": "Your family medicine on a journey to restore your confidence in your smile — our specialty since day one in the heart of Istanbul",
   "intro": [
-    "Because the smile is what first connects us to others, we have dedicated at Orec Clinic a comprehensive and highly advanced department for dentistry, bringing together a select group of the most skilled doctors and consultants to provide you with the latest solutions in dental aesthetics and treatment using the most precise global digital techniques.",
-    "We combine for you the precision of modern medicine with the warmth of family care, under our official licenses from the Turkish Ministry of Health and the Turkish Ministry of Health for medical tourism, and from digital smile design to immediate implants and comprehensive treatments and cosmetic restorations with global Zirconia and E-Max materials."
+    "At Orec Clinic, we accompany you through your entire journey: from the first consultation, to the digital design of your smile, then treatment and follow-up. Our dental department brings together doctors and consultants who use modern digital technologies, all under official licences from the Turkish Ministry of Health and Ministry of Tourism for medical tourism.",
+    "We combine the precision of advanced medicine with the warmth of family care, and we prepare a written treatment plan for every patient that suits the condition of their teeth and the result they hope for."
   ],
   "services": {
     "dental-implants": {
       "title": "Dental Implants",
       "tagline": "Dental Implants in Turkey | The optimal and final solution for missing teeth",
-      "intro": "Dental implants represent the latest revolution in modern dentistry, offering the most durable medical alternative to replace a lost or worn tooth without damaging adjacent teeth. At Orec Clinic, we combine advanced digital technology with Turkey's most skilled doctors to ensure world-class success rates and a pain-free treatment experience.",
+      "intro": "A dental implant is a fixed solution for replacing a missing tooth: a titanium implant is placed in the jawbone to act as the root, and a crown that resembles a natural tooth in shape and function is then fitted onto it, without the need to reduce the neighbouring teeth. At Orec we begin with an examination, 3D imaging and a digital plan, and then decide with you on the most suitable option for your case.",
       "sections": [
         {
+          "icon": "👤",
+          "heading": "Are dental implants right for you?",
+          "lead": true,
+          "list": [
+            "You have lost one or several teeth and are looking for a fixed solution",
+            "You have difficulty chewing or speaking because of missing teeth",
+            "You do not want healthy neighbouring teeth reduced to fit a bridge",
+            "You are over 18 and your jaw is fully developed",
+            "Your bone is sufficient, or any shortage can be compensated by an additional procedure that the doctor determines after the X-rays"
+          ]
+        },
+        {
           "icon": "📐",
-          "heading": "Basic Components of a Dental Implant",
-          "paragraphs": [
-            "A dental implant consists of three main parts that fuse together to give the look and feel of a natural tooth:"
-          ],
+          "heading": "Components of the implant",
           "blocks": [
             {
-              "title": "The Root or Implant (Fixture)",
-              "text": "A small screw made of pure titanium, implanted into the jawbone to replace the natural root. Titanium is chosen for its biocompatibility, allowing it to fuse with bone (osseointegration) without rejection, sensitivity, or tumor formation."
+              "title": "The implant (artificial root)",
+              "text": "A small titanium screw placed in the jawbone. Titanium is used because the bone usually bonds well with it, which is known as osseointegration."
             },
             {
-              "title": "The Abutment",
-              "text": "The connecting piece that is placed on top of the implant to attach it to the external crown."
+              "title": "The abutment",
+              "text": "A piece that connects the implant to the crown."
             },
             {
-              "title": "The Crown",
-              "text": "The visible artificial tooth, made from high-quality, durable materials like Zirconia or E-Max to blend naturally with your other teeth in terms of strength and shine."
+              "title": "The crown",
+              "text": "The visible tooth, made of high-quality materials such as zirconia or E-max to match the colour and shape of your teeth."
             }
           ]
         },
         {
           "icon": "🔬",
-          "heading": "Types of Dental Implant Techniques at Our Clinic",
+          "heading": "Types of implants at our clinic",
           "blocks": [
             {
-              "title": "Traditional or Standard Implants",
-              "text": "Mechanism: The roots are implanted into the jawbone, followed by a waiting period of 3 to 4 months for the bone to fully integrate with the implant. Once stabilized, the final tooth is placed."
+              "title": "Conventional implants",
+              "text": "The implant is placed, then you usually wait three to four months for the bone to bond with it, and then the final crown is fitted. Suitable for cases that need time for the bone to heal."
             },
             {
-              "title": "Immediate Implants",
-              "text": "Mechanism: An advanced technique where the implant is placed directly into the jaw or facial bone (bypassing long waiting periods, usually immediately after extracting the damaged tooth). The procedure is completed in one or two sessions. Suitable for: Ideal for urgent cases requiring travel, patients with excellent bone density, and those with blood thinning or diabetes under careful medical supervision and precise planning."
+              "title": "Immediate implants",
+              "text": "The implant is often placed directly after the damaged tooth is extracted, which may shorten the treatment time considerably. It depends on the quality of the bone and on inflammation in the area, and the doctor decides after the examination whether it suits you. It is a common choice for those with limited travel time."
             },
             {
-              "title": "Fixed Jaw Implant (All-on-4 & All-on-6)",
-              "text": "Mechanism: In cases of complete tooth loss and gum atrophy, only 4 or 6 roots are implanted directly into the jawbone. Two of these implants are placed at an angle of up to 65 degrees to maximize bone contact and stability, avoiding sinus cavities. A full denture is then permanently fixed to these roots."
+              "title": "All-on-4 / All-on-6",
+              "text": "For those who have lost most or all of their teeth. A limited number of implants (four or six) are placed to support a complete fixed set of teeth, which often reduces the need for bone grafting. After the X-rays, the doctor determines the most suitable position and angle for each implant."
             }
           ]
         },
         {
-          "icon": "👤",
-          "heading": "Candidates for Dental Implants",
-          "list": [
-            "Individuals over 17-18 years old, as the jawbone continues to grow below this age.",
-            "Cases of tooth loss due to accidents, diseases, or contact sports.",
-            "Those experiencing difficulties chewing food or pronouncing words due to missing teeth."
-          ]
-        },
-        {
           "icon": "🏥",
-          "heading": "Your Treatment Journey",
+          "heading": "How the treatment journey unfolds",
           "blocks": [
             {
-              "title": "Pre-Implant Procedures (Digital Planning)",
-              "text": "Patients should inform their doctor of any chronic conditions such as bleeding disorders, diabetes, or high blood pressure (especially diabetic patients must have stable long-term HbA1c levels). The dentist performs a 3D CT scan of the teeth to determine bone thickness, density, nerve endings, and sinus locations for precise implant placement."
+              "title": "Consultation",
+              "text": "You send us photos of your teeth or your X-rays via WhatsApp and we provide an initial assessment."
             },
             {
-              "title": "Procedure Details",
-              "text": "The procedure is performed under local anesthesia (or conscious sedation as per patient preference) without pain. Implants (single tooth, multiple teeth, or full jaw) are placed according to the pre-planned digital strategy."
+              "title": "Examination and digital planning",
+              "text": "3D imaging to assess bone thickness and density and the position of the nerves and sinuses. Please inform the doctor of any chronic illness or medication you take; diabetic patients, for example, need a stable blood sugar level."
+            },
+            {
+              "title": "Surgery",
+              "text": "It is usually performed under local anaesthesia, or conscious sedation depending on the case and on agreement with the doctor, following the agreed digital plan."
+            },
+            {
+              "title": "Healing period",
+              "text": "It may be short or may take months depending on the type of implant, and a temporary restoration is fitted during this time when needed."
+            },
+            {
+              "title": "Final crown",
+              "text": "Fitting of the final tooth and adjustment of the bite."
+            },
+            {
+              "title": "Follow-up",
+              "text": "Care instructions after surgery, regular check-up visits, and please contact us if you notice anything unusual."
             }
           ]
         },
         {
           "icon": "⚠️",
-          "heading": "Risks of Dental Implants and How We Avoid Them",
+          "heading": "Possible risks",
           "paragraphs": [
-            "Like any surgical procedure, implants may carry potential risks such as nerve damage, gum recession around the implant, severe bleeding, rejection through swelling, tissue damage, or wound healing failure."
-          ],
-          "blocks": [
-            {
-              "title": "💡 The Secret to Success",
-              "text": "Most of these risks are completely avoided based on the dentist's experience and precise digital planning. At Orec Clinic, we offer you Turkey's most skilled doctors to ensure dental implants that prevent implant failure or associated risks."
-            }
+            "As with any surgical procedure, infection, bleeding, swelling, effects on nearby nerves, or failure of the bone to bond with the implant may occur, and some risks increase with smoking, uncontrolled illnesses or poor oral hygiene. We reduce these risks through careful examination, digital planning and the supervision of the surgeon, and we explain everything concerning your case before you approve the plan."
+          ]
+        },
+        {
+          "icon": "✅",
+          "heading": "What helps an implant succeed?",
+          "list": [
+            "Quitting or reducing smoking",
+            "Controlling blood sugar and chronic illnesses before surgery",
+            "Oral hygiene and following the doctor's instructions",
+            "Attending follow-up visits"
           ]
         }
-      ]
+      ],
+      "faq": {
+        "heading": "Frequently asked questions",
+        "items": [
+          {
+            "q": "How long does an implant take?",
+            "a": "It depends on the type. In some cases one to two visits may be needed, and more in others, and the doctor sets this out in a written plan."
+          },
+          {
+            "q": "Is an implant painful?",
+            "a": "It is performed under anaesthesia, and some discomfort or swelling may follow once it wears off; the doctor will prescribe what eases it."
+          },
+          {
+            "q": "What is the suitable age?",
+            "a": "Usually after the jaw has fully developed, that is, from about the age of 18."
+          },
+          {
+            "q": "Can someone with diabetes or high blood pressure have one?",
+            "a": "Many stable cases can, after the doctor's assessment, and you may be asked for reports or tests before starting."
+          }
+        ]
+      }
     },
     "hollywood-smile": {
       "title": "Hollywood Smile",
@@ -233,6 +274,145 @@
           ]
         }
       ]
+    }
+  },
+  "extras": {
+    "servicesHeading": "Services in this department",
+    "serviceBlurbs": {
+      "dental-implants": "Replacing missing teeth with roots placed in the jawbone to support the restoration and preserve the shape of the face. After the examination and X-rays, the doctor determines whether immediate implants suit you or whether some preparation is needed first.",
+      "hollywood-smile": "Changing the shape, colour and harmony of the teeth with veneers or crowns in zirconia or E-max. We begin with a digital smile design that you see and approve before treatment starts.",
+      "restorative-dentistry": "Treatment of decay, root canals, fillings and crowns. Healthy teeth are the foundation on which any cosmetic procedure is built.",
+      "teeth-whitening": "A non-surgical procedure that reduces staining and lightens the colour of the teeth. It suits those whose teeth are healthy and who want a brighter shade."
+    },
+    "guide": {
+      "heading": "Which service is right for me?",
+      "rows": [
+        {
+          "need": "You have lost one or more teeth",
+          "slug": "dental-implants"
+        },
+        {
+          "need": "You are unhappy with the shape, colour or spacing of your teeth",
+          "slug": "hollywood-smile"
+        },
+        {
+          "need": "You suffer from pain, decay or old fillings",
+          "slug": "restorative-dentistry"
+        },
+        {
+          "need": "Your teeth are healthy but darker in colour",
+          "slug": "teeth-whitening"
+        }
+      ],
+      "note": "Not sure? Send photos of your teeth via WhatsApp and our team will suggest the most suitable option after an initial assessment.",
+      "noteCta": "Send photos of your teeth via WhatsApp"
+    },
+    "packages": {
+      "heading": "Our treatment packages",
+      "intro": "Choose the package closest to your needs; after the examination, the doctor will confirm what truly suits your case.",
+      "rowLabels": [
+        "Suitable for",
+        "Includes",
+        "Accommodation and transport",
+        "Guarantee"
+      ],
+      "plans": [
+        {
+          "name": "Silver Package",
+          "cells": [
+            "Those who want treatment only",
+            "Essential treatment services",
+            "Not included",
+            "20 years for implants and teeth"
+          ]
+        },
+        {
+          "name": "Gold Package",
+          "badge": "Most popular",
+          "cells": [
+            "Those who want treatment, reception and transport",
+            "Essential services + reception and transport",
+            "Transport only",
+            "20 years for implants and teeth"
+          ]
+        },
+        {
+          "name": "Diamond Package",
+          "cells": [
+            "Those who want every service: ticket, reception, transport, hotel and treatment",
+            "Essential services + reception and transport + hotel + flight ticket",
+            "Accommodation and transport included",
+            "20 years for implants and teeth"
+          ]
+        }
+      ],
+      "cta": "Get your personalised offer"
+    },
+    "journey": {
+      "heading": "How your journey with us unfolds",
+      "steps": [
+        {
+          "title": "Free consultation",
+          "text": "Send photos of your teeth or your X-rays via WhatsApp and we give you an initial assessment."
+        },
+        {
+          "title": "Written treatment plan",
+          "text": "It includes the procedures, duration, number of visits and price."
+        },
+        {
+          "title": "Examination and digital design",
+          "text": "We examine you at the clinic, design the smile and agree it with you before starting."
+        },
+        {
+          "title": "Treatment",
+          "text": "We carry out the procedures according to the agreed schedule during your stay in Istanbul."
+        },
+        {
+          "title": "Follow-up after your return",
+          "text": "You receive care instructions, and our team stays in touch with you."
+        }
+      ]
+    },
+    "why": {
+      "heading": "Why Orec?",
+      "items": [
+        "Official licence from the Turkish Ministry of Health and Ministry of Tourism for medical tourism.",
+        "Digital smile design before treatment, so you know the expected look in advance.",
+        "International materials for cosmetic restorations, such as zirconia and E-max.",
+        "A written plan and clear prices before you begin.",
+        "Available on WhatsApp around the clock to answer your questions."
+      ]
+    },
+    "faq": {
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How long does treatment take, and how many visits will I need?",
+          "a": "It depends on the procedure. Whitening and fillings may be completed in a single visit, whereas Hollywood Smile and implants need a longer schedule that the doctor determines after the examination and that is written into the treatment plan."
+        },
+        {
+          "q": "Is the procedure painful?",
+          "a": "Procedures are performed under local anaesthesia. You may feel slight sensitivity once it wears off, and the doctor will prescribe what is needed to ease it."
+        },
+        {
+          "q": "Are the teeth reduced in a Hollywood Smile?",
+          "a": "Often yes, as a limited amount of tooth preparation is needed to fix the veneers or crowns. The doctor explains how much before you approve the plan."
+        },
+        {
+          "q": "Can I complete the treatment in a single trip?",
+          "a": "In many cases yes; in some, a second visit is needed to complete the treatment. We tell you this in advance when preparing the plan."
+        },
+        {
+          "q": "What should I do after returning to my country?",
+          "a": "We send you care instructions and follow your case remotely, and you contact us at once if you notice anything uncomfortable."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Start your journey with Orec Clinic",
+      "text": "Our consultation team is always available to listen to you and answer your questions. Contact us today and we will suggest the right plan for you.",
+      "primary": "Book a free consultation",
+      "secondary": "Message us on WhatsApp"
     }
   }
 }

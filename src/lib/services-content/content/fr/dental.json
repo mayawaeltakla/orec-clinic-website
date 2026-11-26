@@ -2,91 +2,132 @@
   "title": "Esthétique et soins dentaires",
   "tagline": "Votre famille médicale dans un voyage de restauration de votre confiance en votre sourire — notre spécialisation depuis notre premier jour au cœur d'Istanbul",
   "intro": [
-    "Puisque le sourire est ce qui nous relie les uns aux autres en premier lieu, la Clinique Orec a dédié un département complet et très avancé à la dentisterie, comprenant une élite des médecins et consultants les plus talentueux pour vous offrir les dernières solutions d'esthétique et de traitement dentaire avec les techniques numériques mondiales les plus précises.",
-    "Nous combinons pour vous la précision de la médecine moderne et la chaleur des soins familiaux, conformément à nos licences officielles du ministère de la Santé et du ministère du Tourisme turc pour le tourisme médical, et de la conception numérique du sourire à l'implantation immédiate et aux traitements complets et aux prothèses cosmétiques en matériaux zircon et E-Max mondiaux."
+    "Chez Orec Clinic, nous vous accompagnons tout au long de votre parcours : de la première consultation à la conception numérique de votre sourire, puis au traitement et au suivi. Notre département de dentisterie réunit des médecins et des consultants qui utilisent des technologies numériques modernes, le tout avec les autorisations officielles du ministère turc de la Santé et du ministère du Tourisme pour le tourisme médical.",
+    "Nous allions la précision de la médecine avancée à la chaleur d'une prise en charge familiale, et nous établissons pour chaque patient un plan de traitement écrit, adapté à l'état de ses dents et au résultat qu'il souhaite obtenir."
   ],
   "services": {
     "dental-implants": {
       "title": "Implants dentaires",
       "tagline": "Implants dentaires en Turquie | La solution optimale et finale pour remplacer les dents manquantes",
-      "intro": "Les implants dentaires représentent la révolution la plus récente en dentisterie moderne, et constituent l'alternative médicale la plus durable pour remplacer une dent manquante ou usée sans endommager les dents adjacentes. Chez Orec Clinic, nous vous combinons la technologie numérique avancée et les meilleurs médecins turcs pour garantir un taux de succès mondial et une expérience thérapeutique sans douleur.",
+      "intro": "L'implant dentaire est une solution fixe pour remplacer une dent manquante : un implant en titane est fixé dans l'os de la mâchoire pour jouer le rôle de la racine, puis une couronne, semblable à la dent naturelle par sa forme et sa fonction, est posée dessus, sans qu'il soit nécessaire de limer les dents voisines. Chez Orec, nous commençons par un examen, une imagerie 3D et un plan numérique, puis nous déterminons avec vous l'option la plus adaptée à votre situation.",
       "sections": [
         {
+          "icon": "👤",
+          "heading": "L'implant dentaire est-il fait pour vous ?",
+          "lead": true,
+          "list": [
+            "Vous avez perdu une ou plusieurs dents et recherchez une solution fixe",
+            "Vous avez des difficultés à mastiquer ou à parler à cause de la perte de dents",
+            "Vous ne souhaitez pas limer les dents saines voisines pour poser un bridge",
+            "Vous avez plus de 18 ans et votre mâchoire a fini sa croissance",
+            "Votre os est suffisant, ou son manque peut être compensé par une intervention complémentaire que le médecin détermine après les radiographies"
+          ]
+        },
+        {
           "icon": "📐",
-          "heading": "Composants de base d'un implant dentaire",
-          "paragraphs": [
-            "La dent implantée se compose de trois parties principales qui s'assemblent pour donner l'aspect et la sensation d'une dent naturelle :"
-          ],
+          "heading": "Les composants de l'implant",
           "blocks": [
             {
-              "title": "La racine ou l'implant (Fixture)",
-              "text": "Une petite vis en titane pur, insérée dans l'os de la mâchoire pour remplacer la racine naturelle. Le titane biocompatible est choisi car il s'intègre facilement à l'os (ostéo-intégration) sans être rejeté par le corps ou causer des allergies ou des tumeurs."
+              "title": "L'implant (racine artificielle)",
+              "text": "Une petite vis en titane fixée dans l'os de la mâchoire. Le titane est utilisé parce que l'os s'y soude le plus souvent très bien, ce que l'on appelle l'ostéo-intégration."
             },
             {
-              "title": "La couronne (Abutment)",
-              "text": "La pièce de connexion qui est fixée sur l'implant pour relier la couronne externe."
+              "title": "Le pilier",
+              "text": "La pièce qui relie l'implant à la couronne."
             },
             {
-              "title": "La couronne (Crown)",
-              "text": "La dent artificielle visible, fabriquée à partir de matériaux de haute qualité et durables comme la zircone ou l'E-Max pour s'intégrer naturellement avec vos autres dents en termes de résistance et d'éclat."
+              "title": "La couronne",
+              "text": "La dent visible, fabriquée dans des matériaux de haute qualité comme la zircone ou l'E-max afin de s'accorder à la couleur et à la forme de vos dents."
             }
           ]
         },
         {
           "icon": "🔬",
-          "heading": "Types de techniques d'implantation dentaire dans notre clinique",
+          "heading": "Les types d'implants dans notre clinique",
           "blocks": [
             {
-              "title": "Implants traditionnels ou standard (Standard Implants)",
-              "text": "Mécanisme : Les racines sont insérées dans l'os de la mâchoire, puis nous attendons une période de 3 à 4 mois pour que l'os s'intègre parfaitement à l'implant. Une fois stabilisé, la dent finale est fixée."
+              "title": "L'implant classique",
+              "text": "L'implant est posé, puis vous attendez généralement trois à quatre mois que l'os s'y soude, avant la pose de la couronne définitive. Il convient aux cas qui demandent du temps pour la cicatrisation de l'os."
             },
             {
-              "title": "Implants immédiats (Immediate Implants)",
-              "text": "Mécanisme : Technique avancée où l'implant est inséré directement dans l'os de la mâchoire ou du visage (sans les longues périodes d'attente, généralement immédiatement après l'extraction de la dent endommagée), et se termine en une ou deux séances. Pour qui convient-elle ? Idéale pour les cas urgents dus à des voyages, ou pour les patients ayant une densité osseuse excellente, également adaptée pour les patients souffrant de troubles de la coagulation ou de diabète sous surveillance médicale stricte et planification rigoureuse."
+              "title": "L'implant immédiat",
+              "text": "L'implant est le plus souvent posé juste après l'extraction de la dent atteinte, ce qui peut raccourcir sensiblement la durée du traitement. Il dépend de la qualité de l'os et de l'inflammation de la zone ; le médecin décide après l'examen s'il vous convient, et c'est une option courante pour ceux dont la durée de séjour est limitée."
             },
             {
-              "title": "Prothèse fixe de mâchoire (All-on-4 & All-on-6)",
-              "text": "Mécanisme : En cas de perte complète de dents et d'atrophie des gencives, seules 4 ou 6 racines sont implantées directement dans l'os de la mâchoire. Deux de ces implants sont placés à un angle pouvant atteindre 65 degrés pour maximiser le contact et la stabilité avec l'os et éviter les sinus maxillaires, puis la prothèse dentaire complète est fixée de manière permanente sur ces racines."
+              "title": "All-on-4 / All-on-6",
+              "text": "Pour ceux qui ont perdu la plupart de leurs dents ou toutes. Un nombre limité d'implants (quatre ou six) est posé pour soutenir une prothèse complète fixe, ce qui réduit souvent le besoin de greffe osseuse. Après les radiographies, le médecin détermine l'emplacement et l'angle les plus adaptés pour chaque implant."
             }
           ]
         },
         {
-          "icon": "👤",
-          "heading": "Cas candidats aux implants dentaires",
-          "list": [
-            "Personnes âgées de plus de 17-18 ans, car en dessous de cet âge la mâchoire est encore en croissance.",
-            "Cas de perte de dents due à des accidents, des maladies ou des sports violents.",
-            "Personnes souffrant de problèmes de mastication ou d'élocution dus à la perte de dents."
-          ]
-        },
-        {
           "icon": "🏥",
-          "heading": "Étapes de votre parcours de traitement",
+          "heading": "Le déroulement du traitement",
           "blocks": [
             {
-              "title": "Procédures pré-implantaires (planification numérique)",
-              "text": "Le patient doit informer le médecin s'il souffre d'une maladie chronique comme un trouble de la coagulation, du diabète ou de l'hypertension (les patients diabétiques doivent avoir un taux d'hémoglobine glyquée stable depuis longtemps). Le chirurgien dentaire effectue un scan 3D (3D CT Scan) des dents pour connaître l'épaisseur et la densité de l'os, l'emplacement des terminaisons nerveuses et des sinus maxillaires, afin de déterminer précisément les sites de forage."
+              "title": "La consultation",
+              "text": "Vous nous envoyez des photos de vos dents ou vos radiographies sur WhatsApp et nous vous donnons une évaluation préliminaire."
             },
             {
-              "title": "Procédures de l'opération",
-              "text": "L'opération est réalisée sous anesthésie locale (ou sous sédation selon le souhait du patient) sans douleur, et les implants (une dent, plusieurs dents ou la mâchoire entière) sont placés selon le plan numérique préétabli."
+              "title": "L'examen et la planification numérique",
+              "text": "Imagerie 3D pour évaluer l'épaisseur et la densité de l'os, ainsi que l'emplacement des nerfs et des sinus. Merci d'informer le médecin de toute maladie chronique ou de tout médicament que vous prenez : les patients diabétiques, par exemple, ont besoin d'un taux de sucre stable."
+            },
+            {
+              "title": "La chirurgie",
+              "text": "Elle se déroule le plus souvent sous anesthésie locale, ou sous sédation consciente selon le cas et l'accord avec le médecin, conformément au plan numérique convenu."
+            },
+            {
+              "title": "La période d'ostéo-intégration",
+              "text": "Elle peut être courte ou durer plusieurs mois selon le type d'implant, et une prothèse provisoire est posée pendant ce temps si nécessaire."
+            },
+            {
+              "title": "La couronne définitive",
+              "text": "Pose de la dent définitive et réglage de l'occlusion."
+            },
+            {
+              "title": "Le suivi",
+              "text": "Consignes de soins après la chirurgie, visites de contrôle régulières ; contactez-nous si vous remarquez quoi que ce soit d'inhabituel."
             }
           ]
         },
         {
           "icon": "⚠️",
-          "heading": "Risques des implants dentaires et comment les éviter ?",
+          "heading": "Les risques possibles",
           "paragraphs": [
-            "Comme toute procédure chirurgicale, l'implantation peut présenter certains risques potentiels tels que : lésion des nerfs, récession des gencives adjacentes à l'implant, saignement sévère, rejet de l'implant par gonflement, déchirure des tissus osseux, ou échec de la cicatrisation."
-          ],
-          "blocks": [
-            {
-              "title": "💡 La clé du succès",
-              "text": "La plupart de ces risques sont évités grâce à l'expérience du chirurgien dentaire et à la planification numérique précise. Chez Orec Clinic, nous mettons à votre disposition les meilleurs médecins turcs pour des implants dentaires qui évitent l'échec de l'implantation ou ses risques."
-            }
+            "Comme pour toute intervention chirurgicale, des infections, des saignements, un gonflement, une atteinte des nerfs proches ou un échec de l'ostéo-intégration peuvent survenir, et certains risques augmentent avec le tabac, les maladies non maîtrisées ou une mauvaise hygiène bucco-dentaire. Nous réduisons ces risques par un examen rigoureux, une planification numérique et la supervision du chirurgien, et nous vous expliquons tout ce qui concerne votre cas avant que vous n'approuviez le plan."
+          ]
+        },
+        {
+          "icon": "✅",
+          "heading": "Ce qui favorise la réussite de l'implant",
+          "list": [
+            "Arrêter ou réduire le tabac",
+            "Équilibrer la glycémie et les maladies chroniques avant la chirurgie",
+            "Une bonne hygiène bucco-dentaire et le respect des consignes du médecin",
+            "Se rendre aux visites de suivi"
           ]
         }
-      ]
+      ],
+      "faq": {
+        "heading": "Questions fréquentes",
+        "items": [
+          {
+            "q": "Combien de temps dure la pose d'un implant ?",
+            "a": "Cela dépend du type. Une à deux visites peuvent suffire dans certains cas, davantage dans d'autres, et le médecin le précise dans un plan écrit."
+          },
+          {
+            "q": "La pose d'un implant est-elle douloureuse ?",
+            "a": "Elle est réalisée sous anesthésie ; une gêne ou un gonflement peuvent apparaître après la fin de son effet, et le médecin vous prescrit ce qui les atténue."
+          },
+          {
+            "q": "Quel est l'âge approprié ?",
+            "a": "Généralement après la fin de la croissance de la mâchoire, c'est-à-dire vers 18 ans et plus."
+          },
+          {
+            "q": "Une personne diabétique ou hypertendue peut-elle en bénéficier ?",
+            "a": "De nombreux cas stabilisés le peuvent après évaluation du médecin, qui peut vous demander des rapports ou des examens avant de commencer."
+          }
+        ]
+      }
     },
     "hollywood-smile": {
       "title": "Sourire hollywoodien",
@@ -233,6 +274,145 @@
           ]
         }
       ]
+    }
+  },
+  "extras": {
+    "servicesHeading": "Les services de ce département",
+    "serviceBlurbs": {
+      "dental-implants": "Remplacement des dents manquantes par des racines fixées dans l'os de la mâchoire, qui soutiennent la prothèse et préservent la forme du visage. Après l'examen et les radiographies, le médecin détermine si l'implant immédiat vous convient ou si une préparation préalable est nécessaire.",
+      "hollywood-smile": "Modification de la forme, de la couleur et de l'harmonie des dents avec des facettes ou des couronnes en zircone ou en E-max. Nous commençons par une conception numérique du sourire que vous voyez et approuvez avant le début du traitement.",
+      "restorative-dentistry": "Traitement des caries, dévitalisations, obturations et couronnes. La santé des dents est le socle sur lequel repose toute intervention esthétique.",
+      "teeth-whitening": "Procédure non chirurgicale qui atténue les taches et éclaircit la teinte des dents, adaptée à ceux dont les dents sont saines et qui souhaitent une teinte plus lumineuse."
+    },
+    "guide": {
+      "heading": "Quel service me convient ?",
+      "rows": [
+        {
+          "need": "Vous avez perdu une ou plusieurs dents",
+          "slug": "dental-implants"
+        },
+        {
+          "need": "La forme, la couleur ou l'espacement de vos dents ne vous plaît pas",
+          "slug": "hollywood-smile"
+        },
+        {
+          "need": "Vous souffrez de douleurs, de caries ou de vieilles obturations",
+          "slug": "restorative-dentistry"
+        },
+        {
+          "need": "Vos dents sont saines, mais leur teinte est foncée",
+          "slug": "teeth-whitening"
+        }
+      ],
+      "note": "Vous n'êtes pas sûr(e) ? Envoyez-nous des photos de vos dents sur WhatsApp et notre équipe vous proposera le service le plus adapté après une évaluation préliminaire.",
+      "noteCta": "Envoyez des photos de vos dents sur WhatsApp"
+    },
+    "packages": {
+      "heading": "Nos forfaits de traitement",
+      "intro": "Choisissez le forfait le plus proche de votre besoin ; après l'examen, le médecin confirmera ce qui convient réellement à votre situation.",
+      "rowLabels": [
+        "Convient à",
+        "Comprend",
+        "Hébergement et transport",
+        "Garantie"
+      ],
+      "plans": [
+        {
+          "name": "Forfait Argent",
+          "cells": [
+            "Ceux qui souhaitent uniquement le traitement",
+            "Les services de soins de base",
+            "Non inclus",
+            "20 ans pour les implants et les dents"
+          ]
+        },
+        {
+          "name": "Forfait Or",
+          "badge": "Le plus demandé",
+          "cells": [
+            "Ceux qui souhaitent le traitement, l'accueil et le transport",
+            "Services de base + accueil et transport",
+            "Transport uniquement",
+            "20 ans pour les implants et les dents"
+          ]
+        },
+        {
+          "name": "Forfait Diamant",
+          "cells": [
+            "Ceux qui souhaitent tous les services : billet, accueil, transport, hôtel et traitement",
+            "Services de base + accueil et transport + hôtel + billet d'avion",
+            "Hébergement et transport inclus",
+            "20 ans pour les implants et les dents"
+          ]
+        }
+      ],
+      "cta": "Obtenez votre offre personnalisée"
+    },
+    "journey": {
+      "heading": "Le déroulement de votre parcours avec nous",
+      "steps": [
+        {
+          "title": "Consultation gratuite",
+          "text": "Envoyez-nous des photos de vos dents ou vos radiographies sur WhatsApp et nous vous donnons une évaluation préliminaire."
+        },
+        {
+          "title": "Plan de traitement écrit",
+          "text": "Il précise les interventions, la durée, le nombre de visites et le prix."
+        },
+        {
+          "title": "Examen et conception numérique",
+          "text": "Nous vous examinons à la clinique, concevons le sourire et le validons avec vous avant de commencer."
+        },
+        {
+          "title": "Traitement",
+          "text": "Nous réalisons les interventions selon le calendrier convenu pendant votre séjour à Istanbul."
+        },
+        {
+          "title": "Suivi après votre retour",
+          "text": "Vous recevez les consignes de soins et notre équipe reste en contact avec vous."
+        }
+      ]
+    },
+    "why": {
+      "heading": "Pourquoi Orec ?",
+      "items": [
+        "Autorisation officielle du ministère turc de la Santé et du ministère du Tourisme pour le tourisme médical.",
+        "Conception numérique du sourire avant le traitement, pour connaître à l'avance le résultat attendu.",
+        "Matériaux de qualité internationale pour les restaurations esthétiques, comme la zircone et l'E-max.",
+        "Un plan écrit et des prix clairs avant de commencer.",
+        "Disponibles sur WhatsApp 24 heures sur 24 pour répondre à vos questions."
+      ]
+    },
+    "faq": {
+      "heading": "Questions fréquentes",
+      "items": [
+        {
+          "q": "Combien de temps dure le traitement et de combien de visites ai-je besoin ?",
+          "a": "Cela dépend de l'intervention. Le blanchiment et les obturations peuvent être réalisés en une seule visite, alors que le Hollywood Smile et les implants nécessitent un calendrier plus long, fixé par le médecin après l'examen et inscrit dans le plan de traitement."
+        },
+        {
+          "q": "L'intervention est-elle douloureuse ?",
+          "a": "Les interventions sont réalisées sous anesthésie locale. Une légère sensibilité peut apparaître après la fin de son effet, et le médecin vous prescrit ce qu'il faut pour la soulager."
+        },
+        {
+          "q": "Les dents sont-elles limées pour le Hollywood Smile ?",
+          "a": "Le plus souvent oui, car une préparation limitée des dents est nécessaire pour fixer les facettes ou les couronnes. Le médecin vous explique son ampleur avant que vous n'approuviez le plan."
+        },
+        {
+          "q": "Puis-je terminer le traitement en un seul voyage ?",
+          "a": "Dans de nombreux cas oui ; dans certains, une seconde visite est nécessaire pour terminer le traitement. Nous vous en informons à l'avance lors de l'établissement du plan."
+        },
+        {
+          "q": "Que dois-je faire après mon retour dans mon pays ?",
+          "a": "Nous vous envoyons les consignes de soins et suivons votre situation à distance ; contactez-nous immédiatement si vous remarquez quoi que ce soit de gênant."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Commencez votre parcours avec Orec Clinic",
+      "text": "Notre équipe de conseil est toujours disponible pour vous écouter et répondre à vos questions. Contactez-nous dès aujourd'hui afin que nous vous proposions le plan adapté.",
+      "primary": "Réserver une consultation gratuite",
+      "secondary": "Écrivez-nous sur WhatsApp"
     }
   }
 }

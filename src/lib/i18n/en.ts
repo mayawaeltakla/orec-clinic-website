@@ -27,7 +27,7 @@ export const en: Dictionary = {
   hero: {
     eyebrow: 'CARE • PRECISION • EXCELLENCE',
     title1: 'Orec Clinic..',
-    title2: 'Your medical family on a journey to restore your confidence in your smile and beauty',
+    title2: 'Start your journey today toward a brighter look and a smile that gives you confidence.',
     badges: ['In the heart of Istanbul', 'Since 2015', 'Officially licensed by the Ministry of Health and Ministry of Tourism'],
     ctaPrimary: 'Contact Us Today',
     ctaSecondary: 'Explore Our Services',

@@ -2,91 +2,132 @@
   "title": "Diş Estetiği ve Tedavisi",
   "tagline": "Aile hekiminizin gülüşünüze olan özgüveninizi yeniden kazanma yolculuğunda — ilk günümüzden beri uzmanlığımızın merkezi, İstanbul'un kalbinde",
   "intro": [
-    "Çünkü gülüşümüz, bizi başkalarıyla ilk kez bağlayan şeydir. Bu yüzden Orec Clinic'te diş hekimliği için tamamen kapsamlı ve son derece gelişmiş bir bölüm oluşturduk. Bu bölümde, en yetkin doktorlar ve danışmanlardan oluşan bir ekip, en son diş hekimliği estetik ve tedavi çözümlerini, en hassas dijital dünya teknikleriyle size sunmak için burada.",
-    "Gelişmiş tıbbın hassasiyetini ve aile bakımının sıcaklığını bir araya getiriyoruz. Sağlık Bakanlığı ve Türkiye'nin sağlık turizmi için Turizm Bakanlığı'nın resmi lisanslarımızla, dijital gülüş tasarımından anında implantlara, kapsamlı tedavilere ve dünya çapında zirkonya ve E-Max malzemelerinden üretilen estetik protezlere kadar her şeyi sunuyoruz."
+    "Orec Clinic'te yolculuğunuzun her aşamasında yanınızdayız: ilk danışmanlıktan gülüşünüzün dijital tasarımına, ardından tedaviye ve takibe kadar. Diş hekimliği bölümümüzde modern dijital teknolojilerle çalışan hekimler ve uzmanlar yer alır; tüm bunlar, sağlık turizmi için Türkiye Sağlık Bakanlığı ve Kültür ve Turizm Bakanlığı tarafından verilen resmi ruhsatlarla yürütülür.",
+    "İleri tıbbın hassasiyetini aile sıcaklığındaki bir ilgiyle bir araya getiriyor, her hasta için diş durumuna ve istediği sonuca uygun yazılı bir tedavi planı hazırlıyoruz."
   ],
   "services": {
     "dental-implants": {
       "title": "Diş İmplantı",
       "tagline": "Diş implantı Türkiye'de | Kayıp dişler için en ideal ve kalıcı çözüm",
-      "intro": "Diş implantı, modern diş hekimliğinin en son devrimidir ve komşu dişlere zarar vermeden kayıp veya yıpranmış dişleri değiştirmek için en dayanıklı tıbbi alternatiftir. Orec Clinic'te, gelişmiş dijital teknoloji ile Türkiye'nin en yetkin hekimlerini birleştirerek dünya çapında bir başarı oranı ve ağrısız bir tedavi deneyimi sağlıyoruz.",
+      "intro": "Diş implantı, kaybedilen dişin yerine konulan kalıcı bir çözümdür: çene kemiğine kök görevi görecek bir titanyum implant yerleştirilir, ardından üzerine şekil ve işlev olarak doğal dişe benzeyen bir kron takılır; komşu dişlerin inceltilmesine gerek kalmaz. Orec'te muayene, üç boyutlu görüntüleme ve dijital planla başlar, ardından durumunuza en uygun seçeneği sizinle birlikte belirleriz.",
       "sections": [
         {
+          "icon": "👤",
+          "heading": "Diş implantı sizin için uygun mu?",
+          "lead": true,
+          "list": [
+            "Bir veya birkaç dişinizi kaybettiniz ve kalıcı bir çözüm arıyorsunuz",
+            "Diş kaybı nedeniyle çiğneme veya konuşmada zorluk yaşıyorsunuz",
+            "Köprü yapmak için yanınızdaki sağlam dişlerin inceltilmesini istemiyorsunuz",
+            "18 yaşın üzerindesiniz ve çene gelişiminiz tamamlandı",
+            "Kemiğiniz yeterli ya da eksiği, hekimin röntgenden sonra belirleyeceği ek bir işlemle giderilebilir"
+          ]
+        },
+        {
           "icon": "📐",
-          "heading": "Diş implantının temel bileşenleri",
-          "paragraphs": [
-            "Implant, doğal diş görünümünü ve hissini veren üç ana bölümden oluşur:"
-          ],
+          "heading": "İmplantın bileşenleri",
           "blocks": [
             {
-              "title": "Kök veya İmplant (Fixture)",
-              "text": "Titanium malzemeden yapılmış küçük bir vida, çene kemiğine yerleştirerek doğal kökün işlevini görür. Biyo-uyumlu titanium, kemikle kolayca kaynaşır (osteointegrasyon) ve vücut tarafından reddedilmez, hassasiyet veya tümörlere neden olmaz."
+              "title": "İmplant (yapay kök)",
+              "text": "Çene kemiğine yerleştirilen küçük bir titanyum vida. Titanyum kullanılır, çünkü kemik çoğunlukla onunla iyi kaynaşır; buna osseointegrasyon denir."
             },
             {
               "title": "Abutment",
-              "text": "İmplantın üzerine takılan ve dış krona bağlayan parça."
+              "text": "İmplant ile kron arasında bağlantıyı sağlayan parça."
             },
             {
-              "title": "Kron (Crown)",
-              "text": "Görünen yapay diş, dayanıklılık ve parlaklık açısından doğal dişlerinizle mükemmel uyum sağlayan zirkon veya E-Max gibi yüksek kaliteli malzemelerden yapılır."
+              "title": "Kron",
+              "text": "Görünen diş; dişlerinizin rengine ve şekline uyum sağlaması için zirkonyum veya emax gibi yüksek kaliteli malzemelerden yapılır."
             }
           ]
         },
         {
           "icon": "🔬",
-          "heading": "Kliniğimizdeki diş implantı teknikleri",
+          "heading": "Kliniğimizdeki implant türleri",
           "blocks": [
             {
-              "title": "Standart İmplantlar",
-              "text": "Mekanizma: Çene kemiğine kökler yerleştirilir, kemik ile implantın tam olarak uyum sağlaması için 3-4 ay beklenir ve ardından kalıcı diş takılır."
+              "title": "Geleneksel implant",
+              "text": "İmplant yerleştirilir, kemiğin onunla kaynaşması için genellikle üç ila dört ay beklenir, ardından son kron takılır. Kemiğin iyileşmesi için zamana ihtiyaç duyulan durumlara uygundur."
             },
             {
-              "title": "Anlık İmplantlar (Immediate Implants)",
-              "text": "Mekanizma: Gelişmiş bir teknik olan bu yöntemde, implantlar hasarlı dişin çekilmesi üzerine genellikle tek seansta veya iki seansta çene veya yüz kemiğine doğrudan yerleştirilir. Uygun mu? Seyahat gereksinimleri acil olan vakalar veya kemik yoğunluğu mükemmel olan hastalar için ideal bir seçenektir. Akan kan veya şeker hastalığı olan hastalar için de tıbbi gözetim ve sıkı planlama ile uygundur."
+              "title": "Hemen implant",
+              "text": "İmplant çoğunlukla hasarlı dişin çekilmesinden hemen sonra yerleştirilir ve tedavi süresi belirgin şekilde kısalabilir. Kemik kalitesine ve bölgedeki enfeksiyona bağlıdır; size uygun olup olmadığına hekim muayeneden sonra karar verir. Seyahat süresi kısıtlı olanlar için yaygın bir seçenektir."
             },
             {
-              "title": "Sabit Çene Protezi (All-on-4 & All-on-6)",
-              "text": "Mekanizma: Tam diş kaybı ve diş eti erimesi durumunda, çene kemiğine sadece 4 veya 6 implant yerleştirilir. Bu implantlardan ikisi maksimum kemik teması ve stabilite sağlamak ve sinüs boşluklarını önlemek için 65 derecelik bir açıyla yerleştirilir. Ardından tam diş protezi bu köklere kalıcı olarak takılır."
+              "title": "All-on-4 / All-on-6",
+              "text": "Dişlerinin çoğunu veya tamamını kaybedenler için. Sınırlı sayıda implant (dört veya altı) yerleştirilir ve sabit bir tam protezi taşır; bu çoğunlukla kemik greftine duyulan ihtiyacı azaltır. Hekim, röntgenden sonra her implant için en uygun yeri ve açıyı belirler."
             }
           ]
         },
         {
-          "icon": "👤",
-          "heading": "Diş implantı için adaylar",
-          "list": [
-            "17-18 yaş üstü bireyler, çünkü bu yaştan önce çene hala gelişimindedir.",
-            "Kaza, hastalık veya şiddetli sporlar nedeniyle diş kaybı yaşayanlar.",
-            "Diş kaybı nedeniyle yiyecek çiğnemek veya ses çıkarma sorunları yaşayanlar."
-          ]
-        },
-        {
           "icon": "🏥",
-          "heading": "Tedavi seyahat süreciniz",
+          "heading": "Tedavi yolculuğu nasıl ilerler",
           "blocks": [
             {
-              "title": "Ön implant prosedürleri (Dijital planlama)",
-              "text": "Hasta, kanama bozukluğu, diyabet veya yüksek tansiyon gibi kronik bir hastalığı varsa doktora bildirmelidir (özellikle diyabet hastalarının uzun süreli stabil glikoz seviyelerine sahip olmaları gerekir). Diş cerrahı, kemik kalınlığını, yoğunluğunu, sinir uçlarının konumunu ve sinüs boşluklarını belirlemek için dişlerin üç boyutlu taramasını (3D CT Scan) yapar ve delme noktalarını hassas bir şekilde belirler."
+              "title": "Danışmanlık",
+              "text": "Diş fotoğraflarınızı veya röntgenlerinizi WhatsApp'tan gönderirsiniz, biz de ön değerlendirme yaparız."
             },
             {
-              "title": "Operasyon süreci",
-              "text": "Operasyon, yerel anestezi altında (veya hasta tercihi ile sedasyon) ağrısız bir şekilde gerçekleştirilir ve implantlar (tek diş, birden fazla diş veya tüm çene) önceden belirlenen dijital plana göre takılır."
+              "title": "Muayene ve dijital planlama",
+              "text": "Kemik kalınlığını, yoğunluğunu, sinirlerin ve sinüslerin konumunu değerlendirmek için üç boyutlu görüntüleme. Lütfen hekime kronik hastalıklarınızı ve kullandığınız ilaçları bildirin; örneğin diyabet hastalarının şeker seviyesinin dengeli olması gerekir."
+            },
+            {
+              "title": "Cerrahi",
+              "text": "Çoğunlukla lokal anestezi altında ya da duruma ve hekimle anlaşmaya göre sedasyon altında, üzerinde anlaşılan dijital plana uygun olarak yapılır."
+            },
+            {
+              "title": "Kaynaşma dönemi",
+              "text": "İmplant türüne göre kısa sürebilir ya da aylar gerektirebilir; gerekirse bu süre boyunca geçici bir protez takılır."
+            },
+            {
+              "title": "Son kron",
+              "text": "Son dişin takılması ve kapanışın ayarlanması."
+            },
+            {
+              "title": "Takip",
+              "text": "Ameliyat sonrası bakım talimatları, düzenli kontrol ziyaretleri; olağan dışı bir şey fark ederseniz bizimle iletişime geçin."
             }
           ]
         },
         {
           "icon": "⚠️",
-          "heading": "Diş implantı riskleri ve bunları nasıl önleriz?",
+          "heading": "Olası riskler",
           "paragraphs": [
-            "Her cerrahi prosedür gibi implantasyon bazı potansiyel riskler taşıyabilir: sinir hasarı, implant etrafındaki diş eti çekilmesi, şiddetli kanama, vücudun implantı reddetmesi (şişlik ile), kemik dokusu hasarı veya yara iyileşme başarısızlığı."
-          ],
-          "blocks": [
-            {
-              "title": "💡 Başarı sırrı",
-              "text": "Bu risklerin çoğu, diş cerrahının uzmanlığı ve detaylı dijital planlama tamamen önlenebilir. Orec Clinic'te, implant başarısızlığını veya risklerini önleyen dişler için size Türkiye'nin en yetkin hekimlerini sunuyoruz."
-            }
+            "Her cerrahi işlemde olduğu gibi enfeksiyon, kanama, şişlik, yakındaki sinirlerin etkilenmesi veya implantın kemikle kaynaşmaması gelişebilir; bazı riskler sigara, kontrol altında olmayan hastalıklar veya yetersiz ağız bakımıyla artar. Bu riskleri titiz muayene, dijital planlama ve cerrahın gözetimiyle azaltırız; planı onaylamadan önce durumunuza dair her şeyi size açıklarız."
+          ]
+        },
+        {
+          "icon": "✅",
+          "heading": "İmplantın başarısına ne yardımcı olur?",
+          "list": [
+            "Sigarayı bırakmak ya da azaltmak",
+            "Ameliyattan önce şekeri ve kronik hastalıkları kontrol altına almak",
+            "Ağız hijyeni ve hekimin talimatlarına uymak",
+            "Kontrol ziyaretlerine katılmak"
           ]
         }
-      ]
+      ],
+      "faq": {
+        "heading": "Sık sorulan sorular",
+        "items": [
+          {
+            "q": "İmplant ne kadar sürer?",
+            "a": "Türüne bağlıdır. Bazı durumlarda bir ila iki ziyaret yeterli olabilir, bazılarında daha fazlası gerekir; hekim bunu yazılı bir planda belirler."
+          },
+          {
+            "q": "İmplant acı verir mi?",
+            "a": "Anestezi altında yapılır; etkisi geçtikten sonra rahatsızlık veya şişlik olabilir, hekim bunu hafifletecek önerilerde bulunur."
+          },
+          {
+            "q": "Uygun yaş nedir?",
+            "a": "Genellikle çene gelişimi tamamlandıktan sonra, yani yaklaşık 18 yaşından sonra."
+          },
+          {
+            "q": "Diyabetli veya tansiyon hastası implant yaptırabilir mi?",
+            "a": "Durumu dengeli birçok hasta, hekim değerlendirmesinden sonra yaptırabilir; başlamadan önce sizden rapor veya tetkik isteyebilir."
+          }
+        ]
+      }
     },
     "hollywood-smile": {
       "title": "Hollywood Gülüşü",
@@ -233,6 +274,145 @@
           ]
         }
       ]
+    }
+  },
+  "extras": {
+    "servicesHeading": "Bu bölümün hizmetleri",
+    "serviceBlurbs": {
+      "dental-implants": "Kaybedilen dişlerin, çene kemiğine yerleştirilen ve üzerindeki protezi taşıyan, yüz hatlarını da koruyan köklerle yerine konulması. Muayene ve röntgenden sonra hekim, hemen implant uygulamasının size uygun olup olmadığına ya da öncesinde bir hazırlık gerekip gerekmediğine karar verir.",
+      "hollywood-smile": "Dişlerin şeklini, rengini ve uyumunu zirkonyum veya emax kaplamalar ya da kronlarla değiştirme. Tedaviye başlamadan önce, görüp onaylayacağınız bir dijital gülüş tasarımıyla başlarız.",
+      "restorative-dentistry": "Çürük, kanal tedavisi, dolgu ve kron tedavileri. Diş sağlığı, her estetik işlemin üzerine kurulduğu temeldir.",
+      "teeth-whitening": "Lekeleri hafifleten ve diş rengini açan cerrahi olmayan bir işlem; dişleri sağlam olup daha parlak bir renk isteyenler için uygundur."
+    },
+    "guide": {
+      "heading": "Hangi hizmet bana uygun?",
+      "rows": [
+        {
+          "need": "Bir veya daha fazla dişinizi kaybettiniz",
+          "slug": "dental-implants"
+        },
+        {
+          "need": "Dişlerinizin şeklini, rengini veya aralıklarını beğenmiyorsunuz",
+          "slug": "hollywood-smile"
+        },
+        {
+          "need": "Ağrı, çürük veya eski dolgularla ilgili sorun yaşıyorsunuz",
+          "slug": "restorative-dentistry"
+        },
+        {
+          "need": "Dişleriniz sağlam ama rengi koyu",
+          "slug": "teeth-whitening"
+        }
+      ],
+      "note": "Emin değil misiniz? Diş fotoğraflarınızı WhatsApp'tan gönderin; ekibimiz ön değerlendirmenin ardından size en uygun seçeneği önersin.",
+      "noteCta": "Diş fotoğraflarınızı WhatsApp'tan gönderin"
+    },
+    "packages": {
+      "heading": "Tedavi paketlerimiz",
+      "intro": "İhtiyacınıza en yakın paketi seçin; hekim, muayeneden sonra durumunuza gerçekten neyin uygun olduğunu teyit edecektir.",
+      "rowLabels": [
+        "Kime uygun",
+        "Kapsam",
+        "Konaklama ve transfer",
+        "Garanti"
+      ],
+      "plans": [
+        {
+          "name": "Gümüş Paket",
+          "cells": [
+            "Yalnızca tedavi olmak isteyenler",
+            "Temel tedavi hizmetleri",
+            "Dahil değil",
+            "İmplant ve dişler için 20 yıl"
+          ]
+        },
+        {
+          "name": "Altın Paket",
+          "badge": "En çok tercih edilen",
+          "cells": [
+            "Tedavi, karşılama ve ulaşım isteyenler",
+            "Temel hizmetler + karşılama ve ulaşım",
+            "Yalnızca ulaşım",
+            "İmplant ve dişler için 20 yıl"
+          ]
+        },
+        {
+          "name": "Elmas Paket",
+          "cells": [
+            "Tüm hizmetleri isteyenler: bilet, karşılama, ulaşım, otel ve tedavi",
+            "Temel hizmetler + karşılama ve ulaşım + otel + uçak bileti",
+            "Konaklama ve ulaşım dahil",
+            "İmplant ve dişler için 20 yıl"
+          ]
+        }
+      ],
+      "cta": "Size özel teklifinizi alın"
+    },
+    "journey": {
+      "heading": "Yolculuğunuz bizimle nasıl ilerler",
+      "steps": [
+        {
+          "title": "Ücretsiz danışmanlık",
+          "text": "Diş fotoğraflarınızı veya röntgenlerinizi WhatsApp'tan gönderin, size ön değerlendirme yapalım."
+        },
+        {
+          "title": "Yazılı tedavi planı",
+          "text": "İşlemleri, süreyi, ziyaret sayısını ve fiyatı içerir."
+        },
+        {
+          "title": "Muayene ve dijital tasarım",
+          "text": "Sizi klinikte muayene eder, gülüşü tasarlar ve başlamadan önce sizinle onaylarız."
+        },
+        {
+          "title": "Tedavi",
+          "text": "İşlemleri, İstanbul'daki kalışınız sırasında üzerinde anlaşılan programa göre uygularız."
+        },
+        {
+          "title": "Döndükten sonra takip",
+          "text": "Bakım talimatları size ulaşır ve ekibimiz sizinle iletişimde kalır."
+        }
+      ]
+    },
+    "why": {
+      "heading": "Neden Orec?",
+      "items": [
+        "Sağlık turizmi için Türkiye Sağlık Bakanlığı ve Kültür ve Turizm Bakanlığı'ndan resmi ruhsat.",
+        "Tedaviden önce dijital gülüş tasarımı; böylece beklenen görünümü önceden görürsünüz.",
+        "Zirkonyum ve emax gibi estetik restorasyonlarda dünya standartlarında malzemeler.",
+        "Başlamadan önce yazılı plan ve net fiyatlar.",
+        "Sorularınızı yanıtlamak için WhatsApp'ta günün her saati ulaşılabiliriz."
+      ]
+    },
+    "faq": {
+      "heading": "Sık sorulan sorular",
+      "items": [
+        {
+          "q": "Tedavi ne kadar sürer, kaç ziyaret gerekir?",
+          "a": "İşleme bağlıdır. Beyazlatma ve dolgular tek ziyarette tamamlanabilir; Hollywood gülüşü ve implant ise hekimin muayeneden sonra belirlediği ve tedavi planına yazılan daha uzun bir takvim gerektirir."
+        },
+        {
+          "q": "İşlem acı verir mi?",
+          "a": "İşlemler lokal anestezi altında yapılır; etkisi geçtikten sonra hafif bir hassasiyet hissedebilirsiniz ve hekim bunu hafifletmek için gerekeni önerir."
+        },
+        {
+          "q": "Hollywood gülüşünde dişler inceltilir mi?",
+          "a": "Çoğunlukla evet; kaplamaların veya kronların tutunması için dişlerin sınırlı ölçüde hazırlanması gerekir. Hekim, planı onaylamadan önce bunun ne kadar olacağını size açıklar."
+        },
+        {
+          "q": "Tedaviyi tek seyahatte bitirebilir miyim?",
+          "a": "Birçok durumda evet; bazı durumlarda tedaviyi tamamlamak için ikinci bir ziyaret gerekir. Planı hazırlarken bunu size önceden bildiririz."
+        },
+        {
+          "q": "Ülkeme döndükten sonra ne yapmalıyım?",
+          "a": "Size bakım talimatlarını gönderir, durumunuzu uzaktan takip ederiz; rahatsız edici bir şey fark ederseniz hemen bizimle iletişime geçersiniz."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Orec Clinic ile yolculuğunuza başlayın",
+      "text": "Danışmanlık ekibimiz sizi dinlemek ve sorularınızı yanıtlamak için her zaman hazır. Bugün bizimle iletişime geçin, size uygun planı önerelim.",
+      "primary": "Ücretsiz danışmanlık randevusu alın",
+      "secondary": "Bize WhatsApp'tan yazın"
     }
   }
 }

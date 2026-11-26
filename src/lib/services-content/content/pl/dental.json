@@ -2,91 +2,132 @@
   "title": "Estetyka i leczenie zębów",
   "tagline": "Twoja rodzinna medycyna w podróży ku odzyskaniu zaufania do własnego uśmiechu — nasza specjalizacja od pierwszego dnia, w sercu Stambułu",
   "intro": [
-    "Ponieważ to uśmiech jako pierwszy łączy nas z innymi, w klinice Orec stworzyliśmy kompleksowy i bardzo zaawansowany dział stomatologii, w którym elita najzdolniejszych lekarzy i konsultantów oferuje Ci najnowsze rozwiązania z zakresu estetyki i leczenia zębów, z wykorzystaniem najprecyzyjniejszych cyfrowych technik świata.",
-    "Łączymy dla Ciebie precyzję nowoczesnej medycyny z ciepłem rodzinnej opieki — na podstawie naszych oficjalnych licencji tureckiego Ministerstwa Zdrowia oraz licencji na turystykę medyczną. Od cyfrowego projektowania uśmiechu, przez implanty natychmiastowe, po kompleksowe leczenie i prace protetyczne z najwyższej klasy cyrkonem i materiałami E-Max."
+    "W Orec Clinic towarzyszymy Państwu przez całą drogę: od pierwszej konsultacji, przez cyfrowe zaprojektowanie uśmiechu, po leczenie i opiekę po zabiegu. Nasz dział stomatologii tworzą lekarze i konsultanci korzystający z nowoczesnych technologii cyfrowych, a całość działa na podstawie oficjalnych licencji tureckiego Ministerstwa Zdrowia i Ministerstwa Turystyki dla turystyki medycznej.",
+    "Łączymy precyzję zaawansowanej medycyny z ciepłem rodzinnej opieki i dla każdego pacjenta przygotowujemy pisemny plan leczenia, dopasowany do stanu jego zębów i do efektu, jakiego oczekuje."
   ],
   "services": {
     "dental-implants": {
       "title": "Implanty zębów",
       "tagline": "Implanty zębów w Turcji | Optymalne i ostateczne rozwiązanie dla brakujących zębów",
-      "intro": "Implantacja zębów to najnowsza rewolucja współczesnej stomatologii i najtrwalsze rozwiązanie medyczne pozwalające zastąpić utracony lub mocno starty ząb bez uszkadzania zębów sąsiednich. W klinice Orec łączymy zaawansowaną technologię cyfrową z najlepszymi tureckimi specjalistami, aby zapewnić światowej klasy skuteczność leczenia i przebieg terapii bez bólu.",
+      "intro": "Implant zęba to stałe rozwiązanie służące uzupełnieniu brakującego zęba: w kości szczęki osadza się tytanowy implant, który pełni funkcję korzenia, a następnie mocuje się na nim koronę przypominającą naturalny ząb kształtem i funkcją, bez konieczności szlifowania sąsiednich zębów. W Orec zaczynamy od badania, obrazowania 3D i planu cyfrowego, a następnie wspólnie z Państwem wybieramy opcję najlepiej dopasowaną do Państwa przypadku.",
       "sections": [
         {
+          "icon": "👤",
+          "heading": "Czy implanty są dla Państwa odpowiednie?",
+          "lead": true,
+          "list": [
+            "Utracili Państwo jeden lub kilka zębów i szukają stałego rozwiązania",
+            "Mają Państwo trudności z gryzieniem lub mówieniem z powodu braku zębów",
+            "Nie chcą Państwo szlifować zdrowych sąsiednich zębów pod most",
+            "Mają Państwo ponad 18 lat, a szczęka jest w pełni rozwinięta",
+            "Ilość kości jest wystarczająca lub jej niedobór można uzupełnić dodatkowym zabiegiem, który lekarz określi po zdjęciach rentgenowskich"
+          ]
+        },
+        {
           "icon": "📐",
-          "heading": "Podstawowe elementy implantu zęba",
-          "paragraphs": [
-            "Implant zęba składa się z trzech głównych części, które zrastają się ze sobą, dając wygląd i odczucie naturalnego zęba:"
-          ],
+          "heading": "Elementy implantu",
           "blocks": [
             {
-              "title": "Korzeń, czyli implant (Fixture)",
-              "text": "Mała śruba wykonana z czystego tytanu, wszczepiana w kość szczęki, która pełni funkcję naturalnego korzenia. Tytan wybrano ze względu na jego biokompatybilność — łatwo integruje się z kością (osteointegracja), nie zostaje odrzucony przez organizm i nie powoduje alergii ani zmian nowotworowych."
+              "title": "Implant (sztuczny korzeń)",
+              "text": "Mała tytanowa śruba osadzana w kości szczęki. Stosuje się tytan, ponieważ kość zazwyczaj dobrze się z nim zrasta; zjawisko to nazywa się osseointegracją."
             },
             {
-              "title": "Łącznik (Abutment)",
-              "text": "Element łączący umieszczany na implancie, który mocuje go z koroną zewnętrzną."
+              "title": "Łącznik",
+              "text": "Element łączący implant z koroną."
             },
             {
-              "title": "Korona (Crown)",
-              "text": "Widoczny sztuczny ząb, wykonywany z wysokiej jakości i trwałych materiałów, takich jak cyrkon czy E-Max, tak aby naturalnie współgrał z pozostałymi zębami pod względem wytrzymałości i blasku."
+              "title": "Korona",
+              "text": "Widoczna część zęba, wykonana z wysokiej jakości materiałów, takich jak cyrkon lub E-max, aby odpowiadała kolorem i kształtem Państwa zębom."
             }
           ]
         },
         {
           "icon": "🔬",
-          "heading": "Techniki implantacji zębów w naszej klinice",
+          "heading": "Rodzaje implantów w naszej klinice",
           "blocks": [
             {
-              "title": "Implanty tradycyjne (Standard Implants)",
-              "text": "Zasada działania: korzenie wszczepia się w tkankę kostną szczęki, a następnie czeka się od 3 do 4 miesięcy, aż kość całkowicie zrośnie się z implantem. Po jego pełnym ustabilizowaniu mocowany jest ostateczny ząb."
+              "title": "Implanty klasyczne",
+              "text": "Po osadzeniu implantu zazwyczaj należy odczekać od trzech do czterech miesięcy, aż kość się z nim zrośnie, a następnie mocuje się ostateczną koronę. Odpowiednie w przypadkach, które wymagają czasu na gojenie kości."
             },
             {
-              "title": "Implanty natychmiastowe (Immediate Implants)",
-              "text": "Zasada działania: zaawansowana technika, w której implant umieszcza się bezpośrednio w kości szczęki lub twarzoczaszki (z pominięciem długiego okresu oczekiwania — zwykle od razu po ekstrakcji uszkodzonego zęba), a cały proces kończy się w ciągu jednej lub dwóch wizyt. Dla kogo? To idealna opcja w pilnych przypadkach związanych z podróżą oraz u pacjentów z doskonałą gęstością kości; sprawdza się również u osób przyjmujących leki przeciwzakrzepowe lub chorujących na cukrzycę — pod ścisłą opieką lekarską i przy precyzyjnym planowaniu."
+              "title": "Implanty natychmiastowe",
+              "text": "Implant osadza się często bezpośrednio po usunięciu uszkodzonego zęba, co może znacznie skrócić czas leczenia. Zależy to od jakości kości i stanu zapalnego w danym miejscu, a lekarz po badaniu decyduje, czy to rozwiązanie jest dla Państwa odpowiednie. Jest to częsty wybór osób, które mają ograniczony czas pobytu."
             },
             {
-              "title": "Implantacja całej szczęki (All-on-4 i All-on-6)",
-              "text": "Zasada działania: przy całkowitej utracie zębów i zaniku dziąseł wszczepia się jedynie 4 lub 6 korzeni bezpośrednio w kość szczęki. Dwa z tych implantów umieszcza się pod kątem do 65 stopni, aby zapewnić maksymalny kontakt i stabilność z kością oraz ominąć obszary zatok szczękowych. Następnie na tych korzeniach na stałe mocuje się pełną protezę."
+              "title": "All-on-4 / All-on-6",
+              "text": "Dla osób, które utraciły większość zębów lub wszystkie. Osadza się ograniczoną liczbę implantów (cztery lub sześć), które podtrzymują kompletne stałe uzupełnienie, co często zmniejsza potrzebę przeszczepu kości. Po zdjęciach rentgenowskich lekarz określa najodpowiedniejsze miejsce i kąt dla każdego implantu."
             }
           ]
         },
         {
-          "icon": "👤",
-          "heading": "Kandydaci do implantacji zębów",
-          "list": [
-            "Osoby powyżej 17–18 roku życia, ponieważ poniżej tego wieku szczęka wciąż jest w fazie wzrostu.",
-            "Przypadki utraty zębów wskutek wypadków, chorób lub sportów kontaktowych.",
-            "Osoby, które z powodu brakujących zębów mają trudności z przeżuwaniem pokarmu lub wymawianiem głosek."
-          ]
-        },
-        {
           "icon": "🏥",
-          "heading": "Etapy Twojej podróży leczenia",
+          "heading": "Jak przebiega leczenie",
           "blocks": [
             {
-              "title": "Przygotowanie do implantacji (planowanie cyfrowe)",
-              "text": "Pacjent powinien poinformować lekarza o każdej chorobie przewlekłej, takiej jak zaburzenia krzepnięcia, cukrzyca czy nadciśnienie (szczególnie pacjenci z cukrzycą muszą mieć przez dłuższy czas stabilny poziom hemoglobiny glikowanej). Dentysta wykonuje trójwymiarowe badanie tomograficzne zębów (3D CT Scan), aby ocenić grubość i gęstość kości, lokalizację zakończeń nerwowych oraz położenie zatok szczękowych i z ogromną precyzją zaplanować miejsca wiercenia."
+              "title": "Konsultacja",
+              "text": "Przesyłają nam Państwo zdjęcia zębów lub zdjęcia rentgenowskie przez WhatsApp, a my przekazujemy wstępną ocenę."
             },
             {
-              "title": "Przebieg zabiegu",
-              "text": "Zabieg przeprowadzany jest w znieczuleniu miejscowym (lub w sedacji świadomej, zgodnie z życzeniem pacjenta), bez bólu. Implanty (pojedynczy ząb, wiele zębów lub cała szczęka) umieszczane są zgodnie z wcześniejszym cyfrowym planem leczenia."
+              "title": "Badanie i planowanie cyfrowe",
+              "text": "Obrazowanie 3D w celu oceny grubości i gęstości kości oraz położenia nerwów i zatok. Prosimy poinformować lekarza o każdej chorobie przewlekłej i przyjmowanych lekach; na przykład pacjenci z cukrzycą potrzebują stabilnego poziomu cukru."
+            },
+            {
+              "title": "Zabieg chirurgiczny",
+              "text": "Zazwyczaj wykonuje się go w znieczuleniu miejscowym lub w sedacji, w zależności od przypadku i ustaleń z lekarzem, zgodnie z uzgodnionym planem cyfrowym."
+            },
+            {
+              "title": "Okres zrastania",
+              "text": "Może być krótki lub trwać kilka miesięcy, w zależności od rodzaju implantu; w razie potrzeby w tym czasie zakłada się uzupełnienie tymczasowe."
+            },
+            {
+              "title": "Korona ostateczna",
+              "text": "Zamocowanie ostatecznego zęba i dopasowanie zgryzu."
+            },
+            {
+              "title": "Opieka po zabiegu",
+              "text": "Zalecenia pielęgnacyjne po zabiegu, regularne wizyty kontrolne, a w razie zauważenia czegokolwiek niepokojącego prosimy o kontakt z nami."
             }
           ]
         },
         {
           "icon": "⚠️",
-          "heading": "Ryzyko związane z implantami zębów i jak go unikamy?",
+          "heading": "Możliwe ryzyko",
           "paragraphs": [
-            "Jak przy każdym zabiegu chirurgicznym, implantacja może wiązać się z pewnymi potencjalnymi ryzykami, takimi jak: uszkodzenie nerwów, recesja dziąsła wokół implantu, obfite krwawienie, odrzucenie implantu objawiające się obrzękiem, uszkodzenie tkanki kostnej lub zaburzone gojenie się rany."
-          ],
-          "blocks": [
-            {
-              "title": "💡 Sekret sukcesu",
-              "text": "Zdecydowana większość tych ryzyk może zostać całkowicie wyeliminowana dzięki doświadczeniu dentysty i precyzyjnemu planowaniu cyfrowemu. W klinice Orec stawiamy do Twojej dyspozycji najlepszych tureckich specjalistów od implantacji zębów, dzięki którym unikniesz odrzucenia implantu i związanych z nim powikłań."
-            }
+            "Jak przy każdym zabiegu chirurgicznym mogą wystąpić zakażenie, krwawienie, obrzęk, wpływ na pobliskie nerwy lub brak zrostu kości z implantem, a część ryzyka wzrasta przy paleniu tytoniu, niekontrolowanych chorobach lub niedostatecznej higienie jamy ustnej. Ograniczamy to ryzyko poprzez staranne badanie, planowanie cyfrowe i nadzór chirurga, a wszystko, co dotyczy Państwa przypadku, wyjaśniamy, zanim Państwo zaakceptują plan."
+          ]
+        },
+        {
+          "icon": "✅",
+          "heading": "Co sprzyja powodzeniu leczenia implantologicznego?",
+          "list": [
+            "Rzucenie palenia lub jego ograniczenie",
+            "Kontrola poziomu cukru i chorób przewlekłych przed zabiegiem",
+            "Higiena jamy ustnej i stosowanie się do zaleceń lekarza",
+            "Uczestnictwo w wizytach kontrolnych"
           ]
         }
-      ]
+      ],
+      "faq": {
+        "heading": "Najczęściej zadawane pytania",
+        "items": [
+          {
+            "q": "Ile trwa leczenie implantologiczne?",
+            "a": "Zależy to od rodzaju implantu. W niektórych przypadkach potrzebna jest jedna do dwóch wizyt, w innych więcej, a lekarz określa to w pisemnym planie."
+          },
+          {
+            "q": "Czy wszczepienie implantu jest bolesne?",
+            "a": "Zabieg wykonuje się w znieczuleniu, a po ustąpieniu jego działania może wystąpić dyskomfort lub obrzęk; lekarz przepisze środki, które go łagodzą."
+          },
+          {
+            "q": "Jaki wiek jest odpowiedni?",
+            "a": "Zazwyczaj po zakończeniu wzrostu szczęki, czyli mniej więcej po ukończeniu 18 lat."
+          },
+          {
+            "q": "Czy osoba z cukrzycą lub nadciśnieniem może mieć implant?",
+            "a": "Wiele stabilnych przypadków może, po ocenie lekarza, a przed rozpoczęciem możemy poprosić o dokumentację lub badania."
+          }
+        ]
+      }
     },
     "hollywood-smile": {
       "title": "Hollywoodzki uśmiech",
@@ -233,6 +274,145 @@
           ]
         }
       ]
+    }
+  },
+  "extras": {
+    "servicesHeading": "Usługi w tym dziale",
+    "serviceBlurbs": {
+      "dental-implants": "Uzupełnianie brakujących zębów za pomocą korzeni osadzanych w kości szczęki, które podtrzymują uzupełnienie i zachowują kształt twarzy. Po badaniu i zdjęciach rentgenowskich lekarz określa, czy odpowiedni będzie dla Państwa implant natychmiastowy, czy potrzebne jest wcześniejsze przygotowanie.",
+      "hollywood-smile": "Zmiana kształtu, koloru i harmonii zębów za pomocą licówek lub koron z cyrkonu albo E-max. Zaczynamy od cyfrowego projektu uśmiechu, który Państwo oglądają i akceptują przed rozpoczęciem leczenia.",
+      "restorative-dentistry": "Leczenie próchnicy, leczenie kanałowe, wypełnienia i korony. Zdrowe zęby są podstawą, na której opiera się każdy zabieg estetyczny.",
+      "teeth-whitening": "Zabieg niechirurgiczny, który zmniejsza przebarwienia i rozjaśnia kolor zębów. Jest odpowiedni dla osób ze zdrowymi zębami, które chcą uzyskać jaśniejszy odcień."
+    },
+    "guide": {
+      "heading": "Która usługa jest dla mnie odpowiednia?",
+      "rows": [
+        {
+          "need": "Utracili Państwo jeden ząb lub więcej",
+          "slug": "dental-implants"
+        },
+        {
+          "need": "Nie podoba się Państwu kształt, kolor lub rozstaw zębów",
+          "slug": "hollywood-smile"
+        },
+        {
+          "need": "Odczuwają Państwo ból, mają próchnicę lub stare wypełnienia",
+          "slug": "restorative-dentistry"
+        },
+        {
+          "need": "Zęby są zdrowe, ale mają ciemniejszy kolor",
+          "slug": "teeth-whitening"
+        }
+      ],
+      "note": "Nie są Państwo pewni? Prosimy przesłać zdjęcia zębów przez WhatsApp, a po wstępnej ocenie nasz zespół zaproponuje najodpowiedniejsze rozwiązanie.",
+      "noteCta": "Wyślij zdjęcia zębów przez WhatsApp"
+    },
+    "packages": {
+      "heading": "Nasze pakiety leczenia",
+      "intro": "Prosimy wybrać pakiet najbliższy Państwa potrzebom; po badaniu lekarz potwierdzi, co naprawdę odpowiada Państwa przypadkowi.",
+      "rowLabels": [
+        "Dla kogo",
+        "Zawiera",
+        "Zakwaterowanie i transport",
+        "Gwarancja"
+      ],
+      "plans": [
+        {
+          "name": "Pakiet Srebrny",
+          "cells": [
+            "Dla osób, które chcą wyłącznie leczenia",
+            "Podstawowe usługi lecznicze",
+            "Nie obejmuje",
+            "20 lat na implanty i zęby"
+          ]
+        },
+        {
+          "name": "Pakiet Złoty",
+          "badge": "Najczęściej wybierany",
+          "cells": [
+            "Dla osób, które chcą leczenia, powitania i transportu",
+            "Podstawowe usługi + powitanie i transport",
+            "Tylko transport",
+            "20 lat na implanty i zęby"
+          ]
+        },
+        {
+          "name": "Pakiet Diamentowy",
+          "cells": [
+            "Dla osób, które chcą pełnej obsługi: bilet, powitanie, transport, hotel i leczenie",
+            "Podstawowe usługi + powitanie i transport + hotel + bilet lotniczy",
+            "Obejmuje zakwaterowanie i transport",
+            "20 lat na implanty i zęby"
+          ]
+        }
+      ],
+      "cta": "Uzyskaj spersonalizowaną ofertę"
+    },
+    "journey": {
+      "heading": "Jak przebiega Państwa podróż z nami",
+      "steps": [
+        {
+          "title": "Bezpłatna konsultacja",
+          "text": "Prosimy przesłać zdjęcia zębów lub zdjęcia rentgenowskie przez WhatsApp, a my przekażemy wstępną ocenę."
+        },
+        {
+          "title": "Pisemny plan leczenia",
+          "text": "Zawiera zabiegi, czas trwania, liczbę wizyt i cenę."
+        },
+        {
+          "title": "Badanie i projekt cyfrowy",
+          "text": "Badamy Państwa w klinice, projektujemy uśmiech i uzgadniamy go z Państwem przed rozpoczęciem."
+        },
+        {
+          "title": "Leczenie",
+          "text": "Wykonujemy zabiegi zgodnie z ustalonym harmonogramem podczas Państwa pobytu w Stambule."
+        },
+        {
+          "title": "Opieka po powrocie",
+          "text": "Otrzymują Państwo zalecenia dotyczące pielęgnacji, a nasz zespół pozostaje z Państwem w kontakcie."
+        }
+      ]
+    },
+    "why": {
+      "heading": "Dlaczego Orec?",
+      "items": [
+        "Oficjalna licencja tureckiego Ministerstwa Zdrowia i Ministerstwa Turystyki dla turystyki medycznej.",
+        "Cyfrowy projekt uśmiechu przed leczeniem, aby znać oczekiwany efekt z wyprzedzeniem.",
+        "Światowej klasy materiały do uzupełnień estetycznych, takie jak cyrkon i E-max.",
+        "Pisemny plan i jasne ceny przed rozpoczęciem leczenia.",
+        "Jesteśmy dostępni na WhatsApp przez całą dobę, aby odpowiedzieć na Państwa pytania."
+      ]
+    },
+    "faq": {
+      "heading": "Najczęściej zadawane pytania",
+      "items": [
+        {
+          "q": "Jak długo trwa leczenie i ile wizyt będzie potrzebnych?",
+          "a": "Zależy to od zabiegu. Wybielanie i wypełnienia można wykonać podczas jednej wizyty, natomiast Hollywood Smile i implanty wymagają dłuższego harmonogramu, który lekarz określa po badaniu i który zostaje wpisany do planu leczenia."
+        },
+        {
+          "q": "Czy zabieg jest bolesny?",
+          "a": "Zabiegi wykonuje się w znieczuleniu miejscowym. Po ustąpieniu jego działania mogą Państwo odczuwać niewielką nadwrażliwość, a lekarz przepisze odpowiednie środki łagodzące."
+        },
+        {
+          "q": "Czy przy Hollywood Smile zęby są szlifowane?",
+          "a": "Najczęściej tak, ponieważ do zamocowania licówek lub koron potrzebne jest ograniczone przygotowanie zębów. Lekarz wyjaśni, w jakim zakresie, zanim Państwo zaakceptują plan."
+        },
+        {
+          "q": "Czy mogę zakończyć leczenie podczas jednej podróży?",
+          "a": "W wielu przypadkach tak, w niektórych potrzebna jest druga wizyta, aby dokończyć leczenie. Informujemy o tym z wyprzedzeniem przy ustalaniu planu."
+        },
+        {
+          "q": "Co robić po powrocie do swojego kraju?",
+          "a": "Przesyłamy zalecenia dotyczące pielęgnacji i monitorujemy Państwa przypadek zdalnie, a w razie jakiegokolwiek niepokojącego objawu prosimy o niezwłoczny kontakt z nami."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Rozpocznij swoją podróż z Orec Clinic",
+      "text": "Nasz zespół konsultacyjny jest zawsze dostępny, aby Państwa wysłuchać i odpowiedzieć na pytania. Prosimy o kontakt już dziś, a zaproponujemy odpowiedni plan.",
+      "primary": "Umów bezpłatną konsultację",
+      "secondary": "Napisz do nas na WhatsApp"
     }
   }
 }
