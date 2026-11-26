@@ -44,10 +44,10 @@ export const DEPARTMENTS: DepartmentDef[] = [
     icon: '🦷',
     image: '/services/dental.jpg',
     services: [
-      { slug: 'dental-implants', image: '/service-images/dental/dental-implants.jpg', en: 'Dental Implants', icon: '🦷' },
-      { slug: 'hollywood-smile', image: '/service-images/dental/hollywood-smile.jpg', en: 'Hollywood Smile', icon: '✨' },
-      { slug: 'restorative-dentistry', image: '/service-images/dental/restorative-dentistry.jpg', en: 'Restorative Dentistry', icon: '🛠️' },
-      { slug: 'teeth-whitening', image: '/service-images/dental/teeth-whitening.jpg', en: 'Teeth Whitening', icon: '⚡' },
+      { slug: 'dental-implants', image: '/services/dental/dental-implants.jpg', en: 'Dental Implants', icon: '🦷' },
+      { slug: 'hollywood-smile', image: '/services/dental/hollywood-smile.jpg', en: 'Hollywood Smile', icon: '✨' },
+      { slug: 'restorative-dentistry', image: '/services/dental/restorative-dentistry.jpg', en: 'Restorative Dentistry', icon: '🛠️' },
+      { slug: 'teeth-whitening', image: '/services/dental/teeth-whitening.jpg', en: 'Teeth Whitening', icon: '⚡' },
     ],
   },
   {

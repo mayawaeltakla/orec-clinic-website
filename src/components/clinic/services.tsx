@@ -69,7 +69,7 @@ export function Services({ standalone = false }: { standalone?: boolean }) {
                       return (
                         <li key={sv.slug}>
                           <a href={lp(`/services/${d.slug}/${sv.slug}`)} className="orec-card lift group flex h-full flex-col overflow-hidden">
-                            {sv.image && <Image src={sv.image} alt="" width={600} height={400} sizes="(min-width:1280px) 22vw, (min-width:768px) 30vw, 46vw" className="aspect-[3/2] w-full object-cover transition-transform duration-500 group-hover:scale-105" />}
+                            {sv.image && <Image src={sv.image} alt="" width={600} height={400} sizes="(min-width:1280px) 22vw, (min-width:768px) 30vw, 46vw" className={`${sv.image.startsWith('/service-images/') ? 'aspect-[3/2]' : 'aspect-video'} w-full object-cover transition-transform duration-500 group-hover:scale-105`} />}
                             <span className="block p-3">
                               <span className="block text-sm font-bold text-foreground group-hover:text-gold-2">{sc?.title ?? sv.en}</span>
                               <span className="mt-0.5 block text-[11px] text-muted-foreground" dir="ltr">{sv.en}</span>
