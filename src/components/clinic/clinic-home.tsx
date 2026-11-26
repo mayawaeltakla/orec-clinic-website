@@ -11,6 +11,9 @@ import { WhyUs } from '@/components/clinic/why-us'
 import { Contact } from '@/components/clinic/contact'
 import { Trust } from '@/components/clinic/trust'
 import { BlogList } from '@/components/clinic/blog'
+import { Offer } from '@/components/clinic/offer'
+import { ResultsGallery } from '@/components/clinic/results-gallery'
+import { PrizeWheel } from '@/components/clinic/prize-wheel'
 import { Footer } from '@/components/clinic/footer'
 import { WhatsAppFloat } from '@/components/clinic/whatsapp-float'
 import { PAGE_LABELS } from '@/lib/i18n/page-labels'
@@ -29,14 +32,17 @@ function ClinicSite({ posts }: { posts: BlogPost[] }) {
       <main id="main" tabIndex={-1} className="flex-1 outline-none">
         <Hero />
         <Services />
-        <div className="band-sky"><About /></div>
+        <ResultsGallery />
         <WhyUs />
         <div className="band-sky"><Trust /></div>
+        <Offer />
+        <div className="band-sky"><About /></div>
         <BlogList posts={posts} teaser />
         <Contact />
       </main>
       <Footer />
       <WhatsAppFloat />
+      <PrizeWheel />
     </div>
   )
 }

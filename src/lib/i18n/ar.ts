@@ -26,8 +26,8 @@ export const ar: Dictionary = {
   },
   hero: {
     eyebrow: 'CARE • PRECISION • EXCELLENCE',
-    title1: 'عيادة أوريك (Orec Clinic)..',
-    title2: 'عائلتك الطبية في رحلة استعادة ثقتك بابتسامتك وجمالك',
+    title1: 'عيادة (Orec Clinic)..',
+    title2: 'ابدأ رحلتك اليوم نحو مظهر أكثر إشراقاً وابتسامة تمنحك الثقة.',
     badges: ['في قلب إسطنبول', 'منذ عام 2015', 'بتراخيص رسمية من وزارة الصحة ووزارة السياحة التركية'],
     ctaPrimary: 'تواصل معنا اليوم',
     ctaSecondary: 'اكتشف خدماتنا',

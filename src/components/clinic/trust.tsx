@@ -1,15 +1,22 @@
 'use client'
 
+import { useState } from 'react'
 import { ShieldCheck, Stethoscope, MessageSquareQuote, CalendarDays, Globe, HeartHandshake } from 'lucide-react'
 import { useLanguage } from './language-context'
 import { Ornament } from './ornament'
 import { TRUST_LABELS } from '@/lib/i18n/trust-labels'
 import { SECTION_LABELS } from '@/lib/i18n/section-labels'
+import { clientHome } from '@/lib/i18n/client-home'
+import { PARTNER_LOGOS } from '@/lib/results'
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog'
 
 /** Trust block: real facts from the client's file + clearly-marked slots for content still to come. */
 export function Trust() {
   const { dict, lang, lp } = useLanguage()
   const T = TRUST_LABELS[lang.code]
+  const H = clientHome(lang.code)
+  const [licOpen, setLicOpen] = useState(false)
+  const logos = PARTNER_LOGOS.filter((l) => l.src)
   const stats = dict.hero.stats
   const license = dict.hero.badges[2]
 
@@ -71,6 +78,11 @@ export function Trust() {
               </span>
               <h3 className="mt-4 text-lg font-extrabold text-gold-2">{title}</h3>
               <p className="mt-2 text-sm leading-loose text-foreground/80">{text}</p>
+              {!soon && (
+                <button type="button" onClick={() => setLicOpen(true)} className="btn-gold mt-4 inline-flex min-h-11 items-center justify-center rounded-full px-5 text-sm font-bold">
+                  {H.licenseButton}
+                </button>
+              )}
               {href && cta && (
                 <a href={href} className="mt-4 inline-flex text-sm font-bold text-gold-2 underline underline-offset-4">
                   {cta}
@@ -79,7 +91,40 @@ export function Trust() {
             </article>
           ))}
         </div>
+
+        {logos.length > 0 && (
+          <div className="mx-auto mt-10 max-w-4xl text-center">
+            <p className="text-xs font-bold tracking-[0.25em] text-muted-foreground">{H.partnersTitle}</p>
+            <ul className="mt-5 flex flex-wrap items-center justify-center gap-6">
+              {logos.map((l) => (
+                <li key={l.name} className="flex h-20 items-center rounded-xl border border-border bg-white px-5">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={l.src!} alt={l.name} className="max-h-14 w-auto object-contain" loading="lazy" />
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
+
+      <Dialog open={licOpen} onOpenChange={setLicOpen}>
+        <DialogContent className="max-w-2xl">
+          <DialogHeader>
+            <DialogTitle className="text-xl font-extrabold text-gold-2">{H.licenseDialogTitle}</DialogTitle>
+            <DialogDescription className="pt-2 text-sm leading-loose text-foreground/85">{H.licenseText}</DialogDescription>
+          </DialogHeader>
+          {logos.length > 0 && (
+            <ul className="mt-2 flex flex-wrap items-center justify-center gap-4">
+              {logos.map((l) => (
+                <li key={l.name} className="flex h-24 items-center rounded-xl border border-border bg-white px-5">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={l.src!} alt={l.name} className="max-h-16 w-auto object-contain" />
+                </li>
+              ))}
+            </ul>
+          )}
+        </DialogContent>
+      </Dialog>
     </section>
   )
 }
