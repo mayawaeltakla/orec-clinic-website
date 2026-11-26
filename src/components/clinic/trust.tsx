@@ -21,8 +21,8 @@ export function Trust() {
   const license = dict.hero.badges[2]
 
   const cards = [
-    { icon: ShieldCheck, title: T.licenseTitle, text: license, soon: false },
-    { icon: Stethoscope, title: T.doctorsTitle, text: T.doctorsText, soon: true, href: lp('/team'), cta: T.seeTeam },
+    { icon: ShieldCheck, title: T.licenseTitle, text: license, soon: false, license: true },
+    { icon: Stethoscope, title: T.doctorsTitle, text: T.doctorsText, soon: false, href: lp('/team'), cta: T.seeTeam },
     { icon: MessageSquareQuote, title: T.reviewsTitle, text: T.reviewsText, soon: true, href: lp('/experiences'), cta: SECTION_LABELS[lang.code].experiences },
   ]
 
@@ -66,7 +66,7 @@ export function Trust() {
         </div>
 
         <div className="mt-8 grid grid-cols-1 gap-5 md:grid-cols-3">
-          {cards.map(({ icon: Icon, title, text, soon, href, cta }) => (
+          {cards.map(({ icon: Icon, title, text, soon, href, cta, license: isLicense }) => (
             <article key={title} className="lift relative flex flex-col rounded-2xl border border-border bg-card p-6 sm:p-7">
               {soon && (
                 <span className="absolute end-5 top-5 rounded-full border border-gold/40 px-3 py-0.5 text-[11px] font-bold text-gold">
@@ -78,7 +78,7 @@ export function Trust() {
               </span>
               <h3 className="mt-4 text-lg font-extrabold text-gold-2">{title}</h3>
               <p className="mt-2 text-sm leading-loose text-foreground/80">{text}</p>
-              {!soon && (
+              {isLicense && (
                 <button type="button" onClick={() => setLicOpen(true)} className="btn-gold mt-4 inline-flex min-h-11 items-center justify-center rounded-full px-5 text-sm font-bold">
                   {H.licenseButton}
                 </button>
