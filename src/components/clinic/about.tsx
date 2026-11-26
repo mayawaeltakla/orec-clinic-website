@@ -4,7 +4,8 @@ import Image from 'next/image'
 import { useLanguage } from './language-context'
 import { Quote, BadgeCheck, Sparkles, Gem, Stethoscope } from 'lucide-react'
 import { Ornament } from './ornament'
-import { ChevronLeft, ChevronRight, Home } from 'lucide-react'
+import { BANNERS } from '@/lib/banners'
+import { ImageBanner } from './page-banner'
 
 export function About({ standalone = false }: { standalone?: boolean }) {
   const { dict, lp } = useLanguage()
@@ -140,9 +141,8 @@ function ShieldBadge() {
 
 /** Full "About" page: hero split, three pillars, standards grid, founder, license + CTA. Uses only the clinic's own About content. */
 function AboutPage() {
-  const { dict, dir, lp } = useLanguage()
+  const { dict, lp } = useLanguage()
   const a = dict.about
-  const Chevron = dir === 'rtl' ? ChevronLeft : ChevronRight
   const pillars = [
     { icon: Stethoscope, title: a.intro.title, text: a.intro.text, dark: false },
     { icon: Gem, title: a.vision.title, text: a.vision.text, dark: true },
@@ -150,32 +150,8 @@ function AboutPage() {
   ]
   return (
     <>
-      {/* 1. Hero split */}
-      <section className="relative overflow-hidden border-b border-border">
-        <Image src="/orec-lobby.jpg" alt="" aria-hidden fill sizes="100vw" priority quality={70} className="object-cover object-[50%_40%]" />
-        <div aria-hidden className="hero-fade absolute inset-0" />
-        <div aria-hidden className="hero-leaf" />
-        <div className="relative mx-auto max-w-7xl px-4 pb-12 pt-6 sm:px-6 lg:px-8 lg:pb-20">
-          <nav aria-label="breadcrumb" className="flex items-center gap-1.5 text-xs text-muted-foreground">
-            <a href={lp('/')} className="inline-flex items-center gap-1 hover:text-gold-2">
-              <Home className="h-3.5 w-3.5" aria-hidden />
-              {dict.nav.home}
-            </a>
-            <Chevron className="h-3.5 w-3.5" aria-hidden />
-            <span className="font-semibold text-foreground">{a.title}</span>
-          </nav>
-          <div className="mt-8">
-            <div className="rise max-w-xl lg:max-w-2xl">
-              <p className="inline-flex rounded-full border border-gold/40 bg-gold/10 px-4 py-1.5 text-xs font-bold tracking-[0.2em] text-gold" dir="ltr">
-                {a.eyebrow}
-              </p>
-              <h1 className="mt-5 text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl">
-                <span className="text-gold-grad">{a.title}</span>
-              </h1>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* 1. Banner artwork from the clinic */}
+      <ImageBanner art={BANNERS.about} eyebrow={a.eyebrow} title={a.title} crumbs={[{ label: a.title }]} />
 
       {/* Intro text + actions, under the hero */}
       <section className="pt-12 sm:pt-14">

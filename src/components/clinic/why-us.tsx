@@ -1,6 +1,7 @@
 'use client'
 
-import { PageBanner } from './page-banner'
+import { BANNERS } from '@/lib/banners'
+import { ImageBanner } from './page-banner'
 import { FaqTeaser } from './faq-teaser'
 import { CtaBand } from './cta-band'
 import { PAGE_LABELS } from '@/lib/i18n/page-labels'
@@ -15,7 +16,7 @@ export function WhyUs({ standalone = false }: { standalone?: boolean }) {
 
   return (
     <>
-      {standalone && <PageBanner image="/orec-reception.jpg" eyebrow={dict.why.eyebrow} title={dict.why.title} subtitle={dict.why.intro} crumbs={[{ label: dict.why.title }]} />}
+      {standalone && <ImageBanner art={BANNERS.why} eyebrow={dict.why.eyebrow} title={dict.why.title} subtitle={dict.why.intro} crumbs={[{ label: dict.why.title }]} />}
     <section id="why" className={`relative ${standalone ? 'py-14 sm:py-16' : 'py-24 sm:py-28 lg:py-32'}`}>
       <div className="gold-line absolute inset-x-0 top-0" aria-hidden />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

@@ -1,6 +1,7 @@
 'use client'
 
-import { PageBanner } from './page-banner'
+import { BANNERS } from '@/lib/banners'
+import { ImageBanner } from './page-banner'
 import { CtaBand } from './cta-band'
 import { ChevronDown } from 'lucide-react'
 import { useLanguage } from './language-context'
@@ -12,7 +13,7 @@ export function FaqSection() {
 
   return (
     <>
-      <PageBanner image="/orec-entrance.jpg" eyebrow={c.eyebrow} title={c.title} subtitle={c.intro} crumbs={[{ label: c.title }]} />
+      <ImageBanner art={BANNERS.faq} eyebrow={c.eyebrow} title={c.title} subtitle={c.intro} crumbs={[{ label: c.title }]} />
     <section id="faq" className="relative py-14 sm:py-16">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <div className="space-y-3">
