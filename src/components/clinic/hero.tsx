@@ -18,30 +18,12 @@ import {
 
 /** Hero slideshow — real Orec Clinic photos, auto-advancing every 5s */
 const SLIDES = [
-  {
-    src: '/orec-entrance.jpg',
-    w: 1400,
-    h: 788,
-    alt: 'Orec Clinic VIP entrance at dusk — المدخل الملكي لعيادة أوريك عند الغروب',
-  },
-  {
-    src: '/orec-lobby.jpg',
-    w: 1400,
-    h: 788,
-    alt: 'Orec Clinic luxury reception lobby — بهو الاستقبال الفاخر في عيادة أوريك',
-  },
-  {
-    src: '/orec-exterior.jpg',
-    w: 1400,
-    h: 933,
-    alt: 'Orec Clinic building at twilight — مبنى عيادة أوريك في ساعة الغسق',
-  },
-  {
-    src: '/orec-reception.jpg',
-    w: 1400,
-    h: 1050,
-    alt: 'Orec Clinic reception — استقبال عيادة أوريك في إسطنبول',
-  },
+  { src: '/hero/lobby.jpg', w: 1920, h: 1000, alt: 'Orec Clinic luxury reception and corridor — بهو الاستقبال في عيادة أوريك' },
+  { src: '/hero/dentists.jpg', w: 1672, h: 941, alt: 'Orec Clinic modern dental clinic — عيادة أسنان عصرية بإضاءة مشرقة' },
+  { src: '/hero/vip-car.jpg', w: 1672, h: 941, alt: 'Orec Clinic VIP Vito airport transfer — الاستقبال من المطار بسيارات Vito VIP' },
+  { src: '/hero/reception.jpg', w: 1670, h: 942, alt: 'Orec Clinic reception desk — استقبال عيادة أوريك' },
+  { src: '/hero/exam.jpg', w: 1672, h: 941, alt: 'Professional dental examination at Orec Clinic — فحص أسنان احترافي في العيادة' },
+  { src: '/hero/stairs.jpg', w: 1448, h: 1086, alt: 'Orec Clinic waiting area and clinics — صالة الانتظار والعيادات في أوريك' },
 ]
 
 export function Hero() {
