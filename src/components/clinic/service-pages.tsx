@@ -367,6 +367,11 @@ export function DepartmentPage({ deptSlug }: { deptSlug: string }) {
                         {g.en}
                       </span>
                     </div>
+                    {g.image && (
+                      <div className="mt-6 overflow-hidden rounded-2xl border border-border shadow-sm">
+                        <Image src={g.image} alt={`${group?.title ?? g.en} — Orec Clinic`} width={1672} height={941} sizes="(min-width:1280px) 1200px, 100vw" className="aspect-video h-auto w-full object-cover" />
+                      </div>
+                    )}
                     <div className="mt-6 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
                       {items.map(serviceCard)}
                     </div>
