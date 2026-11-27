@@ -6,6 +6,7 @@ import { Quote, BadgeCheck, Sparkles, Gem, Stethoscope } from 'lucide-react'
 import { Ornament } from './ornament'
 import { BANNERS } from '@/lib/banners'
 import { ImageBanner } from './page-banner'
+import { CLINIC_TOUR, CLINIC_PHOTOS } from '@/lib/i18n/clinic-tour'
 
 export function About({ standalone = false }: { standalone?: boolean }) {
   const { dict, lp } = useLanguage()
@@ -141,7 +142,7 @@ function ShieldBadge() {
 
 /** Full "About" page: hero split, three pillars, standards grid, founder, license + CTA. Uses only the clinic's own About content. */
 function AboutPage() {
-  const { dict, lp } = useLanguage()
+  const { dict, lp, lang } = useLanguage()
   const a = dict.about
   const pillars = [
     { icon: Stethoscope, title: a.intro.title, text: a.intro.text, dark: false },
@@ -182,6 +183,23 @@ function AboutPage() {
               </article>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Clinic tour — photos supplied by the clinic */}
+      <section className="pb-14 sm:pb-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-center text-2xl font-extrabold sm:text-3xl">
+            <span className="text-gold-grad">{CLINIC_TOUR[lang.code]}</span>
+          </h2>
+          <Ornament />
+          <ul className="mt-10 columns-1 gap-4 sm:columns-2 lg:columns-3 [&>li]:mb-4">
+            {CLINIC_PHOTOS.map((p) => (
+              <li key={p.src} className="break-inside-avoid overflow-hidden rounded-2xl border border-border bg-card shadow-sm">
+                <Image src={p.src} alt={p.alt} width={p.w} height={p.h} sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw" className="h-auto w-full" />
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
