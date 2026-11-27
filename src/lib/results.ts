@@ -12,9 +12,15 @@ export interface ResultItem {
 }
 export const RESULTS: ResultItem[] = []
 
-/** Partner / accreditation logos. Only entries with a real file are rendered. */
-export const PARTNER_LOGOS: { name: string; src: string | null }[] = [
-  { name: 'Orec Clinic', src: '/orec-logo.png' },
-  { name: 'Sağlık Turizmi', src: null }, // «هيلث تركيا» — waiting for the client's file
-  { name: 'Ministry plaque', src: null }, // «اللوحة» — waiting for the client's file
+/**
+ * Partner / accreditation logos (files supplied by the client, under public/logos/).
+ * `where`: 'home' = trust strip + footer, 'license' = inside the licences dialog.
+ */
+export const PARTNER_LOGOS: { name: string; src: string; where: ('home' | 'license')[] }[] = [
+  { name: 'Health Türkiye', src: '/logos/health-turkiye.png', where: ['home', 'license'] },
+  { name: 'Orec Clinic — Sağlık Hizmetleri', src: '/logos/plaque.png', where: ['home'] },
+  { name: 'T.C. Sağlık Bakanlığı', src: '/logos/saglik-bakanligi.png', where: ['license'] },
+  { name: 'T.C. Ticaret Bakanlığı', src: '/logos/ticaret-bakanligi.png', where: ['license'] },
+  { name: 'TÜRSAB', src: '/logos/tursab.png', where: ['license'] },
+  { name: 'Türk Patent ve Marka Kurumu', src: '/logos/turk-patent.png', where: ['license'] },
 ]

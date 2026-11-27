@@ -41,7 +41,11 @@ export function Offer() {
             <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-gold/50 text-gold" aria-hidden>
               <CreditCard className="h-6 w-6" />
             </span>
-            <span className="text-base font-extrabold text-gold-2">{T.cardPay}</span>
+            <div className="min-w-0">
+              <span className="block text-base font-extrabold text-gold-2">{T.cardPay}</span>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logos/payment-methods.png" alt="Visa, Mastercard, American Express, Discover, UnionPay, PayPal, Apple Pay, Google Pay, Diners Club" width={640} height={187} className="mt-3 h-auto w-full max-w-xs rounded-lg bg-white" loading="lazy" />
+            </div>
           </li>
         </ul>
       </div>

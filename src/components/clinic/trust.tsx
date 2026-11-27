@@ -16,7 +16,8 @@ export function Trust() {
   const T = TRUST_LABELS[lang.code]
   const H = clientHome(lang.code)
   const [licOpen, setLicOpen] = useState(false)
-  const logos = PARTNER_LOGOS.filter((l) => l.src)
+  const logos = PARTNER_LOGOS.filter((l) => l.where.includes('home'))
+  const licLogos = PARTNER_LOGOS.filter((l) => l.where.includes('license'))
   const stats = dict.hero.stats
   const license = dict.hero.badges[2]
 
@@ -99,7 +100,7 @@ export function Trust() {
               {logos.map((l) => (
                 <li key={l.name} className="flex h-20 items-center rounded-xl border border-border bg-white px-5">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={l.src!} alt={l.name} className="max-h-14 w-auto object-contain" loading="lazy" />
+                  <img src={l.src} alt={l.name} className="max-h-14 w-auto object-contain" loading="lazy" />
                 </li>
               ))}
             </ul>
@@ -113,12 +114,12 @@ export function Trust() {
             <DialogTitle className="text-xl font-extrabold text-gold-2">{H.licenseDialogTitle}</DialogTitle>
             <DialogDescription className="pt-2 text-sm leading-loose text-foreground/85">{H.licenseText}</DialogDescription>
           </DialogHeader>
-          {logos.length > 0 && (
+          {licLogos.length > 0 && (
             <ul className="mt-2 flex flex-wrap items-center justify-center gap-4">
-              {logos.map((l) => (
+              {licLogos.map((l) => (
                 <li key={l.name} className="flex h-24 items-center rounded-xl border border-border bg-white px-5">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={l.src!} alt={l.name} className="max-h-16 w-auto object-contain" />
+                  <img src={l.src} alt={l.name} className="max-h-16 w-auto object-contain" />
                 </li>
               ))}
             </ul>

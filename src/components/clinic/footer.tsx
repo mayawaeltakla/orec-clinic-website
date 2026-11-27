@@ -9,6 +9,7 @@ import { DEPT_SLUG_BY_ID } from '@/lib/services-content/config'
 import { Mail, Phone, MapPin, Clock, Star } from 'lucide-react'
 import { AVAILABLE_247, RATE_US } from '@/lib/i18n/availability'
 import { SOCIALS } from './social-icons'
+import { PARTNER_LOGOS } from '@/lib/results'
 
 export function Footer() {
   const { dict, lp, lang } = useLanguage()
@@ -164,7 +165,20 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-white/15 pt-6 text-center sm:flex-row sm:text-start">
+        <ul className="mt-12 flex flex-wrap items-center justify-center gap-4 border-t border-white/15 pt-8" aria-label="Health Türkiye">
+          {PARTNER_LOGOS.filter((l) => l.where.includes('home')).map((l) => (
+            <li key={l.name} className="flex h-20 items-center rounded-xl bg-white px-5">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={l.src} alt={l.name} className="max-h-14 w-auto object-contain" loading="lazy" />
+            </li>
+          ))}
+          <li className="flex h-20 items-center rounded-xl bg-white px-3">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logos/payment-methods.png" alt="Visa, Mastercard, American Express, Discover, UnionPay, PayPal, Apple Pay, Google Pay, Diners Club" width={640} height={187} className="max-h-14 w-auto object-contain" loading="lazy" />
+          </li>
+        </ul>
+
+        <div className="mt-8 flex flex-col items-center justify-between gap-3 border-t border-white/15 pt-6 text-center sm:flex-row sm:text-start">
           <p className="text-xs text-muted-foreground">
             © {new Date().getFullYear()} Orec Clinic — عيادة أوريك. {f.rights}
           </p>
