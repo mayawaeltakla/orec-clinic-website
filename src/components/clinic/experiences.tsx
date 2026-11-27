@@ -7,15 +7,26 @@ import { useLanguage } from './language-context'
 import { SECTION_LABELS } from '@/lib/i18n/section-labels'
 import { whatsappLink } from '@/lib/i18n'
 import { REVIEWS } from '@/lib/reviews-data'
+import { RESULTS } from '@/lib/results'
+import { ResultsPhotos } from './results-gallery'
+import { clientHome } from '@/lib/i18n/client-home'
 
 export function Experiences() {
   const { lang } = useLanguage()
   const L = SECTION_LABELS[lang.code]
+  const H = clientHome(lang.code)
+  const photos = RESULTS.filter((x) => x.image)
   return (
     <>
       <ImageBanner art={BANNERS.experiences} title={L.expTitle} subtitle={L.expSubtitle} crumbs={[{ label: L.expTitle }]} />
     <section className="relative py-14 sm:py-16">
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        {photos.length > 0 && (
+          <div className="mb-12">
+            <ResultsPhotos items={photos} alt={H.resultsTitle} />
+            <p className="mx-auto mt-4 max-w-2xl text-center text-xs leading-relaxed text-muted-foreground">{H.resultsNote}</p>
+          </div>
+        )}
         {REVIEWS.length > 0 ? (
           <div className="grid grid-cols-1 gap-7 md:grid-cols-2">
             {REVIEWS.map((r) => (
@@ -30,7 +41,7 @@ export function Experiences() {
               </figure>
             ))}
           </div>
-        ) : (
+        ) : photos.length > 0 ? null : (
           <div className="mx-auto max-w-2xl rounded-2xl border border-border bg-card p-8 text-center">
             <span className="gold-ring mx-auto flex h-14 w-14 items-center justify-center rounded-full" aria-hidden>
               <Hourglass className="h-6 w-6" />
