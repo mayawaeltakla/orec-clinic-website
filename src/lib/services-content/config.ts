@@ -18,6 +18,8 @@ export interface GroupDef {
   slug: 'face' | 'body' | 'intimate'
   en: string
   icon: string
+  /** Optional 16:9 poster shown under the group header */
+  image?: string
 }
 
 export interface DepartmentDef {
@@ -60,7 +62,7 @@ export const DEPARTMENTS: DepartmentDef[] = [
     image: '/services/cosmetic.jpg',
     groups: [
       { slug: 'face', en: 'Facial Surgery', icon: '💫' },
-      { slug: 'body', en: 'Body Surgery', icon: '🕊️' },
+      { slug: 'body', en: 'Body Surgery', icon: '🕊️', image: '/services/cosmetic/body-aesthetics.jpg' },
       { slug: 'intimate', en: 'Intimate Area Aesthetics', icon: '🌸' },
     ],
     services: [
@@ -74,12 +76,12 @@ export const DEPARTMENTS: DepartmentDef[] = [
       { slug: 'forehead-contouring', en: 'Forehead Reduction / Contouring', icon: '🪞', group: 'face', image: '/service-images/cosmetic/forehead-contouring.jpg' },
       { slug: 'genioplasty', en: 'Genioplasty / Chin Augmentation', icon: '🪨', group: 'face', image: '/service-images/cosmetic/genioplasty.jpg' },
       { slug: 'cheek-enhancement', en: 'Cheek Enhancement / Dimples', icon: '😊', group: 'face', image: '/service-images/cosmetic/cheek-enhancement.jpg' },
-      { slug: 'body-contouring', en: 'Body Contouring / Liposuction', icon: '🧬', group: 'body', image: '/service-images/cosmetic/body-contouring.jpg' },
-      { slug: 'breast-surgery', en: 'Breast Surgery / Mammoplasty', icon: '🎗️', group: 'body', image: '/service-images/cosmetic/breast-surgery.jpg' },
-      { slug: 'gynecomastia', en: 'Gynecomastia Treatment', icon: '🧑‍⚕️', group: 'body', image: '/service-images/cosmetic/gynecomastia.jpg' },
-      { slug: 'tummy-tuck', en: 'Abdominoplasty / Tummy Tuck', icon: '🌀', group: 'body', image: '/service-images/cosmetic/tummy-tuck.jpg' },
-      { slug: 'arm-lift', en: 'Brachioplasty / Arm Lift', icon: '💪', group: 'body', image: '/service-images/cosmetic/arm-lift.jpg' },
-      { slug: 'thigh-lift', en: 'Thighplasty / Thigh Lift', icon: '🦵', group: 'body', image: '/service-images/cosmetic/thigh-lift.jpg' },
+      { slug: 'body-contouring', en: 'Body Contouring / Liposuction', icon: '🧬', group: 'body', image: '/services/cosmetic/body-contouring.jpg' },
+      { slug: 'breast-surgery', en: 'Breast Surgery / Mammoplasty', icon: '🎗️', group: 'body', image: '/services/cosmetic/breast-surgery.jpg' },
+      { slug: 'gynecomastia', en: 'Gynecomastia Treatment', icon: '🧑‍⚕️', group: 'body', image: '/services/cosmetic/gynecomastia.jpg' },
+      { slug: 'tummy-tuck', en: 'Abdominoplasty / Tummy Tuck', icon: '🌀', group: 'body', image: '/services/cosmetic/tummy-tuck.jpg' },
+      { slug: 'arm-lift', en: 'Brachioplasty / Arm Lift', icon: '💪', group: 'body', image: '/services/cosmetic/arm-lift.jpg' },
+      { slug: 'thigh-lift', en: 'Thighplasty / Thigh Lift', icon: '🦵', group: 'body', image: '/services/cosmetic/thigh-lift.jpg' },
       { slug: 'bbl', en: 'Buttock Aesthetics / BBL', icon: '🍑', group: 'intimate', image: '/service-images/cosmetic/bbl.jpg' },
       { slug: 'vaginal-rejuvenation', en: 'Vaginal Rejuvenation / Labiaplasty', icon: '🌸', group: 'intimate', image: '/service-images/cosmetic/vaginal-rejuvenation.jpg' },
       { slug: 'vaginal-fat-filler', en: 'Vaginal Fat & Filler Injection', icon: '💉', group: 'intimate', image: '/service-images/cosmetic/vaginal-fat-filler.jpg' },
