@@ -166,7 +166,7 @@ export function Footer() {
         </div>
 
         <ul className="mt-12 flex flex-wrap items-center justify-center gap-4 border-t border-white/15 pt-8" aria-label="Health Türkiye">
-          {PARTNER_LOGOS.filter((l) => l.where.includes('home')).map((l) => (
+          {PARTNER_LOGOS.map((l) => (
             <li key={l.name} className="flex h-20 items-center rounded-xl bg-white px-5">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={l.src} alt={l.name} className="max-h-14 w-auto object-contain" loading="lazy" />
