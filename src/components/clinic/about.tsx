@@ -7,7 +7,8 @@ import { Ornament } from './ornament'
 import { BANNERS } from '@/lib/banners'
 import { ImageBanner } from './page-banner'
 import { ClinicTourSlider } from './clinic-tour-slider'
-import { CLINIC_TOUR } from '@/lib/i18n/clinic-tour'
+import { ClinicVideo } from './clinic-video'
+import { CLINIC_TOUR, CLINIC_VIDEO } from '@/lib/i18n/clinic-tour'
 
 export function About({ standalone = false }: { standalone?: boolean }) {
   const { dict, lp } = useLanguage()
@@ -35,9 +36,7 @@ export function About({ standalone = false }: { standalone?: boolean }) {
               </>
             )}
 
-            <figure className={`${standalone ? '' : 'mt-8'} overflow-hidden rounded-3xl border border-border shadow-[0_24px_60px_-34px_rgba(10,46,77,0.5)]`}>
-              <img src="/orec-lobby.jpg" alt="Orec Clinic — عيادة أوريك" width={1400} height={788} loading="lazy" className="aspect-[16/9] w-full object-cover" />
-            </figure>
+            <ClinicVideo className={standalone ? '' : 'mt-8'} />
 
             <div className="mt-8 space-y-6">
               <div>
@@ -195,6 +194,8 @@ function AboutPage() {
           </h2>
           <Ornament />
           <ClinicTourSlider />
+          <h3 className="mt-16 text-center text-xl font-extrabold sm:text-2xl"><span className="text-gold-grad">{CLINIC_VIDEO[lang.code].title}</span></h3>
+          <div className="mx-auto mt-6 max-w-4xl"><ClinicVideo /></div>
         </div>
       </section>
 
