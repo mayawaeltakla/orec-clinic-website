@@ -6,7 +6,8 @@ import { Quote, BadgeCheck, Sparkles, Gem, Stethoscope } from 'lucide-react'
 import { Ornament } from './ornament'
 import { BANNERS } from '@/lib/banners'
 import { ImageBanner } from './page-banner'
-import { CLINIC_TOUR, CLINIC_PHOTOS } from '@/lib/i18n/clinic-tour'
+import { ClinicTourSlider } from './clinic-tour-slider'
+import { CLINIC_TOUR } from '@/lib/i18n/clinic-tour'
 
 export function About({ standalone = false }: { standalone?: boolean }) {
   const { dict, lp } = useLanguage()
@@ -193,13 +194,7 @@ function AboutPage() {
             <span className="text-gold-grad">{CLINIC_TOUR[lang.code]}</span>
           </h2>
           <Ornament />
-          <ul className="mt-10 columns-1 gap-4 sm:columns-2 lg:columns-3 [&>li]:mb-4">
-            {CLINIC_PHOTOS.map((p) => (
-              <li key={p.src} className="break-inside-avoid overflow-hidden rounded-2xl border border-border bg-card shadow-sm">
-                <Image src={p.src} alt={p.alt} width={p.w} height={p.h} sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw" className="h-auto w-full" />
-              </li>
-            ))}
-          </ul>
+          <ClinicTourSlider />
         </div>
       </section>
 
