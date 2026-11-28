@@ -19,15 +19,15 @@ import {
 /** Hero slideshow — real Orec Clinic photos, auto-advancing every 5s */
 const SLIDES = [
   { src: '/hero/lobby.jpg', w: 1920, h: 1000, alt: 'Orec Clinic luxury reception and corridor — بهو الاستقبال في عيادة أوريك' },
-  { src: '/hero/exterior.jpg', fit: 'contain' as const, w: 1005, h: 795, alt: 'Orec Clinic building — واجهة عيادة أوريك' },
+  { src: '/hero/exterior.jpg', w: 1005, h: 795, alt: 'Orec Clinic building — واجهة عيادة أوريك' },
   { src: '/hero/dentists.jpg', w: 1672, h: 941, alt: 'Orec Clinic modern dental clinic — عيادة أسنان عصرية بإضاءة مشرقة' },
   { src: '/hero/vip-car.jpg', w: 1672, h: 941, alt: 'Orec Clinic VIP Vito airport transfer — الاستقبال من المطار بسيارات Vito VIP' },
-  { src: '/hero/entrance.jpg', fit: 'contain' as const, w: 1005, h: 1000, alt: 'Orec Clinic entrance — مدخل عيادة أوريك' },
+  { src: '/hero/entrance.jpg', w: 1005, h: 1000, alt: 'Orec Clinic entrance — مدخل عيادة أوريك' },
   { src: '/hero/reception.jpg', w: 1670, h: 942, alt: 'Orec Clinic reception desk — استقبال عيادة أوريك' },
   { src: '/hero/exam.jpg', w: 1672, h: 941, alt: 'Professional dental examination at Orec Clinic — فحص أسنان احترافي في العيادة' },
-  { src: '/hero/exam-close.jpg', fit: 'contain' as const, w: 845, h: 795, alt: 'Dental examination at Orec Clinic — فحص الأسنان في عيادة أوريك' },
-  { src: '/hero/stairs.jpg', fit: 'contain' as const, w: 1448, h: 1086, alt: 'Orec Clinic waiting area and clinics — صالة الانتظار والعيادات في أوريك' },
-  { src: '/hero/dentists-2.jpg', fit: 'contain' as const, w: 845, h: 1000, alt: 'Orec Clinic dentists at work — أطباء الأسنان أثناء العمل في أوريك' },
+  { src: '/hero/exam-close.jpg', w: 845, h: 795, alt: 'Dental examination at Orec Clinic — فحص الأسنان في عيادة أوريك' },
+  { src: '/hero/stairs.jpg', w: 1448, h: 1086, alt: 'Orec Clinic waiting area and clinics — صالة الانتظار والعيادات في أوريك' },
+  { src: '/hero/dentists-2.jpg', w: 845, h: 1000, alt: 'Orec Clinic dentists at work — أطباء الأسنان أثناء العمل في أوريك' },
 ]
 
 export function Hero() {
@@ -85,117 +85,119 @@ export function Hero() {
 
   return (
     <section id="top" className="relative overflow-hidden pt-16 lg:pt-20">
-      <div aria-hidden className="hero-leaf" />
-      <div className="relative mx-auto grid w-full max-w-7xl items-center gap-10 px-4 py-10 sm:px-6 sm:py-14 lg:grid-cols-2 lg:gap-14 lg:px-8 lg:py-16">
-        <div className="text-start">
-          <p className="rise text-xs font-bold tracking-[0.35em] text-gold sm:text-sm" dir="ltr">
-            {dict.hero.eyebrow}
-          </p>
-
-          <h1 className="rise rise-1 mt-6 text-3xl font-extrabold leading-[1.3] text-foreground sm:text-4xl lg:text-[2.6rem] lg:leading-[1.3]">
-            {dict.hero.title1.split(/(\([^)]*\))/).map((part, i) =>
-              part.startsWith('(') ? (
-                <bdi key={i} className="whitespace-nowrap">
-                  {part}
-                </bdi>
-              ) : (
-                part
-              ),
-            )}
-            <span className="text-gold-grad mt-3 block">{dict.hero.title2}</span>
-          </h1>
-
-          <div className="rise rise-2 mt-8 flex flex-wrap items-center gap-3">
-            {[
-              { icon: MapPin, text: dict.hero.badges[0] },
-              { icon: CalendarCheck, text: dict.hero.badges[1] },
-              { icon: ShieldCheck, text: dict.hero.badges[2] },
-            ].map(({ icon: Icon, text }, i) => (
-              <span
-                key={i}
-                className="inline-flex items-center gap-2 rounded-full border border-border bg-card/90 px-4 py-2 text-xs font-medium text-foreground/90 shadow-sm sm:text-sm"
-              >
-                <Icon className="h-4 w-4 shrink-0 text-gold" aria-hidden />
-                {text}
-              </span>
-            ))}
+      <div
+        className="relative min-h-[620px] lg:min-h-[720px] 2xl:min-h-[800px]"
+        onMouseEnter={() => setPaused(true)}
+        onMouseLeave={() => setPaused(false)}
+        onFocus={() => setPaused(true)}
+        onBlur={() => setPaused(false)}
+        role="group"
+        aria-roledescription="carousel"
+      >
+        {/* Full-bleed clinic photography, crossfading (own stacking context so the overlays stay on top) */}
+        <div aria-hidden={false} className="absolute inset-0 z-0 isolate">
+        {SLIDES.map(({ src, alt }, i) => (i === 0 || ready) && (
+          <div
+            key={src}
+            aria-hidden={i !== slide}
+            className={`absolute inset-0 will-change-[opacity] ${
+              i === slide
+                ? 'z-20 opacity-100 transition-opacity duration-[1600ms] ease-in-out'
+                : i === prev
+                  ? 'z-10 opacity-100'
+                  : 'z-0 opacity-0'
+            }`}
+          >
+            <Image
+              src={src}
+              alt={i === slide ? alt : ''}
+              fill
+              sizes="100vw"
+              priority={i === 0}
+              loading="eager"
+              quality={70}
+              className={`object-cover object-[50%_40%] ${
+                i === slide ? 'scale-100 transition-transform duration-[7000ms] ease-out' : 'scale-[1.06]'
+              }`}
+            />
           </div>
+        ))}
+        </div>
+        {/* Readability fade from the text side */}
+        <div aria-hidden className="hero-fade absolute inset-0" />
+        <div aria-hidden className="hero-leaf" />
+        <div aria-hidden className="hero-base absolute inset-x-0 bottom-0 h-28" />
 
-          <div className="rise rise-3 mt-10 flex flex-wrap items-center gap-3">
-            <a
-              href={lp('/contact')}
-              className="btn-gold inline-flex h-12 items-center rounded-full px-8 text-sm font-bold sm:text-base"
-            >
-              {dict.hero.ctaPrimary}
-            </a>
-            <a
-              href={lp('/services')}
-              className="inline-flex h-12 items-center gap-2 rounded-full border border-foreground/25 bg-card/70 px-8 text-sm font-semibold text-gold-2 transition-all hover:border-gold hover:bg-card sm:text-base"
-            >
-              {dict.hero.ctaSecondary}
-              <Arrow className="h-4 w-4" aria-hidden />
-            </a>
+        <div className="relative mx-auto flex min-h-[620px] w-full max-w-7xl items-center px-4 py-20 sm:px-6 lg:min-h-[720px] lg:px-8 lg:py-28">
+          <div className="max-w-xl text-start">
+            <p className="rise text-xs font-bold tracking-[0.35em] text-gold sm:text-sm" dir="ltr">
+              {dict.hero.eyebrow}
+            </p>
+
+            <h1 className="rise rise-1 mt-6 text-3xl font-extrabold leading-[1.3] text-foreground sm:text-4xl lg:text-[2.6rem] lg:leading-[1.3]">
+              {dict.hero.title1.split(/(\([^)]*\))/).map((part, i) =>
+                part.startsWith('(') ? (
+                  <bdi key={i} className="whitespace-nowrap">
+                    {part}
+                  </bdi>
+                ) : (
+                  part
+                ),
+              )}
+              <span className="text-gold-grad mt-3 block">{dict.hero.title2}</span>
+            </h1>
+
+            <div className="rise rise-2 mt-8 flex flex-wrap items-center gap-3">
+              {[
+                { icon: MapPin, text: dict.hero.badges[0] },
+                { icon: CalendarCheck, text: dict.hero.badges[1] },
+                { icon: ShieldCheck, text: dict.hero.badges[2] },
+              ].map(({ icon: Icon, text }, i) => (
+                <span
+                  key={i}
+                  className="inline-flex items-center gap-2 rounded-full border border-border bg-card/90 px-4 py-2 text-xs font-medium text-foreground/90 shadow-sm sm:text-sm"
+                >
+                  <Icon className="h-4 w-4 shrink-0 text-gold" aria-hidden />
+                  {text}
+                </span>
+              ))}
+            </div>
+
+            <div className="rise rise-3 mt-10 flex flex-wrap items-center gap-3">
+              <a
+                href={lp('/contact')}
+                className="btn-gold inline-flex h-12 items-center rounded-full px-8 text-sm font-bold sm:text-base"
+              >
+                {dict.hero.ctaPrimary}
+              </a>
+              <a
+                href={lp('/services')}
+                className="inline-flex h-12 items-center gap-2 rounded-full border border-foreground/25 bg-card/70 px-8 text-sm font-semibold text-gold-2 transition-all hover:border-gold hover:bg-card sm:text-base"
+              >
+                {dict.hero.ctaSecondary}
+                <Arrow className="h-4 w-4" aria-hidden />
+              </a>
+            </div>
           </div>
         </div>
 
-        {/* Photo slideshow — every photo is shown whole (16:9 frame; other shapes are fitted, never cropped) */}
-        <div
-          className="relative aspect-video w-full overflow-hidden rounded-3xl border border-border bg-navy-2 shadow-[0_30px_70px_-40px_rgba(10,46,77,0.6)]"
-          onMouseEnter={() => setPaused(true)}
-          onMouseLeave={() => setPaused(false)}
-          onFocus={() => setPaused(true)}
-          onBlur={() => setPaused(false)}
-          role="group"
-          aria-roledescription="carousel"
+        {/* Slider arrows — faint, transparent, on the photo edges (no dots, no bar) */}
+        <button
+          type="button"
+          onClick={() => go(-1)}
+          aria-label={dict.hero.prevSlide}
+          className="absolute start-1 top-1/2 z-30 flex h-14 w-10 -translate-y-1/2 items-center justify-center text-white/40 drop-shadow-[0_1px_3px_rgba(0,0,0,0.5)] transition-colors hover:text-white/90 focus-visible:text-white sm:start-3"
         >
-          <div className="absolute inset-0 z-0 isolate">
-            {SLIDES.map((sl, i) => (i === 0 || ready) && (
-              <div
-                key={sl.src}
-                aria-hidden={i !== slide}
-                className={`absolute inset-0 will-change-[opacity] ${
-                  i === slide
-                    ? 'z-20 opacity-100 transition-opacity duration-[1600ms] ease-in-out'
-                    : i === prev
-                      ? 'z-10 opacity-100'
-                      : 'z-0 opacity-0'
-                }`}
-              >
-                {'fit' in sl && (
-                  <Image src={sl.src} alt="" aria-hidden fill sizes="(min-width:1024px) 50vw, 100vw" quality={70} className="scale-110 object-cover blur-2xl brightness-90" />
-                )}
-                <Image
-                  src={sl.src}
-                  alt={i === slide ? sl.alt : ''}
-                  fill
-                  sizes="(min-width:1024px) 50vw, 100vw"
-                  priority={i === 0}
-                  loading="eager"
-                  quality={75}
-                  className={'fit' in sl ? 'object-contain' : 'object-cover'}
-                />
-              </div>
-            ))}
-          </div>
-
-          {/* Slider arrows */}
-          <button
-            type="button"
-            onClick={() => go(-1)}
-            aria-label={dict.hero.prevSlide}
-            className="absolute start-2 top-1/2 z-30 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-black/35 text-white/90 backdrop-blur-sm transition-colors hover:bg-black/55 focus-visible:bg-black/55"
-          >
-            <PrevIcon className="h-6 w-6" strokeWidth={1.8} aria-hidden />
-          </button>
-          <button
-            type="button"
-            onClick={() => go(1)}
-            aria-label={dict.hero.nextSlide}
-            className="absolute end-2 top-1/2 z-30 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-black/35 text-white/90 backdrop-blur-sm transition-colors hover:bg-black/55 focus-visible:bg-black/55"
-          >
-            <NextIcon className="h-6 w-6" strokeWidth={1.8} aria-hidden />
-          </button>
-        </div>
+          <PrevIcon className="h-8 w-8" strokeWidth={1.5} aria-hidden />
+        </button>
+        <button
+          type="button"
+          onClick={() => go(1)}
+          aria-label={dict.hero.nextSlide}
+          className="absolute end-1 top-1/2 z-30 flex h-14 w-10 -translate-y-1/2 items-center justify-center text-white/40 drop-shadow-[0_1px_3px_rgba(0,0,0,0.5)] transition-colors hover:text-white/90 focus-visible:text-white sm:end-3"
+        >
+          <NextIcon className="h-8 w-8" strokeWidth={1.5} aria-hidden />
+        </button>
       </div>
 
       {/* Stats — full-width deep navy band */}
