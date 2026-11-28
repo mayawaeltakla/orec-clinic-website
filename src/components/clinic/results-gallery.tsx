@@ -44,7 +44,7 @@ export function ResultsGallery({ dept }: { dept?: string } = {}) {
           <h2 className="mt-3 text-3xl font-extrabold sm:text-4xl"><span className="text-gold-grad">{T.resultsTitle}</span></h2>
           <Ornament />
         </div>
-        {photos.length > 0 && (
+        {items.length === 0 && photos.length > 0 && (
           <div className="mt-10">
             <ResultsPhotos items={photos.slice(0, 6)} alt={T.resultsTitle} />
             {photos.length > 6 && (
@@ -55,8 +55,8 @@ export function ResultsGallery({ dept }: { dept?: string } = {}) {
           </div>
         )}
         {r && items.length > 0 && (<>
-        <div className="relative mx-auto mt-10 max-w-3xl overflow-hidden rounded-3xl border border-border bg-card shadow-lg" dir="ltr">
-          <div className="relative aspect-[4/3] select-none">
+        <div className={`relative mx-auto mt-10 overflow-hidden rounded-3xl border border-border bg-card shadow-lg ${(r.w ?? 4) < (r.h ?? 3) ? "max-w-sm" : "max-w-3xl"}`} dir="ltr">
+          <div className="relative select-none" style={{ aspectRatio: `${r.w ?? 4} / ${r.h ?? 3}` }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={r.after!} alt="" className="absolute inset-0 h-full w-full object-cover" />
             {/* eslint-disable-next-line @next/next/no-img-element */}
