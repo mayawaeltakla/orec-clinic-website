@@ -15,6 +15,11 @@ export interface ResultItem {
   dept?: string
 }
 export const RESULTS: ResultItem[] = [
+  { before: '/results/pair-a-before.jpg', after: '/results/pair-a-after.jpg', w: 1200, h: 675, dept: 'dental' },
+  { before: '/results/pair-b-before.jpg', after: '/results/pair-b-after.jpg', w: 940, h: 1673, dept: 'dental' },
+  { before: '/results/pair-c-before.jpg', after: '/results/pair-c-after.jpg', w: 941, h: 1672, dept: 'dental' },
+  { before: '/results/pair-d-before.jpg', after: '/results/pair-d-after.jpg', w: 1200, h: 800, dept: 'dental' },
+  { before: '/results/pair-e-before.jpg', after: '/results/pair-e-after.jpg', w: 1200, h: 538, dept: 'dental' },
   { image: '/results/dental-01.jpg', w: 1000, h: 1505, dept: 'dental' },
   { image: '/results/dental-02.jpg', w: 1000, h: 876, dept: 'dental' },
   { image: '/results/dental-03.jpg', w: 1000, h: 1375, dept: 'dental' },
@@ -31,6 +36,11 @@ export const RESULTS: ResultItem[] = [
   { image: '/results/dental-14.jpg', w: 1000, h: 1250, dept: 'dental' },
   { image: '/results/dental-15.jpg', w: 1000, h: 1312, dept: 'dental' },
   { image: '/results/dental-16.jpg', w: 1000, h: 1659, dept: 'dental' },
+  { image: '/results/single-1.jpg', w: 788, h: 565, dept: 'dental' },
+  { image: '/results/single-2.jpg', w: 1000, h: 1782, dept: 'dental' },
+  { image: '/results/single-3.jpg', w: 1000, h: 1782, dept: 'dental' },
+  { image: '/results/single-4.jpg', w: 1000, h: 1782, dept: 'dental' },
+  { image: '/results/single-5.jpg', w: 1000, h: 1781, dept: 'dental' },
 ]
 
 /**
