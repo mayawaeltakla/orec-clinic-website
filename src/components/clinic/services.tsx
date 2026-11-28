@@ -69,7 +69,7 @@ export function Services({ standalone = false }: { standalone?: boolean }) {
                       return (
                         <li key={sv.slug}>
                           <a href={lp(`/services/${d.slug}/${sv.slug}`)} className="orec-card lift group flex h-full flex-col overflow-hidden">
-                            {sv.image && <Image src={sv.image} alt="" width={600} height={400} sizes="(min-width:1280px) 22vw, (min-width:768px) 30vw, 46vw" className={`${sv.image.startsWith('/service-images/') ? 'aspect-[3/2]' : 'aspect-video'} w-full object-cover transition-transform duration-500 group-hover:scale-105`} />}
+                            {sv.image && <Image src={sv.image} alt="" width={600} height={400} sizes="(min-width:1280px) 22vw, (min-width:768px) 30vw, 46vw" className={`${sv.image.startsWith('/service-images/') ? 'aspect-[3/2]' : 'aspect-video'} w-full object-cover`} />}
                             <span className="block p-3">
                               <span className="block text-sm font-bold text-foreground group-hover:text-gold-2">{sc?.title ?? sv.en}</span>
                               <span className="mt-0.5 block text-[11px] text-muted-foreground" dir="ltr">{sv.en}</span>
@@ -86,7 +86,7 @@ export function Services({ standalone = false }: { standalone?: boolean }) {
         )}
 
         {!panels && (
-        <div className={`${standalone ? '' : 'mt-14'} grid gap-6 sm:grid-cols-2 xl:grid-cols-4`}>
+        <div className={`${standalone ? '' : 'mt-14'} grid gap-6 sm:grid-cols-2`}>
           {dict.services.categories.map((cat) => {
             const img = SERVICE_IMAGES[cat.id]
             const href = lp(`/services/${DEPT_SLUG_BY_ID[cat.id] ?? ''}`)
@@ -100,7 +100,7 @@ export function Services({ standalone = false }: { standalone?: boolean }) {
                       width={img.w}
                       height={img.h}
                       sizes="(min-width:1280px) 25vw, (min-width:640px) 50vw, 100vw"
-                      className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      className="aspect-video w-full object-cover"
                     />
                   </a>
                 )}
