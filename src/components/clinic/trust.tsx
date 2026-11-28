@@ -24,7 +24,7 @@ export function Trust() {
   const cards = [
     { icon: ShieldCheck, title: T.licenseTitle, text: license, soon: false, license: true },
     { icon: Stethoscope, title: T.doctorsTitle, text: T.doctorsText, soon: false, href: lp('/team'), cta: T.seeTeam },
-    { icon: MessageSquareQuote, title: T.reviewsTitle, text: T.reviewsText, soon: true, href: lp('/experiences'), cta: SECTION_LABELS[lang.code].experiences },
+    { icon: MessageSquareQuote, title: T.reviewsTitle, text: T.reviewsText, soon: false, href: lp('/experiences'), cta: SECTION_LABELS[lang.code].experiences },
   ]
 
   return (
