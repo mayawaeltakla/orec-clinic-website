@@ -59,7 +59,7 @@ export function ResultsGallery({ dept }: { dept?: string } = {}) {
             {([['before', r.before!], ['after', r.after!]] as const).map(([k, src]) => (
               <figure key={k} className="overflow-hidden rounded-2xl border border-border bg-card shadow-md">
                 <div className="relative w-full" style={{ aspectRatio: `${r.w ?? 4} / ${r.h ?? 3}` }}>
-                  <Image src={src} alt={k === 'before' ? 'Before' : 'After'} fill sizes="(min-width:1024px) 450px, 46vw" className="object-contain" />
+                  <Image src={src} alt={k === 'before' ? 'Before' : 'After'} fill sizes="(min-width:1024px) 450px, 46vw" className="object-cover" />
                 </div>
                 <figcaption className="bg-navy py-1.5 text-center text-xs font-bold tracking-wide text-white">{k === 'before' ? 'Before' : 'After'}</figcaption>
               </figure>
