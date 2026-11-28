@@ -29,13 +29,12 @@ export function ResultsGallery({ dept }: { dept?: string } = {}) {
   const { lang, dir, lp } = useLanguage()
   const T = clientHome(lang.code)
   const [i, setI] = useState(0)
-  const [reveal, setReveal] = useState(50)
   const all = RESULTS.filter((x) => (dept ? x.dept === dept : true))
   const photos = all.filter((x) => x.image)
   const items = all.filter((x) => x.before && x.after)
   if (all.length === 0) return null
   const r = items.length > 0 ? items[i % items.length] : null
-  const go = (d: number) => { if (items.length === 0) return; setI((i + d + items.length) % items.length); setReveal(50) }
+  const go = (d: number) => { if (items.length === 0) return; setI((i + d + items.length) % items.length);  }
   return (
     <section id="results" className="band-sky relative py-20 sm:py-24">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
@@ -55,25 +54,23 @@ export function ResultsGallery({ dept }: { dept?: string } = {}) {
           </div>
         )}
         {r && items.length > 0 && (<>
-        <div className={`relative mx-auto mt-10 overflow-hidden rounded-3xl border border-border bg-card shadow-lg ${(r.w ?? 4) < (r.h ?? 3) ? "max-w-sm" : "max-w-3xl"}`} dir="ltr">
-          <div className="relative select-none" style={{ aspectRatio: `${r.w ?? 4} / ${r.h ?? 3}` }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={r.after!} alt="" className="absolute inset-0 h-full w-full object-cover" />
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={r.before!} alt="" className="absolute inset-0 h-full w-full object-cover" style={{ clipPath: `inset(0 ${100 - reveal}% 0 0)` }} />
-            <span className="absolute start-3 top-3 rounded-full bg-black/55 px-3 py-1 text-xs font-bold text-white">Before</span>
-            <span className="absolute end-3 top-3 rounded-full bg-black/55 px-3 py-1 text-xs font-bold text-white">After</span>
-            <div className="pointer-events-none absolute inset-y-0 w-0.5 bg-white shadow" style={{ left: `${reveal}%` }} />
-            <input
-              type="range" min={0} max={100} value={reveal} onChange={(e) => setReveal(Number(e.target.value))}
-              aria-label="Before / After" className="absolute inset-0 h-full w-full cursor-ew-resize opacity-0"
-            />
+        <div className="relative mx-auto mt-10 max-w-4xl" dir="ltr">
+          <div className="grid grid-cols-2 items-start gap-3 sm:gap-4">
+            {([['before', r.before!], ['after', r.after!]] as const).map(([k, src]) => (
+              <figure key={k} className="overflow-hidden rounded-2xl border border-border bg-card shadow-md">
+                <div className="relative w-full" style={{ aspectRatio: `${r.w ?? 4} / ${r.h ?? 3}` }}>
+                  <Image src={src} alt={k === 'before' ? 'Before' : 'After'} fill sizes="(min-width:1024px) 450px, 46vw" className="object-contain" />
+                </div>
+                <figcaption className="bg-navy py-1.5 text-center text-xs font-bold tracking-wide text-white">{k === 'before' ? 'Before' : 'After'}</figcaption>
+              </figure>
+            ))}
           </div>
           {items.length > 1 && (
-            <>
-              <button type="button" onClick={() => go(-1)} aria-label="Previous" className="absolute start-3 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-navy shadow"><ChevronLeft className="h-5 w-5" /></button>
-              <button type="button" onClick={() => go(1)} aria-label="Next" className="absolute end-3 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-navy shadow"><ChevronRight className="h-5 w-5" /></button>
-            </>
+            <div className="mt-5 flex items-center justify-center gap-4">
+              <button type="button" onClick={() => go(-1)} aria-label="Previous" className="flex h-11 w-11 items-center justify-center rounded-full bg-navy text-white shadow"><ChevronLeft className="h-5 w-5" /></button>
+              <span className="text-sm font-bold text-muted-foreground">{(i % items.length) + 1} / {items.length}</span>
+              <button type="button" onClick={() => go(1)} aria-label="Next" className="flex h-11 w-11 items-center justify-center rounded-full bg-navy text-white shadow"><ChevronRight className="h-5 w-5" /></button>
+            </div>
           )}
         </div>
         {r.label && <p className="mt-4 text-center text-sm font-bold text-gold-2" dir={dir}>{r.label}</p>}
