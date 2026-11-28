@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { CLINIC_PHOTOS } from '@/lib/i18n/clinic-tour'
@@ -9,9 +9,16 @@ import { CLINIC_PHOTOS } from '@/lib/i18n/clinic-tour'
 export function ClinicTourSlider() {
   const [i, setI] = useState(0)
   const n = CLINIC_PHOTOS.length
+  const [paused, setPaused] = useState(false)
   const go = (d: number) => setI((i + d + n) % n)
+  useEffect(() => {
+    if (paused) return
+    if (typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    const t = setTimeout(() => setI((x) => (x + 1) % n), 5000)
+    return () => clearTimeout(t)
+  }, [i, paused, n])
   return (
-    <div className="mx-auto mt-10 max-w-4xl" dir="ltr">
+    <div className="mx-auto mt-10 max-w-4xl" dir="ltr" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)} onFocus={() => setPaused(true)} onBlur={() => setPaused(false)}>
       <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl border border-border bg-navy shadow-lg sm:aspect-[16/10]">
         {CLINIC_PHOTOS.map((p, k) => (
           <div key={p.src} className={`absolute inset-0 transition-opacity duration-700 ${k === i ? 'opacity-100' : 'pointer-events-none opacity-0'}`} aria-hidden={k !== i}>
